@@ -1,0 +1,98 @@
+Log Analysis Statistics - Generated on 2025-03-20 18:40:12
+Based on log file: log.txt
+
+==================================================
+OVERALL STATISTICS
+==================================================
+total_log_entries: 34128
+operational_phase_entries: 28156
+operational_phase_percentage: 82.50117205813409
+system_date_time: 2025-03-20 22:33
+
+==================================================
+RTCM CORRECTION AGE STATISTICS
+==================================================
+Sample count: 2203
+Mean: 968.47 ms
+Median: 470.00 ms
+Min: 9.00 ms
+Max: 9978.00 ms
+Standard deviation: 1661.75 ms
+Values over 1 second: 293 (13.30%)
+
+==================================================
+OPERATIONAL PHASE TIMING STATISTICS
+==================================================
+
+--- NTRIP Mutex Acquire ---
+Sample count: 2533
+Mean: 1.77 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 44.00 ms
+Standard deviation: 4.08 ms
+
+--- NTRIP Mutex Hold ---
+Sample count: 2532
+Mean: 12.65 ms
+Median: 1.00 ms
+Min: 0.00 ms
+Max: 108.00 ms
+Standard deviation: 17.99 ms
+
+--- GNSS Mutex Hold ---
+Sample count: 3196
+Mean: 9.84 ms
+Median: 10.00 ms
+Min: 0.00 ms
+Max: 53.00 ms
+Standard deviation: 10.17 ms
+
+--- GNSS Mutex Acquire ---
+Sample count: 672
+Mean: 0.24 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 5.00 ms
+Standard deviation: 0.46 ms
+
+--- WS GPS data update ---
+Sample count: 650
+Mean: 51.90 ms
+Median: 40.00 ms
+Min: 0.00 ms
+Max: 204.00 ms
+Standard deviation: 51.70 ms
+
+--- RTCM Read ---
+Sample count: 249
+Mean: 35.30 ms
+Median: 33.00 ms
+Min: 3.00 ms
+Max: 73.00 ms
+Standard deviation: 11.10 ms
+
+--- WS Loop ---
+Sample count: 445
+Mean: 157.99 ms
+Median: 159.00 ms
+Min: 51.00 ms
+Max: 343.00 ms
+Standard deviation: 52.39 ms
+
+--- RTCM Push ---
+Sample count: 248
+Mean: 103.09 ms
+Median: 96.00 ms
+Min: 8.00 ms
+Max: 204.00 ms
+Standard deviation: 32.85 ms
+
+--- WS GPS Update ---
+Sample count: 6
+Mean: 17.50 ms
+Median: 6.00 ms
+Min: 3.00 ms
+Max: 44.00 ms
+Standard deviation: 19.80 ms
+

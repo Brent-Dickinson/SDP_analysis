@@ -6,10 +6,10 @@ import os
 from datetime import datetime
 
 # Customizable output suffix - change this to create different output folders
-OUTPUT_SUFFIX = "20250320"  # Will create "figures_20250320" folder and "stats_20250320.txt"
+OUTPUT_SUFFIX = "20250320_firstAsync"  # Will create "figures_20250320" folder and "stats_20250320.txt"
 
 # Define file paths
-log_file = "log_20250320.txt"
+log_file = "log.txt"
 
 # Create output folder paths
 figures_folder = f"figures_{OUTPUT_SUFFIX}"

@@ -1,0 +1,98 @@
+Log Analysis Statistics - Generated on 2025-03-20 18:36:44
+Based on log file: log.txt
+
+==================================================
+OVERALL STATISTICS
+==================================================
+total_log_entries: 31322
+operational_phase_entries: 24439
+operational_phase_percentage: 78.0250303301194
+system_date_time: 2025-03-20 20:40
+
+==================================================
+RTCM CORRECTION AGE STATISTICS
+==================================================
+Sample count: 2333
+Mean: 497.62 ms
+Median: 440.00 ms
+Min: 28.00 ms
+Max: 2618.00 ms
+Standard deviation: 312.50 ms
+Values over 1 second: 131 (5.62%)
+
+==================================================
+OPERATIONAL PHASE TIMING STATISTICS
+==================================================
+
+--- NTRIP Mutex Acquire ---
+Sample count: 2333
+Mean: 1.41 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 20.00 ms
+Standard deviation: 2.94 ms
+
+--- NTRIP Mutex Hold ---
+Sample count: 2333
+Mean: 11.76 ms
+Median: 1.00 ms
+Min: 0.00 ms
+Max: 83.00 ms
+Standard deviation: 16.00 ms
+
+--- GNSS Mutex Hold ---
+Sample count: 2855
+Mean: 9.30 ms
+Median: 10.00 ms
+Min: 0.00 ms
+Max: 44.00 ms
+Standard deviation: 9.24 ms
+
+--- RTCM Read ---
+Sample count: 284
+Mean: 25.37 ms
+Median: 24.00 ms
+Min: 6.00 ms
+Max: 46.00 ms
+Standard deviation: 6.29 ms
+
+--- RTCM Push ---
+Sample count: 284
+Mean: 116.98 ms
+Median: 109.00 ms
+Min: 28.00 ms
+Max: 203.00 ms
+Standard deviation: 28.48 ms
+
+--- GNSS Mutex Acquire ---
+Sample count: 525
+Mean: 5.19 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 92.00 ms
+Standard deviation: 9.60 ms
+
+--- WS GPS data update ---
+Sample count: 524
+Mean: 79.90 ms
+Median: 92.00 ms
+Min: 6.00 ms
+Max: 217.00 ms
+Standard deviation: 56.48 ms
+
+--- WS Loop ---
+Sample count: 448
+Mean: 146.25 ms
+Median: 149.00 ms
+Min: 51.00 ms
+Max: 341.00 ms
+Standard deviation: 50.45 ms
+
+--- WebSocket.loop() ---
+Sample count: 50
+Mean: 84.58 ms
+Median: 82.00 ms
+Min: 51.00 ms
+Max: 118.00 ms
+Standard deviation: 22.40 ms
+
