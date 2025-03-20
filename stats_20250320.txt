@@ -1,0 +1,90 @@
+Log Analysis Statistics - Generated on 2025-03-20 13:51:59
+Based on log file: log_20250320.txt
+
+==================================================
+OVERALL STATISTICS
+==================================================
+total_log_entries: 7121
+operational_phase_entries: 3875
+operational_phase_percentage: 54.41651453447549
+system_date_time: 2025-03-20 15:52
+
+==================================================
+RTCM CORRECTION AGE STATISTICS
+==================================================
+Sample count: 173
+Mean: 425.16 ms
+Median: 359.00 ms
+Min: 18.00 ms
+Max: 1690.00 ms
+Standard deviation: 300.12 ms
+Values over 1 second: 5 (2.89%)
+
+==================================================
+OPERATIONAL PHASE TIMING STATISTICS
+==================================================
+
+--- NTRIP Mutex Acquire ---
+Sample count: 175
+Mean: 16.95 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 101.00 ms
+Standard deviation: 31.23 ms
+
+--- RTCM Read ---
+Sample count: 43
+Mean: 22.91 ms
+Median: 20.00 ms
+Min: 3.00 ms
+Max: 46.00 ms
+Standard deviation: 9.87 ms
+
+--- NTRIP Mutex Hold ---
+Sample count: 174
+Mean: 36.85 ms
+Median: 1.00 ms
+Min: 0.00 ms
+Max: 177.00 ms
+Standard deviation: 52.81 ms
+
+--- RTCM Push ---
+Sample count: 43
+Mean: 102.07 ms
+Median: 88.00 ms
+Min: 18.00 ms
+Max: 199.00 ms
+Standard deviation: 43.12 ms
+
+--- GNSS Mutex Hold ---
+Sample count: 245
+Mean: 12.33 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 121.00 ms
+Standard deviation: 19.52 ms
+
+--- GNSS Mutex Acquire ---
+Sample count: 81
+Mean: 6.33 ms
+Median: 0.00 ms
+Min: 0.00 ms
+Max: 42.00 ms
+Standard deviation: 9.28 ms
+
+--- WS GPS data update ---
+Sample count: 80
+Mean: 51.14 ms
+Median: 56.00 ms
+Min: 2.00 ms
+Max: 111.00 ms
+Standard deviation: 28.01 ms
+
+--- WS Loop ---
+Sample count: 67
+Mean: 93.61 ms
+Median: 93.00 ms
+Min: 51.00 ms
+Max: 151.00 ms
+Standard deviation: 23.05 ms
+
