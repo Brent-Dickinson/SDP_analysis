@@ -1,0 +1,47 @@
+RC Car Navigation Analysis
+========================
+
+Total runs analyzed: 5
+
+Run 3:
+--------
+Duration: 1.90 seconds
+Average speed: 0.92 m/s
+Maximum speed: 1.55 m/s
+Average heading change: 46.53°
+Potentially stuck heading: 0.0% of the time
+
+Run 4:
+--------
+Duration: 1.20 seconds
+Average speed: 0.73 m/s
+Maximum speed: 1.55 m/s
+Average heading change: 44.58°
+Potentially stuck heading: 0.0% of the time
+
+Run 5:
+--------
+Duration: 3.30 seconds
+Average speed: 0.90 m/s
+Maximum speed: 1.98 m/s
+Average heading change: 85.65°
+Potentially stuck heading: 0.0% of the time
+
+Run 6:
+--------
+Duration: 22.70 seconds
+Average speed: 1.34 m/s
+Maximum speed: 3.68 m/s
+Average heading change: 22.86°
+Potentially stuck heading: 31.7% of the time
+Heading stuck at 122.03°: 13 times
+
+Run 7:
+--------
+Duration: 22.40 seconds
+Average speed: 2.00 m/s
+Maximum speed: 3.62 m/s
+Average heading change: 28.46°
+Potentially stuck heading: 0.0% of the time
+Heading stuck at 122.03°: 1 times
+
