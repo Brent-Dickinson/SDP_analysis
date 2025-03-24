@@ -1,0 +1,19 @@
+RC Car Waypoint Sets
+===================
+
+Total waypoint sets: 2
+
+Set 1:
+-------
+Number of waypoints: 3
+  Waypoint 0: (42.6371574, -72.7292862)
+  Waypoint 1: (42.6371002, -72.7292938)
+  Waypoint 2: (42.637043, -72.7292862)
+
+Set 3:
+-------
+Number of waypoints: 3
+  Waypoint 0: (42.6371613, -72.7292938)
+  Waypoint 1: (42.6371002, -72.7293015)
+  Waypoint 2: (42.6370468, -72.7292938)
+

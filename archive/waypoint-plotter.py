@@ -3,6 +3,8 @@ import re
 import os
 import numpy as np
 
+#python waypoint-plotter.py --log log.txt --output waypoint_plots
+
 def extract_waypoints(log_file):
     """Extract waypoint sets from the log file"""
     

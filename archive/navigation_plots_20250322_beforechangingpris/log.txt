@@ -1,0 +1,888 @@
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+1313,ERROR,loopTask,SYSTEM RESTART DETECTED - this message should appear only once after power-up
+5009,NAV,WebSocketTask,WebSocket disconnected. Will attempt to maintain navigation state.
+30008,NAV,WebSocketTask,System stats: Free heap: 133040 bytes
+30011,NAV,WebSocketTask,WebSocket task stack high water mark: 19052
+60008,NAV,WebSocketTask,System stats: Free heap: 130456 bytes
+60009,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+60051,NAV,WebSocketTask,WebSocket reconnected after disconnection. Sending status refresh.
+67876,NAV,async_tcp,WebSocket received autonomous command: stop
+67876,NAV,async_tcp,Stop command received
+67918,NAV,NavTask,Processing navigation command type: 1
+67918,NAV,NavTask,Processing STOP command, was autonomousMode=0, isPaused=0
+77093,NAV,async_tcp,WebSocket received record waypoint command
+77093,NAV,async_tcp,About to call addWaypoint() with lat=42.6372108, lon=-72.7293777
+77095,NAV,async_tcp,Adding waypoint: lat=42.6372108, lon=-72.7293777
+77095,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+77095,NAV,async_tcp,Waypoint command successfully queued
+77118,NAV,NavTask,Processing navigation command type: 5
+77118,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372108, lon=-72.7293777
+77119,NAV,NavTask,waypointMutex taken, current count=0, max=20
+77119,NAV,NavTask,Waypoint added at index 0, new count=1
+77119,NAV,NavTask,navStatus.totalWaypoints updated to 1
+77119,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+77146,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 1
+77146,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":1,"currentIndex":1,"lat":42.63721085,"lng":-72.72937775}
+90010,NAV,WebSocketTask,System stats: Free heap: 129920 bytes
+90011,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+90611,NAV,async_tcp,WebSocket received record waypoint command
+90611,NAV,async_tcp,About to call addWaypoint() with lat=42.6371689, lon=-72.7293854
+90612,NAV,async_tcp,Adding waypoint: lat=42.6371689, lon=-72.7293854
+90613,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+90613,NAV,async_tcp,Waypoint command successfully queued
+90620,NAV,NavTask,Processing navigation command type: 5
+90620,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371689, lon=-72.7293854
+90621,NAV,NavTask,waypointMutex taken, current count=1, max=20
+90621,NAV,NavTask,Waypoint added at index 1, new count=2
+90621,NAV,NavTask,navStatus.totalWaypoints updated to 2
+90621,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+90663,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 2
+90663,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":2,"currentIndex":1,"lat":42.63716888,"lng":-72.72938538}
+99831,NAV,async_tcp,WebSocket received record waypoint command
+99831,NAV,async_tcp,About to call addWaypoint() with lat=42.6371536, lon=-72.7294235
+99832,NAV,async_tcp,Adding waypoint: lat=42.6371536, lon=-72.7294235
+99832,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+99832,NAV,async_tcp,Waypoint command successfully queued
+99883,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 2
+99883,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":2,"currentIndex":1,"lat":42.63715363,"lng":-72.72942352}
+99918,NAV,NavTask,Processing navigation command type: 5
+99918,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371536, lon=-72.7294235
+99921,NAV,NavTask,waypointMutex taken, current count=2, max=20
+99921,NAV,NavTask,Waypoint added at index 2, new count=3
+99921,NAV,NavTask,navStatus.totalWaypoints updated to 3
+99921,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+105988,NAV,async_tcp,WebSocket received record waypoint command
+105988,NAV,async_tcp,About to call addWaypoint() with lat=42.6371574, lon=-72.7294464
+105989,NAV,async_tcp,Adding waypoint: lat=42.6371574, lon=-72.7294464
+105989,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+105989,NAV,async_tcp,Waypoint command successfully queued
+106018,NAV,NavTask,Processing navigation command type: 5
+106018,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371574, lon=-72.7294464
+106019,NAV,NavTask,waypointMutex taken, current count=3, max=20
+106019,NAV,NavTask,Waypoint added at index 3, new count=4
+106019,NAV,NavTask,navStatus.totalWaypoints updated to 4
+106019,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+106040,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 4
+106040,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":4,"currentIndex":1,"lat":42.63715744,"lng":-72.72944641}
+112978,NAV,async_tcp,WebSocket received record waypoint command
+112978,NAV,async_tcp,About to call addWaypoint() with lat=42.6371956, lon=-72.7294464
+112979,NAV,async_tcp,Adding waypoint: lat=42.6371956, lon=-72.7294464
+112979,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+112979,NAV,async_tcp,Waypoint command successfully queued
+113018,NAV,NavTask,Processing navigation command type: 5
+113018,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371956, lon=-72.7294464
+113019,NAV,NavTask,waypointMutex taken, current count=4, max=20
+113019,NAV,NavTask,Waypoint added at index 4, new count=5
+113019,NAV,NavTask,navStatus.totalWaypoints updated to 5
+113019,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+113030,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 5
+113031,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":5,"currentIndex":1,"lat":42.63719559,"lng":-72.72944641}
+120018,NAV,WebSocketTask,System stats: Free heap: 129920 bytes
+120019,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+125014,NAV,async_tcp,WebSocket received record waypoint command
+125014,NAV,async_tcp,About to call addWaypoint() with lat=42.6372147, lon=-72.7294388
+125015,NAV,async_tcp,Adding waypoint: lat=42.6372147, lon=-72.7294388
+125015,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+125015,NAV,async_tcp,Waypoint command successfully queued
+125018,NAV,NavTask,Processing navigation command type: 5
+125019,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372147, lon=-72.7294388
+125019,NAV,NavTask,waypointMutex taken, current count=5, max=20
+125019,NAV,NavTask,Waypoint added at index 5, new count=6
+125019,NAV,NavTask,navStatus.totalWaypoints updated to 6
+125019,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+125065,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 6
+125066,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":6,"currentIndex":1,"lat":42.63721466,"lng":-72.72943878}
+131689,NAV,async_tcp,WebSocket received record waypoint command
+131690,NAV,async_tcp,About to call addWaypoint() with lat=42.6372223, lon=-72.7294006
+131691,NAV,async_tcp,Adding waypoint: lat=42.6372223, lon=-72.7294006
+131691,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+131691,NAV,async_tcp,Waypoint command successfully queued
+131718,NAV,NavTask,Processing navigation command type: 5
+131718,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372223, lon=-72.7294006
+131719,NAV,NavTask,waypointMutex taken, current count=6, max=20
+131719,NAV,NavTask,Waypoint added at index 6, new count=7
+131719,NAV,NavTask,navStatus.totalWaypoints updated to 7
+131719,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+131742,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 7
+131742,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":7,"currentIndex":1,"lat":42.63722229,"lng":-72.72940063}
+138940,NAV,async_tcp,WebSocket received record waypoint command
+138941,NAV,async_tcp,About to call addWaypoint() with lat=42.6372108, lon=-72.7293701
+138942,NAV,async_tcp,Adding waypoint: lat=42.6372108, lon=-72.7293701
+138942,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+138942,NAV,async_tcp,Waypoint command successfully queued
+138992,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 7
+138992,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":7,"currentIndex":1,"lat":42.63721085,"lng":-72.72937012}
+139018,NAV,NavTask,Processing navigation command type: 5
+139021,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372108, lon=-72.7293701
+139022,NAV,NavTask,waypointMutex taken, current count=7, max=20
+139022,NAV,NavTask,Waypoint added at index 7, new count=8
+139022,NAV,NavTask,navStatus.totalWaypoints updated to 8
+139022,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+150025,NAV,WebSocketTask,System stats: Free heap: 129920 bytes
+150026,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+150351,NAV,async_tcp,WebSocket received autonomous command: start
+150351,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+150353,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+150418,NAV,NavTask,Processing navigation command type: 0
+150418,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+150419,NAV,NavTask,Navigation started with followingWaypoints=1
+150419,NAV,NavTask,Navigation state changed: active=1, paused=0
+150421,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+150421,NAV,ControlTask,Control values: speed=0.00, targetSpeed=2.00, heading=0.00°
+150971,NAV,ControlTask,Control values: speed=0.37, targetSpeed=2.00, heading=204.99°
+151218,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+151219,NAV,NavTask,Moving to next waypoint: 2 of 8
+151520,NAV,ControlTask,Control values: speed=0.94, targetSpeed=2.00, heading=231.90°
+152021,NAV,ControlTask,Control values: speed=1.85, targetSpeed=2.00, heading=213.55°
+152571,NAV,ControlTask,Control values: speed=2.59, targetSpeed=2.00, heading=205.13°
+153121,NAV,ControlTask,Control values: speed=3.20, targetSpeed=2.00, heading=190.47°
+153420,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+153420,NAV,NavTask,Moving to next waypoint: 3 of 8
+153670,NAV,ControlTask,Control values: speed=3.20, targetSpeed=2.00, heading=190.18°
+154171,NAV,ControlTask,Control values: speed=2.85, targetSpeed=2.00, heading=191.67°
+154721,NAV,ControlTask,Control values: speed=2.25, targetSpeed=2.00, heading=265.69°
+154919,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+154919,NAV,NavTask,Moving to next waypoint: 4 of 8
+155271,NAV,ControlTask,Control values: speed=1.96, targetSpeed=2.00, heading=266.94°
+155718,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+155719,NAV,NavTask,Moving to next waypoint: 5 of 8
+155821,NAV,ControlTask,Control values: speed=1.74, targetSpeed=2.00, heading=270.92°
+156371,NAV,ControlTask,Control values: speed=1.69, targetSpeed=2.00, heading=274.50°
+156921,NAV,ControlTask,Control values: speed=1.40, targetSpeed=2.00, heading=336.27°
+157471,NAV,ControlTask,Control values: speed=0.83, targetSpeed=2.00, heading=336.18°
+158021,NAV,ControlTask,Control values: speed=1.87, targetSpeed=2.00, heading=345.24°
+158418,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+158419,NAV,NavTask,Moving to next waypoint: 6 of 8
+158571,NAV,ControlTask,Control values: speed=2.23, targetSpeed=2.00, heading=340.94°
+159120,NAV,ControlTask,Control values: speed=2.79, targetSpeed=2.00, heading=339.46°
+159621,NAV,ControlTask,Control values: speed=2.54, targetSpeed=2.00, heading=346.62°
+159718,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+159719,NAV,NavTask,Moving to next waypoint: 7 of 8
+160171,NAV,ControlTask,Control values: speed=1.76, targetSpeed=2.00, heading=63.78°
+160721,NAV,ControlTask,Control values: speed=1.61, targetSpeed=2.00, heading=81.89°
+161271,NAV,ControlTask,Control values: speed=1.30, targetSpeed=2.00, heading=74.21°
+161821,NAV,ControlTask,Control values: speed=1.90, targetSpeed=2.00, heading=76.05°
+162218,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+162219,NAV,NavTask,Moving to next waypoint: 8 of 8
+162370,NAV,ControlTask,Control values: speed=1.84, targetSpeed=2.00, heading=61.73°
+162871,NAV,ControlTask,Control values: speed=1.83, targetSpeed=2.00, heading=67.20°
+163421,NAV,ControlTask,Control values: speed=2.25, targetSpeed=2.00, heading=102.22°
+163971,NAV,ControlTask,Control values: speed=2.20, targetSpeed=2.00, heading=146.19°
+164018,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+164019,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+164019,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+164118,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+164119,NAV,NavTask,Moving to next waypoint: 2 of 8
+164521,NAV,ControlTask,Control values: speed=2.20, targetSpeed=2.00, heading=123.75°
+165071,NAV,ControlTask,Control values: speed=2.19, targetSpeed=2.00, heading=121.14°
+165620,NAV,ControlTask,Control values: speed=2.00, targetSpeed=2.00, heading=213.89°
+166121,NAV,ControlTask,Control values: speed=1.23, targetSpeed=2.00, heading=207.66°
+166218,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+166219,NAV,NavTask,Moving to next waypoint: 3 of 8
+166670,NAV,ControlTask,Control values: speed=1.87, targetSpeed=2.00, heading=233.03°
+167171,NAV,ControlTask,Control values: speed=2.80, targetSpeed=2.00, heading=238.67°
+167721,NAV,ControlTask,Control values: speed=3.09, targetSpeed=2.00, heading=230.98°
+167918,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+167919,NAV,NavTask,Moving to next waypoint: 4 of 8
+168118,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+168119,NAV,NavTask,Moving to next waypoint: 5 of 8
+168270,NAV,ControlTask,Control values: speed=2.88, targetSpeed=2.00, heading=221.07°
+168771,NAV,ControlTask,Control values: speed=2.54, targetSpeed=2.00, heading=224.15°
+168818,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+168818,NAV,NavTask,Moving to next waypoint: 6 of 8
+169320,NAV,ControlTask,Control values: speed=1.74, targetSpeed=2.00, heading=322.70°
+169821,NAV,ControlTask,Control values: speed=1.04, targetSpeed=2.00, heading=7.37°
+170370,NAV,ControlTask,Control values: speed=0.91, targetSpeed=2.00, heading=28.98°
+170618,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+170619,NAV,NavTask,Moving to next waypoint: 7 of 8
+170921,NAV,ControlTask,Control values: speed=1.60, targetSpeed=2.00, heading=28.72°
+171471,NAV,ControlTask,Control values: speed=2.23, targetSpeed=2.00, heading=27.77°
+171918,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+171919,NAV,NavTask,Moving to next waypoint: 8 of 8
+172020,NAV,ControlTask,Control values: speed=2.81, targetSpeed=2.00, heading=27.20°
+172521,NAV,ControlTask,Control values: speed=2.74, targetSpeed=2.00, heading=30.38°
+173070,NAV,ControlTask,Control values: speed=1.64, targetSpeed=2.00, heading=104.38°
+173621,NAV,ControlTask,Control values: speed=1.52, targetSpeed=2.00, heading=184.35°
+174018,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+174019,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+174019,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+174118,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+174119,NAV,NavTask,Moving to next waypoint: 2 of 8
+174170,NAV,ControlTask,Control values: speed=1.38, targetSpeed=2.00, heading=140.47°
+174671,NAV,ControlTask,Control values: speed=1.62, targetSpeed=2.00, heading=136.35°
+175221,NAV,ControlTask,Control values: speed=1.93, targetSpeed=2.00, heading=177.61°
+175771,NAV,ControlTask,Control values: speed=2.19, targetSpeed=2.00, heading=180.23°
+176321,NAV,ControlTask,Control values: speed=2.49, targetSpeed=2.00, heading=176.74°
+176518,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+176519,NAV,NavTask,Moving to next waypoint: 3 of 8
+176871,NAV,ControlTask,Control values: speed=2.79, targetSpeed=2.00, heading=162.80°
+177421,NAV,ControlTask,Control values: speed=2.55, targetSpeed=2.00, heading=201.77°
+177971,NAV,ControlTask,Control values: speed=1.95, targetSpeed=2.00, heading=298.72°
+178521,NAV,ControlTask,Control values: speed=1.97, targetSpeed=2.00, heading=311.76°
+178718,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+178719,NAV,NavTask,Moving to next waypoint: 4 of 8
+179071,NAV,ControlTask,Control values: speed=1.84, targetSpeed=2.00, heading=224.16°
+179619,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+179620,NAV,NavTask,Moving to next waypoint: 5 of 8
+179621,NAV,ControlTask,Control values: speed=1.94, targetSpeed=2.00, heading=218.83°
+180030,NAV,WebSocketTask,System stats: Free heap: 129656 bytes
+180031,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+180171,NAV,ControlTask,Control values: speed=1.68, targetSpeed=2.00, heading=298.37°
+180721,NAV,ControlTask,Control values: speed=1.55, targetSpeed=2.00, heading=334.50°
+181271,NAV,ControlTask,Control values: speed=1.66, targetSpeed=2.00, heading=351.64°
+181821,NAV,ControlTask,Control values: speed=1.58, targetSpeed=2.00, heading=341.49°
+182318,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+182319,NAV,NavTask,Moving to next waypoint: 6 of 8
+182371,NAV,ControlTask,Control values: speed=1.37, targetSpeed=2.00, heading=339.12°
+182921,NAV,ControlTask,Control values: speed=1.54, targetSpeed=2.00, heading=341.53°
+183471,NAV,ControlTask,Control values: speed=1.31, targetSpeed=2.00, heading=322.86°
+184021,NAV,ControlTask,Control values: speed=1.66, targetSpeed=2.00, heading=11.23°
+184118,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+184118,NAV,NavTask,Moving to next waypoint: 7 of 8
+184570,NAV,ControlTask,Control values: speed=2.25, targetSpeed=2.00, heading=21.69°
+185071,NAV,ControlTask,Control values: speed=2.54, targetSpeed=2.00, heading=27.94°
+185621,NAV,ControlTask,Control values: speed=2.73, targetSpeed=2.00, heading=62.90°
+186018,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+186018,NAV,NavTask,Moving to next waypoint: 8 of 8
+186171,NAV,ControlTask,Control values: speed=3.11, targetSpeed=2.00, heading=88.37°
+186518,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+186519,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+186519,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+186618,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+186619,NAV,NavTask,Moving to next waypoint: 2 of 8
+186721,NAV,ControlTask,Control values: speed=3.22, targetSpeed=2.00, heading=92.21°
+187271,NAV,ControlTask,Control values: speed=2.27, targetSpeed=2.00, heading=123.96°
+187821,NAV,ControlTask,Control values: speed=1.63, targetSpeed=2.00, heading=155.81°
+188370,NAV,ControlTask,Control values: speed=1.58, targetSpeed=2.00, heading=178.00°
+188871,NAV,ControlTask,Control values: speed=1.71, targetSpeed=2.00, heading=170.13°
+189420,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+189420,NAV,NavTask,Moving to next waypoint: 3 of 8
+189421,NAV,ControlTask,Control values: speed=1.97, targetSpeed=2.00, heading=176.15°
+189971,NAV,ControlTask,Control values: speed=2.09, targetSpeed=2.00, heading=173.89°
+190521,NAV,ControlTask,Control values: speed=1.72, targetSpeed=2.00, heading=249.91°
+191071,NAV,ControlTask,Control values: speed=1.73, targetSpeed=2.00, heading=281.53°
+191621,NAV,ControlTask,Control values: speed=1.94, targetSpeed=2.00, heading=245.74°
+191818,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+191819,NAV,NavTask,Moving to next waypoint: 4 of 8
+192171,NAV,ControlTask,Control values: speed=1.88, targetSpeed=2.00, heading=232.97°
+192618,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+192619,NAV,NavTask,Moving to next waypoint: 5 of 8
+192721,NAV,ControlTask,Control values: speed=1.67, targetSpeed=2.00, heading=245.65°
+193271,NAV,ControlTask,Control values: speed=1.78, targetSpeed=2.00, heading=267.90°
+193820,NAV,ControlTask,Control values: speed=1.54, targetSpeed=2.00, heading=307.40°
+193921,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+194018,NAV,NavTask,Navigation state changed: active=0, paused=0
+198744,NAV,async_tcp,WebSocket received autonomous command: stop
+198745,NAV,async_tcp,Stop command received
+198818,NAV,NavTask,Processing navigation command type: 1
+198818,NAV,NavTask,Processing STOP command, was autonomousMode=0, isPaused=0
+206918,NAV,async_tcp,WebSocket received autonomous command: start
+206919,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+206920,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+207018,NAV,NavTask,Processing navigation command type: 0
+207018,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+207019,NAV,NavTask,Navigation started with followingWaypoints=1
+207019,NAV,NavTask,Navigation state changed: active=1, paused=0
+207021,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+207021,NAV,ControlTask,Control values: speed=1.43, targetSpeed=2.00, heading=327.54°
+207570,NAV,ControlTask,Control values: speed=0.04, targetSpeed=2.00, heading=337.80°
+208071,NAV,ControlTask,Control values: speed=0.45, targetSpeed=2.00, heading=344.68°
+208621,NAV,ControlTask,Control values: speed=0.67, targetSpeed=2.00, heading=29.88°
+209171,NAV,ControlTask,Control values: speed=1.76, targetSpeed=2.00, heading=34.96°
+209721,NAV,ControlTask,Control values: speed=2.94, targetSpeed=2.00, heading=23.89°
+210039,NAV,WebSocketTask,System stats: Free heap: 129656 bytes
+210040,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+210271,NAV,ControlTask,Control values: speed=3.51, targetSpeed=2.00, heading=14.45°
+210821,NAV,ControlTask,Control values: speed=3.33, targetSpeed=2.00, heading=21.37°
+210923,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+210923,NAV,NavTask,Moving to next waypoint: 2 of 8
+211371,NAV,ControlTask,Control values: speed=2.68, targetSpeed=2.00, heading=44.45°
+211921,NAV,ControlTask,Control values: speed=1.83, targetSpeed=2.00, heading=129.95°
+212473,NAV,ControlTask,Control values: speed=1.77, targetSpeed=2.00, heading=197.56°
+213021,NAV,ControlTask,Control values: speed=2.06, targetSpeed=2.00, heading=195.56°
+213570,NAV,ControlTask,Control values: speed=1.73, targetSpeed=2.00, heading=183.60°
+214018,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+214019,NAV,NavTask,Moving to next waypoint: 3 of 8
+214071,NAV,ControlTask,Control values: speed=1.66, targetSpeed=2.00, heading=192.06°
+214621,NAV,ControlTask,Control values: speed=1.59, targetSpeed=2.00, heading=190.03°
+215171,NAV,ControlTask,Control values: speed=1.65, targetSpeed=2.00, heading=187.72°
+215721,NAV,ControlTask,Control values: speed=1.61, targetSpeed=2.00, heading=207.85°
+216019,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+216019,NAV,NavTask,Moving to next waypoint: 4 of 8
+216271,NAV,ControlTask,Control values: speed=1.68, targetSpeed=2.00, heading=242.66°
+216821,NAV,ControlTask,Control values: speed=1.74, targetSpeed=2.00, heading=238.45°
+216918,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+216918,NAV,NavTask,Moving to next waypoint: 5 of 8
+217371,NAV,ControlTask,Control values: speed=2.13, targetSpeed=2.00, heading=240.05°
+217921,NAV,ControlTask,Control values: speed=1.47, targetSpeed=2.00, heading=292.04°
+218471,NAV,ControlTask,Control values: speed=1.23, targetSpeed=2.00, heading=357.17°
+219020,NAV,ControlTask,Control values: speed=2.15, targetSpeed=2.00, heading=345.80°
+219521,NAV,ControlTask,Control values: speed=2.42, targetSpeed=2.00, heading=344.89°
+219918,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+219919,NAV,NavTask,Moving to next waypoint: 6 of 8
+220071,NAV,ControlTask,Control values: speed=2.74, targetSpeed=2.00, heading=348.80°
+220621,NAV,ControlTask,Control values: speed=3.04, targetSpeed=2.00, heading=344.05°
+221018,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+221019,NAV,NavTask,Moving to next waypoint: 7 of 8
+221171,NAV,ControlTask,Control values: speed=2.92, targetSpeed=2.00, heading=359.33°
+221720,NAV,ControlTask,Control values: speed=1.60, targetSpeed=2.00, heading=78.16°
+222271,NAV,ControlTask,Control values: speed=1.12, targetSpeed=2.00, heading=86.53°
+222821,NAV,ControlTask,Control values: speed=1.60, targetSpeed=2.00, heading=77.33°
+223371,NAV,ControlTask,Control values: speed=2.15, targetSpeed=2.00, heading=60.65°
+223618,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+223619,NAV,NavTask,Moving to next waypoint: 8 of 8
+223921,NAV,ControlTask,Control values: speed=2.73, targetSpeed=2.00, heading=56.39°
+224418,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+224419,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+224419,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+224471,NAV,ControlTask,Control values: speed=2.81, targetSpeed=2.00, heading=72.65°
+224518,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+224519,NAV,NavTask,Moving to next waypoint: 2 of 8
+225021,NAV,ControlTask,Control values: speed=1.83, targetSpeed=2.00, heading=146.85°
+225571,NAV,ControlTask,Control values: speed=1.90, targetSpeed=2.00, heading=185.60°
+226120,NAV,ControlTask,Control values: speed=1.90, targetSpeed=2.00, heading=209.93°
+226621,NAV,ControlTask,Control values: speed=2.17, targetSpeed=2.00, heading=198.18°
+227118,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+227119,NAV,NavTask,Moving to next waypoint: 3 of 8
+227171,NAV,ControlTask,Control values: speed=2.12, targetSpeed=2.00, heading=187.54°
+227721,NAV,ControlTask,Control values: speed=1.88, targetSpeed=2.00, heading=188.37°
+228271,NAV,ControlTask,Control values: speed=1.93, targetSpeed=2.00, heading=211.50°
+228821,NAV,ControlTask,Control values: speed=1.92, targetSpeed=2.00, heading=209.46°
+229318,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+229319,NAV,NavTask,Moving to next waypoint: 4 of 8
+229371,NAV,ControlTask,Control values: speed=1.44, targetSpeed=2.00, heading=204.32°
+229921,NAV,ControlTask,Control values: speed=1.61, targetSpeed=2.00, heading=224.90°
+230418,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+230418,NAV,NavTask,Moving to next waypoint: 5 of 8
+230471,NAV,ControlTask,Control values: speed=1.78, targetSpeed=2.00, heading=280.67°
+231021,NAV,ControlTask,Control values: speed=1.68, targetSpeed=2.00, heading=275.49°
+231571,NAV,ControlTask,Control values: speed=1.37, targetSpeed=2.00, heading=325.69°
+232121,NAV,ControlTask,Control values: speed=1.98, targetSpeed=2.00, heading=330.56°
+232671,NAV,ControlTask,Control values: speed=2.10, targetSpeed=2.00, heading=329.72°
+232818,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+232819,NAV,NavTask,Moving to next waypoint: 6 of 8
+233220,NAV,ControlTask,Control values: speed=2.21, targetSpeed=2.00, heading=332.45°
+233721,NAV,ControlTask,Control values: speed=1.86, targetSpeed=2.00, heading=337.04°
+234020,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+234020,NAV,NavTask,Moving to next waypoint: 7 of 8
+234271,NAV,ControlTask,Control values: speed=2.27, targetSpeed=2.00, heading=1.03°
+234821,NAV,ControlTask,Control values: speed=2.03, targetSpeed=2.00, heading=50.22°
+235371,NAV,ControlTask,Control values: speed=1.77, targetSpeed=2.00, heading=85.28°
+235920,NAV,ControlTask,Control values: speed=1.86, targetSpeed=2.00, heading=76.42°
+236421,NAV,ControlTask,Control values: speed=2.06, targetSpeed=2.00, heading=74.28°
+236918,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+236919,NAV,NavTask,Moving to next waypoint: 8 of 8
+236970,NAV,ControlTask,Control values: speed=2.17, targetSpeed=2.00, heading=55.68°
+237471,NAV,ControlTask,Control values: speed=2.14, targetSpeed=2.00, heading=39.97°
+238021,NAV,ControlTask,Control values: speed=2.08, targetSpeed=2.00, heading=108.22°
+238318,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+238319,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+238319,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+238418,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+238418,NAV,NavTask,Moving to next waypoint: 2 of 8
+238571,NAV,ControlTask,Control values: speed=2.29, targetSpeed=2.00, heading=193.56°
+239121,NAV,ControlTask,Control values: speed=2.90, targetSpeed=2.00, heading=199.49°
+239671,NAV,ControlTask,Control values: speed=2.55, targetSpeed=2.00, heading=199.86°
+240045,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+240046,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+240218,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+240218,NAV,NavTask,Moving to next waypoint: 3 of 8
+240221,NAV,ControlTask,Control values: speed=2.35, targetSpeed=2.00, heading=190.21°
+240771,NAV,ControlTask,Control values: speed=1.81, targetSpeed=2.00, heading=176.77°
+241321,NAV,ControlTask,Control values: speed=1.58, targetSpeed=2.00, heading=205.71°
+241718,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+241718,NAV,NavTask,Moving to next waypoint: 4 of 8
+241871,NAV,ControlTask,Control values: speed=1.57, targetSpeed=2.00, heading=245.31°
+242420,NAV,ControlTask,Control values: speed=1.79, targetSpeed=2.00, heading=242.85°
+242619,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+242619,NAV,NavTask,Moving to next waypoint: 5 of 8
+242921,NAV,ControlTask,Control values: speed=2.00, targetSpeed=2.00, heading=246.55°
+243471,NAV,ControlTask,Control values: speed=1.60, targetSpeed=2.00, heading=268.29°
+244020,NAV,ControlTask,Control values: speed=1.55, targetSpeed=2.00, heading=333.35°
+244521,NAV,ControlTask,Control values: speed=1.06, targetSpeed=2.00, heading=15.53°
+245071,NAV,ControlTask,Control values: speed=1.99, targetSpeed=2.00, heading=41.61°
+245320,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+245320,NAV,NavTask,Moving to next waypoint: 6 of 8
+245621,NAV,ControlTask,Control values: speed=2.57, targetSpeed=2.00, heading=46.66°
+246018,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+246019,NAV,NavTask,Moving to next waypoint: 7 of 8
+246171,NAV,ControlTask,Control values: speed=2.76, targetSpeed=2.00, heading=37.52°
+246721,NAV,ControlTask,Control values: speed=3.14, targetSpeed=2.00, heading=30.10°
+247271,NAV,ControlTask,Control values: speed=2.92, targetSpeed=2.00, heading=30.90°
+247618,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=8, followingWaypoints=1
+247618,NAV,NavTask,Moving to next waypoint: 8 of 8
+247820,NAV,ControlTask,Control values: speed=2.33, targetSpeed=2.00, heading=51.54°
+248321,NAV,ControlTask,Control values: speed=1.71, targetSpeed=2.00, heading=156.93°
+248871,NAV,ControlTask,Control values: speed=1.64, targetSpeed=2.00, heading=137.22°
+248918,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=8, followingWaypoints=1
+248919,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+248919,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372108, targetLon=-72.7293777
+249018,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+249018,NAV,NavTask,Moving to next waypoint: 2 of 8
+249421,NAV,ControlTask,Control values: speed=1.66, targetSpeed=2.00, heading=133.19°
+249971,NAV,ControlTask,Control values: speed=1.55, targetSpeed=2.00, heading=133.72°
+250021,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+250118,NAV,NavTask,Navigation state changed: active=0, paused=0
+266743,NAV,async_tcp,WebSocket received autonomous command: stop
+266744,NAV,async_tcp,Stop command received
+266818,NAV,NavTask,Processing navigation command type: 1
+266818,NAV,NavTask,Processing STOP command, was autonomousMode=0, isPaused=0
+267618,NAV,NavTask,Processing navigation command type: 6
+270060,NAV,WebSocketTask,System stats: Free heap: 127404 bytes
+270061,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+273318,NAV,NavTask,Processing navigation command type: 6
+299826,NAV,async_tcp,WebSocket received record waypoint command
+299826,NAV,async_tcp,About to call addWaypoint() with lat=42.6372070, lon=-72.7293701
+299827,NAV,async_tcp,Adding waypoint: lat=42.6372070, lon=-72.7293701
+299827,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+299827,NAV,async_tcp,Waypoint command successfully queued
+299877,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 0
+299878,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":0,"currentIndex":1,"lat":42.63720703,"lng":-72.72937012}
+299918,NAV,NavTask,Processing navigation command type: 5
+299918,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372070, lon=-72.7293701
+299919,NAV,NavTask,waypointMutex taken, current count=0, max=20
+299919,NAV,NavTask,Waypoint added at index 0, new count=1
+299919,NAV,NavTask,navStatus.totalWaypoints updated to 1
+299919,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+300062,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+300063,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+305889,NAV,async_tcp,WebSocket received record waypoint command
+305889,NAV,async_tcp,About to call addWaypoint() with lat=42.6371727, lon=-72.7293777
+305890,NAV,async_tcp,Adding waypoint: lat=42.6371727, lon=-72.7293777
+305890,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+305890,NAV,async_tcp,Waypoint command successfully queued
+305918,NAV,NavTask,Processing navigation command type: 5
+305918,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371727, lon=-72.7293777
+305919,NAV,NavTask,waypointMutex taken, current count=1, max=20
+305919,NAV,NavTask,Waypoint added at index 1, new count=2
+305919,NAV,NavTask,navStatus.totalWaypoints updated to 2
+305919,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+305941,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 2
+305942,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":2,"currentIndex":1,"lat":42.6371727,"lng":-72.72937775}
+311795,NAV,async_tcp,WebSocket received record waypoint command
+311796,NAV,async_tcp,About to call addWaypoint() with lat=42.6371956, lon=-72.7294083
+311797,NAV,async_tcp,Adding waypoint: lat=42.6371956, lon=-72.7294083
+311797,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+311797,NAV,async_tcp,Waypoint command successfully queued
+311818,NAV,NavTask,Processing navigation command type: 5
+311818,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371956, lon=-72.7294083
+311819,NAV,NavTask,waypointMutex taken, current count=2, max=20
+311819,NAV,NavTask,Waypoint added at index 2, new count=3
+311819,NAV,NavTask,navStatus.totalWaypoints updated to 3
+311819,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+311848,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 3
+311848,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":3,"currentIndex":1,"lat":42.63719559,"lng":-72.72940826}
+316660,NAV,async_tcp,WebSocket received record waypoint command
+316660,NAV,async_tcp,About to call addWaypoint() with lat=42.6372070, lon=-72.7294235
+316661,NAV,async_tcp,Adding waypoint: lat=42.6372070, lon=-72.7294235
+316661,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+316661,NAV,async_tcp,Waypoint command successfully queued
+316712,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 3
+316713,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":3,"currentIndex":1,"lat":42.63720703,"lng":-72.72942352}
+316718,NAV,NavTask,Processing navigation command type: 5
+316719,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372070, lon=-72.7294235
+316719,NAV,NavTask,waypointMutex taken, current count=3, max=20
+316720,NAV,NavTask,Waypoint added at index 3, new count=4
+316720,NAV,NavTask,navStatus.totalWaypoints updated to 4
+316720,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+324065,NAV,async_tcp,WebSocket received record waypoint command
+324066,NAV,async_tcp,About to call addWaypoint() with lat=42.6372452, lon=-72.7294235
+324067,NAV,async_tcp,Adding waypoint: lat=42.6372452, lon=-72.7294235
+324067,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+324067,NAV,async_tcp,Waypoint command successfully queued
+324117,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 4
+324118,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":4,"currentIndex":1,"lat":42.63724518,"lng":-72.72942352}
+324118,NAV,NavTask,Processing navigation command type: 5
+324118,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372452, lon=-72.7294235
+324122,NAV,NavTask,waypointMutex taken, current count=4, max=20
+324123,NAV,NavTask,Waypoint added at index 4, new count=5
+324123,NAV,NavTask,navStatus.totalWaypoints updated to 5
+324123,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+328852,NAV,async_tcp,WebSocket received record waypoint command
+328852,NAV,async_tcp,About to call addWaypoint() with lat=42.6372719, lon=-72.7294312
+328853,NAV,async_tcp,Adding waypoint: lat=42.6372719, lon=-72.7294312
+328853,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+328853,NAV,async_tcp,Waypoint command successfully queued
+328904,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 5
+328905,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":5,"currentIndex":1,"lat":42.63727188,"lng":-72.72943115}
+328918,NAV,NavTask,Processing navigation command type: 5
+328918,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372719, lon=-72.7294312
+328919,NAV,NavTask,waypointMutex taken, current count=5, max=20
+328919,NAV,NavTask,Waypoint added at index 5, new count=6
+328919,NAV,NavTask,navStatus.totalWaypoints updated to 6
+328919,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+330069,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+330070,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+336603,NAV,async_tcp,WebSocket received record waypoint command
+336604,NAV,async_tcp,About to call addWaypoint() with lat=42.6372032, lon=-72.7293701
+336605,NAV,async_tcp,Adding waypoint: lat=42.6372032, lon=-72.7293701
+336605,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+336605,NAV,async_tcp,Waypoint command successfully queued
+336618,NAV,NavTask,Processing navigation command type: 5
+336618,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372032, lon=-72.7293701
+336619,NAV,NavTask,waypointMutex taken, current count=6, max=20
+336619,NAV,NavTask,Waypoint added at index 6, new count=7
+336619,NAV,NavTask,navStatus.totalWaypoints updated to 7
+336619,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+336655,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 7
+336656,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":7,"currentIndex":1,"lat":42.63720322,"lng":-72.72937012}
+341585,NAV,async_tcp,WebSocket received record waypoint command
+341585,NAV,async_tcp,About to call addWaypoint() with lat=42.6372108, lon=-72.7294083
+341586,NAV,async_tcp,Adding waypoint: lat=42.6372108, lon=-72.7294083
+341587,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+341587,NAV,async_tcp,Waypoint command successfully queued
+341618,NAV,NavTask,Processing navigation command type: 5
+341618,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372108, lon=-72.7294083
+341619,NAV,NavTask,waypointMutex taken, current count=7, max=20
+341619,NAV,NavTask,Waypoint added at index 7, new count=8
+341619,NAV,NavTask,navStatus.totalWaypoints updated to 8
+341619,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+341636,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 8
+341637,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":8,"currentIndex":1,"lat":42.63721085,"lng":-72.72940826}
+353218,NAV,NavTask,Processing navigation command type: 4
+358429,NAV,async_tcp,WebSocket received autonomous command: start
+358430,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+358431,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+358522,NAV,NavTask,Processing navigation command type: 0
+358522,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+358523,NAV,NavTask,Navigation started with followingWaypoints=1
+358523,NAV,NavTask,Navigation state changed: active=1, paused=0
+358570,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+358570,NAV,ControlTask,Control values: speed=1.55, targetSpeed=2.00, heading=133.72°
+359071,NAV,ControlTask,Control values: speed=0.28, targetSpeed=2.00, heading=199.19°
+359620,NAV,ControlTask,Control values: speed=0.57, targetSpeed=2.00, heading=178.43°
+360076,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+360077,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+360121,NAV,ControlTask,Control values: speed=1.27, targetSpeed=2.00, heading=125.06°
+360332,NAV,async_tcp,WebSocket received autonomous command: stop
+360333,NAV,async_tcp,Stop command received
+360418,NAV,NavTask,Processing navigation command type: 1
+360418,NAV,NavTask,Processing STOP command, was autonomousMode=1, isPaused=0
+360418,NAV,NavTask,Navigation state changed: active=0, paused=0
+360421,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+376922,NAV,async_tcp,WebSocket received autonomous command: start
+376923,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+376924,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+377018,NAV,NavTask,Processing navigation command type: 0
+377018,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+377019,NAV,NavTask,Navigation started with followingWaypoints=1
+377019,NAV,NavTask,Navigation state changed: active=1, paused=0
+377021,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+377021,NAV,ControlTask,Control values: speed=1.55, targetSpeed=2.00, heading=99.55°
+377570,NAV,ControlTask,Control values: speed=0.03, targetSpeed=2.00, heading=152.01°
+378071,NAV,ControlTask,Control values: speed=0.61, targetSpeed=2.00, heading=188.71°
+378161,NAV,async_tcp,WebSocket received autonomous command: stop
+378162,NAV,async_tcp,Stop command received
+378218,NAV,NavTask,Processing navigation command type: 1
+378218,NAV,NavTask,Processing STOP command, was autonomousMode=1, isPaused=0
+378218,NAV,NavTask,Navigation state changed: active=0, paused=0
+378221,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+390083,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+390084,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+395969,NAV,async_tcp,WebSocket received autonomous command: start
+395969,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+395970,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+396018,NAV,NavTask,Processing navigation command type: 0
+396018,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+396019,NAV,NavTask,Navigation started with followingWaypoints=1
+396019,NAV,NavTask,Navigation state changed: active=1, paused=0
+396021,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+396021,NAV,ControlTask,Control values: speed=0.79, targetSpeed=2.00, heading=161.62°
+396571,NAV,ControlTask,Control values: speed=0.06, targetSpeed=2.00, heading=339.78°
+397121,NAV,ControlTask,Control values: speed=0.60, targetSpeed=2.00, heading=229.95°
+397670,NAV,ControlTask,Control values: speed=0.94, targetSpeed=2.00, heading=172.13°
+398221,NAV,ControlTask,Control values: speed=1.02, targetSpeed=2.00, heading=123.33°
+398771,NAV,ControlTask,Control values: speed=1.98, targetSpeed=2.00, heading=89.70°
+399298,NAV,async_tcp,WebSocket received autonomous command: stop
+399298,NAV,async_tcp,Stop command received
+399318,NAV,NavTask,Processing navigation command type: 1
+399319,NAV,NavTask,Processing STOP command, was autonomousMode=1, isPaused=0
+399319,NAV,NavTask,Navigation state changed: active=0, paused=0
+399321,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+416450,NAV,async_tcp,WebSocket received autonomous command: stop
+416450,NAV,async_tcp,Stop command received
+416518,NAV,NavTask,Processing navigation command type: 1
+416518,NAV,NavTask,Processing STOP command, was autonomousMode=0, isPaused=0
+417118,NAV,NavTask,Processing navigation command type: 4
+420019,NAV,async_tcp,WebSocket received autonomous command: start
+420020,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=8
+420021,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=8
+420087,NAV,WebSocketTask,System stats: Free heap: 129456 bytes
+420088,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+420118,NAV,NavTask,Processing navigation command type: 0
+420118,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+420119,NAV,NavTask,Navigation started with followingWaypoints=1
+420119,NAV,NavTask,Navigation state changed: active=1, paused=0
+420120,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+420121,NAV,ControlTask,Control values: speed=2.98, targetSpeed=2.00, heading=88.33°
+420671,NAV,ControlTask,Control values: speed=0.37, targetSpeed=2.00, heading=203.40°
+421220,NAV,ControlTask,Control values: speed=0.59, targetSpeed=2.00, heading=177.54°
+421721,NAV,ControlTask,Control values: speed=1.30, targetSpeed=2.00, heading=177.45°
+422271,NAV,ControlTask,Control values: speed=2.60, targetSpeed=2.00, heading=223.22°
+422818,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=8, followingWaypoints=1
+422819,NAV,NavTask,Moving to next waypoint: 2 of 8
+422821,NAV,ControlTask,Control values: speed=3.11, targetSpeed=2.00, heading=221.36°
+423370,NAV,ControlTask,Control values: speed=3.68, targetSpeed=2.00, heading=221.59°
+423871,NAV,ControlTask,Control values: speed=3.34, targetSpeed=2.00, heading=209.03°
+424120,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=8, followingWaypoints=1
+424120,NAV,NavTask,Moving to next waypoint: 3 of 8
+424421,NAV,ControlTask,Control values: speed=2.62, targetSpeed=2.00, heading=187.78°
+424971,NAV,ControlTask,Control values: speed=2.41, targetSpeed=2.00, heading=193.14°
+425520,NAV,ControlTask,Control values: speed=1.94, targetSpeed=2.00, heading=286.88°
+426021,NAV,ControlTask,Control values: speed=1.33, targetSpeed=2.00, heading=23.00°
+426570,NAV,ControlTask,Control values: speed=1.62, targetSpeed=2.00, heading=21.27°
+426618,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=8, followingWaypoints=1
+426619,NAV,NavTask,Moving to next waypoint: 4 of 8
+427071,NAV,ControlTask,Control values: speed=1.50, targetSpeed=2.00, heading=10.84°
+427318,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=8, followingWaypoints=1
+427319,NAV,NavTask,Moving to next waypoint: 5 of 8
+427621,NAV,ControlTask,Control values: speed=1.65, targetSpeed=2.00, heading=2.78°
+428171,NAV,ControlTask,Control values: speed=1.52, targetSpeed=2.00, heading=351.69°
+428721,NAV,ControlTask,Control values: speed=1.57, targetSpeed=2.00, heading=347.85°
+429271,NAV,ControlTask,Control values: speed=1.67, targetSpeed=2.00, heading=344.92°
+429821,NAV,ControlTask,Control values: speed=1.45, targetSpeed=2.00, heading=352.06°
+430371,NAV,ControlTask,Control values: speed=1.45, targetSpeed=2.00, heading=292.53°
+430921,NAV,ControlTask,Control values: speed=1.36, targetSpeed=2.00, heading=247.07°
+431471,NAV,ControlTask,Control values: speed=1.85, targetSpeed=2.00, heading=162.65°
+432021,NAV,ControlTask,Control values: speed=2.74, targetSpeed=2.00, heading=149.78°
+432571,NAV,ControlTask,Control values: speed=2.90, targetSpeed=2.00, heading=155.22°
+433121,NAV,ControlTask,Control values: speed=2.45, targetSpeed=2.00, heading=221.38°
+433218,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=8, followingWaypoints=1
+433219,NAV,NavTask,Moving to next waypoint: 6 of 8
+433518,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=8, followingWaypoints=1
+433519,NAV,NavTask,Moving to next waypoint: 7 of 8
+433670,NAV,ControlTask,Control values: speed=2.02, targetSpeed=2.00, heading=248.48°
+434171,NAV,ControlTask,Control values: speed=1.79, targetSpeed=2.00, heading=221.44°
+434721,NAV,ControlTask,Control values: speed=1.70, targetSpeed=2.00, heading=149.61°
+435271,NAV,ControlTask,Control values: speed=0.43, targetSpeed=2.00, heading=98.59°
+435821,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+436370,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+436871,NAV,ControlTask,Control values: speed=0.06, targetSpeed=2.00, heading=122.03°
+437421,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+437971,NAV,ControlTask,Control values: speed=0.02, targetSpeed=2.00, heading=122.03°
+438520,NAV,ControlTask,Control values: speed=0.00, targetSpeed=2.00, heading=122.03°
+439071,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+439621,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+440171,NAV,ControlTask,Control values: speed=0.05, targetSpeed=2.00, heading=122.03°
+440721,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+441271,NAV,ControlTask,Control values: speed=0.00, targetSpeed=2.00, heading=122.03°
+441821,NAV,ControlTask,Control values: speed=0.02, targetSpeed=2.00, heading=122.03°
+442370,NAV,ControlTask,Control values: speed=0.02, targetSpeed=2.00, heading=122.03°
+442727,NAV,async_tcp,WebSocket received autonomous command: stop
+442727,NAV,async_tcp,Stop command received
+442818,NAV,NavTask,Processing navigation command type: 1
+442818,NAV,NavTask,Processing STOP command, was autonomousMode=1, isPaused=0
+442818,NAV,NavTask,Navigation state changed: active=0, paused=0
+442821,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+444918,NAV,NavTask,Processing navigation command type: 6
+450087,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+450088,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+466220,NAV,NavTask,Processing navigation command type: 6
+476458,NAV,async_tcp,WebSocket received record waypoint command
+476458,NAV,async_tcp,About to call addWaypoint() with lat=42.6372032, lon=-72.7294312
+476459,NAV,async_tcp,Adding waypoint: lat=42.6372032, lon=-72.7294312
+476459,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+476459,NAV,async_tcp,Waypoint command successfully queued
+476510,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 0
+476510,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":0,"currentIndex":1,"lat":42.63720322,"lng":-72.72943115}
+476518,NAV,NavTask,Processing navigation command type: 5
+476518,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372032, lon=-72.7294312
+476521,NAV,NavTask,waypointMutex taken, current count=0, max=20
+476521,NAV,NavTask,Waypoint added at index 0, new count=1
+476521,NAV,NavTask,navStatus.totalWaypoints updated to 1
+476521,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+480088,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+480089,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+481783,NAV,async_tcp,WebSocket received record waypoint command
+481783,NAV,async_tcp,About to call addWaypoint() with lat=42.6371765, lon=-72.7294464
+481784,NAV,async_tcp,Adding waypoint: lat=42.6371765, lon=-72.7294464
+481784,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+481784,NAV,async_tcp,Waypoint command successfully queued
+481818,NAV,NavTask,Processing navigation command type: 5
+481818,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371765, lon=-72.7294464
+481819,NAV,NavTask,waypointMutex taken, current count=1, max=20
+481819,NAV,NavTask,Waypoint added at index 1, new count=2
+481819,NAV,NavTask,navStatus.totalWaypoints updated to 2
+481819,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+481834,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 2
+481835,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":2,"currentIndex":1,"lat":42.63717651,"lng":-72.72944641}
+486526,NAV,async_tcp,WebSocket received record waypoint command
+486527,NAV,async_tcp,About to call addWaypoint() with lat=42.6371727, lon=-72.7294617
+486528,NAV,async_tcp,Adding waypoint: lat=42.6371727, lon=-72.7294617
+486528,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+486528,NAV,async_tcp,Waypoint command successfully queued
+486579,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 2
+486579,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":2,"currentIndex":1,"lat":42.6371727,"lng":-72.72946167}
+486618,NAV,NavTask,Processing navigation command type: 5
+486618,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6371727, lon=-72.7294617
+486619,NAV,NavTask,waypointMutex taken, current count=2, max=20
+486619,NAV,NavTask,Waypoint added at index 2, new count=3
+486619,NAV,NavTask,navStatus.totalWaypoints updated to 3
+486619,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+490652,NAV,async_tcp,WebSocket received record waypoint command
+490652,NAV,async_tcp,About to call addWaypoint() with lat=42.6372414, lon=-72.7294388
+490653,NAV,async_tcp,Adding waypoint: lat=42.6372414, lon=-72.7294388
+490653,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+490653,NAV,async_tcp,Waypoint command successfully queued
+490704,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 3
+490704,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":3,"currentIndex":1,"lat":42.63724136,"lng":-72.72943878}
+490718,NAV,NavTask,Processing navigation command type: 5
+490718,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372414, lon=-72.7294388
+490719,NAV,NavTask,waypointMutex taken, current count=3, max=20
+490719,NAV,NavTask,Waypoint added at index 3, new count=4
+490719,NAV,NavTask,navStatus.totalWaypoints updated to 4
+490719,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+497793,NAV,async_tcp,WebSocket received record waypoint command
+497793,NAV,async_tcp,About to call addWaypoint() with lat=42.6372681, lon=-72.7294312
+497795,NAV,async_tcp,Adding waypoint: lat=42.6372681, lon=-72.7294312
+497795,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+497795,NAV,async_tcp,Waypoint command successfully queued
+497818,NAV,NavTask,Processing navigation command type: 5
+497818,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372681, lon=-72.7294312
+497819,NAV,NavTask,waypointMutex taken, current count=4, max=20
+497819,NAV,NavTask,Waypoint added at index 4, new count=5
+497819,NAV,NavTask,navStatus.totalWaypoints updated to 5
+497819,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+497845,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 5
+497845,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":5,"currentIndex":1,"lat":42.63726807,"lng":-72.72943115}
+503493,NAV,async_tcp,WebSocket received record waypoint command
+503493,NAV,async_tcp,About to call addWaypoint() with lat=42.6372681, lon=-72.7294312
+503494,NAV,async_tcp,Adding waypoint: lat=42.6372681, lon=-72.7294312
+503494,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+503494,NAV,async_tcp,Waypoint command successfully queued
+503518,NAV,NavTask,Processing navigation command type: 5
+503518,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372681, lon=-72.7294312
+503519,NAV,NavTask,waypointMutex taken, current count=5, max=20
+503519,NAV,NavTask,Waypoint added at index 5, new count=6
+503519,NAV,NavTask,navStatus.totalWaypoints updated to 6
+503519,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+503544,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 6
+503545,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":6,"currentIndex":1,"lat":42.63726807,"lng":-72.72943115}
+510090,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+510091,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+510440,NAV,async_tcp,WebSocket received record waypoint command
+510441,NAV,async_tcp,About to call addWaypoint() with lat=42.6372490, lon=-72.7293777
+510441,NAV,async_tcp,Adding waypoint: lat=42.6372490, lon=-72.7293777
+510441,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+510441,NAV,async_tcp,Waypoint command successfully queued
+510492,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 6
+510492,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":6,"currentIndex":1,"lat":42.63724899,"lng":-72.72937775}
+510518,NAV,NavTask,Processing navigation command type: 5
+510518,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372490, lon=-72.7293777
+510519,NAV,NavTask,waypointMutex taken, current count=6, max=20
+510519,NAV,NavTask,Waypoint added at index 6, new count=7
+510519,NAV,NavTask,navStatus.totalWaypoints updated to 7
+510519,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+516949,NAV,async_tcp,WebSocket received record waypoint command
+516949,NAV,async_tcp,About to call addWaypoint() with lat=42.6372223, lon=-72.7293854
+516950,NAV,async_tcp,Adding waypoint: lat=42.6372223, lon=-72.7293854
+516951,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+516951,NAV,async_tcp,Waypoint command successfully queued
+517001,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 7
+517001,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":7,"currentIndex":1,"lat":42.63722229,"lng":-72.72938538}
+517018,NAV,NavTask,Processing navigation command type: 5
+517023,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372223, lon=-72.7293854
+517024,NAV,NavTask,waypointMutex taken, current count=7, max=20
+517024,NAV,NavTask,Waypoint added at index 7, new count=8
+517024,NAV,NavTask,navStatus.totalWaypoints updated to 8
+517024,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+521923,NAV,async_tcp,WebSocket received record waypoint command
+521923,NAV,async_tcp,About to call addWaypoint() with lat=42.6372337, lon=-72.7294006
+521924,NAV,async_tcp,Adding waypoint: lat=42.6372337, lon=-72.7294006
+521924,NAV,async_tcp,navCommandQueue before send: 5 spaces available
+521924,NAV,async_tcp,Waypoint command successfully queued
+521974,NAV,async_tcp,addWaypoint() succeeded, getWaypointCount() returned 8
+521975,NAV,async_tcp,Sending waypoint response to client: {"type":"waypoint","count":8,"currentIndex":1,"lat":42.63723373,"lng":-72.72940063}
+522022,NAV,NavTask,Processing navigation command type: 5
+522023,NAV,NavTask,Processing ADD_WAYPOINT command: lat=42.6372337, lon=-72.7294006
+522023,NAV,NavTask,waypointMutex taken, current count=8, max=20
+522023,NAV,NavTask,Waypoint added at index 8, new count=9
+522023,NAV,NavTask,navStatus.totalWaypoints updated to 9
+522023,NAV,NavTask,waypointMutex released after ADD_WAYPOINT processing
+531300,NAV,async_tcp,WebSocket received autonomous command: start
+531300,NAV,async_tcp,Start command details: pace=2.00, dist=100.00, hasCoords=0, waypointCount=9
+531301,NAV,async_tcp,Setting followingWaypoints to true, waypointCount=9
+531318,NAV,NavTask,Processing navigation command type: 0
+531318,NAV,NavTask,Processing START command: pace=2.00, dist=100.00
+531319,NAV,NavTask,Navigation started with followingWaypoints=1
+531319,NAV,NavTask,Navigation state changed: active=1, paused=0
+531321,NAV,ControlTask,Control task detected navigation state change: auto=1, paused=0
+531321,NAV,ControlTask,Control values: speed=0.01, targetSpeed=2.00, heading=122.03°
+531871,NAV,ControlTask,Control values: speed=0.41, targetSpeed=2.00, heading=201.51°
+532421,NAV,ControlTask,Control values: speed=1.19, targetSpeed=2.00, heading=193.02°
+532971,NAV,ControlTask,Control values: speed=2.12, targetSpeed=2.00, heading=190.87°
+533218,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=9, followingWaypoints=1
+533219,NAV,NavTask,Moving to next waypoint: 2 of 9
+533521,NAV,ControlTask,Control values: speed=2.72, targetSpeed=2.00, heading=188.64°
+534071,NAV,ControlTask,Control values: speed=3.62, targetSpeed=2.00, heading=183.94°
+534218,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=9, followingWaypoints=1
+534219,NAV,NavTask,Moving to next waypoint: 3 of 9
+534621,NAV,ControlTask,Control values: speed=3.61, targetSpeed=2.00, heading=183.43°
+535171,NAV,ControlTask,Control values: speed=3.41, targetSpeed=2.00, heading=220.53°
+535218,NAV,NavTask,Checking waypoint status: currentWaypoint=2, totalWaypoints=9, followingWaypoints=1
+535219,NAV,NavTask,Moving to next waypoint: 4 of 9
+535721,NAV,ControlTask,Control values: speed=3.04, targetSpeed=2.00, heading=217.60°
+536271,NAV,ControlTask,Control values: speed=2.66, targetSpeed=2.00, heading=218.40°
+536821,NAV,ControlTask,Control values: speed=1.70, targetSpeed=2.00, heading=309.82°
+537371,NAV,ControlTask,Control values: speed=1.02, targetSpeed=2.00, heading=49.69°
+537921,NAV,ControlTask,Control values: speed=1.11, targetSpeed=2.00, heading=30.20°
+538471,NAV,ControlTask,Control values: speed=1.38, targetSpeed=2.00, heading=34.18°
+539021,NAV,ControlTask,Control values: speed=1.39, targetSpeed=2.00, heading=12.50°
+539571,NAV,ControlTask,Control values: speed=1.31, targetSpeed=2.00, heading=346.31°
+540093,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+540094,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+540121,NAV,ControlTask,Control values: speed=1.22, targetSpeed=2.00, heading=269.85°
+540670,NAV,ControlTask,Control values: speed=1.29, targetSpeed=2.00, heading=204.27°
+540818,NAV,NavTask,Checking waypoint status: currentWaypoint=3, totalWaypoints=9, followingWaypoints=1
+540819,NAV,NavTask,Moving to next waypoint: 5 of 9
+540918,NAV,NavTask,Checking waypoint status: currentWaypoint=4, totalWaypoints=9, followingWaypoints=1
+540918,NAV,NavTask,Moving to next waypoint: 6 of 9
+541171,NAV,ControlTask,Control values: speed=1.46, targetSpeed=2.00, heading=159.22°
+541720,NAV,ControlTask,Control values: speed=1.83, targetSpeed=2.00, heading=202.03°
+542221,NAV,ControlTask,Control values: speed=2.14, targetSpeed=2.00, heading=238.10°
+542771,NAV,ControlTask,Control values: speed=1.98, targetSpeed=2.00, heading=306.50°
+543320,NAV,ControlTask,Control values: speed=1.93, targetSpeed=2.00, heading=3.21°
+543821,NAV,ControlTask,Control values: speed=1.86, targetSpeed=2.00, heading=20.86°
+544371,NAV,ControlTask,Control values: speed=1.61, targetSpeed=2.00, heading=6.87°
+544518,NAV,NavTask,Checking waypoint status: currentWaypoint=5, totalWaypoints=9, followingWaypoints=1
+544519,NAV,NavTask,Moving to next waypoint: 7 of 9
+544921,NAV,ControlTask,Control values: speed=2.06, targetSpeed=2.00, heading=355.42°
+545471,NAV,ControlTask,Control values: speed=2.05, targetSpeed=2.00, heading=33.20°
+546020,NAV,ControlTask,Control values: speed=2.00, targetSpeed=2.00, heading=83.19°
+546571,NAV,ControlTask,Control values: speed=2.28, targetSpeed=2.00, heading=134.41°
+547121,NAV,ControlTask,Control values: speed=2.55, targetSpeed=2.00, heading=138.56°
+547318,NAV,NavTask,Checking waypoint status: currentWaypoint=6, totalWaypoints=9, followingWaypoints=1
+547319,NAV,NavTask,Moving to next waypoint: 8 of 9
+547671,NAV,ControlTask,Control values: speed=2.58, targetSpeed=2.00, heading=139.07°
+547920,NAV,NavTask,Checking waypoint status: currentWaypoint=7, totalWaypoints=9, followingWaypoints=1
+547921,NAV,NavTask,Moving to next waypoint: 9 of 9
+548018,NAV,NavTask,Checking waypoint status: currentWaypoint=8, totalWaypoints=9, followingWaypoints=1
+548018,NAV,NavTask,Last waypoint reached. Resetting to waypoint 0
+548018,NAV,NavTask,Looping back to waypoint 0. targetLat=42.6372032, targetLon=-72.7294312
+548221,NAV,ControlTask,Control values: speed=2.68, targetSpeed=2.00, heading=127.71°
+548770,NAV,ControlTask,Control values: speed=2.12, targetSpeed=2.00, heading=169.63°
+549321,NAV,ControlTask,Control values: speed=1.49, targetSpeed=2.00, heading=227.34°
+549870,NAV,ControlTask,Control values: speed=2.66, targetSpeed=2.00, heading=250.71°
+550371,NAV,ControlTask,Control values: speed=3.27, targetSpeed=2.00, heading=248.77°
+550518,NAV,NavTask,Checking waypoint status: currentWaypoint=0, totalWaypoints=9, followingWaypoints=1
+550518,NAV,NavTask,Moving to next waypoint: 2 of 9
+550921,NAV,ControlTask,Control values: speed=2.81, targetSpeed=2.00, heading=237.57°
+551471,NAV,ControlTask,Control values: speed=2.47, targetSpeed=2.00, heading=227.24°
+551518,NAV,NavTask,Checking waypoint status: currentWaypoint=1, totalWaypoints=9, followingWaypoints=1
+551518,NAV,NavTask,Moving to next waypoint: 3 of 9
+552021,NAV,ControlTask,Control values: speed=1.93, targetSpeed=2.00, heading=213.34°
+552571,NAV,ControlTask,Control values: speed=1.67, targetSpeed=2.00, heading=207.69°
+553121,NAV,ControlTask,Control values: speed=1.61, targetSpeed=2.00, heading=215.33°
+553666,NAV,async_tcp,WebSocket received autonomous command: stop
+553666,NAV,async_tcp,Stop command received
+553670,NAV,ControlTask,Control values: speed=1.62, targetSpeed=2.00, heading=212.14°
+553718,NAV,NavTask,Processing navigation command type: 1
+553718,NAV,NavTask,Processing STOP command, was autonomousMode=1, isPaused=0
+553718,NAV,NavTask,Navigation state changed: active=0, paused=0
+553721,NAV,ControlTask,Control task detected navigation state change: auto=0, paused=0
+570100,NAV,WebSocketTask,System stats: Free heap: 129456 bytes
+570101,NAV,WebSocketTask,WebSocket task stack high water mark: 18792
+600107,NAV,WebSocketTask,System stats: Free heap: 129564 bytes
+600108,NAV,WebSocketTask,WebSocket task stack high water mark: 18792

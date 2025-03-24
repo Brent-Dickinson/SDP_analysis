@@ -3,6 +3,8 @@ import re
 import os
 import numpy as np
 
+# python gps-visualizer.py --log log.txt --output navigation_plots
+
 def parse_runs(log_file):
     # Find all navigation runs in the log
     runs = []
