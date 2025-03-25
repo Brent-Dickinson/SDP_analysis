@@ -1,0 +1,12 @@
+Session,Operation,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,processGNSSConnection,1,319,51.62,40.0,302,15588
+Session 1,sendGPSData,1,228,84.29,112.5,170,14329
+Session 1,connectToNTRIP,1045,1045,1045.0,1045.0,1,1045
+Session 1,GNSSTask,201,1253,355.43,253.5,60,21326
+Session 1,GNSS poll,51,859,104.03,81.0,194,20181
+Session 1,ntripClient.read,11,46,24.46,21.0,63,1541
+Session 1,ntripClientMutex hold,12,442,58.76,50.0,62,3643
+Session 1,SendRTKStatus,27,253,63.56,36.0,9,572
+Session 1,sendNavigationStats,21,120,50.56,27.0,71,3590
+Session 1,WebSocketTask,51,1333,250.83,238.5,84,21070
+Session 1,sendSensorData,21,106,43.74,39.0,31,1356
