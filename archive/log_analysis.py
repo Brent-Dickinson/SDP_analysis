@@ -1,406 +1,477 @@
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
 import re
 import os
+import csv
+import matplotlib.pyplot as plt
+import numpy as np
 from datetime import datetime
+from collections import defaultdict
 
-# Customizable output suffix - change this to create different output folders
-OUTPUT_SUFFIX = "20250320_firstAsync"  # Will create "figures_20250320" folder and "stats_20250320.txt"
+# python log_analysis.py --log log.txt --ignore "RTCM age" "Websocket gnssMutex acq" "ntrip mutex acq" "ntripClientMutex hold (no data)" "gnssMutex hold" "gnssMutex take"
 
-# Define file paths
-log_file = "log.txt"
-
-# Create output folder paths
-figures_folder = f"figures_{OUTPUT_SUFFIX}"
-stats_file = f"stats_{OUTPUT_SUFFIX}.txt"
-
-# Define markers for various phases
-INIT_END_MARKER = "Setup complete. RTOS scheduler taking over"
-GPS_FIX_MARKER = "System time set from GNSS:"  # Using this as a proxy for GPS fix since system time is set after fix type 3
-RTCM_MARKER = "RTCM correction status changed: 0 -> 2"  # Another indicator of moving to operational phase
-SYSTEM_TIME_SET_MARKER = "System time set from GNSS:"  # For extracting date/time
-
-def parse_log_file(log_file):
-    """Reads log file into a DataFrame, extracts useful data."""
-    logs = []
-    phases = {
-        "init": True,       # Start in initialization phase
-        "connecting": False,  # After init but before first GPS fix
-        "operational": False  # After first GPS fix achieved
-    }
+def analyze_log_file(log_file_path, min_duration_ms=1, ignored_operations=None):
+    """
+    Analyze ESP32 FreeRTOS log file for timing data
     
-    # Track fix type state
-    has_fix_type_3 = False
-    system_date_time = None
-    
-    with open(log_file, 'r') as file:
-        # Skip header line if it exists
-        first_line = file.readline()
-        if not first_line.startswith("Timestamp"):
-            file.seek(0)  # Reset to start of file if no header
+    Args:
+        log_file_path: Path to the log file
+        min_duration_ms: Minimum duration to include in analysis (milliseconds)
+        ignored_operations: List of operation names to ignore (default: None)
         
-        for line in file:
-            # Skip non-data lines
-            if not re.match(r'^\d+,', line):
+    Returns:
+        Dictionary containing timing data organized by session and operation type
+    """
+    def is_ignored(operation_name, ignored_list):
+        """
+        Check if an operation should be ignored using flexible matching
+        that's tolerant of whitespace differences
+        """
+        # Normalize the operation name: convert to lowercase and normalize whitespace
+        normalized_op = ' '.join(operation_name.lower().split())
+        if "RTCM" in normalized_op:
+            print(normalized_op)
+        
+        for ignored_pattern in ignored_list:
+            # Normalize the ignored pattern as well
+            normalized_pattern = ' '.join(ignored_pattern.lower().split())
+            
+            # Check if the normalized pattern appears anywhere in the normalized operation name
+            if normalized_pattern in normalized_op:
+                return True
+        
+        return False
+    
+    # Initialize ignored_operations as empty list if None
+    if ignored_operations is None:
+        ignored_operations = []
+    
+    # Initialize data structures
+    sessions = []
+    current_session = {
+        'start_time': None,
+        'operations': defaultdict(list),
+        'start_timestamp': None,
+        'name': f"Session 1",
+        'fusion_status_calls': []  # Track timestamps of getFusionStatus calls
+    }
+    session_count = 1
+    system_online = False
+    
+    # Regular expressions for parsing
+    time_pattern = re.compile(r'(.+?)time, (\d+)')
+    
+    # Read the log file
+    with open(log_file_path, 'r') as f:
+        for line in f:
+            # Skip header lines and empty lines
+            if line.startswith('----- New Logging Session Started -----') or \
+               line.startswith('Timestamp,Level,Task,Message') or \
+               not line.strip():
                 continue
                 
-            parts = line.strip().split(',', 3)  # Split into 4 parts
-            if len(parts) < 4:
-                continue  # Skip malformed lines
+            # Parse the log line
+            try:
+                parts = line.strip().split(',', 3)
+                if len(parts) < 4:
+                    continue
+                    
+                timestamp, level, task, message = parts
+                timestamp = int(timestamp)
+                
+                # Check for system restart
+                if "SYSTEM RESTART DETECTED" in message:
+                    if current_session['start_time'] is not None:
+                        # Save current session and start a new one
+                        sessions.append(current_session)
+                        session_count += 1
+                        
+                    # Initialize a new session
+                    current_session = {
+                        'start_time': timestamp,
+                        'operations': defaultdict(list),
+                        'start_timestamp': timestamp,
+                        'name': f"Session {session_count}",
+                        'fusion_status_calls': []  # Track timestamps of getFusionStatus calls
+                    }
+                    system_online = False
+                    continue
+                
+                # Check for system coming online (GNSS time initialization)
+                if "GNSS SYS TIME:" in message:
+                    system_online = True
+                    current_session['start_time'] = timestamp
+                    continue
+                    
+                # Skip processing until system is online
+                if not system_online:
+                    continue
+                
+                # Check for getFusionStatus calls
+                if "about to call getFusionStatus" in message or "getFusionStatus" in message:
+                    relative_time = timestamp - current_session['start_time']
+                    current_session['fusion_status_calls'].append(relative_time)
+                
+                # Extract timing information
+                time_match = time_pattern.search(message)
+                if time_match:
+                    operation_type = time_match.group(1).strip()
+                    
+                    # Skip this operation if it's in the ignored list
+                    if is_ignored(operation_type, ignored_operations):
+                        print(f"  - Ignoring: '{operation_type}'")
+                        continue
+                        
+                    duration = int(time_match.group(2))
+                    
+                    # Only record if duration exceeds minimum threshold
+                    if duration >= min_duration_ms:
+                        relative_time = timestamp - current_session['start_time']
+                        current_session['operations'][operation_type].append((relative_time, duration))
             
-            timestamp, level, task, message = parts
-            timestamp = int(timestamp)
-            
-            # Extract system date/time if present
-            if SYSTEM_TIME_SET_MARKER in message:
-                date_match = re.search(r'(\d{4}-\d{2}-\d{2} \d{2}:\d{2})', message)
-                if date_match:
-                    system_date_time = date_match.group(1)
-                # System time is set only when fix type 3+ is achieved
-                has_fix_type_3 = True
-            
-            # Check for other fix type indicators
-            if "fix type" in message.lower() or "fixType" in message:
-                if "3" in message or "fix type 3" in message.lower():
-                    has_fix_type_3 = True
-                elif "No Fix" in message or "no fix" in message.lower():
-                    has_fix_type_3 = False
-            
-            # Detect phase transitions
-            if phases["init"] and INIT_END_MARKER in message:
-                phases["init"] = False
-                phases["connecting"] = True
-            
-            # Transition to operational after first fix type 3
-            if phases["connecting"] and has_fix_type_3:
-                phases["connecting"] = False
-                phases["operational"] = True
-            
-            # Determine current phase
-            current_phase = "initialization" if phases["init"] else ("connecting" if phases["connecting"] else "operational")
-            
-            logs.append([timestamp, level, task, message, current_phase, has_fix_type_3])
-
-    df = pd.DataFrame(logs, columns=["Timestamp", "Level", "Task", "Message", "Phase", "HasFixType3"])
+            except Exception as e:
+                print(f"Error processing line: {line}")
+                print(f"Exception: {e}")
+                continue
     
-    # Add relative time (seconds from start)
-    if not df.empty:
-        start_time = df["Timestamp"].min()
-        df["RelativeTime"] = (df["Timestamp"] - start_time) / 1000.0  # Convert to seconds
-    
-    return df, system_date_time
-
-def extract_task_timing(df):
-    """Extract timing data for each task."""
-    timing_data = []
-    
-    # Extract task timing information
-    for _, row in df.iterrows():
-        timestamp, task, message, phase, rel_time, has_fix_type_3 = row["Timestamp"], row["Task"], row["Message"], row["Phase"], row["RelativeTime"], row["HasFixType3"]
+    # Add the last session
+    if current_session['start_time'] is not None:
+        sessions.append(current_session)
         
-        # WebSocket task timing
-        ws_total_match = re.search(r"Total (.*?) process took (\d+) ms", message)
-        if ws_total_match and task == "WebSocketTask":
-            event_type = f"WS {ws_total_match.group(1)}"
-            duration = int(ws_total_match.group(2))
-            timing_data.append([timestamp, rel_time, task, event_type, duration, phase, has_fix_type_3])
-            continue
-            
-        ws_loop_match = re.search(r"WebSocket task loop iteration took (\d+) ms", message)
-        if ws_loop_match:
-            timing_data.append([timestamp, rel_time, task, "WS Loop", int(ws_loop_match.group(1)), phase, has_fix_type_3])
-            continue
+    return sessions
 
-        # WebSocket.loop() timing
-        ws_lib_loop_match = re.search(r"WebSocket\.loop\(\) took (\d+) ms", message)
-        if ws_lib_loop_match:
-            timing_data.append([timestamp, rel_time, task, "WebSocket.loop()", int(ws_lib_loop_match.group(1)), phase, has_fix_type_3])
-            continue
-
-        # WS GPS data update timing
-        ws_gps_total_match = re.search(r"Total GPS data update process took (\d+) ms", message)
-        if ws_gps_total_match:
-            timing_data.append([timestamp, rel_time, task, "WS GPS Update", int(ws_gps_total_match.group(1)), phase, has_fix_type_3])
-            continue
+def generate_statistics(sessions):
+    """
+    Generate statistics for each operation type in each session
+    
+    Args:
+        sessions: List of session dictionaries
         
-        # Mutex acquisition time
-        mutex_acquire_match = re.search(r"mutex acquired (?:after|.+?after) (\d+) ms", message)
-        if mutex_acquire_match:
-            mutex_type = "GNSS" if "GNSS mutex" in message else "NTRIP" if "ntripClient mutex" in message else "Unknown"
-            timing_data.append([timestamp, rel_time, task, f"{mutex_type} Mutex Acquire", int(mutex_acquire_match.group(1)), phase, has_fix_type_3])
-            continue
+    Returns:
+        Dictionary of statistics by session and operation
+    """
+    statistics = {}
+    
+    for session in sessions:
+        session_stats = {}
+        
+        for operation, data_points in session['operations'].items():
+            if not data_points:
+                continue
+                
+            durations = [point[1] for point in data_points]
             
-        # Mutex hold time
-        mutex_hold_match = re.search(r"(?:released|Released).+?held for (\d+) ms", message)
-        if mutex_hold_match:
-            mutex_type = "GNSS" if "GNSS mutex" in message else "NTRIP" if "ntripClient mutex" in message else "Unknown"
-            timing_data.append([timestamp, rel_time, task, f"{mutex_type} Mutex Hold", int(mutex_hold_match.group(1)), phase, has_fix_type_3])
-            continue
-            
-        # RTCM correction age
-        rtcm_match = re.search(r"RTCM correction age: (\d+) ms", message)
-        if rtcm_match:
-            timing_data.append([timestamp, rel_time, task, "RTCM Age", int(rtcm_match.group(1)), phase, has_fix_type_3])
-            continue
-            
-        # RTCM data push time
-        rtcm_push_match = re.search(r"Pushed RTCM data to GPS module \(took (\d+) ms\)", message)
-        if rtcm_push_match:
-            timing_data.append([timestamp, rel_time, task, "RTCM Push", int(rtcm_push_match.group(1)), phase, has_fix_type_3])
-            continue
-            
-        # RTCM data read time
-        rtcm_read_match = re.search(r"Received \d+ bytes of RTCM data \(read took (\d+) ms\)", message)
-        if rtcm_read_match:
-            timing_data.append([timestamp, rel_time, task, "RTCM Read", int(rtcm_read_match.group(1)), phase, has_fix_type_3])
-            continue
-    
-    return pd.DataFrame(timing_data, columns=["Timestamp", "RelativeTime", "Task", "EventType", "Duration", "Phase", "HasFixType3"])
-
-def plot_operational_timing(timing_df, system_date_time):
-    """Create plots focused exclusively on the operational period with Fix Type 3."""
-    # Filter for operational phase with Fix Type 3
-    op_df = timing_df[(timing_df["HasFixType3"] == True) & (timing_df["EventType"] != "RTCM Age")]
-    
-    if op_df.empty:
-        print("No Fix Type 3 operational data found.")
-        return None
-    
-    # Set up the plot
-    plt.figure(figsize=(15, 10))
-    title = "Operational Phase (Fix Type 3) Timing Analysis"
-    if system_date_time:
-        title += f" ({system_date_time})"
-    plt.suptitle(title, fontsize=16)
-    
-    # Group data by event type
-    event_types = op_df["EventType"].unique()
-    
-    # Plot timing by event type
-    plt.subplot(2, 1, 1)
-    for event_type in event_types:
-        event_df = op_df[op_df["EventType"] == event_type]
-        if len(event_df) > 0:
-            plt.plot(event_df["RelativeTime"], event_df["Duration"], 'o-', alpha=0.7, label=event_type)
-    
-    plt.xlabel("Time (seconds)")
-    plt.ylabel("Duration (ms)")
-    plt.title("Fix Type 3 - Event Durations Over Time")
-    plt.legend(loc="upper right", bbox_to_anchor=(1.15, 1))
-    plt.grid(True, alpha=0.3)
-    
-    # Box plot of durations by event type
-    plt.subplot(2, 1, 2)
-    
-    # Get only event types with enough data
-    event_counts = op_df["EventType"].value_counts()
-    valid_events = event_counts[event_counts > 3].index
-    
-    if len(valid_events) > 0:
-        box_data = [op_df[op_df["EventType"] == event]["Duration"] for event in valid_events]
-        plt.boxplot(box_data, labels=valid_events, vert=True)
-        plt.xticks(rotation=45, ha='right')
-        plt.ylabel("Duration (ms)")
-        plt.title("Fix Type 3 - Distribution of Event Durations")
-        plt.grid(True, alpha=0.3)
-    
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    
-    # Save figure to the custom folder
-    output_path = os.path.join(figures_folder, "operational_timing_analysis.png")
-    plt.savefig(output_path, dpi=300, bbox_inches="tight")
-    plt.close()
-    
-    # Collect statistics
-    stats = {}
-    for event_type in event_types:
-        event_df = op_df[op_df["EventType"] == event_type]
-        if not event_df.empty:
-            stats[event_type] = {
-                "count": len(event_df),
-                "mean": event_df["Duration"].mean(),
-                "median": event_df["Duration"].median(),
-                "min": event_df["Duration"].min(),
-                "max": event_df["Duration"].max(),
-                "std": event_df["Duration"].std()
+            # Calculate statistics
+            stats = {
+                'min': min(durations),
+                'max': max(durations),
+                'avg': sum(durations) / len(durations),
+                'median': np.median(durations),
+                'count': len(durations),
+                'total_time': sum(durations)
             }
-    
-    return stats
+            
+            session_stats[operation] = stats
+            
+        statistics[session['name']] = session_stats
+        
+    return statistics
 
-def plot_rtcm_correction_age(timing_df, system_date_time):
-    """Plot RTCM correction age as a completely separate chart."""
-    # Filter for RTCM Age data in operational phase with Fix Type 3
-    rtcm_age_df = timing_df[(timing_df["HasFixType3"] == True) & 
-                           (timing_df["EventType"] == "RTCM Age")]
+def categorize_operations(sessions, num_categories=2):
+    """
+    Categorize operations by their average duration
     
-    if rtcm_age_df.empty:
-        print("No RTCM Age data found for operational phase.")
-        return None
+    Args:
+        sessions: List of session dictionaries
+        num_categories: Number of categories to create (default: 2)
+        
+    Returns:
+        Dictionary mapping each operation to its category
+    """
+    # Collect average durations for all operations across all sessions
+    operation_avg_durations = {}
     
-    # Set up the plot
-    plt.figure(figsize=(15, 8))
-    title = "RTCM Correction Age (Operational Phase Only)"
-    if system_date_time:
-        title += f" ({system_date_time})"
-    plt.suptitle(title, fontsize=16)
+    for session in sessions:
+        for operation, data_points in session['operations'].items():
+            if not data_points:
+                continue
+                
+            durations = [point[1] for point in data_points]
+            avg_duration = sum(durations) / len(durations)
+            
+            if operation in operation_avg_durations:
+                # Average with existing value to account for multiple sessions
+                existing_avg = operation_avg_durations[operation]
+                operation_avg_durations[operation] = (existing_avg + avg_duration) / 2
+            else:
+                operation_avg_durations[operation] = avg_duration
     
-    # Plot RTCM correction age
-    plt.plot(rtcm_age_df["RelativeTime"], rtcm_age_df["Duration"], 'o-', color='blue', alpha=0.7)
+    # Sort operations by average duration
+    sorted_operations = sorted(operation_avg_durations.items(), key=lambda x: x[1])
     
-    # Add horizontal line at 1000ms (1 second) for reference
-    plt.axhline(y=1000, color='r', linestyle='--', alpha=0.7, label='1 second threshold')
+    # Create categories
+    categories = {}
+    operations_per_category = max(1, len(sorted_operations) // num_categories)
     
-    # Add statistical information
-    mean_age = rtcm_age_df["Duration"].mean()
-    max_age = rtcm_age_df["Duration"].max()
-    median_age = rtcm_age_df["Duration"].median()
-    min_age = rtcm_age_df["Duration"].min()
-    std_age = rtcm_age_df["Duration"].std()
+    for i, (operation, _) in enumerate(sorted_operations):
+        category_index = min(i // operations_per_category, num_categories - 1)
+        categories[operation] = category_index
     
-    stats_text = f"Mean: {mean_age:.1f} ms\nMax: {max_age:.1f} ms\nMedian: {median_age:.1f} ms"
-    plt.annotate(stats_text, xy=(0.02, 0.95), xycoords='axes fraction', 
-                 bbox=dict(boxstyle="round,pad=0.3", fc="white", ec="gray", alpha=0.8))
-    
-    plt.xlabel("Time (seconds)")
-    plt.ylabel("RTCM Correction Age (ms)")
-    plt.title("RTCM Correction Age Over Time")
-    plt.grid(True, alpha=0.3)
-    plt.legend()
-    
-    plt.tight_layout(rect=[0, 0, 1, 0.95])
-    
-    # Save figure to the custom folder
-    output_path = os.path.join(figures_folder, "rtcm_correction_age.png")
-    plt.savefig(output_path, dpi=300, bbox_inches="tight")
-    plt.close()
-    
-    # Collect statistics
-    stats = {
-        "RTCM Age": {
-            "count": len(rtcm_age_df),
-            "mean": mean_age,
-            "median": median_age,
-            "min": min_age,
-            "max": max_age,
-            "std": std_age,
-            "values_over_1s": len(rtcm_age_df[rtcm_age_df["Duration"] > 1000]),
-            "percent_over_1s": len(rtcm_age_df[rtcm_age_df["Duration"] > 1000]) / len(rtcm_age_df) * 100 if len(rtcm_age_df) > 0 else 0
-        }
-    }
-    
-    return stats
+    return categories
 
-def save_statistics(stats_dict, filename):
-    """Save all statistics to a text file."""
-    with open(filename, 'w') as f:
-        f.write(f"Log Analysis Statistics - Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-        f.write(f"Based on log file: {log_file}\n\n")
+def plot_timing_data(sessions, output_dir, num_categories=2):
+    """
+    Create time series plots of operation timing data
+    
+    Args:
+        sessions: List of session dictionaries
+        output_dir: Directory to save plots
+        num_categories: Number of categories for grouping operations by duration
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    # Categorize operations by average duration
+    operation_categories = categorize_operations(sessions, num_categories)
+    
+    # Plot each session separately
+    for session in sessions:
+        # Only plot operations with data points
+        operations = {op: data for op, data in session['operations'].items() if data}
         
-        # Overall statistics
-        if "overall" in stats_dict:
-            f.write("=" * 50 + "\n")
-            f.write("OVERALL STATISTICS\n")
-            f.write("=" * 50 + "\n")
+        if not operations:
+            continue
             
-            for key, value in stats_dict["overall"].items():
-                f.write(f"{key}: {value}\n")
-            f.write("\n")
+        # Make sure all operations in this session are categorized
+        for op in operations:
+            if op not in operation_categories:
+                # Find the average duration for this operation
+                data_points = operations[op]
+                durations = [point[1] for point in data_points]
+                avg_duration = sum(durations) / len(durations)
+                
+                # Assign a category based on the average duration
+                if operation_categories:
+                    # Get all unique category values
+                    category_values = set(operation_categories.values())
+                    # Choose the middle category if possible
+                    middle_category = len(category_values) // 2
+                    operation_categories[op] = middle_category
+                else:
+                    # Assign to category 0 if no other operations categorized
+                    operation_categories[op] = 0
         
-        # RTCM Age statistics
-        if "rtcm_age" in stats_dict:
-            f.write("=" * 50 + "\n")
-            f.write("RTCM CORRECTION AGE STATISTICS\n")
-            f.write("=" * 50 + "\n")
+        # Create a separate plot for each category
+        for category in range(num_categories):
+            # Only include operations that belong to this category
+            category_operations = {op: data for op, data in operations.items() 
+                                if op in operation_categories and operation_categories[op] == category}
             
-            rtcm_stats = stats_dict["rtcm_age"]["RTCM Age"]
-            f.write(f"Sample count: {rtcm_stats['count']}\n")
-            f.write(f"Mean: {rtcm_stats['mean']:.2f} ms\n")
-            f.write(f"Median: {rtcm_stats['median']:.2f} ms\n")
-            f.write(f"Min: {rtcm_stats['min']:.2f} ms\n")
-            f.write(f"Max: {rtcm_stats['max']:.2f} ms\n")
-            f.write(f"Standard deviation: {rtcm_stats['std']:.2f} ms\n")
-            f.write(f"Values over 1 second: {rtcm_stats['values_over_1s']} ({rtcm_stats['percent_over_1s']:.2f}%)\n")
-            f.write("\n")
+            if not category_operations:
+                continue
+                
+            plt.figure(figsize=(14, 8))
+            
+            # Debug: Print operations in this category
+            print(f"Session {session['name']} - Category {category+1} operations: {list(category_operations.keys())}")
+            
+            # Clear any existing plots
+            plt.clf()
+            
+            # Create empty lists to store legend entries
+            lines = []
+            labels = []
+            
+            # Plot each operation type within this category
+            for operation, data_points in category_operations.items():
+                times = [point[0]/1000 for point in data_points]  # Convert to seconds
+                durations = [point[1] for point in data_points]
+                
+                # Store the line object to add to legend manually
+                line, = plt.plot(times, durations, 'o-', 
+                                alpha=0.7, 
+                                markersize=4)
+                
+                lines.append(line)
+                labels.append(operation)
+            
+            # Create legend manually from all plotted lines
+            plt.legend(lines, labels, loc='upper right')
+            
+            # Add vertical lines for getFusionStatus calls
+            for call_time in session['fusion_status_calls']:
+                plt.axvline(x=call_time/1000, color='black', linestyle='--', alpha=0.5)
+                plt.text(call_time/1000, plt.ylim()[1]*0.95, 'getFusionStatus', 
+                         rotation=90, verticalalignment='top', alpha=0.7)
+            
+            plt.title(f"Operation Timing - {session['name']} - Category {category+1}")
+            plt.xlabel('Time (seconds since start)')
+            plt.ylabel('Duration (ms)')
+            plt.grid(True, alpha=0.3)
+            
+            # Save the plot
+            plot_file = os.path.join(output_dir, 
+                                     f"{session['name'].replace(' ', '_')}_category{category+1}_timing.png")
+            plt.savefig(plot_file)
+            plt.close()
+            
+            print(f"Plot saved to: {plot_file}")
         
-        # Timing statistics
-        if "timing" in stats_dict:
-            f.write("=" * 50 + "\n")
-            f.write("OPERATIONAL PHASE TIMING STATISTICS\n")
-            f.write("=" * 50 + "\n")
+        # Create a combined plot with all operations
+        plt.figure(figsize=(14, 8))
+        plt.clf()  # Clear any existing plots
+        
+        # Create empty lists to store legend entries
+        lines = []
+        labels = []
+        
+        # Plot each operation with a unique color
+        for operation, data_points in operations.items():
+            times = [point[0]/1000 for point in data_points]  # Convert to seconds
+            durations = [point[1] for point in data_points]
             
-            for event_type, stats in stats_dict["timing"].items():
-                f.write(f"\n--- {event_type} ---\n")
-                f.write(f"Sample count: {stats['count']}\n")
-                f.write(f"Mean: {stats['mean']:.2f} ms\n")
-                f.write(f"Median: {stats['median']:.2f} ms\n")
-                f.write(f"Min: {stats['min']:.2f} ms\n")
-                f.write(f"Max: {stats['max']:.2f} ms\n")
-                f.write(f"Standard deviation: {stats['std']:.2f} ms\n")
-            f.write("\n")
+            # Store the line object
+            line, = plt.plot(times, durations, 'o-', 
+                            alpha=0.7, 
+                            markersize=4)
+            
+            lines.append(line)
+            labels.append(operation)
+        
+        # Create legend manually
+        plt.legend(lines, labels, loc='upper right')
+        
+        # Add vertical lines for getFusionStatus calls
+        for call_time in session['fusion_status_calls']:
+            plt.axvline(x=call_time/1000, color='black', linestyle='--', alpha=0.5)
+            plt.text(call_time/1000, plt.ylim()[1]*0.95, 'getFusionStatus', 
+                     rotation=90, verticalalignment='top', alpha=0.7)
+        
+        plt.title(f"Operation Timing - {session['name']} - All Operations")
+        plt.xlabel('Time (seconds since start)')
+        plt.ylabel('Duration (ms)')
+        plt.grid(True, alpha=0.3)
+        
+        # Save the combined plot
+        plot_file = os.path.join(output_dir, f"{session['name'].replace(' ', '_')}_all_timing.png")
+        plt.savefig(plot_file)
+        plt.close()
+        
+        print(f"Combined plot saved to: {plot_file}")
+
+def save_statistics(statistics, output_dir):
+    """
+    Save statistics to a CSV file
+    
+    Args:
+        statistics: Dictionary of statistics
+        output_dir: Directory to save output
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    stats_file = os.path.join(output_dir, f"timing_statistics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv")
+    
+    with open(stats_file, 'w', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Session', 'Operation', 'Min (ms)', 'Max (ms)', 'Avg (ms)', 'Median (ms)', 'Count', 'Total Time (ms)'])
+        
+        for session_name, session_stats in statistics.items():
+            for operation, stats in session_stats.items():
+                writer.writerow([
+                    session_name,
+                    operation,
+                    stats['min'],
+                    stats['max'],
+                    round(stats['avg'], 2),
+                    stats['median'],
+                    stats['count'],
+                    stats['total_time']
+                ])
+    
+    print(f"Statistics saved to: {stats_file}")
+    
+    # Also save a text summary
+    summary_file = os.path.join(output_dir, f"timing_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
+    
+    with open(summary_file, 'w') as f:
+        f.write("ESP32 FreeRTOS Log Timing Analysis\n")
+        f.write("===============================\n\n")
+        
+        for session_name, session_stats in statistics.items():
+            f.write(f"{session_name}\n")
+            f.write("=" * len(session_name) + "\n\n")
+            
+            # Sort operations by max time (descending)
+            sorted_ops = sorted(session_stats.items(), key=lambda x: x[1]['max'], reverse=True)
+            
+            for operation, stats in sorted_ops:
+                f.write(f"Operation: {operation}\n")
+                f.write(f"  Count: {stats['count']}\n")
+                f.write(f"  Min: {stats['min']} ms\n")
+                f.write(f"  Max: {stats['max']} ms\n")
+                f.write(f"  Avg: {round(stats['avg'], 2)} ms\n")
+                f.write(f"  Median: {stats['median']} ms\n")
+                f.write(f"  Total Time: {stats['total_time']} ms\n\n")
+    
+    print(f"Summary saved to: {summary_file}")
 
 def main():
-    # Set plot style
-    plt.style.use('ggplot')
+    import argparse
     
-    # Create figures directory if it doesn't exist
-    if not os.path.exists(figures_folder):
-        os.makedirs(figures_folder)
-        print(f"Created figures directory: {figures_folder}")
+    # Set up command-line argument parsing
+    parser = argparse.ArgumentParser(description='Analyze ESP32 FreeRTOS log file for timing data.')
+    parser.add_argument('--log', default='log.txt', help='Path to the log file')
+    parser.add_argument('--min-duration', type=int, default=1, help='Minimum duration to include (ms)')
+    parser.add_argument('--ignore', nargs='+', default=[], help='Operation types to ignore (space separated)')
     
-    # Parse log file
-    print(f"Parsing log file {log_file}...")
-    df, system_date_time = parse_log_file(log_file)
+    args = parser.parse_args()
     
-    if df.empty:
-        print("No log data found or could not parse log file.")
+    # Get current timestamp for output folder
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    output_dir = f"log_analysis_{timestamp}"
+    
+    # Use command-line arguments
+    log_file_path = args.log
+    min_duration_ms = args.min_duration
+    ignored_operations = args.ignore
+    
+    # Check if the file exists
+    if not os.path.exists(log_file_path):
+        print(f"Log file not found: {log_file_path}")
+        log_file_path = input("Enter the path to your log file: ")
+        
+        if not os.path.exists(log_file_path):
+            print(f"Log file not found: {log_file_path}")
+            return
+    
+    print(f"Analyzing log file: {log_file_path}")
+    print(f"Minimum duration: {min_duration_ms} ms")
+    print(f"Ignoring operations: {ignored_operations}")
+    
+    # Analyze the log file
+    sessions = analyze_log_file(log_file_path, min_duration_ms=min_duration_ms, ignored_operations=ignored_operations)
+    
+    if not sessions:
+        print("No valid sessions found in the log file.")
         return
+        
+    print(f"Found {len(sessions)} session(s) in the log file.")
     
-    print(f"Log data parsed. Found {len(df)} log entries.")
-    if system_date_time:
-        print(f"System date/time: {system_date_time}")
+    # Report on getFusionStatus calls
+    for session in sessions:
+        fusion_calls = session['fusion_status_calls']
+        if fusion_calls:
+            print(f"{session['name']}: Found {len(fusion_calls)} getFusionStatus calls")
+        else:
+            print(f"{session['name']}: No getFusionStatus calls detected")
     
-    # Extract timing data
-    timing_df = extract_task_timing(df)
+    # Generate statistics
+    statistics = generate_statistics(sessions)
     
-    # Filter for only operational phase
-    op_df = df[df["Phase"] == "operational"]
-    op_timing_df = timing_df[timing_df["Phase"] == "operational"]
+    # Save statistics to files
+    save_statistics(statistics, output_dir)
     
-    # Print operational phase stats
-    op_count = len(op_df)
-    total_count = len(df)
-    op_percentage = op_count/total_count*100 if total_count > 0 else 0
-    print(f"Operational phase entries: {op_count} ({op_percentage:.1f}%)")
+    # Create plots
+    plot_timing_data(sessions, output_dir, num_categories=2)
     
-    # Initialize statistics dictionary
-    all_stats = {
-        "overall": {
-            "total_log_entries": len(df),
-            "operational_phase_entries": op_count,
-            "operational_phase_percentage": op_percentage,
-            "system_date_time": system_date_time if system_date_time else "Unknown"
-        }
-    }
-    
-    # Generate plots for operational phase only
-    print("Generating operational phase plots...")
-    
-    # Plot and collect timing statistics
-    timing_stats = plot_operational_timing(timing_df, system_date_time)
-    if timing_stats:
-        all_stats["timing"] = timing_stats
-    
-    # Plot and collect RTCM Age statistics
-    rtcm_stats = plot_rtcm_correction_age(timing_df, system_date_time)
-    if rtcm_stats:
-        all_stats["rtcm_age"] = rtcm_stats
-    
-    # Save all statistics to file
-    save_statistics(all_stats, stats_file)
-    
-    print(f"Analysis complete. Plots saved to {figures_folder}/ directory.")
-    print(f"Statistics saved to {stats_file}")
+    print(f"Analysis complete. Results saved to: {output_dir}")
 
 if __name__ == "__main__":
     main()

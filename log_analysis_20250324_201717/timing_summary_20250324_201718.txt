@@ -1,0 +1,100 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: PERF
+---------------
+
+Operation: GNSSTask
+  Count: 60
+  Min: 201 ms
+  Max: 1253 ms
+  Avg: 355.43 ms
+  Median: 253.5 ms
+  Total Time: 21326 ms
+
+Operation: GNSS poll
+  Count: 194
+  Min: 51 ms
+  Max: 859 ms
+  Avg: 104.03 ms
+  Median: 81.0 ms
+  Total Time: 20181 ms
+
+Operation: processGNSSConnection
+  Count: 302
+  Min: 1 ms
+  Max: 319 ms
+  Avg: 51.62 ms
+  Median: 40.0 ms
+  Total Time: 15588 ms
+
+Log Level: DEBUG
+----------------
+
+Operation: WebSocketTask
+  Count: 84
+  Min: 51 ms
+  Max: 1333 ms
+  Avg: 250.83 ms
+  Median: 238.5 ms
+  Total Time: 21070 ms
+
+Operation: connectToNTRIP
+  Count: 1
+  Min: 1045 ms
+  Max: 1045 ms
+  Avg: 1045.0 ms
+  Median: 1045.0 ms
+  Total Time: 1045 ms
+
+Operation: ntripClientMutex hold
+  Count: 62
+  Min: 12 ms
+  Max: 442 ms
+  Avg: 58.76 ms
+  Median: 50.0 ms
+  Total Time: 3643 ms
+
+Operation: SendRTKStatus
+  Count: 9
+  Min: 27 ms
+  Max: 253 ms
+  Avg: 63.56 ms
+  Median: 36.0 ms
+  Total Time: 572 ms
+
+Operation: sendGPSData
+  Count: 170
+  Min: 1 ms
+  Max: 228 ms
+  Avg: 84.29 ms
+  Median: 112.5 ms
+  Total Time: 14329 ms
+
+Operation: sendNavigationStats
+  Count: 71
+  Min: 21 ms
+  Max: 120 ms
+  Avg: 50.56 ms
+  Median: 27.0 ms
+  Total Time: 3590 ms
+
+Operation: sendSensorData
+  Count: 31
+  Min: 21 ms
+  Max: 106 ms
+  Avg: 43.74 ms
+  Median: 39.0 ms
+  Total Time: 1356 ms
+
+Operation: ntripClient.read
+  Count: 63
+  Min: 11 ms
+  Max: 46 ms
+  Avg: 24.46 ms
+  Median: 21.0 ms
+  Total Time: 1541 ms
+
