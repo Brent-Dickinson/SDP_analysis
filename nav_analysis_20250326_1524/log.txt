@@ -1,0 +1,217 @@
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+1984,ERROR,loopTask,SYSTEM RESTART DETECTED - this message should appear only once after power-up
+10291,NAV,WebSocketTask,WebSocket disconnected. Will attempt to maintain navigation state.
+25288,ERROR,GNSSTask,------------------------------------------
+25288,ERROR,GNSSTask,GNSS SYS TIME: 2025-03-26 15:24 (UTC)
+25288,ERROR,GNSSTask,------------------------------------------
+30318,NAV,WebSocketTask,WebSocket reconnected after disconnection. Sending status refresh.
+68825,NAV,async_tcp,WebSocket received autonomous command, stop
+68825,NAV,async_tcp,Stop command received
+68895,NAV,NavTask,processNavigationCommand, 1
+68895,NAV,NavTask,NAV_CMD_STOP, 0, 0
+82938,NAV,async_tcp,command = record
+82938,NAV,async_tcp,addWaypoint
+82938,NAV,async_tcp,navCommandQueue spaces, 5
+82995,NAV,NavTask,processNavigationCommand, 5
+82995,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370354, -72.7292862
+82997,NAV,NavTask,navStatus.totalWaypoints, 1
+90051,NAV,async_tcp,command = record
+90051,NAV,async_tcp,addWaypoint
+90051,NAV,async_tcp,navCommandQueue spaces, 5
+90095,NAV,NavTask,processNavigationCommand, 5
+90095,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6369858, -72.7292786
+90096,NAV,NavTask,navStatus.totalWaypoints, 2
+129145,NAV,async_tcp,WebSocket received autonomous command, start
+129145,NAV,async_tcp,webSocketEventRTOS data, 1.50, 50.00, 0, 2
+129146,NAV,async_tcp,followingWaypoints to true, 2
+129195,NAV,NavTask,processNavigationCommand, 0
+129195,NAV,NavTask,NAV_CMD_START, 1.50, 50.00, 1
+129196,NAV,NavTask,isActive or lastActive chg, 1, 0
+129241,NAV,ControlTask,ControlTask state chg, 1, 0
+129241,NAV,ControlTask,ControlTask data, 42.6370811, -72.7293091, 0.01, 0.2
+129791,NAV,ControlTask,ControlTask data, 42.6370811, -72.7293091, 0.55, 187.0
+130341,NAV,ControlTask,ControlTask data, 42.6370773, -72.7293091, 1.30, 195.3
+130891,NAV,ControlTask,ControlTask data, 42.6370659, -72.7293091, 2.10, 179.7
+131441,NAV,ControlTask,ControlTask data, 42.6370544, -72.7293091, 2.63, 166.2
+131895,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+131991,NAV,ControlTask,ControlTask data, 42.6370430, -72.7293015, 2.69, 154.1
+132541,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292938, 2.51, 139.0
+133091,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292862, 2.14, 147.3
+133641,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292786, 1.57, 151.1
+134191,NAV,ControlTask,ControlTask data, 42.6370087, -72.7292709, 1.12, 153.2
+134741,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292709, 0.76, 163.6
+135291,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292709, 0.45, 186.0
+135841,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292709, 0.46, 201.7
+136195,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+136195,NAV,NavTask,Last waypoint reached, looping back
+136391,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292709, 1.03, 207.9
+136941,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292786, 1.22, 209.1
+137491,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292862, 1.91, 254.1
+138041,NAV,ControlTask,ControlTask data, 42.6369972, -72.7293015, 2.17, 2.3
+138591,NAV,ControlTask,ControlTask data, 42.6370087, -72.7293015, 2.24, 18.9
+139140,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292938, 2.17, 10.1
+139195,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+139641,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292938, 2.06, 1.7
+140191,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292862, 1.78, 58.4
+140741,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292786, 0.81, 96.4
+141291,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292709, 0.63, 118.7
+141841,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.31, 133.9
+142391,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.13, 169.9
+142941,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.01, 164.4
+143491,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.04, 164.4
+144041,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.03, 164.4
+144591,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.02, 164.4
+145141,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.05, 164.4
+145691,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.04, 164.4
+146241,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.01, 164.4
+146791,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.94, 137.7
+147341,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292709, 0.90, 185.3
+147891,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292709, 1.37, 172.9
+148441,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292709, 1.99, 179.3
+148991,NAV,ControlTask,ControlTask data, 42.6370125, -72.7292709, 2.20, 182.3
+149541,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292709, 2.40, 197.8
+149795,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+149795,NAV,NavTask,Last waypoint reached, looping back
+150091,NAV,ControlTask,ControlTask data, 42.6369934, -72.7292786, 3.09, 204.3
+150641,NAV,ControlTask,ControlTask data, 42.6369820, -72.7292862, 3.44, 201.6
+151191,NAV,ControlTask,ControlTask data, 42.6369667, -72.7293091, 1.46, 331.5
+151741,NAV,ControlTask,ControlTask data, 42.6369705, -72.7293091, 1.36, 359.9
+152291,NAV,ControlTask,ControlTask data, 42.6369781, -72.7293091, 1.50, 5.9
+152841,NAV,ControlTask,ControlTask data, 42.6369820, -72.7293091, 1.59, 3.9
+153391,NAV,ControlTask,ControlTask data, 42.6369972, -72.7293091, 1.90, 2.6
+153941,NAV,ControlTask,ControlTask data, 42.6370087, -72.7293091, 1.89, 2.8
+154491,NAV,ControlTask,ControlTask data, 42.6370163, -72.7293091, 1.74, 6.3
+155040,NAV,ControlTask,ControlTask data, 42.6370201, -72.7293091, 1.71, 5.7
+155541,NAV,ControlTask,ControlTask data, 42.6370277, -72.7293015, 1.89, 13.9
+155595,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+156091,NAV,ControlTask,ControlTask data, 42.6370392, -72.7292938, 1.74, 68.3
+156641,NAV,ControlTask,ControlTask data, 42.6370392, -72.7292862, 1.21, 133.9
+157191,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292786, 1.12, 159.2
+157741,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292786, 1.16, 171.2
+158290,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292786, 1.21, 176.6
+158791,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292786, 1.36, 180.6
+159341,NAV,ControlTask,ControlTask data, 42.6370087, -72.7292786, 1.52, 178.2
+159695,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+159696,NAV,NavTask,Last waypoint reached, looping back
+159891,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292786, 1.52, 179.0
+160441,NAV,ControlTask,ControlTask data, 42.6369934, -72.7292786, 1.59, 197.3
+160991,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292862, 1.59, 261.5
+161541,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292938, 1.74, 308.0
+162091,NAV,ControlTask,ControlTask data, 42.6369972, -72.7293015, 1.69, 9.0
+162241,NAV,ControlTask,ControlTask state chg, 0, 0
+162295,NAV,NavTask,isActive or lastActive chg, 0, 0
+175222,NAV,async_tcp,WebSocket received autonomous command, stop
+175222,NAV,async_tcp,Stop command received
+175295,NAV,NavTask,processNavigationCommand, 1
+175295,NAV,NavTask,NAV_CMD_STOP, 0, 0
+207586,NAV,async_tcp,WebSocket received autonomous command, start
+207586,NAV,async_tcp,webSocketEventRTOS data, 2.00, 100.00, 0, 2
+207587,NAV,async_tcp,followingWaypoints to true, 2
+207594,NAV,NavTask,processNavigationCommand, 0
+207594,NAV,NavTask,NAV_CMD_START, 2.00, 100.00, 1
+207595,NAV,NavTask,isActive or lastActive chg, 1, 0
+207641,NAV,ControlTask,ControlTask state chg, 1, 0
+207641,NAV,ControlTask,ControlTask data, 42.6370735, -72.7293015, 0.01, 108.4
+208191,NAV,ControlTask,ControlTask data, 42.6370735, -72.7293015, 0.01, 108.4
+208741,NAV,ControlTask,ControlTask data, 42.6370697, -72.7293015, 1.01, 221.7
+209291,NAV,ControlTask,ControlTask data, 42.6370621, -72.7293091, 1.84, 195.6
+209841,NAV,ControlTask,ControlTask data, 42.6370583, -72.7293091, 2.36, 159.5
+210095,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+210391,NAV,ControlTask,ControlTask data, 42.6370468, -72.7292862, 3.07, 116.0
+210941,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292709, 2.49, 156.8
+211491,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292633, 1.78, 195.0
+212041,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292709, 1.43, 196.7
+212591,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292709, 1.24, 196.4
+213141,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292786, 2.00, 196.4
+213295,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+213295,NAV,NavTask,Last waypoint reached, looping back
+213691,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292786, 2.76, 192.0
+214241,NAV,ControlTask,ControlTask data, 42.6369820, -72.7292938, 2.42, 236.9
+214791,NAV,ControlTask,ControlTask data, 42.6369858, -72.7293015, 1.78, 340.1
+215341,NAV,ControlTask,ControlTask data, 42.6369934, -72.7293015, 2.06, 31.8
+215891,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292938, 2.07, 28.3
+216441,NAV,ControlTask,ControlTask data, 42.6370125, -72.7292862, 2.23, 15.3
+216795,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+216991,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292862, 2.24, 8.1
+217541,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292862, 1.78, 39.0
+218091,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292786, 1.18, 95.2
+218640,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292709, 0.84, 123.8
+219141,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292709, 1.77, 190.7
+219691,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292709, 2.62, 190.1
+220241,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292786, 3.39, 193.0
+220295,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+220295,NAV,NavTask,Last waypoint reached, looping back
+220791,NAV,ControlTask,ControlTask data, 42.6369858, -72.7292786, 3.89, 192.8
+221341,NAV,ControlTask,ControlTask data, 42.6369705, -72.7292938, 3.16, 227.1
+221891,NAV,ControlTask,ControlTask data, 42.6369705, -72.7293015, 0.87, 342.5
+222441,NAV,ControlTask,ControlTask data, 42.6369743, -72.7293015, 1.40, 24.5
+222991,NAV,ControlTask,ControlTask data, 42.6369820, -72.7292938, 1.61, 23.7
+223540,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292938, 1.97, 12.6
+224041,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292862, 2.32, 3.4
+224591,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292862, 2.36, 358.8
+224795,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+225140,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292938, 2.44, 348.9
+225641,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292938, 2.07, 28.8
+226191,NAV,ControlTask,ControlTask data, 42.6370430, -72.7292786, 1.50, 77.8
+226741,NAV,ControlTask,ControlTask data, 42.6370392, -72.7292709, 1.07, 136.5
+227291,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292709, 1.24, 198.6
+227841,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292786, 1.92, 193.3
+228391,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292786, 2.31, 186.1
+228941,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292786, 2.67, 180.9
+229095,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+229095,NAV,NavTask,Last waypoint reached, looping back
+229491,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292786, 2.61, 169.4
+230041,NAV,ControlTask,ControlTask data, 42.6369781, -72.7292862, 2.38, 231.9
+230591,NAV,ControlTask,ControlTask data, 42.6369743, -72.7292938, 2.28, 257.2
+231141,NAV,ControlTask,ControlTask data, 42.6369820, -72.7293015, 1.45, 12.8
+231691,NAV,ControlTask,ControlTask data, 42.6369858, -72.7292938, 1.62, 18.6
+232240,NAV,ControlTask,ControlTask data, 42.6369934, -72.7292938, 2.06, 11.3
+232741,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292862, 2.20, 3.1
+233291,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292862, 2.31, 359.4
+233395,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+233841,NAV,ControlTask,ControlTask data, 42.6370277, -72.7292938, 2.27, 355.1
+234391,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292862, 1.97, 41.3
+234941,NAV,ControlTask,ControlTask data, 42.6370354, -72.7292786, 1.24, 113.5
+235491,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292786, 0.98, 162.7
+236041,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292786, 1.63, 182.9
+236591,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292786, 1.87, 176.5
+237141,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292709, 2.12, 172.8
+237595,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+237596,NAV,NavTask,Last waypoint reached, looping back
+237691,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292709, 2.12, 178.4
+238241,NAV,ControlTask,ControlTask data, 42.6369858, -72.7292786, 2.54, 250.5
+238790,NAV,ControlTask,ControlTask data, 42.6369858, -72.7292862, 2.27, 268.1
+239291,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292938, 2.18, 21.0
+239841,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292786, 2.03, 66.6
+240391,NAV,ControlTask,ControlTask data, 42.6370125, -72.7292786, 2.20, 334.9
+240695,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+240941,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292938, 2.47, 312.1
+241490,NAV,ControlTask,ControlTask data, 42.6370277, -72.7293015, 2.13, 283.6
+241991,NAV,ControlTask,ControlTask data, 42.6370239, -72.7293091, 1.67, 214.8
+242541,NAV,ControlTask,ControlTask data, 42.6370163, -72.7293015, 1.62, 102.7
+243090,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292938, 1.79, 103.8
+243591,NAV,ControlTask,ControlTask data, 42.6370087, -72.7292938, 1.94, 184.4
+244141,NAV,ControlTask,ControlTask data, 42.6369972, -72.7292938, 1.90, 188.8
+244195,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+244195,NAV,NavTask,Last waypoint reached, looping back
+244691,NAV,ControlTask,ControlTask data, 42.6369896, -72.7292938, 1.70, 114.5
+245241,NAV,ControlTask,ControlTask data, 42.6369934, -72.7292786, 1.79, 27.9
+245791,NAV,ControlTask,ControlTask data, 42.6370010, -72.7292862, 1.92, 320.5
+246341,NAV,ControlTask,ControlTask data, 42.6370125, -72.7292938, 2.16, 329.6
+246695,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 2, 1
+246891,NAV,ControlTask,ControlTask data, 42.6370201, -72.7292938, 2.22, 355.0
+247441,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292938, 2.06, 41.6
+247991,NAV,ControlTask,ControlTask data, 42.6370316, -72.7292862, 1.43, 115.6
+248541,NAV,ControlTask,ControlTask data, 42.6370239, -72.7292786, 1.70, 200.1
+249091,NAV,ControlTask,ControlTask data, 42.6370163, -72.7292862, 2.03, 185.9
+249641,NAV,ControlTask,ControlTask data, 42.6370049, -72.7292862, 2.23, 173.7
+249895,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 2, 1
+249895,NAV,NavTask,Last waypoint reached, looping back
+249941,NAV,ControlTask,ControlTask state chg, 0, 0
+249995,NAV,NavTask,isActive or lastActive chg, 0, 0
+261958,NAV,async_tcp,WebSocket received autonomous command, stop
+261958,NAV,async_tcp,Stop command received
+261995,NAV,NavTask,processNavigationCommand, 1
+261995,NAV,NavTask,NAV_CMD_STOP, 0, 0

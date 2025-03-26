@@ -1,0 +1,21 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,GNSS poll,PERF,51,1011,92.71,83.0,784,72681
+Session 1,processGNSSConnection,PERF,1,681,53.69,40.0,1170,62822
+Session 1,GNSSTask,PERF,201,2254,297.17,251.0,278,82612
+Session 1,sendNavigationStats,DEBUG,21,208,46.5,26.0,289,13439
+Session 1,WebSocketTask,DEBUG,51,1214,235.08,228.0,339,79691
+Session 1,ntripClient.read,DEBUG,5,46,23.67,22.0,233,5514
+Session 1,ntripClientMutex hold,DEBUG,6,444,53.14,52.0,232,12328
+Session 1,sendGPSData,DEBUG,1,481,98.22,116.0,681,66888
+Session 1,sendSensorData,DEBUG,21,106,48.76,44.0,117,5705
+Session 1,SendRTKStatus,DEBUG,24,108,46.22,37.0,27,1248
+Session 2,GNSS poll,PERF,51,814,92.99,82.0,360,33477
+Session 2,sendGPSData,DEBUG,1,240,98.42,115.0,359,35332
+Session 2,ntripClient.read,DEBUG,7,43,24.85,22.0,113,2808
+Session 2,ntripClientMutex hold,DEBUG,14,144,49.79,50.0,112,5576
+Session 2,sendNavigationStats,DEBUG,21,158,47.65,26.0,145,6909
+Session 2,WebSocketTask,DEBUG,53,1239,232.28,227.0,177,41114
+Session 2,processGNSSConnection,PERF,1,563,52.29,40.0,637,33306
+Session 2,GNSSTask,PERF,203,1497,291.99,245.0,129,37667
+Session 2,sendSensorData,DEBUG,24,106,47.63,44.0,63,3001
+Session 2,SendRTKStatus,DEBUG,22,106,47.5,42.5,14,665
