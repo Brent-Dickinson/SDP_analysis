@@ -1,0 +1,293 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: PERF
+---------------
+
+Operation: GNSSTask
+  Count: 278
+  Min: 201 ms
+  Max: 2254 ms
+  Avg: 297.17 ms
+  Median: 251.0 ms
+  Total Time: 82612 ms
+
+Operation: GNSS poll
+  Count: 784
+  Min: 51 ms
+  Max: 1011 ms
+  Avg: 92.71 ms
+  Median: 83.0 ms
+  Total Time: 72681 ms
+
+Operation: processGNSSConnection
+  Count: 1170
+  Min: 1 ms
+  Max: 681 ms
+  Avg: 53.69 ms
+  Median: 40.0 ms
+  Total Time: 62822 ms
+
+Log Level: DEBUG
+----------------
+
+Operation: RTCM age
+  Count: 1430
+  Min: 24 ms
+  Max: 1268 ms
+  Avg: 450.44 ms
+  Median: 420.0 ms
+  Total Time: 644127 ms
+
+Operation: WebSocketTask
+  Count: 339
+  Min: 51 ms
+  Max: 1214 ms
+  Avg: 235.08 ms
+  Median: 228.0 ms
+  Total Time: 79691 ms
+
+Operation: sendGPSData
+  Count: 681
+  Min: 1 ms
+  Max: 481 ms
+  Avg: 98.22 ms
+  Median: 116.0 ms
+  Total Time: 66888 ms
+
+Operation: ntripClientMutex hold
+  Count: 232
+  Min: 6 ms
+  Max: 444 ms
+  Avg: 53.14 ms
+  Median: 52.0 ms
+  Total Time: 12328 ms
+
+Operation: sendNavigationStats
+  Count: 289
+  Min: 21 ms
+  Max: 208 ms
+  Avg: 46.5 ms
+  Median: 26.0 ms
+  Total Time: 13439 ms
+
+Operation: gnssMutex hold
+  Count: 1128
+  Min: 1 ms
+  Max: 141 ms
+  Avg: 19.12 ms
+  Median: 20.0 ms
+  Total Time: 21563 ms
+
+Operation: ntripClientMutex hold (no data)
+  Count: 679
+  Min: 1 ms
+  Max: 113 ms
+  Avg: 13.79 ms
+  Median: 20.0 ms
+  Total Time: 9363 ms
+
+Operation: SendRTKStatus
+  Count: 27
+  Min: 24 ms
+  Max: 108 ms
+  Avg: 46.22 ms
+  Median: 37.0 ms
+  Total Time: 1248 ms
+
+Operation: sendSensorData
+  Count: 117
+  Min: 21 ms
+  Max: 106 ms
+  Avg: 48.76 ms
+  Median: 44.0 ms
+  Total Time: 5705 ms
+
+Operation: ntripClient.read
+  Count: 233
+  Min: 5 ms
+  Max: 46 ms
+  Avg: 23.67 ms
+  Median: 22.0 ms
+  Total Time: 5514 ms
+
+Operation: gnssMutex take
+  Count: 29
+  Min: 1 ms
+  Max: 27 ms
+  Avg: 11.28 ms
+  Median: 11.0 ms
+  Total Time: 327 ms
+
+Operation: Websocket gnssMutex acq
+  Count: 30
+  Min: 1 ms
+  Max: 18 ms
+  Avg: 2.5 ms
+  Median: 1.0 ms
+  Total Time: 75 ms
+
+Operation: Websocket gnssMutex hold
+  Count: 4
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 4 ms
+
+Operation: ntrip mutex acq
+  Count: 3
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 3 ms
+
+Session 2
+=========
+
+Log Level: PERF
+---------------
+
+Operation: GNSSTask
+  Count: 129
+  Min: 203 ms
+  Max: 1497 ms
+  Avg: 291.99 ms
+  Median: 245.0 ms
+  Total Time: 37667 ms
+
+Operation: GNSS poll
+  Count: 360
+  Min: 51 ms
+  Max: 814 ms
+  Avg: 92.99 ms
+  Median: 82.0 ms
+  Total Time: 33477 ms
+
+Operation: processGNSSConnection
+  Count: 637
+  Min: 1 ms
+  Max: 563 ms
+  Avg: 52.29 ms
+  Median: 40.0 ms
+  Total Time: 33306 ms
+
+Log Level: DEBUG
+----------------
+
+Operation: RTCM age
+  Count: 765
+  Min: 35 ms
+  Max: 8354 ms
+  Avg: 839.3 ms
+  Median: 459.0 ms
+  Total Time: 642066 ms
+
+Operation: WebSocketTask
+  Count: 177
+  Min: 53 ms
+  Max: 1239 ms
+  Avg: 232.28 ms
+  Median: 227.0 ms
+  Total Time: 41114 ms
+
+Operation: sendGPSData
+  Count: 359
+  Min: 1 ms
+  Max: 240 ms
+  Avg: 98.42 ms
+  Median: 115.0 ms
+  Total Time: 35332 ms
+
+Operation: sendNavigationStats
+  Count: 145
+  Min: 21 ms
+  Max: 158 ms
+  Avg: 47.65 ms
+  Median: 26.0 ms
+  Total Time: 6909 ms
+
+Operation: ntripClientMutex hold
+  Count: 112
+  Min: 14 ms
+  Max: 144 ms
+  Avg: 49.79 ms
+  Median: 50.0 ms
+  Total Time: 5576 ms
+
+Operation: sendSensorData
+  Count: 63
+  Min: 24 ms
+  Max: 106 ms
+  Avg: 47.63 ms
+  Median: 44.0 ms
+  Total Time: 3001 ms
+
+Operation: SendRTKStatus
+  Count: 14
+  Min: 22 ms
+  Max: 106 ms
+  Avg: 47.5 ms
+  Median: 42.5 ms
+  Total Time: 665 ms
+
+Operation: ntripClientMutex hold (no data)
+  Count: 381
+  Min: 1 ms
+  Max: 81 ms
+  Avg: 14.82 ms
+  Median: 20.0 ms
+  Total Time: 5646 ms
+
+Operation: gnssMutex hold
+  Count: 596
+  Min: 1 ms
+  Max: 64 ms
+  Avg: 18.54 ms
+  Median: 20.0 ms
+  Total Time: 11047 ms
+
+Operation: ntripClient.read
+  Count: 113
+  Min: 7 ms
+  Max: 43 ms
+  Avg: 24.85 ms
+  Median: 22.0 ms
+  Total Time: 2808 ms
+
+Operation: gnssMutex take
+  Count: 26
+  Min: 11 ms
+  Max: 11 ms
+  Avg: 11.0 ms
+  Median: 11.0 ms
+  Total Time: 286 ms
+
+Operation: Websocket gnssMutex acq
+  Count: 4
+  Min: 1 ms
+  Max: 3 ms
+  Avg: 1.5 ms
+  Median: 1.0 ms
+  Total Time: 6 ms
+
+Operation: Websocket gnssMutex hold
+  Count: 2
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 2 ms
+
+Operation: ntrip mutex acq
+  Count: 1
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 1 ms
+

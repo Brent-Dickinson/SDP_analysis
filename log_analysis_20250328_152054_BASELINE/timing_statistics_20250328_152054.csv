@@ -1,0 +1,8 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,GNSS checkCallbacks,DEBUG,51,10060,510.73,56.0,66,33708
+Session 1,sendGPSData,DEBUG,1,6,1.18,1.0,133,157
+Session 1,GNSS checkUblox,DEBUG,51,66,54.8,54.0,65,3562
+Session 2,sendGPSData,DEBUG,1,12,1.56,1.0,207,322
+Session 2,GNSS checkUblox,DEBUG,51,513,71.74,56.0,144,10331
+Session 2,GNSS checkCallbacks,DEBUG,51,520,70.43,58.0,167,11762
+Session 2,pushRawData,DEBUG,24,206,106.84,97.0,116,12394
