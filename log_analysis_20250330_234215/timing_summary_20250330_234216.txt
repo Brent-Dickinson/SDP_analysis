@@ -1,0 +1,65 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: DEBUG
+----------------
+
+Operation: WebSocketTask
+  Count: 25
+  Min: 641 ms
+  Max: 1044 ms
+  Avg: 781.36 ms
+  Median: 753.0 ms
+  Total Time: 19534 ms
+
+Operation: sendGPSData
+  Count: 49
+  Min: 1 ms
+  Max: 505 ms
+  Avg: 265.73 ms
+  Median: 259.0 ms
+  Total Time: 13021 ms
+
+Operation: sendNavigationStats
+  Count: 22
+  Min: 109 ms
+  Max: 207 ms
+  Avg: 141.18 ms
+  Median: 125.0 ms
+  Total Time: 3106 ms
+
+Operation: SendRTKStatus
+  Count: 6
+  Min: 21 ms
+  Max: 108 ms
+  Avg: 79.17 ms
+  Median: 106.5 ms
+  Total Time: 475 ms
+
+Operation: sendSensorData
+  Count: 17
+  Min: 95 ms
+  Max: 107 ms
+  Avg: 105.0 ms
+  Median: 106.0 ms
+  Total Time: 1785 ms
+
+Operation: ntripClientMutex hold
+  Count: 50
+  Min: 31 ms
+  Max: 99 ms
+  Avg: 69.9 ms
+  Median: 69.0 ms
+  Total Time: 3495 ms
+
+Operation: ntripClient.read
+  Count: 50
+  Min: 3 ms
+  Max: 42 ms
+  Avg: 22.76 ms
+  Median: 23.0 ms
+  Total Time: 1138 ms
+

@@ -1,0 +1,749 @@
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+1085,ERROR,loopTask,SYSTEM RESTART DETECTED - this message should appear only once after power-up
+1085,DEBUG,loopTask,Connecting to WiFi network: Galaxy XCover FieldPro8858
+1681,DEBUG,loopTask,Connected to WiFi: Galaxy XCover FieldPro8858, IP: 192.168.162.141
+1682,DEBUG,loopTask,Navigation system initialized successfully
+1682,DEBUG,loopTask,currentLogLevel: DEBUG
+2683,DEBUG,loopTask,STARTING initRTOS
+2885,DEBUG,loopTask,Servos initialized
+2885,DEBUG,GNSSTask,STARTING initializeGNSS
+2887,DEBUG,WebSocketTask,sendGPSData time, 0
+2888,DEBUG,loopTask,RTOS tasks created
+3125,DEBUG,GNSSTask,GNSS module found over SPI!
+3167,DEBUG,async_tcp,sendGPSData time, 3
+3391,DEBUG,WebSocketTask,sendGPSData time, 0
+3892,DEBUG,WebSocketTask,sendGPSData time, 0
+4402,DEBUG,WebSocketTask,sendGPSData time, 4
+4909,DEBUG,WebSocketTask,sendGPSData time, 0
+5419,DEBUG,WebSocketTask,sendGPSData time, 0
+5920,DEBUG,WebSocketTask,sendGPSData time, 0
+6279,DEBUG,GNSSTask,IMU sensor fusion disabled.
+6429,DEBUG,WebSocketTask,sendGPSData time, 6
+6434,DEBUG,GNSSTask,connectionResult = 200, macorsrtk.massdot.state.ma.us
+6452,ERROR,GNSSTask,------------------------------------------
+6452,ERROR,GNSSTask,GNSS SYS TIME: 2025-03-31 03:53 (UTC)
+6453,ERROR,GNSSTask,------------------------------------------
+6501,DEBUG,GNSSTask,pushRawData time, 9
+6529,DEBUG,GNSSTask,pushRawData time, 5
+6925,DEBUG,WebSocketTask,sendGPSData time, 1
+7350,DEBUG,GNSSTask,pushRawData time, 5
+7435,DEBUG,WebSocketTask,sendGPSData time, 1
+7939,DEBUG,WebSocketTask,sendGPSData time, 1
+8345,DEBUG,GNSSTask,pushRawData time, 5
+8439,DEBUG,WebSocketTask,sendGPSData time, 1
+8947,DEBUG,WebSocketTask,sendGPSData time, 6
+9426,DEBUG,GNSSTask,pushRawData time, 11
+9451,DEBUG,WebSocketTask,sendGPSData time, 1
+9949,DEBUG,WebSocketTask,sendGPSData time, 1
+10429,DEBUG,GNSSTask,pushRawData time, 10
+10455,DEBUG,WebSocketTask,sendGPSData time, 1
+10959,DEBUG,WebSocketTask,sendGPSData time, 1
+11427,DEBUG,GNSSTask,pushRawData time, 4
+11463,DEBUG,WebSocketTask,sendGPSData time, 1
+11966,DEBUG,WebSocketTask,sendGPSData time, 1
+12431,DEBUG,GNSSTask,pushRawData time, 12
+12470,DEBUG,WebSocketTask,sendGPSData time, 1
+12968,DEBUG,WebSocketTask,sendGPSData time, 1
+13215,NAV,async_tcp,command = record
+13216,NAV,async_tcp,addWaypoint
+13216,NAV,async_tcp,navCommandQueue spaces, 5
+13287,NAV,NavTask,processNavigationCommand, 5
+13287,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370888, -72.7291412
+13288,NAV,NavTask,navStatus.totalWaypoints, 1
+13327,DEBUG,GNSSTask,pushRawData time, 11
+13472,DEBUG,WebSocketTask,sendGPSData time, 1
+13976,DEBUG,WebSocketTask,sendGPSData time, 1
+14473,DEBUG,WebSocketTask,sendGPSData time, 1
+14568,DEBUG,GNSSTask,pushRawData time, 9
+14657,DEBUG,GNSSTask,pushRawData time, 19
+14729,DEBUG,GNSSTask,pushRawData time, 6
+14978,DEBUG,WebSocketTask,sendGPSData time, 1
+15332,DEBUG,GNSSTask,pushRawData time, 12
+15491,DEBUG,WebSocketTask,sendGPSData time, 6
+15669,NAV,async_tcp,command = record
+15669,NAV,async_tcp,addWaypoint
+15669,NAV,async_tcp,navCommandQueue spaces, 5
+15687,NAV,NavTask,processNavigationCommand, 5
+15687,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370888, -72.7291412
+15687,NAV,NavTask,navStatus.totalWaypoints, 2
+15986,DEBUG,WebSocketTask,sendGPSData time, 1
+16343,DEBUG,GNSSTask,pushRawData time, 5
+16497,DEBUG,WebSocketTask,sendGPSData time, 2
+17005,DEBUG,WebSocketTask,sendGPSData time, 7
+17347,DEBUG,GNSSTask,pushRawData time, 5
+17510,DEBUG,WebSocketTask,sendGPSData time, 5
+18008,DEBUG,WebSocketTask,sendGPSData time, 1
+18426,DEBUG,GNSSTask,pushRawData time, 10
+18517,DEBUG,WebSocketTask,sendGPSData time, 1
+18746,NAV,async_tcp,command = record
+18746,NAV,async_tcp,addWaypoint
+18746,NAV,async_tcp,navCommandQueue spaces, 5
+18787,NAV,NavTask,processNavigationCommand, 5
+18787,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370888, -72.7291412
+18788,NAV,NavTask,navStatus.totalWaypoints, 3
+19029,DEBUG,WebSocketTask,sendGPSData time, 1
+19428,DEBUG,GNSSTask,pushRawData time, 10
+19529,DEBUG,WebSocketTask,sendGPSData time, 1
+20038,DEBUG,WebSocketTask,sendGPSData time, 1
+20427,DEBUG,GNSSTask,pushRawData time, 11
+20540,DEBUG,WebSocketTask,sendGPSData time, 6
+21046,DEBUG,WebSocketTask,sendGPSData time, 5
+21421,NAV,async_tcp,command = record
+21421,NAV,async_tcp,addWaypoint
+21421,NAV,async_tcp,navCommandQueue spaces, 5
+21487,NAV,NavTask,processNavigationCommand, 5
+21487,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370888, -72.7291412
+21488,NAV,NavTask,navStatus.totalWaypoints, 4
+21547,DEBUG,WebSocketTask,sendGPSData time, 6
+21548,DEBUG,GNSSTask,pushRawData time, 4
+22051,DEBUG,WebSocketTask,sendGPSData time, 1
+22348,DEBUG,GNSSTask,pushRawData time, 5
+22555,DEBUG,WebSocketTask,sendGPSData time, 3
+23058,DEBUG,WebSocketTask,sendGPSData time, 1
+23428,DEBUG,GNSSTask,pushRawData time, 10
+23560,DEBUG,WebSocketTask,sendGPSData time, 2
+24066,DEBUG,WebSocketTask,sendGPSData time, 2
+24070,NAV,async_tcp,command = record
+24070,NAV,async_tcp,addWaypoint
+24070,NAV,async_tcp,navCommandQueue spaces, 5
+24087,NAV,NavTask,processNavigationCommand, 5
+24087,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6370888, -72.7291412
+24087,NAV,NavTask,navStatus.totalWaypoints, 5
+24344,DEBUG,GNSSTask,pushRawData time, 5
+24563,DEBUG,WebSocketTask,sendGPSData time, 1
+25073,DEBUG,WebSocketTask,sendGPSData time, 1
+25447,DEBUG,GNSSTask,pushRawData time, 4
+25584,DEBUG,WebSocketTask,sendGPSData time, 6
+26088,DEBUG,WebSocketTask,sendGPSData time, 1
+26426,DEBUG,GNSSTask,pushRawData time, 11
+26591,DEBUG,WebSocketTask,sendGPSData time, 1
+27095,DEBUG,WebSocketTask,sendGPSData time, 3
+27430,DEBUG,GNSSTask,pushRawData time, 11
+27602,DEBUG,WebSocketTask,sendGPSData time, 1
+28106,DEBUG,WebSocketTask,sendGPSData time, 1
+28427,DEBUG,GNSSTask,pushRawData time, 4
+28610,DEBUG,WebSocketTask,sendGPSData time, 1
+29115,DEBUG,WebSocketTask,sendGPSData time, 1
+29428,DEBUG,GNSSTask,pushRawData time, 10
+29625,DEBUG,WebSocketTask,sendGPSData time, 1
+30127,DEBUG,WebSocketTask,sendGPSData time, 1
+30227,DEBUG,GNSSTask,pushRawData time, 11
+30630,DEBUG,WebSocketTask,sendGPSData time, 1
+31137,DEBUG,WebSocketTask,sendGPSData time, 1
+31642,DEBUG,WebSocketTask,sendGPSData time, 2
+31946,DEBUG,GNSSTask,pushRawData time, 4
+32143,DEBUG,WebSocketTask,sendGPSData time, 1
+32546,DEBUG,GNSSTask,pushRawData time, 5
+32646,DEBUG,WebSocketTask,sendGPSData time, 1
+33153,DEBUG,WebSocketTask,sendGPSData time, 1
+33327,DEBUG,GNSSTask,pushRawData time, 10
+33657,DEBUG,WebSocketTask,sendGPSData time, 1
+34166,DEBUG,WebSocketTask,sendGPSData time, 1
+34343,DEBUG,GNSSTask,pushRawData time, 4
+34672,DEBUG,WebSocketTask,sendGPSData time, 1
+35181,DEBUG,WebSocketTask,sendGPSData time, 1
+35430,DEBUG,GNSSTask,pushRawData time, 11
+35690,DEBUG,WebSocketTask,sendGPSData time, 1
+36193,DEBUG,WebSocketTask,sendGPSData time, 1
+36343,DEBUG,GNSSTask,pushRawData time, 4
+36696,DEBUG,WebSocketTask,sendGPSData time, 1
+37201,DEBUG,WebSocketTask,sendGPSData time, 1
+37351,DEBUG,GNSSTask,pushRawData time, 5
+37599,NAV,async_tcp,WebSocket received autonomous command, start
+37600,NAV,async_tcp,webSocketEventRTOS data, 2.00, 1000.00, 0, 5
+37601,NAV,async_tcp,followingWaypoints to true, 5
+37687,NAV,NavTask,processNavigationCommand, 0
+37687,NAV,NavTask,NAV_CMD_START, 2.00, 1000.00, 1
+37687,NAV,NavTask,isActive or lastActive chg, 1, 0
+37688,NAV,NavTask,wp reached, 0.56
+37688,DEBUG,NavTask,handleWaypointReached
+37688,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+37698,DEBUG,WebSocketTask,sendGPSData time, 1
+37735,NAV,ControlTask,ControlTask state chg, 1, 0
+37735,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.02, 163.8
+37787,NAV,NavTask,wp reached, 0.56
+37787,DEBUG,NavTask,handleWaypointReached
+37787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+37887,NAV,NavTask,wp reached, 0.56
+37887,DEBUG,NavTask,handleWaypointReached
+37887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+37987,NAV,NavTask,wp reached, 0.56
+37988,DEBUG,NavTask,handleWaypointReached
+37988,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+38087,NAV,NavTask,wp reached, 0.56
+38087,DEBUG,NavTask,handleWaypointReached
+38087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+38087,NAV,NavTask,Last waypoint reached, looping back
+38187,NAV,NavTask,wp reached, 0.56
+38187,DEBUG,NavTask,handleWaypointReached
+38187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+38207,DEBUG,WebSocketTask,sendGPSData time, 1
+38285,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.04, 163.8
+38287,NAV,NavTask,wp reached, 0.56
+38287,DEBUG,NavTask,handleWaypointReached
+38287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+38345,DEBUG,GNSSTask,pushRawData time, 4
+38387,NAV,NavTask,wp reached, 0.56
+38387,DEBUG,NavTask,handleWaypointReached
+38387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+38487,NAV,NavTask,wp reached, 0.56
+38487,DEBUG,NavTask,handleWaypointReached
+38487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+38587,NAV,NavTask,wp reached, 0.56
+38587,DEBUG,NavTask,handleWaypointReached
+38587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+38587,NAV,NavTask,Last waypoint reached, looping back
+38687,NAV,NavTask,wp reached, 0.56
+38687,DEBUG,NavTask,handleWaypointReached
+38687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+38715,DEBUG,WebSocketTask,sendGPSData time, 1
+38787,NAV,NavTask,wp reached, 0.56
+38787,DEBUG,NavTask,handleWaypointReached
+38787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+38835,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.02, 163.8
+38887,NAV,NavTask,wp reached, 0.56
+38887,DEBUG,NavTask,handleWaypointReached
+38887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+38987,NAV,NavTask,wp reached, 0.56
+38987,DEBUG,NavTask,handleWaypointReached
+38987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+39087,NAV,NavTask,wp reached, 0.56
+39087,DEBUG,NavTask,handleWaypointReached
+39087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+39087,NAV,NavTask,Last waypoint reached, looping back
+39187,NAV,NavTask,wp reached, 0.56
+39187,DEBUG,NavTask,handleWaypointReached
+39187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+39224,DEBUG,WebSocketTask,sendGPSData time, 1
+39287,NAV,NavTask,wp reached, 0.56
+39287,DEBUG,NavTask,handleWaypointReached
+39287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+39348,DEBUG,GNSSTask,pushRawData time, 4
+39385,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.03, 163.8
+39387,NAV,NavTask,wp reached, 0.56
+39387,DEBUG,NavTask,handleWaypointReached
+39387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+39487,NAV,NavTask,wp reached, 0.56
+39487,DEBUG,NavTask,handleWaypointReached
+39487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+39587,NAV,NavTask,wp reached, 0.56
+39587,DEBUG,NavTask,handleWaypointReached
+39587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+39587,NAV,NavTask,Last waypoint reached, looping back
+39687,NAV,NavTask,wp reached, 0.56
+39687,DEBUG,NavTask,handleWaypointReached
+39687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+39727,DEBUG,WebSocketTask,sendGPSData time, 1
+39787,NAV,NavTask,wp reached, 0.56
+39787,DEBUG,NavTask,handleWaypointReached
+39788,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+39887,NAV,NavTask,wp reached, 0.56
+39887,DEBUG,NavTask,handleWaypointReached
+39887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+39935,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.04, 163.8
+39987,NAV,NavTask,wp reached, 0.56
+39987,DEBUG,NavTask,handleWaypointReached
+39987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+40087,NAV,NavTask,wp reached, 0.56
+40087,DEBUG,NavTask,handleWaypointReached
+40087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+40087,NAV,NavTask,Last waypoint reached, looping back
+40187,NAV,NavTask,wp reached, 0.56
+40187,DEBUG,NavTask,handleWaypointReached
+40187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+40226,DEBUG,WebSocketTask,sendGPSData time, 1
+40287,NAV,NavTask,wp reached, 0.56
+40287,DEBUG,NavTask,handleWaypointReached
+40287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+40387,NAV,NavTask,wp reached, 0.56
+40387,DEBUG,NavTask,handleWaypointReached
+40387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+40485,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.03, 163.8
+40487,NAV,NavTask,wp reached, 0.56
+40487,DEBUG,NavTask,handleWaypointReached
+40487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+40527,DEBUG,GNSSTask,pushRawData time, 11
+40587,NAV,NavTask,wp reached, 0.56
+40587,DEBUG,NavTask,handleWaypointReached
+40587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+40587,NAV,NavTask,Last waypoint reached, looping back
+40687,NAV,NavTask,wp reached, 0.56
+40687,DEBUG,NavTask,handleWaypointReached
+40687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+40730,DEBUG,WebSocketTask,sendGPSData time, 1
+40787,NAV,NavTask,wp reached, 0.56
+40787,DEBUG,NavTask,handleWaypointReached
+40787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+40887,NAV,NavTask,wp reached, 0.56
+40887,DEBUG,NavTask,handleWaypointReached
+40887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+40987,NAV,NavTask,wp reached, 0.56
+40988,DEBUG,NavTask,handleWaypointReached
+40988,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+41035,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.03, 163.8
+41087,NAV,NavTask,wp reached, 0.56
+41087,DEBUG,NavTask,handleWaypointReached
+41087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+41087,NAV,NavTask,Last waypoint reached, looping back
+41187,NAV,NavTask,wp reached, 0.56
+41187,DEBUG,NavTask,handleWaypointReached
+41187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+41238,DEBUG,WebSocketTask,sendGPSData time, 1
+41287,NAV,NavTask,wp reached, 0.56
+41287,DEBUG,NavTask,handleWaypointReached
+41287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+41331,DEBUG,GNSSTask,pushRawData time, 4
+41387,NAV,NavTask,wp reached, 0.56
+41387,DEBUG,NavTask,handleWaypointReached
+41387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+41487,NAV,NavTask,wp reached, 0.56
+41487,DEBUG,NavTask,handleWaypointReached
+41487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+41585,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.01, 163.8
+41587,NAV,NavTask,wp reached, 0.56
+41587,DEBUG,NavTask,handleWaypointReached
+41587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+41587,NAV,NavTask,Last waypoint reached, looping back
+41687,NAV,NavTask,wp reached, 0.56
+41687,DEBUG,NavTask,handleWaypointReached
+41687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+41747,DEBUG,WebSocketTask,sendGPSData time, 1
+41787,NAV,NavTask,wp reached, 0.56
+41787,DEBUG,NavTask,handleWaypointReached
+41787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+41887,NAV,NavTask,wp reached, 0.56
+41887,DEBUG,NavTask,handleWaypointReached
+41887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+41987,NAV,NavTask,wp reached, 0.56
+41987,DEBUG,NavTask,handleWaypointReached
+41987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+42087,NAV,NavTask,wp reached, 0.56
+42087,DEBUG,NavTask,handleWaypointReached
+42087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+42087,NAV,NavTask,Last waypoint reached, looping back
+42135,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.02, 163.8
+42187,NAV,NavTask,wp reached, 0.56
+42187,DEBUG,NavTask,handleWaypointReached
+42187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+42256,DEBUG,WebSocketTask,sendGPSData time, 1
+42287,NAV,NavTask,wp reached, 0.56
+42288,DEBUG,NavTask,handleWaypointReached
+42288,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+42332,DEBUG,GNSSTask,pushRawData time, 5
+42387,NAV,NavTask,wp reached, 0.56
+42387,DEBUG,NavTask,handleWaypointReached
+42387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+42487,NAV,NavTask,wp reached, 0.56
+42488,DEBUG,NavTask,handleWaypointReached
+42488,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+42587,NAV,NavTask,wp reached, 0.56
+42587,DEBUG,NavTask,handleWaypointReached
+42587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+42587,NAV,NavTask,Last waypoint reached, looping back
+42685,NAV,ControlTask,ControlTask data, 42.6370888, -72.7291336, 0.02, 163.8
+42687,NAV,NavTask,wp reached, 0.56
+42687,DEBUG,NavTask,handleWaypointReached
+42687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+42753,DEBUG,WebSocketTask,sendGPSData time, 1
+42787,NAV,NavTask,wp reached, 0.94
+42787,DEBUG,NavTask,handleWaypointReached
+42787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+42887,NAV,NavTask,wp reached, 0.94
+42887,DEBUG,NavTask,handleWaypointReached
+42887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+42987,NAV,NavTask,wp reached, 0.94
+42988,DEBUG,NavTask,handleWaypointReached
+42988,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+43087,NAV,NavTask,wp reached, 0.94
+43087,DEBUG,NavTask,handleWaypointReached
+43087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+43088,NAV,NavTask,Last waypoint reached, looping back
+43187,NAV,NavTask,wp reached, 0.94
+43187,DEBUG,NavTask,handleWaypointReached
+43187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+43235,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.02, 163.8
+43264,DEBUG,WebSocketTask,sendGPSData time, 1
+43287,NAV,NavTask,wp reached, 0.94
+43287,DEBUG,NavTask,handleWaypointReached
+43287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+43332,DEBUG,GNSSTask,pushRawData time, 5
+43387,NAV,NavTask,wp reached, 0.94
+43387,DEBUG,NavTask,handleWaypointReached
+43387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+43487,NAV,NavTask,wp reached, 0.94
+43487,DEBUG,NavTask,handleWaypointReached
+43487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+43587,NAV,NavTask,wp reached, 0.94
+43587,DEBUG,NavTask,handleWaypointReached
+43587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+43587,NAV,NavTask,Last waypoint reached, looping back
+43687,NAV,NavTask,wp reached, 0.94
+43687,DEBUG,NavTask,handleWaypointReached
+43687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+43765,DEBUG,WebSocketTask,sendGPSData time, 1
+43785,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.05, 163.8
+43786,NAV,NavTask,wp reached, 0.94
+43787,DEBUG,NavTask,handleWaypointReached
+43787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+43887,NAV,NavTask,wp reached, 0.94
+43887,DEBUG,NavTask,handleWaypointReached
+43887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+43987,NAV,NavTask,wp reached, 0.94
+43987,DEBUG,NavTask,handleWaypointReached
+43987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+44087,NAV,NavTask,wp reached, 0.94
+44087,DEBUG,NavTask,handleWaypointReached
+44087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+44087,NAV,NavTask,Last waypoint reached, looping back
+44187,NAV,NavTask,wp reached, 0.94
+44187,DEBUG,NavTask,handleWaypointReached
+44187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+44274,DEBUG,WebSocketTask,sendGPSData time, 1
+44287,NAV,NavTask,wp reached, 0.94
+44288,DEBUG,NavTask,handleWaypointReached
+44288,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+44330,DEBUG,GNSSTask,pushRawData time, 5
+44335,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.07, 163.8
+44387,NAV,NavTask,wp reached, 0.94
+44387,DEBUG,NavTask,handleWaypointReached
+44387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+44487,NAV,NavTask,wp reached, 0.94
+44487,DEBUG,NavTask,handleWaypointReached
+44487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+44587,NAV,NavTask,wp reached, 0.94
+44587,DEBUG,NavTask,handleWaypointReached
+44587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+44587,NAV,NavTask,Last waypoint reached, looping back
+44687,NAV,NavTask,wp reached, 0.94
+44687,DEBUG,NavTask,handleWaypointReached
+44687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+44777,DEBUG,WebSocketTask,sendGPSData time, 1
+44787,NAV,NavTask,wp reached, 0.94
+44788,DEBUG,NavTask,handleWaypointReached
+44788,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+44838,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.06, 163.8
+44857,DEBUG,GNSSTask,pushRawData time, 19
+44887,NAV,NavTask,wp reached, 0.94
+44887,DEBUG,NavTask,handleWaypointReached
+44887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+44958,DEBUG,GNSSTask,pushRawData time, 19
+44987,NAV,NavTask,wp reached, 0.94
+44987,DEBUG,NavTask,handleWaypointReached
+44987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+45005,DEBUG,GNSSTask,pushRawData time, 2
+45087,NAV,NavTask,wp reached, 0.94
+45087,DEBUG,NavTask,handleWaypointReached
+45087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+45087,NAV,NavTask,Last waypoint reached, looping back
+45187,NAV,NavTask,wp reached, 0.94
+45187,DEBUG,NavTask,handleWaypointReached
+45187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+45283,DEBUG,WebSocketTask,sendGPSData time, 1
+45287,NAV,NavTask,wp reached, 0.94
+45287,DEBUG,NavTask,handleWaypointReached
+45287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+45332,DEBUG,GNSSTask,pushRawData time, 12
+45385,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.02, 163.8
+45387,NAV,NavTask,wp reached, 0.94
+45387,DEBUG,NavTask,handleWaypointReached
+45387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+45487,NAV,NavTask,wp reached, 0.94
+45487,DEBUG,NavTask,handleWaypointReached
+45487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+45587,NAV,NavTask,wp reached, 0.94
+45587,DEBUG,NavTask,handleWaypointReached
+45587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+45587,NAV,NavTask,Last waypoint reached, looping back
+45687,NAV,NavTask,wp reached, 0.94
+45687,DEBUG,NavTask,handleWaypointReached
+45687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+45782,DEBUG,WebSocketTask,sendGPSData time, 1
+45787,NAV,NavTask,wp reached, 0.94
+45788,DEBUG,NavTask,handleWaypointReached
+45788,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+45887,NAV,NavTask,wp reached, 0.94
+45887,DEBUG,NavTask,handleWaypointReached
+45887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+45935,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.03, 163.8
+45987,NAV,NavTask,wp reached, 0.94
+45987,DEBUG,NavTask,handleWaypointReached
+45987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+46087,NAV,NavTask,wp reached, 0.94
+46087,DEBUG,NavTask,handleWaypointReached
+46087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+46087,NAV,NavTask,Last waypoint reached, looping back
+46187,NAV,NavTask,wp reached, 0.94
+46187,DEBUG,NavTask,handleWaypointReached
+46187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+46287,NAV,NavTask,wp reached, 0.94
+46288,DEBUG,NavTask,handleWaypointReached
+46288,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+46293,DEBUG,WebSocketTask,sendGPSData time, 1
+46350,DEBUG,GNSSTask,pushRawData time, 5
+46387,NAV,NavTask,wp reached, 0.94
+46387,DEBUG,NavTask,handleWaypointReached
+46387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+46485,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.03, 163.8
+46487,NAV,NavTask,wp reached, 0.94
+46487,DEBUG,NavTask,handleWaypointReached
+46487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+46587,NAV,NavTask,wp reached, 0.94
+46587,DEBUG,NavTask,handleWaypointReached
+46587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+46587,NAV,NavTask,Last waypoint reached, looping back
+46687,NAV,NavTask,wp reached, 0.94
+46687,DEBUG,NavTask,handleWaypointReached
+46687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+46787,NAV,NavTask,wp reached, 0.94
+46788,DEBUG,NavTask,handleWaypointReached
+46788,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+46792,DEBUG,WebSocketTask,sendGPSData time, 0
+46887,NAV,NavTask,wp reached, 0.94
+46887,DEBUG,NavTask,handleWaypointReached
+46887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+46987,NAV,NavTask,wp reached, 0.94
+46987,DEBUG,NavTask,handleWaypointReached
+46987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+47035,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.04, 163.8
+47087,NAV,NavTask,wp reached, 0.94
+47087,DEBUG,NavTask,handleWaypointReached
+47087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+47087,NAV,NavTask,Last waypoint reached, looping back
+47187,NAV,NavTask,wp reached, 0.94
+47187,DEBUG,NavTask,handleWaypointReached
+47187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+47287,NAV,NavTask,wp reached, 0.94
+47288,DEBUG,NavTask,handleWaypointReached
+47288,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+47294,DEBUG,WebSocketTask,sendGPSData time, 1
+47349,DEBUG,GNSSTask,pushRawData time, 5
+47387,NAV,NavTask,wp reached, 0.94
+47387,DEBUG,NavTask,handleWaypointReached
+47387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+47487,NAV,NavTask,wp reached, 0.94
+47487,DEBUG,NavTask,handleWaypointReached
+47487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+47585,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.03, 163.8
+47587,NAV,NavTask,wp reached, 0.94
+47587,DEBUG,NavTask,handleWaypointReached
+47587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+47587,NAV,NavTask,Last waypoint reached, looping back
+47687,NAV,NavTask,wp reached, 0.94
+47687,DEBUG,NavTask,handleWaypointReached
+47687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+47787,NAV,NavTask,wp reached, 0.94
+47787,DEBUG,NavTask,handleWaypointReached
+47787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+47798,DEBUG,WebSocketTask,sendGPSData time, 1
+47887,NAV,NavTask,wp reached, 0.94
+47887,DEBUG,NavTask,handleWaypointReached
+47887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+47987,NAV,NavTask,wp reached, 0.94
+47987,DEBUG,NavTask,handleWaypointReached
+47987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+48087,NAV,NavTask,wp reached, 0.94
+48087,DEBUG,NavTask,handleWaypointReached
+48087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+48087,NAV,NavTask,Last waypoint reached, looping back
+48135,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.02, 163.8
+48187,NAV,NavTask,wp reached, 0.94
+48187,DEBUG,NavTask,handleWaypointReached
+48187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+48287,NAV,NavTask,wp reached, 0.94
+48288,DEBUG,NavTask,handleWaypointReached
+48288,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+48297,DEBUG,WebSocketTask,sendGPSData time, 1
+48333,DEBUG,GNSSTask,pushRawData time, 5
+48387,NAV,NavTask,wp reached, 0.94
+48387,DEBUG,NavTask,handleWaypointReached
+48387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+48487,NAV,NavTask,wp reached, 0.94
+48487,DEBUG,NavTask,handleWaypointReached
+48487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+48587,NAV,NavTask,wp reached, 0.94
+48587,DEBUG,NavTask,handleWaypointReached
+48587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+48587,NAV,NavTask,Last waypoint reached, looping back
+48685,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.01, 163.8
+48687,NAV,NavTask,wp reached, 0.94
+48687,DEBUG,NavTask,handleWaypointReached
+48687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+48787,NAV,NavTask,wp reached, 0.94
+48787,DEBUG,NavTask,handleWaypointReached
+48787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+48801,DEBUG,WebSocketTask,sendGPSData time, 1
+48887,NAV,NavTask,wp reached, 0.94
+48887,DEBUG,NavTask,handleWaypointReached
+48887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+48987,NAV,NavTask,wp reached, 0.94
+48987,DEBUG,NavTask,handleWaypointReached
+48987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+49087,NAV,NavTask,wp reached, 0.94
+49087,DEBUG,NavTask,handleWaypointReached
+49087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+49087,NAV,NavTask,Last waypoint reached, looping back
+49187,NAV,NavTask,wp reached, 0.94
+49187,DEBUG,NavTask,handleWaypointReached
+49187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+49235,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.04, 163.8
+49287,NAV,NavTask,wp reached, 0.94
+49287,DEBUG,NavTask,handleWaypointReached
+49287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+49308,DEBUG,WebSocketTask,sendGPSData time, 1
+49329,DEBUG,GNSSTask,pushRawData time, 12
+49387,NAV,NavTask,wp reached, 0.94
+49387,DEBUG,NavTask,handleWaypointReached
+49387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+49487,NAV,NavTask,wp reached, 0.94
+49487,DEBUG,NavTask,handleWaypointReached
+49487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+49587,NAV,NavTask,wp reached, 0.94
+49587,DEBUG,NavTask,handleWaypointReached
+49587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+49587,NAV,NavTask,Last waypoint reached, looping back
+49687,NAV,NavTask,wp reached, 0.94
+49687,DEBUG,NavTask,handleWaypointReached
+49687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+49785,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.05, 163.8
+49787,NAV,NavTask,wp reached, 0.94
+49787,DEBUG,NavTask,handleWaypointReached
+49787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+49817,DEBUG,WebSocketTask,sendGPSData time, 1
+49887,NAV,NavTask,wp reached, 0.94
+49887,DEBUG,NavTask,handleWaypointReached
+49887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+49987,NAV,NavTask,wp reached, 0.94
+49987,DEBUG,NavTask,handleWaypointReached
+49987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+50087,NAV,NavTask,wp reached, 0.94
+50087,DEBUG,NavTask,handleWaypointReached
+50087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+50087,NAV,NavTask,Last waypoint reached, looping back
+50187,NAV,NavTask,wp reached, 0.94
+50187,DEBUG,NavTask,handleWaypointReached
+50187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+50287,NAV,NavTask,wp reached, 0.94
+50287,DEBUG,NavTask,handleWaypointReached
+50287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+50318,DEBUG,WebSocketTask,sendGPSData time, 3
+50343,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.02, 163.8
+50350,DEBUG,GNSSTask,pushRawData time, 5
+50387,NAV,NavTask,wp reached, 0.94
+50387,DEBUG,NavTask,handleWaypointReached
+50387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+50487,NAV,NavTask,wp reached, 0.94
+50487,DEBUG,NavTask,handleWaypointReached
+50487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+50587,NAV,NavTask,wp reached, 0.94
+50587,DEBUG,NavTask,handleWaypointReached
+50587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+50588,NAV,NavTask,Last waypoint reached, looping back
+50687,NAV,NavTask,wp reached, 0.94
+50687,DEBUG,NavTask,handleWaypointReached
+50687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+50787,NAV,NavTask,wp reached, 0.94
+50787,DEBUG,NavTask,handleWaypointReached
+50787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+50824,DEBUG,WebSocketTask,sendGPSData time, 1
+50885,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.05, 163.8
+50887,NAV,NavTask,wp reached, 0.94
+50887,DEBUG,NavTask,handleWaypointReached
+50887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+50987,NAV,NavTask,wp reached, 0.94
+50987,DEBUG,NavTask,handleWaypointReached
+50987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+51087,NAV,NavTask,wp reached, 0.94
+51087,DEBUG,NavTask,handleWaypointReached
+51087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+51087,NAV,NavTask,Last waypoint reached, looping back
+51187,NAV,NavTask,wp reached, 0.94
+51187,DEBUG,NavTask,handleWaypointReached
+51187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+51287,NAV,NavTask,wp reached, 0.94
+51287,DEBUG,NavTask,handleWaypointReached
+51287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+51332,DEBUG,WebSocketTask,sendGPSData time, 3
+51347,DEBUG,GNSSTask,pushRawData time, 5
+51387,NAV,NavTask,wp reached, 0.94
+51387,DEBUG,NavTask,handleWaypointReached
+51387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+51435,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.02, 163.8
+51487,NAV,NavTask,wp reached, 0.94
+51487,DEBUG,NavTask,handleWaypointReached
+51487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+51587,NAV,NavTask,wp reached, 0.94
+51587,DEBUG,NavTask,handleWaypointReached
+51587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+51587,NAV,NavTask,Last waypoint reached, looping back
+51687,NAV,NavTask,wp reached, 0.94
+51687,DEBUG,NavTask,handleWaypointReached
+51687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+51787,NAV,NavTask,wp reached, 0.94
+51787,DEBUG,NavTask,handleWaypointReached
+51787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+51837,DEBUG,WebSocketTask,sendGPSData time, 2
+51887,NAV,NavTask,wp reached, 0.94
+51887,DEBUG,NavTask,handleWaypointReached
+51887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+51985,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.07, 163.8
+51987,NAV,NavTask,wp reached, 0.94
+51987,DEBUG,NavTask,handleWaypointReached
+51987,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+52087,NAV,NavTask,wp reached, 0.94
+52087,DEBUG,NavTask,handleWaypointReached
+52087,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+52087,NAV,NavTask,Last waypoint reached, looping back
+52187,NAV,NavTask,wp reached, 0.94
+52187,DEBUG,NavTask,handleWaypointReached
+52187,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+52287,NAV,NavTask,wp reached, 0.94
+52287,DEBUG,NavTask,handleWaypointReached
+52287,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+52340,DEBUG,WebSocketTask,sendGPSData time, 7
+52387,NAV,NavTask,wp reached, 0.94
+52387,DEBUG,NavTask,handleWaypointReached
+52387,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+52431,DEBUG,GNSSTask,pushRawData time, 11
+52487,NAV,NavTask,wp reached, 0.94
+52487,DEBUG,NavTask,handleWaypointReached
+52487,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+52535,NAV,ControlTask,ControlTask data, 42.6370850, -72.7291336, 0.03, 163.8
+52587,NAV,NavTask,wp reached, 0.94
+52587,DEBUG,NavTask,handleWaypointReached
+52587,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+52587,NAV,NavTask,Last waypoint reached, looping back
+52687,NAV,NavTask,wp reached, 0.94
+52687,DEBUG,NavTask,handleWaypointReached
+52687,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+52787,NAV,NavTask,wp reached, 0.94
+52787,DEBUG,NavTask,handleWaypointReached
+52787,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+52842,DEBUG,WebSocketTask,sendGPSData time, 0
+52887,NAV,NavTask,wp reached, 0.94
+52887,DEBUG,NavTask,handleWaypointReached
+52887,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+52946,NAV,async_tcp,WebSocket received autonomous command, stop
+52946,NAV,async_tcp,Stop command received
+52987,NAV,NavTask,processNavigationCommand, 1
+52987,NAV,NavTask,NAV_CMD_STOP, 1, 0
+52987,NAV,NavTask,isActive or lastActive chg, 0, 0
+53035,NAV,ControlTask,ControlTask state chg, 0, 0
+53350,DEBUG,WebSocketTask,sendGPSData time, 5
+53427,DEBUG,GNSSTask,pushRawData time, 11
+53854,DEBUG,WebSocketTask,sendGPSData time, 1
+54355,DEBUG,WebSocketTask,sendGPSData time, 1
+54428,DEBUG,GNSSTask,pushRawData time, 10
+54857,DEBUG,WebSocketTask,sendGPSData time, 1
+55368,DEBUG,WebSocketTask,sendGPSData time, 5
+55427,DEBUG,GNSSTask,pushRawData time, 10
+55873,DEBUG,WebSocketTask,sendGPSData time, 1
+56346,DEBUG,GNSSTask,pushRawData time, 4
+56385,DEBUG,WebSocketTask,sendGPSData time, 6
+56890,DEBUG,WebSocketTask,sendGPSData time, 1
+57329,DEBUG,GNSSTask,pushRawData time, 12
+57389,DEBUG,WebSocketTask,sendGPSData time, 1

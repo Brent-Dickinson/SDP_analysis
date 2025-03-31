@@ -1,0 +1,8 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,ntripClient.read,DEBUG,3,42,22.76,23.0,50,1138
+Session 1,ntripClientMutex hold,DEBUG,31,99,69.9,69.0,50,3495
+Session 1,sendGPSData,DEBUG,1,505,265.73,259.0,49,13021
+Session 1,WebSocketTask,DEBUG,641,1044,781.36,753.0,25,19534
+Session 1,sendSensorData,DEBUG,95,107,105.0,106.0,17,1785
+Session 1,sendNavigationStats,DEBUG,109,207,141.18,125.0,22,3106
+Session 1,SendRTKStatus,DEBUG,21,108,79.17,106.5,6,475

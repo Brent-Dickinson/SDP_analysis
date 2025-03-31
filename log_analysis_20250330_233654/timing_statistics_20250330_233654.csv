@@ -1,0 +1,3 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,pushRawData,DEBUG,1,19,9.65,11.0,92,888
+Session 1,sendGPSData,DEBUG,1,10,1.57,1.0,160,252
