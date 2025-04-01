@@ -1,0 +1,41 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: DEBUG
+----------------
+
+Operation: GNSS checkCallbacks
+  Count: 886
+  Min: 2 ms
+  Max: 37 ms
+  Avg: 15.83 ms
+  Median: 16.0 ms
+  Total Time: 14025 ms
+
+Operation: GNSS checkUblox
+  Count: 885
+  Min: 2 ms
+  Max: 33 ms
+  Avg: 15.19 ms
+  Median: 15.0 ms
+  Total Time: 13441 ms
+
+Operation: pushRawData
+  Count: 98
+  Min: 1 ms
+  Max: 19 ms
+  Avg: 8.95 ms
+  Median: 11.0 ms
+  Total Time: 877 ms
+
+Operation: sendGPSData
+  Count: 164
+  Min: 1 ms
+  Max: 9 ms
+  Avg: 1.4 ms
+  Median: 1.0 ms
+  Total Time: 230 ms
+

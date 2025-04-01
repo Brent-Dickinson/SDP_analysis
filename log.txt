@@ -1,0 +1,2884 @@
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+1966,ERROR,loopTask,SYSTEM RESTART DETECTED - this message should appear only once after power-up
+1967,DEBUG,loopTask,Connecting to WiFi network: Galaxy XCover FieldPro8858
+2564,DEBUG,loopTask,Connected to WiFi: Galaxy XCover FieldPro8858, IP: 192.168.162.141
+2565,DEBUG,loopTask,Navigation system initialized successfully
+2565,DEBUG,loopTask,currentLogLevel: DEBUG
+3566,DEBUG,loopTask,STARTING initRTOS
+3768,DEBUG,loopTask,Servos initialized
+3768,DEBUG,GNSSTask,STARTING initializeGNSS
+3770,DEBUG,WebSocketTask,sendGPSData time, 0
+3771,DEBUG,loopTask,RTOS tasks created
+3981,DEBUG,GNSSTask,GNSS module found over SPI!
+4272,DEBUG,WebSocketTask,sendGPSData time, 0
+4773,DEBUG,WebSocketTask,sendGPSData time, 0
+5004,NAV,WebSocketTask,WebSocket disconnected. Will attempt to maintain navigation state.
+5007,DEBUG,async_tcp,sendGPSData time, 3
+5282,DEBUG,WebSocketTask,sendGPSData time, 1
+5738,DEBUG,GNSSTask,IMU sensor fusion disabled.
+5747,DEBUG,GNSSTask,GNSS checkUblox time, 9
+5747,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+5861,DEBUG,WebSocketTask,sendGPSData time, 1
+6212,DEBUG,GNSSTask,connectionResult = 200, macorsrtk.massdot.state.ma.us
+6242,DEBUG,GNSSTask,GNSS checkUblox time, 30
+6247,DEBUG,GNSSTask,GNSS checkCallbacks time, 35
+6276,DEBUG,GNSSTask,pushRawData time, 8
+6286,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6286,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6296,DEBUG,GNSSTask,GNSS checkUblox time, 10
+6296,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+6305,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6305,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6314,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6314,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6323,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6323,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6332,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6332,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6341,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6341,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6350,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6350,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6359,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6359,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6365,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6365,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6374,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6374,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6369,DEBUG,WebSocketTask,sendGPSData time, 1
+6384,DEBUG,GNSSTask,GNSS checkUblox time, 10
+6384,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+6394,DEBUG,GNSSTask,GNSS checkUblox time, 10
+6394,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+6403,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6403,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6412,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6412,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6421,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6421,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6430,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6430,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6439,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6439,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6448,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6448,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6457,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6457,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6463,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6463,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6473,DEBUG,GNSSTask,GNSS checkUblox time, 10
+6473,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+6483,DEBUG,GNSSTask,GNSS checkUblox time, 10
+6483,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+6492,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6492,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6501,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6501,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6510,DEBUG,GNSSTask,GNSS checkUblox time, 9
+6510,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+6575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6575,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6675,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6775,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6775,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6871,DEBUG,WebSocketTask,sendGPSData time, 1
+6875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6875,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+6975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+6975,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7075,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7375,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7379,DEBUG,WebSocketTask,sendGPSData time, 1
+7475,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7475,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7526,DEBUG,GNSSTask,pushRawData time, 9
+7575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7575,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7589,DEBUG,GNSSTask,pushRawData time, 3
+7675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7675,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7775,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+7875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7875,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+7884,DEBUG,WebSocketTask,sendGPSData time, 0
+7975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+7975,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8075,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8377,DEBUG,GNSSTask,GNSS checkUblox time, 9
+8378,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+8393,DEBUG,WebSocketTask,sendGPSData time, 0
+8421,DEBUG,GNSSTask,pushRawData time, 15
+8436,DEBUG,async_tcp,sendGPSData time, 6
+8476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+8476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+8575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8575,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8675,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8775,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8775,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8875,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+8909,DEBUG,WebSocketTask,sendGPSData time, 0
+8975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+8975,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9075,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9202,DEBUG,GNSSTask,pushRawData time, 4
+9275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+9415,DEBUG,WebSocketTask,sendGPSData time, 0
+9476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+9476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+9575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9575,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9675,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+9782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+9875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9875,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+9926,DEBUG,WebSocketTask,sendGPSData time, 0
+9975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+9976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10008,NAV,WebSocketTask,WebSocket reconnected after disconnection. Sending status refresh.
+10015,DEBUG,WebSocketTask,sendGPSData time, 7
+10075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10075,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+10175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+10210,DEBUG,GNSSTask,pushRawData time, 5
+10275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10428,DEBUG,WebSocketTask,sendGPSData time, 1
+10475,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10775,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+10937,DEBUG,WebSocketTask,sendGPSData time, 0
+10975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+10976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11303,DEBUG,GNSSTask,pushRawData time, 5
+11375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11437,DEBUG,WebSocketTask,sendGPSData time, 1
+11475,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+11782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+11875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+11943,DEBUG,WebSocketTask,sendGPSData time, 0
+11975,DEBUG,GNSSTask,GNSS checkUblox time, 6
+11976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12449,DEBUG,WebSocketTask,sendGPSData time, 0
+12475,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12505,DEBUG,GNSSTask,pushRawData time, 5
+12575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12775,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+12876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+12954,DEBUG,WebSocketTask,sendGPSData time, 0
+12976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+12976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13203,DEBUG,GNSSTask,pushRawData time, 5
+13275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13464,DEBUG,WebSocketTask,sendGPSData time, 1
+13476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+13476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+13676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+13781,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+13876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+13876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+13966,DEBUG,WebSocketTask,sendGPSData time, 1
+13976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+13976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14075,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14105,DEBUG,GNSSTask,pushRawData time, 4
+14175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14469,DEBUG,WebSocketTask,sendGPSData time, 2
+14476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+14477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+14575,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14675,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+14776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14875,DEBUG,GNSSTask,GNSS checkUblox time, 6
+14876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+14969,DEBUG,WebSocketTask,sendGPSData time, 1
+14976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+14976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15176,DEBUG,GNSSTask,GNSS checkUblox time, 6
+15176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15205,DEBUG,GNSSTask,pushRawData time, 5
+15276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15376,DEBUG,GNSSTask,GNSS checkUblox time, 6
+15376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15470,DEBUG,WebSocketTask,sendGPSData time, 1
+15476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15676,DEBUG,GNSSTask,GNSS checkUblox time, 6
+15676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+15876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+15976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+15982,DEBUG,WebSocketTask,sendGPSData time, 5
+16076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16176,DEBUG,GNSSTask,GNSS checkUblox time, 6
+16176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16376,DEBUG,GNSSTask,GNSS checkUblox time, 6
+16376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16405,DEBUG,GNSSTask,pushRawData time, 5
+16475,DEBUG,WebSocketTask,sendGPSData time, 0
+16476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+16976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+16979,DEBUG,WebSocketTask,sendGPSData time, 1
+17076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17303,DEBUG,GNSSTask,pushRawData time, 5
+17376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17488,DEBUG,WebSocketTask,sendGPSData time, 1
+17576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+17876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+17976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+17976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+17995,DEBUG,WebSocketTask,sendGPSData time, 0
+18076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+18307,DEBUG,GNSSTask,pushRawData time, 5
+18376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18500,DEBUG,WebSocketTask,sendGPSData time, 1
+18576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+18976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+18976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19005,DEBUG,WebSocketTask,sendGPSData time, 1
+19076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19104,DEBUG,GNSSTask,pushRawData time, 5
+19176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19509,DEBUG,WebSocketTask,sendGPSData time, 2
+19576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19576,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+19776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+19876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+19976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+19976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20023,DEBUG,WebSocketTask,sendGPSData time, 4
+20076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+20108,DEBUG,GNSSTask,pushRawData time, 5
+20176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20523,DEBUG,WebSocketTask,sendGPSData time, 2
+20576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20577,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20776,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+20976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+20976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+21023,DEBUG,WebSocketTask,sendGPSData time, 1
+21076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21076,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+21103,DEBUG,GNSSTask,pushRawData time, 4
+21176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+21276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+21376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+21476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+21524,DEBUG,WebSocketTask,sendGPSData time, 1
+21576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+21676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+21777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+21783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+21876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+21976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+21976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+22028,DEBUG,WebSocketTask,sendGPSData time, 0
+22076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22106,DEBUG,GNSSTask,pushRawData time, 5
+22176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+22476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22532,DEBUG,WebSocketTask,sendGPSData time, 0
+22577,DEBUG,GNSSTask,GNSS checkUblox time, 8
+22577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22677,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22776,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22777,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+22976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+22977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23035,DEBUG,WebSocketTask,sendGPSData time, 1
+23076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23104,DEBUG,GNSSTask,pushRawData time, 5
+23176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23276,DEBUG,GNSSTask,GNSS checkUblox time, 8
+23276,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+23539,DEBUG,WebSocketTask,sendGPSData time, 0
+23576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+23776,DEBUG,GNSSTask,GNSS checkUblox time, 8
+23783,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+23876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+23976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+23976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+24040,DEBUG,WebSocketTask,sendGPSData time, 1
+24076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+24176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+24276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24276,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+24376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+24407,DEBUG,GNSSTask,pushRawData time, 5
+24476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+24543,DEBUG,WebSocketTask,sendGPSData time, 0
+24576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+24676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24676,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+24776,DEBUG,GNSSTask,GNSS checkUblox time, 8
+24776,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+24876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24876,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+24976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+24976,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+25049,DEBUG,WebSocketTask,sendGPSData time, 0
+25076,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25106,DEBUG,GNSSTask,pushRawData time, 5
+25176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25277,DEBUG,GNSSTask,GNSS checkUblox time, 8
+25277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25476,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+25552,DEBUG,WebSocketTask,sendGPSData time, 0
+25576,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25677,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+25782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+25876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+25976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+25977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26057,DEBUG,WebSocketTask,sendGPSData time, 0
+26077,DEBUG,GNSSTask,GNSS checkUblox time, 8
+26077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26106,DEBUG,GNSSTask,pushRawData time, 5
+26176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26277,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26558,DEBUG,WebSocketTask,sendGPSData time, 1
+26576,DEBUG,GNSSTask,GNSS checkUblox time, 8
+26576,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26677,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+26777,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26876,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+26976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+26977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27063,DEBUG,WebSocketTask,sendGPSData time, 2
+27077,DEBUG,GNSSTask,GNSS checkUblox time, 8
+27077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27104,DEBUG,GNSSTask,pushRawData time, 5
+27176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27276,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27376,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27476,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27561,DEBUG,WebSocketTask,sendGPSData time, 1
+27577,DEBUG,GNSSTask,GNSS checkUblox time, 8
+27578,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27676,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27677,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+27783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+27877,DEBUG,GNSSTask,GNSS checkUblox time, 8
+27877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+27976,DEBUG,GNSSTask,GNSS checkUblox time, 7
+27977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28066,DEBUG,WebSocketTask,sendGPSData time, 1
+28077,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+28177,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28208,DEBUG,GNSSTask,pushRawData time, 5
+28277,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28377,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28477,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28569,DEBUG,WebSocketTask,sendGPSData time, 0
+28578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+28578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+28677,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28677,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28777,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28877,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28877,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+28977,DEBUG,GNSSTask,GNSS checkUblox time, 8
+28977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29077,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29077,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29078,DEBUG,WebSocketTask,sendGPSData time, 1
+29177,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29204,DEBUG,GNSSTask,pushRawData time, 4
+29277,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29377,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29477,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+29577,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+29579,DEBUG,WebSocketTask,sendGPSData time, 1
+29677,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+29778,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+29877,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+29977,DEBUG,GNSSTask,GNSS checkUblox time, 8
+29977,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30077,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+30078,DEBUG,WebSocketTask,sendGPSData time, 0
+30177,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30177,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30277,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30277,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30309,DEBUG,GNSSTask,pushRawData time, 5
+30377,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30377,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30477,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30477,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30577,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30577,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30588,DEBUG,WebSocketTask,sendGPSData time, 1
+30677,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+30777,DEBUG,GNSSTask,GNSS checkUblox time, 8
+30777,DEBUG,GNSSTask,GNSS checkCallbacks time, 8
+30878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+30878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+30986,DEBUG,GNSSTask,GNSS checkUblox time, 17
+30987,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+31078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31079,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+31089,DEBUG,WebSocketTask,sendGPSData time, 1
+31178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+31206,DEBUG,GNSSTask,pushRawData time, 5
+31278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+31378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+31478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+31578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+31589,DEBUG,WebSocketTask,sendGPSData time, 1
+31678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31679,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+31779,DEBUG,GNSSTask,GNSS checkUblox time, 10
+31784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+31878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31879,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+31978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+31978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32097,DEBUG,WebSocketTask,sendGPSData time, 1
+32178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32179,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+32210,DEBUG,GNSSTask,pushRawData time, 5
+32278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32606,DEBUG,WebSocketTask,sendGPSData time, 1
+32678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32679,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+32729,DEBUG,GNSSTask,pushRawData time, 8
+32778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32779,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+32827,DEBUG,GNSSTask,pushRawData time, 9
+32878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+32878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+32893,DEBUG,GNSSTask,pushRawData time, 4
+32985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+32986,ERROR,GNSSTask,------------------------------------------
+32986,ERROR,GNSSTask,GNSS SYS TIME: 2025-04-01 21:25 (UTC)
+32986,ERROR,GNSSTask,------------------------------------------
+32986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+33079,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33079,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+33110,DEBUG,WebSocketTask,sendGPSData time, 1
+33179,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33180,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33211,DEBUG,GNSSTask,pushRawData time, 6
+33279,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33280,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33379,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33380,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33390,DEBUG,GNSSTask,pushRawData time, 2
+33479,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33480,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33580,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+33613,DEBUG,WebSocketTask,sendGPSData time, 1
+33679,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33680,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+33786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+33879,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33880,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+33979,DEBUG,GNSSTask,GNSS checkUblox time, 10
+33980,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34079,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34079,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34107,DEBUG,GNSSTask,pushRawData time, 5
+34126,DEBUG,WebSocketTask,sendGPSData time, 6
+34179,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34180,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+34279,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34279,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34379,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34379,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34479,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34479,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34580,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34630,DEBUG,WebSocketTask,sendGPSData time, 1
+34679,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34680,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+34779,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34780,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+34879,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34880,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+34979,DEBUG,GNSSTask,GNSS checkUblox time, 10
+34980,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+35079,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35079,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+35136,DEBUG,WebSocketTask,sendGPSData time, 1
+35179,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35180,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35211,DEBUG,GNSSTask,pushRawData time, 5
+35279,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35280,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35379,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35380,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35479,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35479,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+35579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35580,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35644,DEBUG,WebSocketTask,sendGPSData time, 1
+35679,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35680,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+35784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+35879,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35880,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+35979,DEBUG,GNSSTask,GNSS checkUblox time, 10
+35980,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+36079,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36080,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+36147,DEBUG,WebSocketTask,sendGPSData time, 1
+36179,DEBUG,GNSSTask,GNSS checkUblox time, 11
+36180,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+36207,DEBUG,GNSSTask,pushRawData time, 5
+36279,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36280,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+36379,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36380,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+36479,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36479,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+36579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36579,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+36652,DEBUG,WebSocketTask,sendGPSData time, 1
+36680,DEBUG,GNSSTask,GNSS checkUblox time, 11
+36680,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+36779,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36780,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+36879,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36880,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+36979,DEBUG,GNSSTask,GNSS checkUblox time, 10
+36980,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+37078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+37078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+37152,DEBUG,WebSocketTask,sendGPSData time, 1
+37190,DEBUG,GNSSTask,GNSS checkUblox time, 21
+37190,DEBUG,GNSSTask,GNSS checkCallbacks time, 21
+37220,DEBUG,GNSSTask,pushRawData time, 5
+37279,DEBUG,GNSSTask,GNSS checkUblox time, 10
+37280,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+37379,DEBUG,GNSSTask,GNSS checkUblox time, 10
+37380,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+37479,DEBUG,GNSSTask,GNSS checkUblox time, 10
+37480,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+37579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+37580,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+37656,DEBUG,WebSocketTask,sendGPSData time, 1
+37680,DEBUG,GNSSTask,GNSS checkUblox time, 11
+37680,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+37780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+37786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+37880,DEBUG,GNSSTask,GNSS checkUblox time, 12
+37880,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+37980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+37980,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+38080,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38080,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+38108,DEBUG,GNSSTask,pushRawData time, 5
+38162,DEBUG,WebSocketTask,sendGPSData time, 0
+38178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+38178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+38291,DEBUG,GNSSTask,GNSS checkUblox time, 22
+38292,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+38380,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38381,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+38480,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38480,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+38580,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+38668,DEBUG,WebSocketTask,sendGPSData time, 1
+38681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+38682,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+38780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38781,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+38880,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38881,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+38980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+38981,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+39078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+39078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+39168,DEBUG,WebSocketTask,sendGPSData time, 1
+39192,DEBUG,GNSSTask,GNSS checkUblox time, 23
+39193,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+39222,DEBUG,GNSSTask,pushRawData time, 5
+39280,DEBUG,GNSSTask,GNSS checkUblox time, 11
+39281,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+39370,NAV,async_tcp,WebSocket received autonomous command, stop
+39370,NAV,async_tcp,Stop command received
+39371,NAV,NavTask,processNavigationCommand, 1
+39371,NAV,NavTask,NAV_CMD_STOP, 0, 0
+39383,DEBUG,GNSSTask,GNSS checkUblox time, 14
+39384,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+39480,DEBUG,GNSSTask,GNSS checkUblox time, 11
+39481,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+39580,DEBUG,GNSSTask,GNSS checkUblox time, 11
+39580,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+39675,DEBUG,WebSocketTask,sendGPSData time, 2
+39680,DEBUG,GNSSTask,GNSS checkUblox time, 11
+39681,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+39778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+39778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+39893,DEBUG,GNSSTask,GNSS checkUblox time, 24
+39897,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+39980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+39981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+40078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+40078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+40178,DEBUG,WebSocketTask,sendGPSData time, 1
+40192,DEBUG,GNSSTask,GNSS checkUblox time, 23
+40192,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+40222,DEBUG,GNSSTask,pushRawData time, 5
+40278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+40278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+40392,DEBUG,GNSSTask,GNSS checkUblox time, 22
+40392,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+40480,DEBUG,GNSSTask,GNSS checkUblox time, 11
+40481,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+40580,DEBUG,GNSSTask,GNSS checkUblox time, 11
+40581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+40678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+40678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+40682,DEBUG,WebSocketTask,sendGPSData time, 1
+40791,DEBUG,GNSSTask,GNSS checkUblox time, 22
+40792,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+40878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+40878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+40992,DEBUG,GNSSTask,GNSS checkUblox time, 23
+40992,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+41078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+41078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+41181,DEBUG,GNSSTask,GNSS checkUblox time, 12
+41181,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+41192,DEBUG,WebSocketTask,sendGPSData time, 1
+41219,DEBUG,GNSSTask,pushRawData time, 12
+41271,DEBUG,GNSSTask,GNSS checkUblox time, 2
+41271,DEBUG,GNSSTask,GNSS checkCallbacks time, 2
+41392,DEBUG,GNSSTask,GNSS checkUblox time, 23
+41393,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+41481,DEBUG,GNSSTask,GNSS checkUblox time, 12
+41481,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+41578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+41578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+41693,DEBUG,GNSSTask,GNSS checkUblox time, 24
+41693,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+41694,DEBUG,WebSocketTask,sendGPSData time, 1
+41778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+41778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+41894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+41898,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+41981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+41981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+42078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+42078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+42192,DEBUG,GNSSTask,GNSS checkUblox time, 23
+42193,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+42198,DEBUG,WebSocketTask,sendGPSData time, 1
+42224,DEBUG,GNSSTask,pushRawData time, 5
+42278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+42278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+42392,DEBUG,GNSSTask,GNSS checkUblox time, 23
+42393,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+42478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+42478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+42592,DEBUG,GNSSTask,GNSS checkUblox time, 23
+42592,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+42678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+42678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+42706,DEBUG,WebSocketTask,sendGPSData time, 1
+42780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+42781,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+42892,DEBUG,GNSSTask,GNSS checkUblox time, 23
+42892,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+42980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+42981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43080,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43081,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43180,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43181,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43204,DEBUG,WebSocketTask,sendGPSData time, 1
+43211,DEBUG,GNSSTask,pushRawData time, 5
+43278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+43278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+43392,DEBUG,GNSSTask,GNSS checkUblox time, 23
+43392,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+43480,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43481,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43580,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43680,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43681,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+43710,DEBUG,WebSocketTask,sendGPSData time, 1
+43778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+43778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+43892,DEBUG,GNSSTask,GNSS checkUblox time, 23
+43899,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+43980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+43981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+44078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+44078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+44186,NAV,async_tcp,command = record
+44186,NAV,async_tcp,addWaypoint
+44186,NAV,async_tcp,navCommandQueue spaces, 5
+44193,DEBUG,GNSSTask,GNSS checkUblox time, 24
+44193,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+44216,DEBUG,WebSocketTask,sendGPSData time, 1
+44221,DEBUG,GNSSTask,pushRawData time, 5
+44270,NAV,NavTask,processNavigationCommand, 5
+44270,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6371269, -72.7290878
+44271,NAV,NavTask,navStatus.totalWaypoints, 1
+44278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+44278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+44392,DEBUG,GNSSTask,GNSS checkUblox time, 23
+44392,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+44478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+44478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+44592,DEBUG,GNSSTask,GNSS checkUblox time, 23
+44592,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+44678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+44678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+44720,DEBUG,WebSocketTask,sendGPSData time, 1
+44780,DEBUG,GNSSTask,GNSS checkUblox time, 11
+44781,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+44880,DEBUG,GNSSTask,GNSS checkUblox time, 11
+44881,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+44992,DEBUG,GNSSTask,GNSS checkUblox time, 23
+44992,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+45078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+45078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+45192,DEBUG,GNSSTask,GNSS checkUblox time, 23
+45192,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+45218,DEBUG,WebSocketTask,sendGPSData time, 1
+45280,DEBUG,GNSSTask,GNSS checkUblox time, 11
+45281,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+45312,DEBUG,GNSSTask,pushRawData time, 5
+45378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+45378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+45492,DEBUG,GNSSTask,GNSS checkUblox time, 23
+45492,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+45580,DEBUG,GNSSTask,GNSS checkUblox time, 11
+45581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+45680,DEBUG,GNSSTask,GNSS checkUblox time, 11
+45681,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+45728,DEBUG,WebSocketTask,sendGPSData time, 1
+45778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+45778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+45893,DEBUG,GNSSTask,GNSS checkUblox time, 24
+45898,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+45980,DEBUG,GNSSTask,GNSS checkUblox time, 11
+45981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+46078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+46192,DEBUG,GNSSTask,GNSS checkUblox time, 23
+46192,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+46231,DEBUG,WebSocketTask,sendGPSData time, 1
+46281,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46281,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46308,DEBUG,GNSSTask,pushRawData time, 4
+46378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+46378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+46492,DEBUG,GNSSTask,GNSS checkUblox time, 23
+46493,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+46581,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46681,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46732,DEBUG,WebSocketTask,sendGPSData time, 1
+46781,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46781,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46881,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46881,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+46981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+46981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47081,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47081,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47181,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47181,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47234,DEBUG,WebSocketTask,sendGPSData time, 1
+47281,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47281,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47311,DEBUG,GNSSTask,pushRawData time, 5
+47378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+47378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+47493,DEBUG,GNSSTask,GNSS checkUblox time, 24
+47493,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+47581,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47581,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47681,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+47739,DEBUG,WebSocketTask,sendGPSData time, 2
+47782,DEBUG,GNSSTask,GNSS checkUblox time, 13
+47786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+47881,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47882,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+47981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+47981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+48081,DEBUG,GNSSTask,GNSS checkUblox time, 12
+48081,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+48109,DEBUG,GNSSTask,pushRawData time, 5
+48178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+48178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+48244,DEBUG,WebSocketTask,sendGPSData time, 1
+48293,DEBUG,GNSSTask,GNSS checkUblox time, 24
+48293,DEBUG,GNSSTask,GNSS checkCallbacks time, 24
+48381,DEBUG,GNSSTask,GNSS checkUblox time, 12
+48381,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+48481,DEBUG,GNSSTask,GNSS checkUblox time, 12
+48482,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+48486,NAV,async_tcp,command = record
+48486,NAV,async_tcp,addWaypoint
+48486,NAV,async_tcp,navCommandQueue spaces, 5
+48570,NAV,NavTask,processNavigationCommand, 5
+48570,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6371346, -72.7290878
+48571,NAV,NavTask,navStatus.totalWaypoints, 2
+48583,DEBUG,GNSSTask,GNSS checkUblox time, 14
+48583,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+48681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+48682,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+48748,DEBUG,WebSocketTask,sendGPSData time, 1
+48778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+48778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+48893,DEBUG,GNSSTask,GNSS checkUblox time, 24
+48894,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+48981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+48981,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+49078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+49078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+49193,DEBUG,GNSSTask,GNSS checkUblox time, 24
+49194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+49225,DEBUG,GNSSTask,pushRawData time, 5
+49245,DEBUG,WebSocketTask,sendGPSData time, 1
+49278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+49278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+49393,DEBUG,GNSSTask,GNSS checkUblox time, 24
+49394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+49481,DEBUG,GNSSTask,GNSS checkUblox time, 12
+49481,DEBUG,GNSSTask,GNSS checkCallbacks time, 12
+49578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+49578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+49693,DEBUG,GNSSTask,GNSS checkUblox time, 24
+49694,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+49755,DEBUG,WebSocketTask,sendGPSData time, 1
+49778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+49778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+49894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+49901,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+49978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+49978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+50094,DEBUG,GNSSTask,GNSS checkUblox time, 25
+50094,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+50178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+50178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+50214,DEBUG,GNSSTask,pushRawData time, 12
+50258,DEBUG,WebSocketTask,sendGPSData time, 1
+50271,DEBUG,GNSSTask,GNSS checkUblox time, 2
+50271,DEBUG,GNSSTask,GNSS checkCallbacks time, 2
+50394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+50394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+50481,DEBUG,GNSSTask,GNSS checkUblox time, 12
+50482,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+50578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+50578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+50694,DEBUG,GNSSTask,GNSS checkUblox time, 25
+50694,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+50761,DEBUG,WebSocketTask,sendGPSData time, 1
+50778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+50778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+50894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+50894,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+50981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+50982,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+51078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+51078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+51194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+51194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+51224,DEBUG,GNSSTask,pushRawData time, 5
+51265,DEBUG,WebSocketTask,sendGPSData time, 0
+51278,DEBUG,GNSSTask,GNSS checkUblox time, 10
+51278,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+51394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+51394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+51478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+51478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+51594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+51594,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+51678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+51678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+51774,DEBUG,WebSocketTask,sendGPSData time, 1
+51796,DEBUG,GNSSTask,GNSS checkUblox time, 27
+51800,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+51882,DEBUG,GNSSTask,GNSS checkUblox time, 12
+51882,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+51981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+51982,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+52078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+52078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+52194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+52194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+52221,DEBUG,GNSSTask,pushRawData time, 5
+52278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+52278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+52280,DEBUG,WebSocketTask,sendGPSData time, 1
+52394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+52394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+52478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+52478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+52594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+52594,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+52678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+52678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+52781,DEBUG,GNSSTask,GNSS checkUblox time, 12
+52781,DEBUG,WebSocketTask,sendGPSData time, 1
+52782,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+52848,NAV,async_tcp,command = record
+52848,NAV,async_tcp,addWaypoint
+52848,NAV,async_tcp,navCommandQueue spaces, 5
+52870,NAV,NavTask,processNavigationCommand, 5
+52870,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6371574, -72.7291031
+52870,NAV,NavTask,navStatus.totalWaypoints, 3
+52895,DEBUG,GNSSTask,GNSS checkUblox time, 26
+52895,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+52978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+52978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+53094,DEBUG,GNSSTask,GNSS checkUblox time, 25
+53094,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+53178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+53178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+53281,DEBUG,WebSocketTask,sendGPSData time, 1
+53295,DEBUG,GNSSTask,GNSS checkUblox time, 25
+53295,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+53326,DEBUG,GNSSTask,pushRawData time, 5
+53378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+53378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+53494,DEBUG,GNSSTask,GNSS checkUblox time, 25
+53494,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+53578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+53578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+53693,DEBUG,GNSSTask,GNSS checkUblox time, 24
+53694,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+53778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+53778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+53782,DEBUG,WebSocketTask,sendGPSData time, 2
+53894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+53900,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+53981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+53982,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+54078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+54078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+54194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+54194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+54278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+54278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+54282,DEBUG,WebSocketTask,sendGPSData time, 1
+54314,DEBUG,GNSSTask,pushRawData time, 11
+54372,DEBUG,GNSSTask,GNSS checkUblox time, 3
+54372,DEBUG,GNSSTask,GNSS checkCallbacks time, 3
+54494,DEBUG,GNSSTask,GNSS checkUblox time, 25
+54494,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+54578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+54578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+54694,DEBUG,GNSSTask,GNSS checkUblox time, 25
+54694,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+54778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+54778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+54785,DEBUG,WebSocketTask,sendGPSData time, 1
+54894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+54894,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+54978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+54978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+55094,DEBUG,GNSSTask,GNSS checkUblox time, 25
+55094,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+55178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+55178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+55216,DEBUG,GNSSTask,pushRawData time, 12
+55271,DEBUG,GNSSTask,GNSS checkUblox time, 2
+55271,DEBUG,GNSSTask,GNSS checkCallbacks time, 2
+55288,DEBUG,WebSocketTask,sendGPSData time, 1
+55394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+55394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+55478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+55478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+55594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+55594,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+55678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+55678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+55787,DEBUG,WebSocketTask,sendGPSData time, 0
+55795,DEBUG,GNSSTask,GNSS checkUblox time, 26
+55800,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+55882,DEBUG,GNSSTask,GNSS checkUblox time, 12
+55882,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+55981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+55982,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+56081,DEBUG,GNSSTask,GNSS checkUblox time, 12
+56082,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+56109,DEBUG,GNSSTask,pushRawData time, 5
+56178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+56178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+56294,DEBUG,GNSSTask,GNSS checkUblox time, 25
+56294,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+56298,DEBUG,WebSocketTask,sendGPSData time, 1
+56378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+56378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+56494,DEBUG,GNSSTask,GNSS checkUblox time, 25
+56494,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+56581,DEBUG,GNSSTask,GNSS checkUblox time, 12
+56582,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+56681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+56682,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+56778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+56778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+56807,DEBUG,WebSocketTask,sendGPSData time, 1
+56894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+56894,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+56981,DEBUG,GNSSTask,GNSS checkUblox time, 12
+56982,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+57078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+57078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+57194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+57194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+57225,DEBUG,GNSSTask,pushRawData time, 5
+57278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+57278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+57308,DEBUG,WebSocketTask,sendGPSData time, 1
+57394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+57394,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+57481,DEBUG,GNSSTask,GNSS checkUblox time, 12
+57482,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+57581,DEBUG,GNSSTask,GNSS checkUblox time, 12
+57582,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+57681,DEBUG,GNSSTask,GNSS checkUblox time, 12
+57682,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+57778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+57778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+57812,DEBUG,WebSocketTask,sendGPSData time, 1
+57894,DEBUG,GNSSTask,GNSS checkUblox time, 25
+57903,DEBUG,GNSSTask,GNSS checkCallbacks time, 34
+57978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+57978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+58094,DEBUG,GNSSTask,GNSS checkUblox time, 25
+58094,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+58178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+58178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+58212,DEBUG,GNSSTask,pushRawData time, 11
+58271,DEBUG,GNSSTask,GNSS checkUblox time, 2
+58272,DEBUG,GNSSTask,GNSS checkCallbacks time, 3
+58317,NAV,async_tcp,command = record
+58317,NAV,async_tcp,addWaypoint
+58317,NAV,async_tcp,navCommandQueue spaces, 5
+58318,DEBUG,WebSocketTask,sendGPSData time, 5
+58370,NAV,NavTask,processNavigationCommand, 5
+58370,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6371803, -72.7291107
+58371,NAV,NavTask,navStatus.totalWaypoints, 4
+58397,DEBUG,GNSSTask,GNSS checkUblox time, 28
+58397,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+58478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+58478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+58594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+58594,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+58678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+58678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+58794,DEBUG,GNSSTask,GNSS checkUblox time, 25
+58794,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+58817,DEBUG,WebSocketTask,sendGPSData time, 1
+58878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+58878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+58994,DEBUG,GNSSTask,GNSS checkUblox time, 25
+58995,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+59078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+59078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+59194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+59194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+59225,DEBUG,GNSSTask,pushRawData time, 5
+59278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+59278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+59327,DEBUG,WebSocketTask,sendGPSData time, 1
+59394,DEBUG,GNSSTask,GNSS checkUblox time, 25
+59395,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+59478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+59478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+59594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+59594,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+59678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+59678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+59795,DEBUG,GNSSTask,GNSS checkUblox time, 26
+59801,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+59830,DEBUG,WebSocketTask,sendGPSData time, 1
+59878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+59878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+59994,DEBUG,GNSSTask,GNSS checkUblox time, 25
+59995,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+60078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+60078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+60194,DEBUG,GNSSTask,GNSS checkUblox time, 25
+60194,DEBUG,GNSSTask,GNSS checkCallbacks time, 25
+60224,DEBUG,GNSSTask,pushRawData time, 5
+60278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+60278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+60341,DEBUG,WebSocketTask,sendGPSData time, 1
+60395,DEBUG,GNSSTask,GNSS checkUblox time, 26
+60395,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+60478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+60478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+60594,DEBUG,GNSSTask,GNSS checkUblox time, 25
+60595,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+60678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+60678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+60794,DEBUG,GNSSTask,GNSS checkUblox time, 25
+60795,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+60842,DEBUG,WebSocketTask,sendGPSData time, 1
+60878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+60878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+60995,DEBUG,GNSSTask,GNSS checkUblox time, 26
+60995,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+61082,DEBUG,GNSSTask,GNSS checkUblox time, 13
+61082,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+61178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+61178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+61295,DEBUG,GNSSTask,GNSS checkUblox time, 26
+61295,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+61326,DEBUG,GNSSTask,pushRawData time, 5
+61354,DEBUG,WebSocketTask,sendGPSData time, 6
+61378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+61378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+61495,DEBUG,GNSSTask,GNSS checkUblox time, 26
+61495,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+61578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+61578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+61695,DEBUG,GNSSTask,GNSS checkUblox time, 26
+61695,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+61778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+61778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+61858,DEBUG,WebSocketTask,sendGPSData time, 1
+61896,DEBUG,GNSSTask,GNSS checkUblox time, 27
+61900,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+61978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+61978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+62095,DEBUG,GNSSTask,GNSS checkUblox time, 26
+62095,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+62178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+62178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+62295,DEBUG,GNSSTask,GNSS checkUblox time, 26
+62295,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+62322,DEBUG,GNSSTask,pushRawData time, 5
+62358,DEBUG,WebSocketTask,sendGPSData time, 0
+62378,DEBUG,GNSSTask,GNSS checkUblox time, 10
+62378,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+62495,DEBUG,GNSSTask,GNSS checkUblox time, 26
+62495,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+62578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+62578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+62695,DEBUG,GNSSTask,GNSS checkUblox time, 26
+62695,DEBUG,GNSSTask,GNSS checkCallbacks time, 26
+62746,DEBUG,GNSSTask,pushRawData time, 9
+62778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+62778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+62838,DEBUG,GNSSTask,pushRawData time, 17
+62866,DEBUG,WebSocketTask,sendGPSData time, 1
+62878,DEBUG,GNSSTask,GNSS checkUblox time, 10
+62878,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+62890,DEBUG,GNSSTask,pushRawData time, 4
+62992,DEBUG,GNSSTask,GNSS checkUblox time, 23
+62992,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+63078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+63078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+63182,DEBUG,GNSSTask,GNSS checkUblox time, 13
+63183,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+63296,DEBUG,GNSSTask,GNSS checkUblox time, 27
+63296,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+63331,DEBUG,GNSSTask,pushRawData time, 5
+63362,NAV,async_tcp,command = record
+63362,NAV,async_tcp,addWaypoint
+63362,NAV,async_tcp,navCommandQueue spaces, 5
+63370,NAV,NavTask,processNavigationCommand, 5
+63370,NAV,NavTask,NAV_CMD_ADD_WAYPOINT, 42.6371918, -72.7290955
+63371,NAV,NavTask,navStatus.totalWaypoints, 5
+63373,DEBUG,WebSocketTask,sendGPSData time, 1
+63378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+63378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+63387,DEBUG,GNSSTask,pushRawData time, 3
+63480,DEBUG,GNSSTask,GNSS checkUblox time, 11
+63480,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+63596,DEBUG,GNSSTask,GNSS checkUblox time, 27
+63596,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+63678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+63678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+63796,DEBUG,GNSSTask,GNSS checkUblox time, 27
+63803,DEBUG,GNSSTask,GNSS checkCallbacks time, 34
+63878,DEBUG,GNSSTask,GNSS checkUblox time, 9
+63878,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+63881,DEBUG,WebSocketTask,sendGPSData time, 1
+63982,DEBUG,GNSSTask,GNSS checkUblox time, 13
+63983,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+64082,DEBUG,GNSSTask,GNSS checkUblox time, 13
+64083,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+64182,DEBUG,GNSSTask,GNSS checkUblox time, 13
+64183,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+64282,DEBUG,GNSSTask,GNSS checkUblox time, 13
+64283,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+64316,DEBUG,GNSSTask,pushRawData time, 11
+64373,DEBUG,GNSSTask,GNSS checkUblox time, 4
+64373,DEBUG,GNSSTask,GNSS checkCallbacks time, 4
+64383,DEBUG,WebSocketTask,sendGPSData time, 6
+64496,DEBUG,GNSSTask,GNSS checkUblox time, 27
+64496,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+64578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+64578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+64695,DEBUG,GNSSTask,GNSS checkUblox time, 26
+64696,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+64778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+64778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+64887,DEBUG,WebSocketTask,sendGPSData time, 1
+64896,DEBUG,GNSSTask,GNSS checkUblox time, 27
+64896,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+64978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+64978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+65095,DEBUG,GNSSTask,GNSS checkUblox time, 26
+65096,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+65178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+65178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+65295,DEBUG,GNSSTask,GNSS checkUblox time, 26
+65296,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+65378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+65378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+65392,DEBUG,WebSocketTask,sendGPSData time, 0
+65496,DEBUG,GNSSTask,GNSS checkUblox time, 27
+65496,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+65525,DEBUG,GNSSTask,pushRawData time, 5
+65578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+65578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+65696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+65696,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+65778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+65778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+65895,DEBUG,WebSocketTask,sendGPSData time, 1
+65896,DEBUG,GNSSTask,GNSS checkUblox time, 27
+65902,DEBUG,GNSSTask,GNSS checkCallbacks time, 33
+65978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+65978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+66096,DEBUG,GNSSTask,GNSS checkUblox time, 27
+66096,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+66178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+66178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+66214,DEBUG,GNSSTask,pushRawData time, 11
+66272,DEBUG,GNSSTask,GNSS checkUblox time, 3
+66273,DEBUG,GNSSTask,GNSS checkCallbacks time, 4
+66395,DEBUG,GNSSTask,GNSS checkUblox time, 26
+66396,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+66399,DEBUG,WebSocketTask,sendGPSData time, 1
+66478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+66478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+66595,DEBUG,GNSSTask,GNSS checkUblox time, 26
+66596,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+66678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+66678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+66782,DEBUG,GNSSTask,GNSS checkUblox time, 13
+66783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+66882,DEBUG,GNSSTask,GNSS checkUblox time, 14
+66882,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+66908,DEBUG,WebSocketTask,sendGPSData time, 1
+66996,DEBUG,GNSSTask,GNSS checkUblox time, 27
+66996,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+67078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+67078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+67196,DEBUG,GNSSTask,GNSS checkUblox time, 27
+67196,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+67224,DEBUG,GNSSTask,pushRawData time, 5
+67278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+67278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+67396,DEBUG,GNSSTask,GNSS checkUblox time, 27
+67396,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+67408,DEBUG,WebSocketTask,sendGPSData time, 0
+67478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+67478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+67595,DEBUG,GNSSTask,GNSS checkUblox time, 26
+67596,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+67678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+67678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+67782,DEBUG,GNSSTask,GNSS checkUblox time, 13
+67783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+67883,DEBUG,GNSSTask,GNSS checkUblox time, 14
+67889,DEBUG,GNSSTask,GNSS checkCallbacks time, 20
+67915,DEBUG,WebSocketTask,sendGPSData time, 1
+67996,DEBUG,GNSSTask,GNSS checkUblox time, 27
+67996,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+68078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+68078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+68195,DEBUG,GNSSTask,GNSS checkUblox time, 26
+68196,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+68226,DEBUG,GNSSTask,pushRawData time, 5
+68278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+68278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+68396,DEBUG,GNSSTask,GNSS checkUblox time, 27
+68396,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+68419,DEBUG,WebSocketTask,sendGPSData time, 2
+68478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+68478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+68582,DEBUG,GNSSTask,GNSS checkUblox time, 13
+68583,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+68696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+68696,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+68778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+68778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+68882,DEBUG,GNSSTask,GNSS checkUblox time, 13
+68883,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+68920,DEBUG,WebSocketTask,sendGPSData time, 1
+68996,DEBUG,GNSSTask,GNSS checkUblox time, 27
+68996,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+69078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+69078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+69182,DEBUG,GNSSTask,GNSS checkUblox time, 13
+69183,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+69216,DEBUG,GNSSTask,pushRawData time, 11
+69273,DEBUG,GNSSTask,GNSS checkUblox time, 4
+69273,DEBUG,GNSSTask,GNSS checkCallbacks time, 4
+69396,DEBUG,GNSSTask,GNSS checkUblox time, 27
+69396,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+69422,DEBUG,WebSocketTask,sendGPSData time, 0
+69478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+69478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+69596,DEBUG,GNSSTask,GNSS checkUblox time, 27
+69596,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+69678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+69678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+69782,DEBUG,GNSSTask,GNSS checkUblox time, 13
+69783,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+69897,DEBUG,GNSSTask,GNSS checkUblox time, 28
+69903,DEBUG,GNSSTask,GNSS checkCallbacks time, 34
+69928,DEBUG,WebSocketTask,sendGPSData time, 1
+69978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+69978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+70096,DEBUG,GNSSTask,GNSS checkUblox time, 27
+70096,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+70178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+70178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+70296,DEBUG,GNSSTask,GNSS checkUblox time, 27
+70296,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+70329,DEBUG,GNSSTask,pushRawData time, 5
+70378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+70378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+70439,DEBUG,WebSocketTask,sendGPSData time, 1
+70496,DEBUG,GNSSTask,GNSS checkUblox time, 27
+70496,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+70578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+70578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+70696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+70696,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+70778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+70778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+70896,DEBUG,GNSSTask,GNSS checkUblox time, 27
+70896,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+70948,DEBUG,WebSocketTask,sendGPSData time, 1
+70978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+70978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+71082,DEBUG,GNSSTask,GNSS checkUblox time, 13
+71083,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+71183,DEBUG,GNSSTask,GNSS checkUblox time, 14
+71183,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+71296,DEBUG,GNSSTask,GNSS checkUblox time, 27
+71297,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+71324,DEBUG,GNSSTask,pushRawData time, 5
+71378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+71378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+71447,DEBUG,WebSocketTask,sendGPSData time, 1
+71483,DEBUG,GNSSTask,GNSS checkUblox time, 14
+71483,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+71583,DEBUG,GNSSTask,GNSS checkUblox time, 14
+71583,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+71696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+71697,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+71778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+71778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+71884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+71890,DEBUG,GNSSTask,GNSS checkCallbacks time, 21
+71958,DEBUG,WebSocketTask,sendGPSData time, 1
+71983,DEBUG,GNSSTask,GNSS checkUblox time, 15
+71983,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+72083,DEBUG,GNSSTask,GNSS checkUblox time, 14
+72083,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+72183,DEBUG,GNSSTask,GNSS checkUblox time, 14
+72183,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+72283,DEBUG,GNSSTask,GNSS checkUblox time, 14
+72283,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+72319,DEBUG,GNSSTask,pushRawData time, 11
+72373,DEBUG,GNSSTask,GNSS checkUblox time, 4
+72373,DEBUG,GNSSTask,GNSS checkCallbacks time, 4
+72467,DEBUG,WebSocketTask,sendGPSData time, 1
+72497,DEBUG,GNSSTask,GNSS checkUblox time, 28
+72498,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+72578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+72578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+72696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+72696,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+72778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+72778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+72896,DEBUG,GNSSTask,GNSS checkUblox time, 27
+72897,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+72967,DEBUG,WebSocketTask,sendGPSData time, 1
+72978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+72978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73096,DEBUG,GNSSTask,GNSS checkUblox time, 27
+73096,DEBUG,GNSSTask,GNSS checkCallbacks time, 27
+73178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+73178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73296,DEBUG,GNSSTask,GNSS checkUblox time, 27
+73297,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+73325,DEBUG,GNSSTask,pushRawData time, 5
+73378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+73378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73474,DEBUG,WebSocketTask,sendGPSData time, 1
+73498,DEBUG,GNSSTask,GNSS checkUblox time, 29
+73498,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+73578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+73578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+73697,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+73778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+73778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73898,DEBUG,GNSSTask,GNSS checkUblox time, 29
+73904,DEBUG,GNSSTask,GNSS checkCallbacks time, 35
+73978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+73978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+73983,DEBUG,WebSocketTask,sendGPSData time, 1
+74096,DEBUG,GNSSTask,GNSS checkUblox time, 27
+74097,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+74178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+74178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+74296,DEBUG,GNSSTask,GNSS checkUblox time, 27
+74297,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+74326,DEBUG,GNSSTask,pushRawData time, 5
+74378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+74378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+74490,DEBUG,WebSocketTask,sendGPSData time, 1
+74497,DEBUG,GNSSTask,GNSS checkUblox time, 28
+74498,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+74578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+74578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+74696,DEBUG,GNSSTask,GNSS checkUblox time, 27
+74697,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+74778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+74778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+74883,DEBUG,GNSSTask,GNSS checkUblox time, 14
+74883,DEBUG,GNSSTask,GNSS checkCallbacks time, 14
+74908,NAV,async_tcp,WebSocket received autonomous command, start
+74908,NAV,async_tcp,webSocketEventRTOS data, 2.00, 100.00, 0, 5
+74909,NAV,async_tcp,followingWaypoints to true, 5
+74970,NAV,NavTask,processNavigationCommand, 0
+74970,NAV,NavTask,NAV_CMD_START, 2.00, 100.00, 1
+74970,NAV,NavTask,isActive or lastActive chg, 1, 0
+74996,DEBUG,WebSocketTask,sendGPSData time, 1
+74998,DEBUG,GNSSTask,GNSS checkUblox time, 29
+74999,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+75018,NAV,ControlTask,ControlTask state chg, 1, 0
+75018,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291031, 0.09, 58.0
+75078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+75078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+75114,DEBUG,GNSSTask,pushRawData time, 12
+75172,DEBUG,GNSSTask,GNSS checkUblox time, 3
+75173,DEBUG,GNSSTask,GNSS checkCallbacks time, 4
+75297,DEBUG,GNSSTask,GNSS checkUblox time, 28
+75297,DEBUG,GNSSTask,GNSS checkCallbacks time, 28
+75378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+75378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+75497,DEBUG,GNSSTask,GNSS checkUblox time, 28
+75498,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+75499,DEBUG,WebSocketTask,sendGPSData time, 1
+75568,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291031, 0.14, 230.1
+75579,DEBUG,GNSSTask,GNSS checkUblox time, 10
+75579,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+75697,DEBUG,GNSSTask,GNSS checkUblox time, 28
+75698,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+75778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+75778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+75898,DEBUG,GNSSTask,GNSS checkUblox time, 29
+75904,DEBUG,GNSSTask,GNSS checkCallbacks time, 35
+75978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+75978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+76011,DEBUG,WebSocketTask,sendGPSData time, 5
+76097,DEBUG,GNSSTask,GNSS checkUblox time, 28
+76098,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+76118,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291031, 0.36, 238.7
+76129,DEBUG,GNSSTask,pushRawData time, 5
+76178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+76178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+76297,DEBUG,GNSSTask,GNSS checkUblox time, 28
+76298,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+76378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+76378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+76497,DEBUG,GNSSTask,GNSS checkUblox time, 28
+76498,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+76515,DEBUG,WebSocketTask,sendGPSData time, 1
+76578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+76578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+76668,NAV,ControlTask,ControlTask data, 42.6371803, -72.7291031, 0.34, 200.0
+76697,DEBUG,GNSSTask,GNSS checkUblox time, 28
+76698,DEBUG,GNSSTask,GNSS checkCallbacks time, 29
+76778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+76778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+76883,DEBUG,GNSSTask,GNSS checkUblox time, 14
+76884,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+76984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+76984,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+77023,DEBUG,WebSocketTask,sendGPSData time, 1
+77098,DEBUG,GNSSTask,GNSS checkUblox time, 29
+77099,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+77178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+77178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+77212,DEBUG,GNSSTask,pushRawData time, 12
+77218,NAV,ControlTask,ControlTask data, 42.6371803, -72.7291031, 0.57, 202.6
+77274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+77275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+77384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+77384,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+77484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+77484,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+77532,DEBUG,WebSocketTask,sendGPSData time, 1
+77584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+77584,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+77684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+77684,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+77768,NAV,ControlTask,ControlTask data, 42.6371765, -72.7291031, 0.35, 200.6
+77784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+77785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+77885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+77891,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+77998,DEBUG,GNSSTask,GNSS checkUblox time, 29
+77999,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+78032,DEBUG,WebSocketTask,sendGPSData time, 0
+78078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+78078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+78184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+78184,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+78284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+78284,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+78318,NAV,ControlTask,ControlTask data, 42.6371727, -72.7291031, 0.80, 154.8
+78323,DEBUG,GNSSTask,pushRawData time, 13
+78373,DEBUG,GNSSTask,GNSS checkUblox time, 5
+78374,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+78484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+78485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+78536,DEBUG,WebSocketTask,sendGPSData time, 1
+78598,DEBUG,GNSSTask,GNSS checkUblox time, 29
+78599,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+78678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+78678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+78784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+78784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+78868,NAV,ControlTask,ControlTask data, 42.6371727, -72.7291031, 0.43, 151.7
+78884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+78884,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+78998,DEBUG,GNSSTask,GNSS checkUblox time, 29
+78999,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+79044,DEBUG,WebSocketTask,sendGPSData time, 2
+79078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+79078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+79112,DEBUG,GNSSTask,pushRawData time, 12
+79174,DEBUG,GNSSTask,GNSS checkUblox time, 5
+79174,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+79284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+79284,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+79384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+79384,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+79418,NAV,ControlTask,ControlTask data, 42.6371689, -72.7291031, 0.61, 179.1
+79498,DEBUG,GNSSTask,GNSS checkUblox time, 29
+79499,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+79546,DEBUG,WebSocketTask,sendGPSData time, 1
+79578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+79578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+79684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+79685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+79784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+79785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+79885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+79892,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+79968,NAV,ControlTask,ControlTask data, 42.6371651, -72.7291031, 0.70, 175.3
+79985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+79985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80045,DEBUG,WebSocketTask,sendGPSData time, 1
+80084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80124,DEBUG,GNSSTask,pushRawData time, 13
+80173,DEBUG,GNSSTask,GNSS checkUblox time, 5
+80173,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+80284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80518,NAV,ControlTask,ControlTask data, 42.6371613, -72.7291031, 0.46, 196.0
+80547,DEBUG,WebSocketTask,sendGPSData time, 1
+80599,DEBUG,GNSSTask,GNSS checkUblox time, 30
+80600,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+80678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+80678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+80784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+80885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+80999,DEBUG,GNSSTask,GNSS checkUblox time, 30
+80999,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+81054,DEBUG,WebSocketTask,sendGPSData time, 1
+81067,NAV,ControlTask,ControlTask data, 42.6371574, -72.7291031, 0.49, 155.3
+81078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+81078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+81184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+81185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+81219,DEBUG,GNSSTask,pushRawData time, 12
+81274,DEBUG,GNSSTask,GNSS checkUblox time, 6
+81274,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+81399,DEBUG,GNSSTask,GNSS checkUblox time, 30
+81399,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+81478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+81478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+81555,DEBUG,WebSocketTask,sendGPSData time, 1
+81599,DEBUG,GNSSTask,GNSS checkUblox time, 31
+81600,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+81618,NAV,ControlTask,ControlTask data, 42.6371574, -72.7291031, 0.33, 180.3
+81678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+81678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+81784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+81785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+81885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+81891,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+81984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+81985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82053,DEBUG,WebSocketTask,sendGPSData time, 1
+82084,DEBUG,GNSSTask,GNSS checkUblox time, 16
+82085,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+82168,NAV,ControlTask,ControlTask data, 42.6371536, -72.7291031, 0.45, 179.1
+82184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82285,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82322,DEBUG,GNSSTask,pushRawData time, 12
+82374,DEBUG,GNSSTask,GNSS checkUblox time, 5
+82375,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+82484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82559,DEBUG,WebSocketTask,sendGPSData time, 1
+82585,DEBUG,GNSSTask,GNSS checkUblox time, 17
+82585,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+82684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82718,NAV,ControlTask,ControlTask data, 42.6371536, -72.7290955, 0.61, 117.1
+82784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+82984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+82985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+83062,DEBUG,WebSocketTask,sendGPSData time, 4
+83084,DEBUG,GNSSTask,GNSS checkUblox time, 16
+83085,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+83120,DEBUG,GNSSTask,pushRawData time, 13
+83173,DEBUG,GNSSTask,GNSS checkUblox time, 5
+83174,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+83268,NAV,ControlTask,ControlTask data, 42.6371498, -72.7290955, 0.56, 150.5
+83299,DEBUG,GNSSTask,GNSS checkUblox time, 30
+83300,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+83378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+83378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+83499,DEBUG,GNSSTask,GNSS checkUblox time, 30
+83500,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+83562,DEBUG,WebSocketTask,sendGPSData time, 1
+83578,DEBUG,GNSSTask,GNSS checkUblox time, 10
+83578,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+83699,DEBUG,GNSSTask,GNSS checkUblox time, 30
+83699,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+83770,NAV,NavTask,wp reached, 1.98
+83770,DEBUG,NavTask,handleWaypointReached
+83770,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+83778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+83778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+83818,NAV,ControlTask,ControlTask data, 42.6371460, -72.7290955, 0.62, 142.1
+83870,NAV,NavTask,wp reached, 1.27
+83870,DEBUG,NavTask,handleWaypointReached
+83870,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+83901,DEBUG,GNSSTask,GNSS checkUblox time, 32
+83906,DEBUG,GNSSTask,GNSS checkCallbacks time, 37
+83970,NAV,NavTask,wp reached, 1.62
+83970,DEBUG,NavTask,handleWaypointReached
+83970,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 2, 5, 1
+83978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+83978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+84065,DEBUG,WebSocketTask,sendGPSData time, 5
+84100,DEBUG,GNSSTask,GNSS checkUblox time, 32
+84100,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+84131,DEBUG,GNSSTask,pushRawData time, 5
+84178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+84178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+84299,DEBUG,GNSSTask,GNSS checkUblox time, 30
+84300,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+84368,NAV,ControlTask,ControlTask data, 42.6371460, -72.7290955, 0.74, 144.9
+84378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+84378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+84499,DEBUG,GNSSTask,GNSS checkUblox time, 30
+84500,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+84566,DEBUG,WebSocketTask,sendGPSData time, 1
+84578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+84578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+84699,DEBUG,GNSSTask,GNSS checkUblox time, 30
+84700,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+84778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+84778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+84899,DEBUG,GNSSTask,GNSS checkUblox time, 30
+84900,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+84918,NAV,ControlTask,ControlTask data, 42.6371422, -72.7290955, 0.55, 158.0
+84978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+84978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+85074,DEBUG,WebSocketTask,sendGPSData time, 1
+85100,DEBUG,GNSSTask,GNSS checkUblox time, 31
+85101,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+85131,DEBUG,GNSSTask,pushRawData time, 5
+85178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+85178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+85299,DEBUG,GNSSTask,GNSS checkUblox time, 30
+85300,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+85378,DEBUG,GNSSTask,GNSS checkUblox time, 9
+85378,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+85468,NAV,ControlTask,ControlTask data, 42.6371384, -72.7290955, 0.68, 171.7
+85499,DEBUG,GNSSTask,GNSS checkUblox time, 30
+85500,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+85578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+85578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+85584,DEBUG,WebSocketTask,sendGPSData time, 1
+85684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+85685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+85784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+85785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+85885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+85891,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+85999,DEBUG,GNSSTask,GNSS checkUblox time, 30
+86000,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+86018,NAV,ControlTask,ControlTask data, 42.6371346, -72.7290955, 0.46, 201.2
+86078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+86078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+86090,DEBUG,WebSocketTask,sendGPSData time, 1
+86184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+86185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+86221,DEBUG,GNSSTask,pushRawData time, 12
+86274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+86275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+86399,DEBUG,GNSSTask,GNSS checkUblox time, 30
+86399,DEBUG,GNSSTask,GNSS checkCallbacks time, 30
+86478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+86478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+86568,NAV,ControlTask,ControlTask data, 42.6371307, -72.7290955, 0.38, 213.9
+86595,DEBUG,WebSocketTask,sendGPSData time, 1
+86600,DEBUG,GNSSTask,GNSS checkUblox time, 31
+86600,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+86678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+86678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+86784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+86785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+86884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+86885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+86984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+86985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87103,DEBUG,WebSocketTask,sendGPSData time, 1
+87118,NAV,ControlTask,ControlTask data, 42.6371269, -72.7290955, 0.38, 215.0
+87184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87220,DEBUG,GNSSTask,pushRawData time, 12
+87274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+87275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+87384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87608,DEBUG,WebSocketTask,sendGPSData time, 1
+87668,NAV,ControlTask,ControlTask data, 42.6371269, -72.7291031, 0.52, 246.2
+87684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+87885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+87889,DEBUG,GNSSTask,GNSS checkCallbacks time, 20
+87984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+87985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88116,DEBUG,WebSocketTask,sendGPSData time, 1
+88184,DEBUG,GNSSTask,GNSS checkUblox time, 16
+88185,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+88218,NAV,ControlTask,ControlTask data, 42.6371231, -72.7291031, 0.82, 234.4
+88222,DEBUG,GNSSTask,pushRawData time, 13
+88274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+88275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+88384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88599,DEBUG,GNSSTask,GNSS checkUblox time, 30
+88600,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+88616,DEBUG,WebSocketTask,sendGPSData time, 1
+88678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+88678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+88768,NAV,ControlTask,ControlTask data, 42.6371231, -72.7291107, 0.41, 249.7
+88784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+88984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+88985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89121,DEBUG,WebSocketTask,sendGPSData time, 1
+89184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89219,DEBUG,GNSSTask,pushRawData time, 12
+89274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+89275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+89318,NAV,ControlTask,ControlTask data, 42.6371231, -72.7291107, 0.48, 357.8
+89384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89584,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+89623,DEBUG,WebSocketTask,sendGPSData time, 1
+89684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+89784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+89868,NAV,ControlTask,ControlTask data, 42.6371269, -72.7291107, 0.32, 15.7
+89885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+89889,DEBUG,GNSSTask,GNSS checkCallbacks time, 20
+89984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+89985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90133,DEBUG,WebSocketTask,sendGPSData time, 4
+90184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90223,DEBUG,GNSSTask,pushRawData time, 12
+90273,DEBUG,GNSSTask,GNSS checkUblox time, 4
+90274,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+90384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90418,NAV,ControlTask,ControlTask data, 42.6371269, -72.7291107, 0.39, 48.4
+90484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90632,DEBUG,WebSocketTask,sendGPSData time, 1
+90684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90885,DEBUG,GNSSTask,GNSS checkUblox time, 15
+90885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+90968,NAV,ControlTask,ControlTask data, 42.6371307, -72.7291031, 0.99, 69.9
+90985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+90985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91119,DEBUG,GNSSTask,pushRawData time, 11
+91132,DEBUG,WebSocketTask,sendGPSData time, 1
+91174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+91175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+91285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91518,NAV,ControlTask,ControlTask data, 42.6371307, -72.7291031, 0.54, 45.4
+91585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91640,DEBUG,WebSocketTask,sendGPSData time, 1
+91685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+91886,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91892,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+91985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+91985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+92068,NAV,ControlTask,ControlTask data, 42.6371346, -72.7291031, 0.48, 32.8
+92085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+92086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+92122,DEBUG,GNSSTask,pushRawData time, 11
+92146,DEBUG,WebSocketTask,sendGPSData time, 1
+92174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+92175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+92285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+92285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+92385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+92385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+92500,DEBUG,GNSSTask,GNSS checkUblox time, 31
+92501,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+92578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+92578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+92618,NAV,ControlTask,ControlTask data, 42.6371346, -72.7291031, 0.41, 12.2
+92647,DEBUG,WebSocketTask,sendGPSData time, 1
+92700,DEBUG,GNSSTask,GNSS checkUblox time, 32
+92701,DEBUG,GNSSTask,GNSS checkCallbacks time, 33
+92753,DEBUG,GNSSTask,pushRawData time, 9
+92778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+92778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+92836,DEBUG,GNSSTask,pushRawData time, 19
+92878,DEBUG,GNSSTask,GNSS checkUblox time, 10
+92878,DEBUG,GNSSTask,GNSS checkCallbacks time, 10
+92891,DEBUG,GNSSTask,pushRawData time, 1
+92985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+92985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+93100,DEBUG,GNSSTask,GNSS checkUblox time, 31
+93101,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+93154,DEBUG,WebSocketTask,sendGPSData time, 0
+93168,NAV,ControlTask,ControlTask data, 42.6371346, -72.7291031, 0.36, 352.6
+93178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+93178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+93217,DEBUG,GNSSTask,pushRawData time, 13
+93273,DEBUG,GNSSTask,GNSS checkUblox time, 4
+93274,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+93286,DEBUG,GNSSTask,pushRawData time, 1
+93385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+93386,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+93485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+93486,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+93585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+93585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+93662,DEBUG,WebSocketTask,sendGPSData time, 1
+93701,DEBUG,GNSSTask,GNSS checkUblox time, 33
+93702,DEBUG,GNSSTask,GNSS checkCallbacks time, 34
+93718,NAV,ControlTask,ControlTask data, 42.6371384, -72.7291031, 0.47, 349.5
+93778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+93778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+93886,DEBUG,GNSSTask,GNSS checkUblox time, 17
+93892,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+94001,DEBUG,GNSSTask,GNSS checkUblox time, 32
+94001,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+94078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+94078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+94112,DEBUG,GNSSTask,pushRawData time, 11
+94166,DEBUG,WebSocketTask,sendGPSData time, 1
+94176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+94176,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+94268,NAV,ControlTask,ControlTask data, 42.6371384, -72.7291031, 0.45, 334.6
+94285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+94286,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+94385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+94385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+94500,DEBUG,GNSSTask,GNSS checkUblox time, 31
+94501,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+94578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+94578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+94672,DEBUG,WebSocketTask,sendGPSData time, 1
+94686,DEBUG,GNSSTask,GNSS checkUblox time, 17
+94687,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+94785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+94785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+94818,NAV,ControlTask,ControlTask data, 42.6371422, -72.7291107, 0.76, 321.3
+94885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+94885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+94985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+94985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+95085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+95085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+95175,DEBUG,WebSocketTask,sendGPSData time, 2
+95186,DEBUG,GNSSTask,GNSS checkUblox time, 17
+95186,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+95225,DEBUG,GNSSTask,pushRawData time, 13
+95274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+95274,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+95368,NAV,ControlTask,ControlTask data, 42.6371460, -72.7291107, 0.83, 334.5
+95400,DEBUG,GNSSTask,GNSS checkUblox time, 31
+95401,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+95478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+95478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+95585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+95585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+95681,DEBUG,WebSocketTask,sendGPSData time, 3
+95701,DEBUG,GNSSTask,GNSS checkUblox time, 32
+95701,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+95778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+95778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+95885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+95891,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+95918,NAV,ControlTask,ControlTask data, 42.6371498, -72.7291183, 0.80, 329.3
+95985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+95986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+96085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+96120,DEBUG,GNSSTask,pushRawData time, 12
+96174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+96175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+96193,DEBUG,WebSocketTask,sendGPSData time, 2
+96285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+96385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+96468,NAV,ControlTask,ControlTask data, 42.6371536, -72.7291183, 0.72, 1.5
+96485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96486,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+96585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+96699,DEBUG,WebSocketTask,sendGPSData time, 0
+96700,DEBUG,GNSSTask,GNSS checkUblox time, 31
+96700,DEBUG,GNSSTask,GNSS checkCallbacks time, 31
+96778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+96778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+96885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+96885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+96970,NAV,NavTask,wp reached, 1.98
+96970,DEBUG,NavTask,handleWaypointReached
+96970,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 3, 5, 1
+96978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+96978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+97018,NAV,ControlTask,ControlTask data, 42.6371613, -72.7291183, 0.68, 336.1
+97085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+97185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+97209,DEBUG,WebSocketTask,sendGPSData time, 2
+97285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+97322,DEBUG,GNSSTask,pushRawData time, 12
+97374,DEBUG,GNSSTask,GNSS checkUblox time, 6
+97375,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+97485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+97568,NAV,ControlTask,ControlTask data, 42.6371651, -72.7291183, 0.63, 5.3
+97600,DEBUG,GNSSTask,GNSS checkUblox time, 31
+97601,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+97678,DEBUG,GNSSTask,GNSS checkUblox time, 9
+97678,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+97718,DEBUG,WebSocketTask,sendGPSData time, 1
+97785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+97885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+97886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+97986,DEBUG,GNSSTask,GNSS checkUblox time, 17
+97992,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+98085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+98118,NAV,ControlTask,ControlTask data, 42.6371689, -72.7291183, 0.69, 11.8
+98122,DEBUG,GNSSTask,pushRawData time, 13
+98174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+98175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+98218,DEBUG,WebSocketTask,sendGPSData time, 1
+98285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+98385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+98485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+98585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+98668,NAV,ControlTask,ControlTask data, 42.6371689, -72.7291183, 0.27, 314.0
+98685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98686,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+98727,DEBUG,WebSocketTask,sendGPSData time, 1
+98785,DEBUG,GNSSTask,GNSS checkUblox time, 17
+98786,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+98885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+98985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+98985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99122,DEBUG,GNSSTask,pushRawData time, 12
+99175,DEBUG,GNSSTask,GNSS checkUblox time, 6
+99175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+99218,NAV,ControlTask,ControlTask data, 42.6371727, -72.7291183, 0.38, 359.6
+99231,DEBUG,WebSocketTask,sendGPSData time, 2
+99284,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99285,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+99385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99730,DEBUG,WebSocketTask,sendGPSData time, 2
+99768,NAV,ControlTask,ControlTask data, 42.6371727, -72.7291260, 0.57, 6.9
+99785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+99885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+99885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+99986,DEBUG,GNSSTask,GNSS checkUblox time, 17
+99991,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+100085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+100185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+100223,DEBUG,GNSSTask,pushRawData time, 13
+100233,DEBUG,WebSocketTask,sendGPSData time, 1
+100274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+100274,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+100318,NAV,ControlTask,ControlTask data, 42.6371765, -72.7291183, 0.93, 21.1
+100385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+100485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+100585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+100685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+100742,DEBUG,WebSocketTask,sendGPSData time, 1
+100785,DEBUG,GNSSTask,GNSS checkUblox time, 17
+100786,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+100868,NAV,ControlTask,ControlTask data, 42.6371803, -72.7291183, 0.75, 42.2
+100885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+100886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+100978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+100978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+101085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101222,DEBUG,GNSSTask,pushRawData time, 12
+101251,DEBUG,WebSocketTask,sendGPSData time, 1
+101274,DEBUG,GNSSTask,GNSS checkUblox time, 6
+101275,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+101385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101418,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291183, 0.77, 61.8
+101485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101570,NAV,NavTask,wp reached, 1.60
+101570,DEBUG,NavTask,handleWaypointReached
+101570,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 4, 5, 1
+101571,NAV,NavTask,Last waypoint reached, looping back
+101586,DEBUG,GNSSTask,GNSS checkUblox time, 17
+101586,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+101685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101762,DEBUG,WebSocketTask,sendGPSData time, 1
+101785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+101885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+101968,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291107, 1.06, 64.8
+101985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+101986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+102086,DEBUG,GNSSTask,GNSS checkUblox time, 17
+102091,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+102125,DEBUG,GNSSTask,pushRawData time, 12
+102174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+102175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+102262,DEBUG,WebSocketTask,sendGPSData time, 1
+102286,DEBUG,GNSSTask,GNSS checkUblox time, 17
+102286,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+102385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+102385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+102485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+102485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+102518,NAV,ControlTask,ControlTask data, 42.6371880, -72.7291031, 0.43, 112.8
+102585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+102585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+102685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+102685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+102762,DEBUG,WebSocketTask,sendGPSData time, 1
+102786,DEBUG,GNSSTask,GNSS checkUblox time, 17
+102787,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+102885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+102885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+102978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+102978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+103068,NAV,ControlTask,ControlTask data, 42.6371841, -72.7291031, 0.41, 195.7
+103085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103223,DEBUG,GNSSTask,pushRawData time, 12
+103272,DEBUG,WebSocketTask,sendGPSData time, 1
+103275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+103275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+103385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103618,NAV,ControlTask,ControlTask data, 42.6371803, -72.7291107, 0.76, 217.3
+103685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103772,DEBUG,WebSocketTask,sendGPSData time, 0
+103786,DEBUG,GNSSTask,GNSS checkUblox time, 17
+103786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+103885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+103985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+103985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+104120,DEBUG,GNSSTask,pushRawData time, 12
+104168,NAV,ControlTask,ControlTask data, 42.6371803, -72.7291107, 0.97, 225.9
+104176,DEBUG,GNSSTask,GNSS checkUblox time, 7
+104180,DEBUG,GNSSTask,GNSS checkCallbacks time, 11
+104285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104286,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+104287,DEBUG,WebSocketTask,sendGPSData time, 9
+104385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104718,NAV,ControlTask,ControlTask data, 42.6371765, -72.7291183, 0.54, 223.2
+104785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+104787,DEBUG,WebSocketTask,sendGPSData time, 3
+104885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+104885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+104978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+104978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+105085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105268,NAV,ControlTask,ControlTask data, 42.6371727, -72.7291183, 0.64, 201.0
+105285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105286,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+105285,DEBUG,WebSocketTask,sendGPSData time, 2
+105385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105425,DEBUG,GNSSTask,pushRawData time, 13
+105474,DEBUG,GNSSTask,GNSS checkUblox time, 5
+105474,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+105585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+105786,DEBUG,WebSocketTask,sendGPSData time, 2
+105818,NAV,ControlTask,ControlTask data, 42.6371689, -72.7291183, 0.53, 171.7
+105885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+105985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+105985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106220,DEBUG,GNSSTask,pushRawData time, 12
+106276,DEBUG,GNSSTask,GNSS checkUblox time, 6
+106282,DEBUG,GNSSTask,GNSS checkCallbacks time, 13
+106290,DEBUG,WebSocketTask,sendGPSData time, 2
+106368,NAV,ControlTask,ControlTask data, 42.6371651, -72.7291183, 0.49, 150.3
+106385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106386,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+106485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106800,DEBUG,WebSocketTask,sendGPSData time, 1
+106885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+106918,NAV,ControlTask,ControlTask data, 42.6371651, -72.7291183, 0.61, 151.9
+106985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+106986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+107085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107306,DEBUG,WebSocketTask,sendGPSData time, 1
+107322,DEBUG,GNSSTask,pushRawData time, 12
+107374,DEBUG,GNSSTask,GNSS checkUblox time, 6
+107375,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+107468,NAV,ControlTask,ControlTask data, 42.6371613, -72.7291183, 0.90, 165.3
+107486,DEBUG,GNSSTask,GNSS checkUblox time, 17
+107486,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+107585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+107818,DEBUG,WebSocketTask,sendGPSData time, 2
+107885,DEBUG,GNSSTask,GNSS checkUblox time, 17
+107885,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+107985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+107985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+108018,NAV,ControlTask,ControlTask data, 42.6371574, -72.7291183, 0.69, 183.4
+108085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+108121,DEBUG,GNSSTask,pushRawData time, 12
+108174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+108174,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+108286,DEBUG,GNSSTask,GNSS checkUblox time, 17
+108290,DEBUG,GNSSTask,GNSS checkCallbacks time, 21
+108316,DEBUG,WebSocketTask,sendGPSData time, 1
+108385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108386,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+108485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+108568,NAV,ControlTask,ControlTask data, 42.6371536, -72.7291183, 0.85, 171.2
+108585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108586,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+108685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+108785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+108826,DEBUG,WebSocketTask,sendGPSData time, 2
+108885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+108886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+108978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+108978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+109100,DEBUG,GNSSTask,GNSS checkUblox time, 31
+109101,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+109118,NAV,ControlTask,ControlTask data, 42.6371498, -72.7291183, 0.65, 192.2
+109178,DEBUG,GNSSTask,GNSS checkUblox time, 9
+109178,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+109215,DEBUG,GNSSTask,pushRawData time, 11
+109275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+109275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+109330,DEBUG,WebSocketTask,sendGPSData time, 0
+109401,DEBUG,GNSSTask,GNSS checkUblox time, 32
+109402,DEBUG,GNSSTask,GNSS checkCallbacks time, 33
+109478,DEBUG,GNSSTask,GNSS checkUblox time, 9
+109478,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+109585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+109585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+109668,NAV,ControlTask,ControlTask data, 42.6371460, -72.7291183, 0.71, 136.3
+109685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+109686,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+109785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+109785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+109838,DEBUG,WebSocketTask,sendGPSData time, 2
+109886,DEBUG,GNSSTask,GNSS checkUblox time, 17
+109886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+110000,DEBUG,GNSSTask,GNSS checkUblox time, 31
+110001,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+110078,DEBUG,GNSSTask,GNSS checkUblox time, 9
+110078,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+110114,DEBUG,GNSSTask,pushRawData time, 12
+110174,DEBUG,GNSSTask,GNSS checkUblox time, 5
+110175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+110218,NAV,ControlTask,ControlTask data, 42.6371422, -72.7291183, 0.71, 165.0
+110285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110286,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+110346,DEBUG,WebSocketTask,sendGPSData time, 1
+110387,DEBUG,GNSSTask,GNSS checkUblox time, 18
+110391,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+110485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110486,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+110585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+110685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+110768,NAV,ControlTask,ControlTask data, 42.6371384, -72.7291183, 0.57, 151.0
+110785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110786,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+110846,DEBUG,WebSocketTask,sendGPSData time, 1
+110886,DEBUG,GNSSTask,GNSS checkUblox time, 17
+110887,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+110985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+110986,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+111085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+111185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+111222,DEBUG,GNSSTask,pushRawData time, 12
+111274,DEBUG,GNSSTask,GNSS checkUblox time, 6
+111275,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+111318,NAV,ControlTask,ControlTask data, 42.6371384, -72.7291107, 0.79, 146.2
+111347,DEBUG,WebSocketTask,sendGPSData time, 1
+111385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111386,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+111470,NAV,NavTask,wp reached, 1.84
+111470,DEBUG,NavTask,handleWaypointReached
+111470,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 0, 5, 1
+111486,DEBUG,GNSSTask,GNSS checkUblox time, 17
+111486,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+111570,NAV,NavTask,wp reached, 1.68
+111570,DEBUG,NavTask,handleWaypointReached
+111570,NAV,NavTask,currentWaypoint, totalWaypoints, followingWaypoints, 1, 5, 1
+111586,DEBUG,GNSSTask,GNSS checkUblox time, 17
+111586,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+111685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+111785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+111847,DEBUG,WebSocketTask,sendGPSData time, 1
+111868,NAV,ControlTask,ControlTask data, 42.6371346, -72.7291107, 0.59, 166.1
+111885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+111985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+111985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+112085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+112120,DEBUG,GNSSTask,pushRawData time, 12
+112174,DEBUG,GNSSTask,GNSS checkUblox time, 6
+112175,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+112285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+112354,DEBUG,WebSocketTask,sendGPSData time, 1
+112386,DEBUG,GNSSTask,GNSS checkUblox time, 17
+112390,DEBUG,GNSSTask,GNSS checkCallbacks time, 21
+112418,NAV,ControlTask,ControlTask data, 42.6371269, -72.7291107, 0.76, 202.5
+112500,DEBUG,GNSSTask,GNSS checkUblox time, 31
+112501,DEBUG,GNSSTask,GNSS checkCallbacks time, 32
+112578,DEBUG,GNSSTask,GNSS checkUblox time, 9
+112578,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+112685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+112785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+112855,DEBUG,WebSocketTask,sendGPSData time, 2
+112885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+112968,NAV,ControlTask,ControlTask data, 42.6371269, -72.7291183, 0.55, 234.3
+112985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+112986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+113085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113285,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113323,DEBUG,GNSSTask,pushRawData time, 12
+113353,DEBUG,WebSocketTask,sendGPSData time, 1
+113375,DEBUG,GNSSTask,GNSS checkUblox time, 6
+113376,DEBUG,GNSSTask,GNSS checkCallbacks time, 7
+113485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113518,NAV,ControlTask,ControlTask data, 42.6371231, -72.7291183, 0.55, 219.0
+113585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+113863,DEBUG,WebSocketTask,sendGPSData time, 2
+113885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113886,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+113985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+113986,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+114068,NAV,ControlTask,ControlTask data, 42.6371193, -72.7291183, 0.35, 225.1
+114085,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114086,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+114185,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+114220,DEBUG,GNSSTask,pushRawData time, 12
+114275,DEBUG,GNSSTask,GNSS checkUblox time, 6
+114275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+114373,DEBUG,WebSocketTask,sendGPSData time, 1
+114386,DEBUG,GNSSTask,GNSS checkUblox time, 17
+114392,DEBUG,GNSSTask,GNSS checkCallbacks time, 23
+114485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114485,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+114585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+114618,NAV,ControlTask,ControlTask data, 42.6371155, -72.7291260, 0.33, 239.3
+114685,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+114785,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+114881,DEBUG,WebSocketTask,sendGPSData time, 1
+114885,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+114985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+114985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115066,NAV,async_tcp,WebSocket received autonomous command, stop
+115066,NAV,async_tcp,Stop command received
+115070,NAV,NavTask,processNavigationCommand, 1
+115070,NAV,NavTask,NAV_CMD_STOP, 1, 0
+115070,NAV,NavTask,isActive or lastActive chg, 0, 0
+115087,DEBUG,GNSSTask,GNSS checkUblox time, 18
+115087,DEBUG,GNSSTask,GNSS checkCallbacks time, 18
+115118,NAV,ControlTask,ControlTask state chg, 0, 0
+115126,DEBUG,GNSSTask,pushRawData time, 13
+115174,DEBUG,GNSSTask,GNSS checkUblox time, 5
+115174,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+115284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115388,DEBUG,WebSocketTask,sendGPSData time, 1
+115484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+115896,DEBUG,WebSocketTask,sendGPSData time, 1
+115984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+115985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+116084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+116118,DEBUG,GNSSTask,pushRawData time, 11
+116174,DEBUG,GNSSTask,GNSS checkUblox time, 5
+116175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+116284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+116385,DEBUG,GNSSTask,GNSS checkUblox time, 16
+116391,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+116397,DEBUG,WebSocketTask,sendGPSData time, 1
+116485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+116485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+116584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116584,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+116684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116684,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+116784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116784,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+116884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116884,DEBUG,GNSSTask,GNSS checkCallbacks time, 15
+116900,DEBUG,WebSocketTask,sendGPSData time, 1
+116984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+116985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117222,DEBUG,GNSSTask,pushRawData time, 12
+117274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+117275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+117384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117400,DEBUG,WebSocketTask,sendGPSData time, 1
+117485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+117485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+117885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+117912,DEBUG,WebSocketTask,sendGPSData time, 2
+117978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+117978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+118084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118119,DEBUG,GNSSTask,pushRawData time, 11
+118174,DEBUG,GNSSTask,GNSS checkUblox time, 5
+118175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+118278,DEBUG,GNSSTask,GNSS checkUblox time, 9
+118278,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+118384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118411,DEBUG,WebSocketTask,sendGPSData time, 2
+118484,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118585,DEBUG,GNSSTask,GNSS checkUblox time, 16
+118591,DEBUG,GNSSTask,GNSS checkCallbacks time, 22
+118684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+118885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+118919,DEBUG,WebSocketTask,sendGPSData time, 2
+118978,DEBUG,GNSSTask,GNSS checkUblox time, 9
+118978,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+119084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119220,DEBUG,GNSSTask,pushRawData time, 11
+119274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+119275,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+119384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119426,DEBUG,WebSocketTask,sendGPSData time, 1
+119485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+119485,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119684,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119685,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119784,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119785,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+119933,DEBUG,WebSocketTask,sendGPSData time, 1
+119984,DEBUG,GNSSTask,GNSS checkUblox time, 15
+119985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+120085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120184,DEBUG,GNSSTask,GNSS checkUblox time, 15
+120185,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120221,DEBUG,GNSSTask,pushRawData time, 12
+120274,DEBUG,GNSSTask,GNSS checkUblox time, 5
+120274,DEBUG,GNSSTask,GNSS checkCallbacks time, 5
+120384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+120385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120433,DEBUG,WebSocketTask,sendGPSData time, 1
+120484,DEBUG,GNSSTask,GNSS checkUblox time, 16
+120485,DEBUG,GNSSTask,GNSS checkCallbacks time, 17
+120584,DEBUG,GNSSTask,GNSS checkUblox time, 15
+120585,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120700,DEBUG,GNSSTask,GNSS checkUblox time, 31
+120706,DEBUG,GNSSTask,GNSS checkCallbacks time, 37
+120778,DEBUG,GNSSTask,GNSS checkUblox time, 9
+120778,DEBUG,GNSSTask,GNSS checkCallbacks time, 9
+120884,DEBUG,GNSSTask,GNSS checkUblox time, 15
+120885,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+120933,DEBUG,WebSocketTask,sendGPSData time, 1
+120985,DEBUG,GNSSTask,GNSS checkUblox time, 16
+120985,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+121084,DEBUG,GNSSTask,GNSS checkUblox time, 15
+121085,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+121122,DEBUG,GNSSTask,pushRawData time, 11
+121175,DEBUG,GNSSTask,GNSS checkUblox time, 5
+121175,DEBUG,GNSSTask,GNSS checkCallbacks time, 6
+121284,DEBUG,GNSSTask,GNSS checkUblox time, 15
+121285,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+121384,DEBUG,GNSSTask,GNSS checkUblox time, 15
+121385,DEBUG,GNSSTask,GNSS checkCallbacks time, 16
+121441,DEBUG,WebSocketTask,sendGPSData time, 1
+121485,DEBUG,GNSSTask,GNSS checkUblox time, 16
+121486,DEBUG,GNSSTask,GNSS checkCallbacks time, 17

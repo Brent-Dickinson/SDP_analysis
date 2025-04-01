@@ -1,0 +1,25 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: DEBUG
+----------------
+
+Operation: sendGPSData
+  Count: 264
+  Min: 1 ms
+  Max: 19 ms
+  Avg: 1.7 ms
+  Median: 1.0 ms
+  Total Time: 449 ms
+
+Operation: pushRawData
+  Count: 155
+  Min: 1 ms
+  Max: 18 ms
+  Avg: 5.65 ms
+  Median: 5.0 ms
+  Total Time: 875 ms
+
