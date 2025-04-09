@@ -1,0 +1,94 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: NAV
+--------------
+
+Operation: position-control latency time
+  Count: 219
+  Min: 11 ms
+  Max: 320 ms
+  Avg: 54.97 ms
+  Median: 29.0 ms
+  Total Time: 12039 ms
+
+Operation: ControlTask loop beginning
+  Count: 219
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Log Level: ERROR
+----------------
+
+Operation: GNSSTask time
+  Count: 199
+  Min: 1 ms
+  Max: 250 ms
+  Avg: 57.86 ms
+  Median: 28.0 ms
+  Total Time: 11514 ms
+
+Operation: ControlTask time
+  Count: 218
+  Min: 1 ms
+  Max: 109 ms
+  Avg: 42.29 ms
+  Median: 46.0 ms
+  Total Time: 9219 ms
+
+Operation: GNSS checkUblox time
+  Count: 192
+  Min: 1 ms
+  Max: 102 ms
+  Avg: 14.34 ms
+  Median: 2.0 ms
+  Total Time: 2753 ms
+
+Operation: pushRawData time
+  Count: 22
+  Min: 18 ms
+  Max: 73 ms
+  Avg: 23.27 ms
+  Median: 20.0 ms
+  Total Time: 512 ms
+
+Operation: NavigationTask time
+  Count: 21
+  Min: 0 ms
+  Max: 31 ms
+  Avg: 1.48 ms
+  Median: 0.0 ms
+  Total Time: 31 ms
+
+Operation: GGATask time
+  Count: 21
+  Min: 4 ms
+  Max: 6 ms
+  Avg: 5.57 ms
+  Median: 6.0 ms
+  Total Time: 117 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 88
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 88 ms
+
+
+Correlation with 'position-control latency time' in Session 1 (loop-level):
+  ControlTask loop beginning              : r = nan
+  ControlTask time                        : r = -0.037
+  GGATask time                            : r = 0.356
+  GNSS checkCallbacks time                : r = nan
+  GNSS checkUblox time                    : r = -0.177
+  GNSSTask time                           : r = 0.096
+  NavigationTask time                     : r = 0.548
+  pushRawData time                        : r = 0.305

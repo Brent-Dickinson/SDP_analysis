@@ -8,6 +8,7 @@ from collections import defaultdict
 import argparse
 
 # python log_analysis_levels.py --log log.txt --ignore "RTCM age" "Websocket gnssMutex acq" "ntrip mutex acq" "ntripClientMutex hold (no data)" "gnssMutex hold" "gnssMutex take" --by-level
+# python log_analysis_levels.py --log log.txt --by-level --min-duration 0 --cut-before-latency
 
 def is_ignored(operation_name, ignored_list):
     """
@@ -27,7 +28,8 @@ def is_ignored(operation_name, ignored_list):
     
     return False
 
-def analyze_log_file(log_file_path, min_duration_ms=1, ignored_operations=None):
+def analyze_log_file(log_file_path, min_duration_ms=0, ignored_operations=None, cut_before_latency=True):
+
     """
     Analyze ESP32 FreeRTOS log file for timing data
     
@@ -64,32 +66,45 @@ def analyze_log_file(log_file_path, min_duration_ms=1, ignored_operations=None):
     # Regular expressions for parsing
     time_pattern = re.compile(r'(.+?)time, (\d+)')
     
+        # If cutting before latency, find the first latency timestamp
+    first_latency_timestamp = None
+    last_latency_timestamp = None
+    if cut_before_latency:
+        with open(log_file_path, 'r') as f:
+            for line in f:
+                if 'position-control latency time' in line:
+                    try:
+                        parts = line.strip().split(',', 3)
+                        if len(parts) >= 1:
+                            ts = int(parts[0])
+                            if first_latency_timestamp is None:
+                                first_latency_timestamp = ts
+                            last_latency_timestamp = ts  # keeps updating until last
+                    except:
+                        continue
+
     # Read the log file
     with open(log_file_path, 'r') as f:
         for line in f:
-            # Skip header lines and empty lines
+            # Skip header or empty lines
             if line.startswith('----- New Logging Session Started -----') or \
-               line.startswith('Timestamp,Level,Task,Message') or \
-               not line.strip():
+            line.startswith('Timestamp,Level,Task,Message') or \
+            not line.strip():
                 continue
-                
-            # Parse the log line
+
             try:
                 parts = line.strip().split(',', 3)
                 if len(parts) < 4:
                     continue
-                    
-                timestamp, level, task, message = parts
-                timestamp = int(timestamp)
-                
-                # Check for system restart
+
+                timestamp_str, level, task, message = parts
+                timestamp = int(timestamp_str)
+
+                # Always check for restart/system online markers, even if before cutoff
                 if "SYSTEM RESTART DETECTED" in message:
                     if current_session['start_time'] is not None:
-                        # Save current session and start a new one
                         sessions.append(current_session)
                         session_count += 1
-                        
-                    # Initialize a new session
                     current_session = {
                         'start_time': timestamp,
                         'operations': defaultdict(list),
@@ -100,52 +115,67 @@ def analyze_log_file(log_file_path, min_duration_ms=1, ignored_operations=None):
                     }
                     system_online = False
                     continue
-                
-                # Check for system coming online (GNSS time initialization)
+
                 if "GNSS SYS TIME:" in message:
                     system_online = True
                     current_session['start_time'] = timestamp
                     continue
-                    
+
+                # Skip non-init lines outside the latency window
+                if cut_before_latency and (
+                    (first_latency_timestamp and timestamp < first_latency_timestamp) or
+                    (last_latency_timestamp and timestamp > last_latency_timestamp)
+                ):
+                    # Allow GNSS SYS TIME and restart detection even outside window
+                    if "SYSTEM RESTART DETECTED" not in message and "GNSS SYS TIME:" not in message:
+                        continue
+
+
                 # Skip processing until system is online
                 if not system_online:
                     continue
-                
-                # Check for getFusionStatus calls
+
+                # Track getFusionStatus calls
                 if "about to call getFusionStatus" in message or "getFusionStatus" in message:
                     relative_time = timestamp - current_session['start_time']
                     current_session['fusion_status_calls'].append(relative_time)
-                
-                # Extract timing information
+
+                # Special case: detect ControlTask loop beginning
+                if "ControlTask loop beginning" in message:
+                    relative_time = timestamp - current_session['start_time']
+                    current_session['operations']["ControlTask loop beginning"].append((relative_time, 0))
+                    if "ControlTask loop beginning" not in current_session['log_levels']:
+                        current_session['log_levels']["ControlTask loop beginning"] = level
+                    continue
+
+                # General case: match timed operations
                 time_match = time_pattern.search(message)
                 if time_match:
-                    operation_type = time_match.group(1).strip()
-                    
-                    # Skip this operation if it's in the ignored list
-                    if is_ignored(operation_type, ignored_operations):
-                        print(f"  - Ignoring: '{operation_type}'")
-                        continue
-                        
+                    operation_type = message.rsplit(',', 1)[0].strip()
                     duration = int(time_match.group(2))
-                    
-                    # Only record if duration exceeds minimum threshold
-                    if duration >= min_duration_ms:
-                        relative_time = timestamp - current_session['start_time']
-                        current_session['operations'][operation_type].append((relative_time, duration))
-                        
-                        # Store the log level for this operation if not already stored
-                        if operation_type not in current_session['log_levels']:
-                            current_session['log_levels'][operation_type] = level
-            
+
+                    if is_ignored(operation_type, ignored_operations):
+                        return
+
+                    relative_time = timestamp - current_session['start_time']
+                    current_session['operations'][operation_type].append((relative_time, duration))
+                    if operation_type not in current_session['log_levels']:
+                        current_session['log_levels'][operation_type] = level
+
             except Exception as e:
                 print(f"Error processing line: {line}")
                 print(f"Exception: {e}")
                 continue
-    
+
     # Add the last session
     if current_session['start_time'] is not None:
         sessions.append(current_session)
-        
+
+    for s in sessions:
+        print(f"\nParsed operations in {s['name']}:")
+        for op in s['operations']:
+            print(f"  - {op}")
+
     return sessions
 
 def generate_statistics(sessions):
@@ -185,6 +215,91 @@ def generate_statistics(sessions):
         statistics[session['name']] = session_stats
         
     return statistics
+
+def extract_loop_timing_table(sessions, base_op='position-control latency time'):
+    """
+    Extract loop-level timing data. Each row is one ControlTask loop.
+    """
+    for session in sessions:
+        loops = []
+        loop_times = sorted([t for t, _ in session['operations'].get("ControlTask loop beginning", [])])
+        if not loop_times:
+            print(f"No control loop boundaries found in {session['name']}")
+            continue
+
+        for i in range(len(loop_times) - 1):
+            start, end = loop_times[i], loop_times[i + 1]
+            loop_data = {'loop_start': start}
+            for op, entries in session['operations'].items():
+                vals = [v for t, v in entries if start <= t < end]
+                if vals:
+                    loop_data[op] = vals[-1]  # use last seen value in loop
+            if base_op in loop_data:
+                loops.append(loop_data)
+
+        session['loop_table'] = loops
+
+def debug_loop_operation_presence(sessions, base_op='position-control latency time'):
+    for session in sessions:
+        loops = session.get('loop_table', [])
+        print(f"\n--- Debug: Loop data for {session['name']} ---")
+        print(f"Total loops parsed: {len(loops)}")
+
+        if not loops:
+            continue
+
+        op_set = set()
+        for row in loops:
+            op_set.update(row.keys())
+        op_set.discard('loop_start')
+
+        print(f"Operations seen in loop data: {sorted(op_set)}")
+
+        for op in sorted(op_set):
+            present = sum(1 for row in loops if op in row)
+            print(f"  {op:40s}: present in {present} loops")
+
+def compute_correlations_from_loops(sessions, base_op='position-control latency time', outfile=None, min_pairs=5):
+    for session in sessions:
+        loops = session.get('loop_table', [])
+        if not loops:
+            print(f"No loop timing data found in {session['name']}")
+            continue
+
+        all_keys = set()
+        for row in loops:
+            all_keys.update(row.keys())
+        all_keys.discard('loop_start')
+        if base_op not in all_keys:
+            print(f"Base operation '{base_op}' not found in loop data for {session['name']}")
+            continue
+        all_keys.discard(base_op)
+
+        results = []
+        for k in sorted(all_keys):
+            paired = [(row[base_op], row[k]) for row in loops if base_op in row and k in row]
+            if len(paired) < min_pairs:
+                print(f"Not enough data points to compute correlation between '{base_op}' and '{k}' ({len(paired)} found)")
+                continue
+            x, y = zip(*paired)
+            corr = np.corrcoef(x, y)[0, 1]
+            results.append((k, corr))
+
+        if outfile:
+            with open(outfile, 'a') as f:
+                f.write(f"\nCorrelation with '{base_op}' in {session['name']} (loop-level):\n")
+                if results:
+                    for op, r in results:
+                        f.write(f"  {op:40s}: r = {r:.3f}\n")
+                else:
+                    f.write("  No sufficient data for correlation analysis.\n")
+        else:
+            print(f"\nCorrelation with '{base_op}' in {session['name']} (loop-level):")
+            if results:
+                for op, r in results:
+                    print(f"  {op:40s}: r = {r:.3f}")
+            else:
+                print("  No sufficient data for correlation analysis.")
 
 def categorize_operations(sessions, num_categories=2):
     """
@@ -485,7 +600,8 @@ def plot_timing_data_by_level(sessions, output_dir):
         
         print(f"Combined plot saved to: {plot_file}")
 
-def save_statistics(statistics, output_dir):
+def save_statistics(statistics, output_dir, summary_filename=None):
+
     """
     Save statistics to a CSV file
     
@@ -517,8 +633,9 @@ def save_statistics(statistics, output_dir):
     
     print(f"Statistics saved to: {stats_file}")
     
-    # Also save a text summary
-    summary_file = os.path.join(output_dir, f"timing_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt")
+    if summary_filename is None:
+        summary_filename = f"timing_summary_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+    summary_file = os.path.join(output_dir, summary_filename)
     
     with open(summary_file, 'w') as f:
         f.write("ESP32 FreeRTOS Log Timing Analysis\n")
@@ -562,6 +679,8 @@ def main():
     parser.add_argument('--min-duration', type=int, default=1, help='Minimum duration to include (ms)')
     parser.add_argument('--ignore', nargs='+', default=[], help='Operation types to ignore (space separated)')
     parser.add_argument('--by-level', action='store_true', help='Group operations by log level instead of duration')
+    parser.add_argument('--cut-before-latency', action='store_true',
+                    help='Ignore all log entries before first "position-control latency time" message')
     
     args = parser.parse_args()
     
@@ -574,6 +693,7 @@ def main():
     min_duration_ms = args.min_duration
     ignored_operations = args.ignore
     by_level = args.by_level
+    cut = args.cut_before_latency
     
     # Print startup message
     print(f"ESP32 FreeRTOS Log Analyzer")
@@ -593,7 +713,7 @@ def main():
     print(f"Grouping by: {'Log Level' if by_level else 'Duration Category'}")
     
     # Analyze the log file
-    sessions = analyze_log_file(log_file_path, min_duration_ms=min_duration_ms, ignored_operations=ignored_operations)
+    sessions = analyze_log_file(log_file_path, min_duration_ms=min_duration_ms, ignored_operations=ignored_operations, cut_before_latency=cut)
     
     if not sessions:
         print("No valid sessions found in the log file.")
@@ -612,15 +732,21 @@ def main():
     # Generate statistics
     statistics = generate_statistics(sessions)
     
-    # Save statistics to files
-    save_statistics(statistics, output_dir)
-    
+    summary_filename = f"timing_summary_{timestamp}.txt"
+    summary_file = os.path.join(output_dir, summary_filename)
+    save_statistics(statistics, output_dir, summary_filename=summary_filename)
+
+    # Extract and compute correlations, then append to summary
+    extract_loop_timing_table(sessions)
+    debug_loop_operation_presence(sessions)
+    compute_correlations_from_loops(sessions, outfile=summary_file)
+
     # Create plots based on grouping preference
     if by_level:
         plot_timing_data_by_level(sessions, output_dir)
     else:
         plot_timing_data(sessions, output_dir, num_categories=2)
-    
+
     print(f"Analysis complete. Results saved to: {output_dir}")
 
 if __name__ == "__main__":

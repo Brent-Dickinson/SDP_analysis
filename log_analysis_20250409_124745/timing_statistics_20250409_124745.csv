@@ -1,0 +1,9 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,position-control latency,NAV,11,320,54.97,29.0,219,12039
+Session 1,ControlTask,ERROR,1,109,42.29,46.0,218,9219
+Session 1,NavigationTask,ERROR,0,31,1.48,0.0,21,31
+Session 1,GNSS checkUblox,ERROR,1,102,14.34,2.0,192,2753
+Session 1,GNSSTask,ERROR,1,250,57.86,28.0,199,11514
+Session 1,GNSS checkCallbacks,ERROR,1,1,1.0,1.0,88,88
+Session 1,GGATask,ERROR,4,6,5.57,6.0,21,117
+Session 1,pushRawData,ERROR,18,73,23.27,20.0,22,512
