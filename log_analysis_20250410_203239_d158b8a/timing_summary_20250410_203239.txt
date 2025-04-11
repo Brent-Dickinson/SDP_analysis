@@ -1,0 +1,76 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: ERROR
+----------------
+
+Operation: GNSSTask time
+  Count: 517
+  Min: 1 ms
+  Max: 75 ms
+  Avg: 3.68 ms
+  Median: 1.0 ms
+  Total Time: 1903 ms
+
+Operation: pushRawData time
+  Count: 54
+  Min: 19 ms
+  Max: 74 ms
+  Avg: 22.3 ms
+  Median: 21.0 ms
+  Total Time: 1204 ms
+
+Operation: GGATask time
+  Count: 52
+  Min: 4 ms
+  Max: 9 ms
+  Avg: 4.98 ms
+  Median: 5.0 ms
+  Total Time: 259 ms
+
+Operation: GNSS checkUblox time
+  Count: 477
+  Min: 1 ms
+  Max: 2 ms
+  Avg: 1.02 ms
+  Median: 1.0 ms
+  Total Time: 488 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 431
+  Min: 1 ms
+  Max: 1 ms
+  Avg: 1.0 ms
+  Median: 1.0 ms
+  Total Time: 431 ms
+
+Operation: ControlTask time
+  Count: 517
+  Min: 0 ms
+  Max: 1 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 1 ms
+
+Operation: NavigationTask time
+  Count: 516
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Log Level: NAV
+--------------
+
+Operation: ControlTask loop beginning
+  Count: 517
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+

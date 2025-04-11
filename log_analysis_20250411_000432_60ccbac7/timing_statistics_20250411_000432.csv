@@ -1,0 +1,8 @@
+Session,Operation,Level,Min (ms),Max (ms),Avg (ms),Median (ms),Count,Total Time (ms)
+Session 1,GNSS checkUblox time,DEBUG,2,14,10.84,10.0,1247,13522
+Session 1,GNSS checkCallbacks time,DEBUG,5,36,13.81,13.0,1246,17209
+Session 1,position-control latency time,DEBUG,0,198,54.23,39.0,548,29719
+Session 1,GNSSTask time,DEBUG,13,87,32.22,28.0,1246,40152
+Session 1,ControlTask time,DEBUG,1,73,26.02,32.0,266,6922
+Session 1,pushRawData time,DEBUG,2,17,9.25,10.0,67,620
+Session 1,sendGPSData time,DEBUG,1,1,1.0,1.0,1,1

@@ -1,0 +1,4301 @@
+
+----- New Logging Session Started -----
+Timestamp,Level,Task,Message
+1951,ERROR,loopTask,SYSTEM RESTART DETECTED - this message should appear only once after power-up
+4751,NAV,ControlTask,ControlTask loop beginning
+4751,ERROR,ControlTask,ControlTask time, 0
+4752,ERROR,GNSSTask,Waiting for first fix before sending VALSET...
+4754,ERROR,NavTask,NavigationTask started, running at 10 Hz
+4754,ERROR,NavTask,NavigationTask time, 0
+4755,ERROR,GGATask,GGATask time, 1
+4851,NAV,ControlTask,ControlTask loop beginning
+4851,ERROR,ControlTask,ControlTask time, 0
+4854,ERROR,NavTask,NavigationTask time, 0
+4951,NAV,ControlTask,ControlTask loop beginning
+4951,ERROR,ControlTask,ControlTask time, 0
+4954,ERROR,NavTask,NavigationTask time, 0
+5051,NAV,ControlTask,ControlTask loop beginning
+5051,ERROR,ControlTask,ControlTask time, 0
+5054,ERROR,NavTask,NavigationTask time, 0
+5151,NAV,ControlTask,ControlTask loop beginning
+5151,ERROR,ControlTask,ControlTask time, 0
+5154,ERROR,NavTask,NavigationTask time, 0
+5251,NAV,ControlTask,ControlTask loop beginning
+5251,ERROR,ControlTask,ControlTask time, 0
+5254,ERROR,NavTask,NavigationTask time, 0
+5351,NAV,ControlTask,ControlTask loop beginning
+5351,ERROR,ControlTask,ControlTask time, 0
+5354,ERROR,NavTask,NavigationTask time, 0
+5451,NAV,ControlTask,ControlTask loop beginning
+5451,ERROR,ControlTask,ControlTask time, 0
+5454,ERROR,NavTask,NavigationTask time, 0
+5551,NAV,ControlTask,ControlTask loop beginning
+5551,ERROR,ControlTask,ControlTask time, 0
+5554,ERROR,NavTask,NavigationTask time, 0
+5651,NAV,ControlTask,ControlTask loop beginning
+5651,ERROR,ControlTask,ControlTask time, 0
+5654,ERROR,NavTask,NavigationTask time, 0
+5751,NAV,ControlTask,ControlTask loop beginning
+5751,ERROR,ControlTask,ControlTask time, 0
+5754,ERROR,NavTask,NavigationTask time, 0
+5755,ERROR,GGATask,GGATask time, 0
+5851,NAV,ControlTask,ControlTask loop beginning
+5851,ERROR,ControlTask,ControlTask time, 0
+5854,ERROR,NavTask,NavigationTask time, 0
+5951,NAV,ControlTask,ControlTask loop beginning
+5951,ERROR,ControlTask,ControlTask time, 0
+5954,ERROR,NavTask,NavigationTask time, 0
+6051,NAV,ControlTask,ControlTask loop beginning
+6051,ERROR,ControlTask,ControlTask time, 0
+6054,ERROR,NavTask,NavigationTask time, 0
+6151,NAV,ControlTask,ControlTask loop beginning
+6151,ERROR,ControlTask,ControlTask time, 0
+6154,ERROR,NavTask,NavigationTask time, 0
+6251,NAV,ControlTask,ControlTask loop beginning
+6251,ERROR,ControlTask,ControlTask time, 0
+6254,ERROR,NavTask,NavigationTask time, 0
+6269,ERROR,GNSSTask,GNSS checkUblox time, 1
+6351,NAV,ControlTask,ControlTask loop beginning
+6351,ERROR,ControlTask,ControlTask time, 0
+6354,ERROR,NavTask,NavigationTask time, 0
+6451,NAV,ControlTask,ControlTask loop beginning
+6451,ERROR,ControlTask,ControlTask time, 0
+6454,ERROR,NavTask,NavigationTask time, 0
+6551,NAV,ControlTask,ControlTask loop beginning
+6551,ERROR,ControlTask,ControlTask time, 0
+6554,ERROR,NavTask,NavigationTask time, 0
+6651,NAV,ControlTask,ControlTask loop beginning
+6651,ERROR,ControlTask,ControlTask time, 0
+6654,ERROR,NavTask,NavigationTask time, 0
+6751,NAV,ControlTask,ControlTask loop beginning
+6751,ERROR,ControlTask,ControlTask time, 0
+6754,ERROR,NavTask,NavigationTask time, 0
+6755,ERROR,GGATask,GGATask time, 0
+6851,NAV,ControlTask,ControlTask loop beginning
+6851,ERROR,ControlTask,ControlTask time, 0
+6854,ERROR,NavTask,NavigationTask time, 0
+6951,NAV,ControlTask,ControlTask loop beginning
+6951,ERROR,ControlTask,ControlTask time, 0
+6954,ERROR,NavTask,NavigationTask time, 0
+7051,NAV,ControlTask,ControlTask loop beginning
+7051,ERROR,ControlTask,ControlTask time, 0
+7054,ERROR,NavTask,NavigationTask time, 0
+7151,NAV,ControlTask,ControlTask loop beginning
+7151,ERROR,ControlTask,ControlTask time, 0
+7154,ERROR,NavTask,NavigationTask time, 0
+7251,NAV,ControlTask,ControlTask loop beginning
+7251,ERROR,ControlTask,ControlTask time, 0
+7254,ERROR,NavTask,NavigationTask time, 0
+7351,NAV,ControlTask,ControlTask loop beginning
+7351,ERROR,ControlTask,ControlTask time, 0
+7354,ERROR,NavTask,NavigationTask time, 0
+7451,NAV,ControlTask,ControlTask loop beginning
+7451,ERROR,ControlTask,ControlTask time, 0
+7454,ERROR,NavTask,NavigationTask time, 0
+7551,NAV,ControlTask,ControlTask loop beginning
+7551,ERROR,ControlTask,ControlTask time, 0
+7554,ERROR,NavTask,NavigationTask time, 0
+7651,NAV,ControlTask,ControlTask loop beginning
+7651,ERROR,ControlTask,ControlTask time, 0
+7654,ERROR,NavTask,NavigationTask time, 0
+7751,NAV,ControlTask,ControlTask loop beginning
+7751,ERROR,ControlTask,ControlTask time, 0
+7754,ERROR,NavTask,NavigationTask time, 0
+7755,ERROR,GGATask,GGATask time, 0
+7851,NAV,ControlTask,ControlTask loop beginning
+7851,ERROR,ControlTask,ControlTask time, 0
+7854,ERROR,NavTask,NavigationTask time, 0
+7951,NAV,ControlTask,ControlTask loop beginning
+7951,ERROR,ControlTask,ControlTask time, 0
+7954,ERROR,NavTask,NavigationTask time, 0
+8051,NAV,ControlTask,ControlTask loop beginning
+8051,ERROR,ControlTask,ControlTask time, 0
+8054,ERROR,NavTask,NavigationTask time, 0
+8151,NAV,ControlTask,ControlTask loop beginning
+8151,ERROR,ControlTask,ControlTask time, 0
+8154,ERROR,NavTask,NavigationTask time, 0
+8251,NAV,ControlTask,ControlTask loop beginning
+8251,ERROR,ControlTask,ControlTask time, 0
+8254,ERROR,NavTask,NavigationTask time, 0
+8351,NAV,ControlTask,ControlTask loop beginning
+8351,ERROR,ControlTask,ControlTask time, 0
+8354,ERROR,NavTask,NavigationTask time, 0
+8451,NAV,ControlTask,ControlTask loop beginning
+8451,ERROR,ControlTask,ControlTask time, 0
+8454,ERROR,NavTask,NavigationTask time, 0
+8551,NAV,ControlTask,ControlTask loop beginning
+8551,ERROR,ControlTask,ControlTask time, 0
+8554,ERROR,NavTask,NavigationTask time, 0
+8651,NAV,ControlTask,ControlTask loop beginning
+8651,ERROR,ControlTask,ControlTask time, 0
+8654,ERROR,NavTask,NavigationTask time, 0
+8751,NAV,ControlTask,ControlTask loop beginning
+8751,ERROR,ControlTask,ControlTask time, 0
+8754,ERROR,NavTask,NavigationTask time, 0
+8755,ERROR,GGATask,GGATask time, 0
+8851,NAV,ControlTask,ControlTask loop beginning
+8851,ERROR,ControlTask,ControlTask time, 0
+8854,ERROR,NavTask,NavigationTask time, 0
+8951,NAV,ControlTask,ControlTask loop beginning
+8951,ERROR,ControlTask,ControlTask time, 0
+8954,ERROR,NavTask,NavigationTask time, 0
+9051,NAV,ControlTask,ControlTask loop beginning
+9051,ERROR,ControlTask,ControlTask time, 0
+9054,ERROR,NavTask,NavigationTask time, 0
+9151,NAV,ControlTask,ControlTask loop beginning
+9151,ERROR,ControlTask,ControlTask time, 0
+9154,ERROR,NavTask,NavigationTask time, 0
+9251,NAV,ControlTask,ControlTask loop beginning
+9251,ERROR,ControlTask,ControlTask time, 0
+9254,ERROR,NavTask,NavigationTask time, 0
+9351,NAV,ControlTask,ControlTask loop beginning
+9351,ERROR,ControlTask,ControlTask time, 0
+9354,ERROR,NavTask,NavigationTask time, 0
+9451,NAV,ControlTask,ControlTask loop beginning
+9451,ERROR,ControlTask,ControlTask time, 0
+9454,ERROR,NavTask,NavigationTask time, 0
+9551,NAV,ControlTask,ControlTask loop beginning
+9551,ERROR,ControlTask,ControlTask time, 0
+9554,ERROR,NavTask,NavigationTask time, 0
+9651,NAV,ControlTask,ControlTask loop beginning
+9651,ERROR,ControlTask,ControlTask time, 0
+9654,ERROR,NavTask,NavigationTask time, 0
+9751,NAV,ControlTask,ControlTask loop beginning
+9751,ERROR,ControlTask,ControlTask time, 0
+9754,ERROR,NavTask,NavigationTask time, 0
+9755,ERROR,GGATask,GGATask time, 0
+9851,NAV,ControlTask,ControlTask loop beginning
+9851,ERROR,ControlTask,ControlTask time, 0
+9854,ERROR,NavTask,NavigationTask time, 0
+9951,NAV,ControlTask,ControlTask loop beginning
+9951,ERROR,ControlTask,ControlTask time, 0
+9954,ERROR,NavTask,NavigationTask time, 0
+10051,NAV,ControlTask,ControlTask loop beginning
+10051,ERROR,ControlTask,ControlTask time, 0
+10054,ERROR,NavTask,NavigationTask time, 0
+10151,NAV,ControlTask,ControlTask loop beginning
+10151,ERROR,ControlTask,ControlTask time, 0
+10154,ERROR,NavTask,NavigationTask time, 0
+10251,NAV,ControlTask,ControlTask loop beginning
+10251,ERROR,ControlTask,ControlTask time, 0
+10254,ERROR,NavTask,NavigationTask time, 0
+10309,ERROR,GNSSTask,GNSS checkUblox time, 1
+10351,NAV,ControlTask,ControlTask loop beginning
+10351,ERROR,ControlTask,ControlTask time, 0
+10354,ERROR,NavTask,NavigationTask time, 0
+10451,NAV,ControlTask,ControlTask loop beginning
+10451,ERROR,ControlTask,ControlTask time, 0
+10454,ERROR,NavTask,NavigationTask time, 0
+10551,NAV,ControlTask,ControlTask loop beginning
+10551,ERROR,ControlTask,ControlTask time, 0
+10554,ERROR,NavTask,NavigationTask time, 0
+10651,NAV,ControlTask,ControlTask loop beginning
+10651,ERROR,ControlTask,ControlTask time, 0
+10654,ERROR,NavTask,NavigationTask time, 0
+10751,NAV,ControlTask,ControlTask loop beginning
+10751,ERROR,ControlTask,ControlTask time, 0
+10754,ERROR,NavTask,NavigationTask time, 0
+10755,ERROR,GGATask,GGATask time, 0
+10851,NAV,ControlTask,ControlTask loop beginning
+10851,ERROR,ControlTask,ControlTask time, 0
+10854,ERROR,NavTask,NavigationTask time, 0
+10951,NAV,ControlTask,ControlTask loop beginning
+10951,ERROR,ControlTask,ControlTask time, 0
+10954,ERROR,NavTask,NavigationTask time, 0
+11051,NAV,ControlTask,ControlTask loop beginning
+11051,ERROR,ControlTask,ControlTask time, 0
+11054,ERROR,NavTask,NavigationTask time, 0
+11151,NAV,ControlTask,ControlTask loop beginning
+11151,ERROR,ControlTask,ControlTask time, 0
+11154,ERROR,NavTask,NavigationTask time, 0
+11251,NAV,ControlTask,ControlTask loop beginning
+11251,ERROR,ControlTask,ControlTask time, 0
+11254,ERROR,NavTask,NavigationTask time, 0
+11351,NAV,ControlTask,ControlTask loop beginning
+11351,ERROR,ControlTask,ControlTask time, 0
+11354,ERROR,NavTask,NavigationTask time, 0
+11451,NAV,ControlTask,ControlTask loop beginning
+11451,ERROR,ControlTask,ControlTask time, 0
+11454,ERROR,NavTask,NavigationTask time, 0
+11551,NAV,ControlTask,ControlTask loop beginning
+11551,ERROR,ControlTask,ControlTask time, 0
+11554,ERROR,NavTask,NavigationTask time, 0
+11651,NAV,ControlTask,ControlTask loop beginning
+11651,ERROR,ControlTask,ControlTask time, 0
+11654,ERROR,NavTask,NavigationTask time, 0
+11751,NAV,ControlTask,ControlTask loop beginning
+11751,ERROR,ControlTask,ControlTask time, 0
+11754,ERROR,NavTask,NavigationTask time, 0
+11755,ERROR,GGATask,GGATask time, 0
+11851,NAV,ControlTask,ControlTask loop beginning
+11851,ERROR,ControlTask,ControlTask time, 0
+11854,ERROR,NavTask,NavigationTask time, 0
+11951,NAV,ControlTask,ControlTask loop beginning
+11951,ERROR,ControlTask,ControlTask time, 0
+11954,ERROR,NavTask,NavigationTask time, 0
+12051,NAV,ControlTask,ControlTask loop beginning
+12051,ERROR,ControlTask,ControlTask time, 0
+12054,ERROR,NavTask,NavigationTask time, 0
+12151,NAV,ControlTask,ControlTask loop beginning
+12151,ERROR,ControlTask,ControlTask time, 0
+12154,ERROR,NavTask,NavigationTask time, 0
+12251,NAV,ControlTask,ControlTask loop beginning
+12251,ERROR,ControlTask,ControlTask time, 0
+12254,ERROR,NavTask,NavigationTask time, 0
+12351,NAV,ControlTask,ControlTask loop beginning
+12351,ERROR,ControlTask,ControlTask time, 0
+12354,ERROR,NavTask,NavigationTask time, 0
+12451,NAV,ControlTask,ControlTask loop beginning
+12451,ERROR,ControlTask,ControlTask time, 0
+12454,ERROR,NavTask,NavigationTask time, 0
+12551,NAV,ControlTask,ControlTask loop beginning
+12551,ERROR,ControlTask,ControlTask time, 0
+12554,ERROR,NavTask,NavigationTask time, 0
+12651,NAV,ControlTask,ControlTask loop beginning
+12651,ERROR,ControlTask,ControlTask time, 0
+12654,ERROR,NavTask,NavigationTask time, 0
+12751,NAV,ControlTask,ControlTask loop beginning
+12751,ERROR,ControlTask,ControlTask time, 0
+12754,ERROR,NavTask,NavigationTask time, 0
+12755,ERROR,GGATask,GGATask time, 0
+12851,NAV,ControlTask,ControlTask loop beginning
+12851,ERROR,ControlTask,ControlTask time, 0
+12854,ERROR,NavTask,NavigationTask time, 0
+12951,NAV,ControlTask,ControlTask loop beginning
+12951,ERROR,ControlTask,ControlTask time, 0
+12954,ERROR,NavTask,NavigationTask time, 0
+13051,NAV,ControlTask,ControlTask loop beginning
+13051,ERROR,ControlTask,ControlTask time, 0
+13054,ERROR,NavTask,NavigationTask time, 0
+13151,NAV,ControlTask,ControlTask loop beginning
+13151,ERROR,ControlTask,ControlTask time, 0
+13154,ERROR,NavTask,NavigationTask time, 0
+13251,NAV,ControlTask,ControlTask loop beginning
+13251,ERROR,ControlTask,ControlTask time, 0
+13254,ERROR,NavTask,NavigationTask time, 0
+13351,NAV,ControlTask,ControlTask loop beginning
+13351,ERROR,ControlTask,ControlTask time, 0
+13354,ERROR,NavTask,NavigationTask time, 0
+13451,NAV,ControlTask,ControlTask loop beginning
+13451,ERROR,ControlTask,ControlTask time, 0
+13454,ERROR,NavTask,NavigationTask time, 0
+13551,NAV,ControlTask,ControlTask loop beginning
+13551,ERROR,ControlTask,ControlTask time, 0
+13554,ERROR,NavTask,NavigationTask time, 0
+13651,NAV,ControlTask,ControlTask loop beginning
+13651,ERROR,ControlTask,ControlTask time, 0
+13654,ERROR,NavTask,NavigationTask time, 0
+13751,NAV,ControlTask,ControlTask loop beginning
+13751,ERROR,ControlTask,ControlTask time, 0
+13754,ERROR,NavTask,NavigationTask time, 0
+13755,ERROR,GGATask,GGATask time, 0
+13843,ERROR,GNSSTask,GNSS checkUblox time, 1
+13851,NAV,ControlTask,ControlTask loop beginning
+13851,ERROR,ControlTask,ControlTask time, 0
+13854,ERROR,NavTask,NavigationTask time, 0
+13951,NAV,ControlTask,ControlTask loop beginning
+13951,ERROR,ControlTask,ControlTask time, 0
+13954,ERROR,NavTask,NavigationTask time, 0
+14051,NAV,ControlTask,ControlTask loop beginning
+14051,ERROR,ControlTask,ControlTask time, 0
+14054,ERROR,NavTask,NavigationTask time, 0
+14151,NAV,ControlTask,ControlTask loop beginning
+14151,ERROR,ControlTask,ControlTask time, 0
+14154,ERROR,NavTask,NavigationTask time, 0
+14251,NAV,ControlTask,ControlTask loop beginning
+14251,ERROR,ControlTask,ControlTask time, 0
+14254,ERROR,NavTask,NavigationTask time, 0
+14351,NAV,ControlTask,ControlTask loop beginning
+14351,ERROR,ControlTask,ControlTask time, 0
+14354,ERROR,NavTask,NavigationTask time, 0
+14451,NAV,ControlTask,ControlTask loop beginning
+14451,ERROR,ControlTask,ControlTask time, 0
+14454,ERROR,NavTask,NavigationTask time, 0
+14550,NAV,ControlTask,ControlTask loop beginning
+14550,ERROR,ControlTask,ControlTask time, 0
+14554,ERROR,NavTask,NavigationTask time, 0
+14651,NAV,ControlTask,ControlTask loop beginning
+14651,ERROR,ControlTask,ControlTask time, 0
+14654,ERROR,NavTask,NavigationTask time, 0
+14751,NAV,ControlTask,ControlTask loop beginning
+14751,ERROR,ControlTask,ControlTask time, 0
+14754,ERROR,NavTask,NavigationTask time, 0
+14755,ERROR,GGATask,GGATask time, 0
+14851,NAV,ControlTask,ControlTask loop beginning
+14851,ERROR,ControlTask,ControlTask time, 0
+14854,ERROR,NavTask,NavigationTask time, 0
+14951,NAV,ControlTask,ControlTask loop beginning
+14951,ERROR,ControlTask,ControlTask time, 0
+14954,ERROR,NavTask,NavigationTask time, 0
+15051,NAV,ControlTask,ControlTask loop beginning
+15051,ERROR,ControlTask,ControlTask time, 0
+15054,ERROR,NavTask,NavigationTask time, 0
+15151,NAV,ControlTask,ControlTask loop beginning
+15151,ERROR,ControlTask,ControlTask time, 0
+15154,ERROR,NavTask,NavigationTask time, 0
+15251,NAV,ControlTask,ControlTask loop beginning
+15251,ERROR,ControlTask,ControlTask time, 0
+15254,ERROR,NavTask,NavigationTask time, 0
+15351,NAV,ControlTask,ControlTask loop beginning
+15351,ERROR,ControlTask,ControlTask time, 0
+15354,ERROR,NavTask,NavigationTask time, 0
+15451,NAV,ControlTask,ControlTask loop beginning
+15451,ERROR,ControlTask,ControlTask time, 0
+15454,ERROR,NavTask,NavigationTask time, 0
+15524,ERROR,GNSSTask,pushRawData time, 34
+15525,ERROR,GNSSTask,GNSS checkUblox time, 1
+15555,NAV,ControlTask,ControlTask loop beginning
+15555,ERROR,ControlTask,ControlTask time, 0
+15556,ERROR,NavTask,NavigationTask time, 0
+15572,ERROR,GNSSTask,pushRawData time, 47
+15572,ERROR,GNSSTask,GNSSTask time, 669
+15574,ERROR,GNSSTask,GNSSTask time, 2
+15575,ERROR,GNSSTask,GNSSTask time, 1
+15576,ERROR,GNSSTask,GNSS checkUblox time, 1
+15576,ERROR,GNSSTask,GNSSTask time, 1
+15577,ERROR,GNSSTask,GNSS checkUblox time, 1
+15577,ERROR,GNSSTask,GNSSTask time, 1
+15578,ERROR,GNSSTask,GNSS checkUblox time, 1
+15579,ERROR,GNSSTask,GNSSTask time, 2
+15580,ERROR,GNSSTask,GNSSTask time, 1
+15604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+15605,ERROR,GNSSTask,GNSS checkUblox time, 2
+15605,ERROR,GNSSTask,GNSSTask time, 2
+15651,NAV,ControlTask,ControlTask loop beginning
+15651,ERROR,ControlTask,ControlTask time, 0
+15654,ERROR,NavTask,NavigationTask time, 0
+15704,ERROR,GNSSTask,GNSS checkUblox time, 1
+15704,ERROR,GNSSTask,GNSSTask time, 1
+15751,NAV,ControlTask,ControlTask loop beginning
+15751,ERROR,ControlTask,ControlTask time, 0
+15754,ERROR,NavTask,NavigationTask time, 0
+15759,ERROR,GGATask,GGATask time, 4
+15804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+15804,ERROR,GNSSTask,GNSS checkUblox time, 1
+15804,ERROR,GNSSTask,GNSSTask time, 1
+15851,NAV,ControlTask,ControlTask loop beginning
+15851,ERROR,ControlTask,ControlTask time, 0
+15854,ERROR,NavTask,NavigationTask time, 0
+15904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+15904,ERROR,GNSSTask,GNSS checkUblox time, 1
+15905,ERROR,GNSSTask,GNSSTask time, 2
+15951,NAV,ControlTask,ControlTask loop beginning
+15951,ERROR,ControlTask,ControlTask time, 0
+15954,ERROR,NavTask,NavigationTask time, 0
+16004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+16004,ERROR,GNSSTask,GNSS checkUblox time, 1
+16005,ERROR,GNSSTask,GNSSTask time, 2
+16051,NAV,ControlTask,ControlTask loop beginning
+16051,ERROR,ControlTask,ControlTask time, 0
+16054,ERROR,NavTask,NavigationTask time, 0
+16104,ERROR,GNSSTask,GNSS checkUblox time, 1
+16104,ERROR,GNSSTask,GNSSTask time, 1
+16151,NAV,ControlTask,ControlTask loop beginning
+16151,ERROR,ControlTask,ControlTask time, 0
+16154,ERROR,NavTask,NavigationTask time, 0
+16204,ERROR,GNSSTask,GNSS checkUblox time, 1
+16204,ERROR,GNSSTask,GNSSTask time, 1
+16251,NAV,ControlTask,ControlTask loop beginning
+16251,ERROR,ControlTask,ControlTask time, 0
+16254,ERROR,NavTask,NavigationTask time, 0
+16304,ERROR,GNSSTask,GNSS checkUblox time, 1
+16304,ERROR,GNSSTask,GNSSTask time, 1
+16351,NAV,ControlTask,ControlTask loop beginning
+16351,ERROR,ControlTask,ControlTask time, 0
+16354,ERROR,NavTask,NavigationTask time, 0
+16422,ERROR,GNSSTask,pushRawData time, 19
+16423,ERROR,GNSSTask,GNSS checkUblox time, 1
+16423,ERROR,GNSSTask,GNSSTask time, 20
+16451,NAV,ControlTask,ControlTask loop beginning
+16451,ERROR,ControlTask,ControlTask time, 0
+16454,ERROR,NavTask,NavigationTask time, 0
+16504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+16504,ERROR,GNSSTask,GNSS checkUblox time, 1
+16505,ERROR,GNSSTask,GNSSTask time, 2
+16551,NAV,ControlTask,ControlTask loop beginning
+16551,ERROR,ControlTask,ControlTask time, 0
+16554,ERROR,NavTask,NavigationTask time, 0
+16604,ERROR,GNSSTask,GNSS checkUblox time, 1
+16604,ERROR,GNSSTask,GNSSTask time, 1
+16651,NAV,ControlTask,ControlTask loop beginning
+16651,ERROR,ControlTask,ControlTask time, 0
+16654,ERROR,NavTask,NavigationTask time, 0
+16704,ERROR,GNSSTask,GNSS checkUblox time, 1
+16704,ERROR,GNSSTask,GNSSTask time, 1
+16751,NAV,ControlTask,ControlTask loop beginning
+16751,ERROR,ControlTask,ControlTask time, 0
+16754,ERROR,NavTask,NavigationTask time, 0
+16760,ERROR,GGATask,GGATask time, 5
+16804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+16804,ERROR,GNSSTask,GNSS checkUblox time, 1
+16805,ERROR,GNSSTask,GNSSTask time, 2
+16851,NAV,ControlTask,ControlTask loop beginning
+16851,ERROR,ControlTask,ControlTask time, 0
+16854,ERROR,NavTask,NavigationTask time, 0
+16904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+16904,ERROR,GNSSTask,GNSS checkUblox time, 1
+16905,ERROR,GNSSTask,GNSSTask time, 2
+16951,NAV,ControlTask,ControlTask loop beginning
+16951,ERROR,ControlTask,ControlTask time, 0
+16954,ERROR,NavTask,NavigationTask time, 0
+17004,ERROR,GNSSTask,GNSS checkUblox time, 1
+17004,ERROR,GNSSTask,GNSSTask time, 1
+17051,NAV,ControlTask,ControlTask loop beginning
+17051,ERROR,ControlTask,ControlTask time, 0
+17054,ERROR,NavTask,NavigationTask time, 0
+17104,ERROR,GNSSTask,GNSS checkUblox time, 1
+17104,ERROR,GNSSTask,GNSSTask time, 1
+17151,NAV,ControlTask,ControlTask loop beginning
+17151,ERROR,ControlTask,ControlTask time, 0
+17154,ERROR,NavTask,NavigationTask time, 0
+17204,ERROR,GNSSTask,GNSS checkUblox time, 1
+17204,ERROR,GNSSTask,GNSSTask time, 1
+17251,NAV,ControlTask,ControlTask loop beginning
+17251,ERROR,ControlTask,ControlTask time, 0
+17254,ERROR,NavTask,NavigationTask time, 0
+17304,ERROR,GNSSTask,GNSS checkUblox time, 1
+17304,ERROR,GNSSTask,GNSSTask time, 1
+17351,NAV,ControlTask,ControlTask loop beginning
+17351,ERROR,ControlTask,ControlTask time, 0
+17354,ERROR,NavTask,NavigationTask time, 0
+17404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+17404,ERROR,GNSSTask,GNSS checkUblox time, 1
+17405,ERROR,GNSSTask,GNSSTask time, 2
+17451,NAV,ControlTask,ControlTask loop beginning
+17451,ERROR,ControlTask,ControlTask time, 0
+17454,ERROR,NavTask,NavigationTask time, 0
+17526,ERROR,GNSSTask,pushRawData time, 23
+17527,ERROR,GNSSTask,GNSS checkUblox time, 1
+17527,ERROR,GNSSTask,GNSSTask time, 24
+17551,NAV,ControlTask,ControlTask loop beginning
+17551,ERROR,ControlTask,ControlTask time, 0
+17554,ERROR,NavTask,NavigationTask time, 0
+17604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+17604,ERROR,GNSSTask,GNSS checkUblox time, 1
+17605,ERROR,GNSSTask,GNSSTask time, 2
+17651,NAV,ControlTask,ControlTask loop beginning
+17651,ERROR,ControlTask,ControlTask time, 0
+17654,ERROR,NavTask,NavigationTask time, 0
+17704,ERROR,GNSSTask,GNSS checkUblox time, 1
+17704,ERROR,GNSSTask,GNSSTask time, 1
+17751,NAV,ControlTask,ControlTask loop beginning
+17751,ERROR,ControlTask,ControlTask time, 0
+17754,ERROR,NavTask,NavigationTask time, 0
+17760,ERROR,GGATask,GGATask time, 5
+17804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+17804,ERROR,GNSSTask,GNSS checkUblox time, 1
+17805,ERROR,GNSSTask,GNSSTask time, 2
+17851,NAV,ControlTask,ControlTask loop beginning
+17851,ERROR,ControlTask,ControlTask time, 0
+17854,ERROR,NavTask,NavigationTask time, 0
+17904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+17904,ERROR,GNSSTask,GNSS checkUblox time, 1
+17905,ERROR,GNSSTask,GNSSTask time, 2
+17951,NAV,ControlTask,ControlTask loop beginning
+17951,ERROR,ControlTask,ControlTask time, 0
+17954,ERROR,NavTask,NavigationTask time, 0
+18004,ERROR,GNSSTask,GNSS checkUblox time, 1
+18004,ERROR,GNSSTask,GNSSTask time, 1
+18051,NAV,ControlTask,ControlTask loop beginning
+18051,ERROR,ControlTask,ControlTask time, 0
+18054,ERROR,NavTask,NavigationTask time, 0
+18104,ERROR,GNSSTask,GNSS checkUblox time, 1
+18104,ERROR,GNSSTask,GNSSTask time, 1
+18151,NAV,ControlTask,ControlTask loop beginning
+18151,ERROR,ControlTask,ControlTask time, 0
+18154,ERROR,NavTask,NavigationTask time, 0
+18204,ERROR,GNSSTask,GNSS checkUblox time, 1
+18204,ERROR,GNSSTask,GNSSTask time, 1
+18251,NAV,ControlTask,ControlTask loop beginning
+18251,ERROR,ControlTask,ControlTask time, 0
+18254,ERROR,NavTask,NavigationTask time, 0
+18304,ERROR,GNSSTask,GNSS checkUblox time, 1
+18304,ERROR,GNSSTask,GNSSTask time, 1
+18351,NAV,ControlTask,ControlTask loop beginning
+18351,ERROR,ControlTask,ControlTask time, 0
+18354,ERROR,NavTask,NavigationTask time, 0
+18404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+18404,ERROR,GNSSTask,GNSS checkUblox time, 1
+18405,ERROR,GNSSTask,GNSSTask time, 2
+18451,NAV,ControlTask,ControlTask loop beginning
+18451,ERROR,ControlTask,ControlTask time, 0
+18454,ERROR,NavTask,NavigationTask time, 0
+18504,ERROR,GNSSTask,GNSS checkUblox time, 1
+18504,ERROR,GNSSTask,GNSSTask time, 1
+18551,NAV,ControlTask,ControlTask loop beginning
+18551,ERROR,ControlTask,ControlTask time, 0
+18554,ERROR,NavTask,NavigationTask time, 0
+18604,ERROR,GNSSTask,GNSS checkUblox time, 1
+18604,ERROR,GNSSTask,GNSSTask time, 1
+18651,NAV,ControlTask,ControlTask loop beginning
+18651,ERROR,ControlTask,ControlTask time, 0
+18654,ERROR,NavTask,NavigationTask time, 0
+18722,ERROR,GNSSTask,pushRawData time, 19
+18723,ERROR,GNSSTask,GNSS checkUblox time, 1
+18724,ERROR,GNSSTask,GNSSTask time, 21
+18751,NAV,ControlTask,ControlTask loop beginning
+18751,ERROR,ControlTask,ControlTask time, 0
+18754,ERROR,NavTask,NavigationTask time, 0
+18760,ERROR,GGATask,GGATask time, 5
+18804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+18804,ERROR,GNSSTask,GNSS checkUblox time, 1
+18805,ERROR,GNSSTask,GNSSTask time, 2
+18851,NAV,ControlTask,ControlTask loop beginning
+18851,ERROR,ControlTask,ControlTask time, 0
+18854,ERROR,NavTask,NavigationTask time, 0
+18904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+18905,ERROR,GNSSTask,GNSS checkUblox time, 2
+18905,ERROR,GNSSTask,GNSSTask time, 2
+18951,NAV,ControlTask,ControlTask loop beginning
+18951,ERROR,ControlTask,ControlTask time, 0
+18954,ERROR,NavTask,NavigationTask time, 0
+19004,ERROR,GNSSTask,GNSS checkUblox time, 1
+19004,ERROR,GNSSTask,GNSSTask time, 1
+19051,NAV,ControlTask,ControlTask loop beginning
+19051,ERROR,ControlTask,ControlTask time, 0
+19054,ERROR,NavTask,NavigationTask time, 0
+19104,ERROR,GNSSTask,GNSS checkUblox time, 1
+19104,ERROR,GNSSTask,GNSSTask time, 1
+19151,NAV,ControlTask,ControlTask loop beginning
+19151,ERROR,ControlTask,ControlTask time, 0
+19154,ERROR,NavTask,NavigationTask time, 0
+19204,ERROR,GNSSTask,GNSS checkUblox time, 1
+19204,ERROR,GNSSTask,GNSSTask time, 1
+19251,NAV,ControlTask,ControlTask loop beginning
+19251,ERROR,ControlTask,ControlTask time, 0
+19254,ERROR,NavTask,NavigationTask time, 0
+19304,ERROR,GNSSTask,GNSS checkUblox time, 1
+19304,ERROR,GNSSTask,GNSSTask time, 1
+19351,NAV,ControlTask,ControlTask loop beginning
+19351,ERROR,ControlTask,ControlTask time, 0
+19354,ERROR,NavTask,NavigationTask time, 0
+19404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+19404,ERROR,GNSSTask,GNSS checkUblox time, 1
+19405,ERROR,GNSSTask,GNSSTask time, 2
+19451,NAV,ControlTask,ControlTask loop beginning
+19451,ERROR,ControlTask,ControlTask time, 0
+19454,ERROR,NavTask,NavigationTask time, 0
+19504,ERROR,GNSSTask,GNSS checkUblox time, 1
+19504,ERROR,GNSSTask,GNSSTask time, 1
+19551,NAV,ControlTask,ControlTask loop beginning
+19551,ERROR,ControlTask,ControlTask time, 0
+19554,ERROR,NavTask,NavigationTask time, 0
+19604,ERROR,GNSSTask,GNSS checkUblox time, 1
+19604,ERROR,GNSSTask,GNSSTask time, 1
+19651,NAV,ControlTask,ControlTask loop beginning
+19651,ERROR,ControlTask,ControlTask time, 0
+19654,ERROR,NavTask,NavigationTask time, 0
+19724,ERROR,GNSSTask,pushRawData time, 21
+19725,ERROR,GNSSTask,GNSS checkUblox time, 1
+19725,ERROR,GNSSTask,GNSSTask time, 22
+19751,NAV,ControlTask,ControlTask loop beginning
+19751,ERROR,ControlTask,ControlTask time, 0
+19754,ERROR,NavTask,NavigationTask time, 0
+19760,ERROR,GGATask,GGATask time, 5
+19804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+19804,ERROR,GNSSTask,GNSS checkUblox time, 1
+19804,ERROR,GNSSTask,GNSSTask time, 1
+19851,NAV,ControlTask,ControlTask loop beginning
+19851,ERROR,ControlTask,ControlTask time, 0
+19854,ERROR,NavTask,NavigationTask time, 0
+19904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+19904,ERROR,GNSSTask,GNSS checkUblox time, 1
+19905,ERROR,GNSSTask,GNSSTask time, 2
+19951,NAV,ControlTask,ControlTask loop beginning
+19951,ERROR,ControlTask,ControlTask time, 0
+19954,ERROR,NavTask,NavigationTask time, 0
+20004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+20004,ERROR,GNSSTask,GNSS checkUblox time, 1
+20004,ERROR,GNSSTask,GNSSTask time, 1
+20051,NAV,ControlTask,ControlTask loop beginning
+20051,ERROR,ControlTask,ControlTask time, 0
+20054,ERROR,NavTask,NavigationTask time, 0
+20104,ERROR,GNSSTask,GNSS checkUblox time, 1
+20104,ERROR,GNSSTask,GNSSTask time, 1
+20151,NAV,ControlTask,ControlTask loop beginning
+20151,ERROR,ControlTask,ControlTask time, 0
+20154,ERROR,NavTask,NavigationTask time, 0
+20204,ERROR,GNSSTask,GNSS checkUblox time, 1
+20204,ERROR,GNSSTask,GNSSTask time, 1
+20251,NAV,ControlTask,ControlTask loop beginning
+20251,ERROR,ControlTask,ControlTask time, 0
+20254,ERROR,NavTask,NavigationTask time, 0
+20304,ERROR,GNSSTask,GNSS checkUblox time, 1
+20304,ERROR,GNSSTask,GNSSTask time, 1
+20351,NAV,ControlTask,ControlTask loop beginning
+20351,ERROR,ControlTask,ControlTask time, 0
+20354,ERROR,NavTask,NavigationTask time, 0
+20424,ERROR,GNSSTask,pushRawData time, 21
+20425,ERROR,GNSSTask,GNSS checkUblox time, 1
+20426,ERROR,GNSSTask,GNSSTask time, 23
+20451,NAV,ControlTask,ControlTask loop beginning
+20451,ERROR,ControlTask,ControlTask time, 0
+20454,ERROR,NavTask,NavigationTask time, 0
+20504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+20504,ERROR,GNSSTask,GNSS checkUblox time, 1
+20505,ERROR,GNSSTask,GNSSTask time, 2
+20551,NAV,ControlTask,ControlTask loop beginning
+20551,ERROR,ControlTask,ControlTask time, 0
+20554,ERROR,NavTask,NavigationTask time, 0
+20604,ERROR,GNSSTask,GNSS checkUblox time, 1
+20604,ERROR,GNSSTask,GNSSTask time, 1
+20651,NAV,ControlTask,ControlTask loop beginning
+20651,ERROR,ControlTask,ControlTask time, 0
+20654,ERROR,NavTask,NavigationTask time, 0
+20704,ERROR,GNSSTask,GNSS checkUblox time, 1
+20704,ERROR,GNSSTask,GNSSTask time, 1
+20751,NAV,ControlTask,ControlTask loop beginning
+20751,ERROR,ControlTask,ControlTask time, 0
+20754,ERROR,NavTask,NavigationTask time, 0
+20760,ERROR,GGATask,GGATask time, 5
+20804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+20804,ERROR,GNSSTask,GNSS checkUblox time, 1
+20805,ERROR,GNSSTask,GNSSTask time, 2
+20851,NAV,ControlTask,ControlTask loop beginning
+20851,ERROR,ControlTask,ControlTask time, 0
+20854,ERROR,NavTask,NavigationTask time, 0
+20904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+20905,ERROR,GNSSTask,GNSS checkUblox time, 2
+20905,ERROR,GNSSTask,GNSSTask time, 2
+20951,NAV,ControlTask,ControlTask loop beginning
+20951,ERROR,ControlTask,ControlTask time, 0
+20954,ERROR,NavTask,NavigationTask time, 0
+21004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+21004,ERROR,GNSSTask,GNSS checkUblox time, 1
+21004,ERROR,GNSSTask,GNSSTask time, 1
+21051,NAV,ControlTask,ControlTask loop beginning
+21051,ERROR,ControlTask,ControlTask time, 0
+21054,ERROR,NavTask,NavigationTask time, 0
+21104,ERROR,GNSSTask,GNSS checkUblox time, 1
+21104,ERROR,GNSSTask,GNSSTask time, 1
+21151,NAV,ControlTask,ControlTask loop beginning
+21151,ERROR,ControlTask,ControlTask time, 0
+21154,ERROR,NavTask,NavigationTask time, 0
+21204,ERROR,GNSSTask,GNSS checkUblox time, 1
+21204,ERROR,GNSSTask,GNSSTask time, 1
+21251,NAV,ControlTask,ControlTask loop beginning
+21251,ERROR,ControlTask,ControlTask time, 0
+21254,ERROR,NavTask,NavigationTask time, 0
+21304,ERROR,GNSSTask,GNSS checkUblox time, 1
+21304,ERROR,GNSSTask,GNSSTask time, 1
+21351,NAV,ControlTask,ControlTask loop beginning
+21351,ERROR,ControlTask,ControlTask time, 0
+21354,ERROR,NavTask,NavigationTask time, 0
+21404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+21404,ERROR,GNSSTask,GNSS checkUblox time, 1
+21405,ERROR,GNSSTask,GNSSTask time, 2
+21451,NAV,ControlTask,ControlTask loop beginning
+21451,ERROR,ControlTask,ControlTask time, 0
+21454,ERROR,NavTask,NavigationTask time, 0
+21526,ERROR,GNSSTask,pushRawData time, 23
+21527,ERROR,GNSSTask,GNSS checkUblox time, 1
+21527,ERROR,GNSSTask,GNSSTask time, 24
+21551,NAV,ControlTask,ControlTask loop beginning
+21551,ERROR,ControlTask,ControlTask time, 0
+21554,ERROR,NavTask,NavigationTask time, 0
+21604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+21604,ERROR,GNSSTask,GNSS checkUblox time, 1
+21605,ERROR,GNSSTask,GNSSTask time, 2
+21651,NAV,ControlTask,ControlTask loop beginning
+21651,ERROR,ControlTask,ControlTask time, 0
+21654,ERROR,NavTask,NavigationTask time, 0
+21704,ERROR,GNSSTask,GNSS checkUblox time, 1
+21704,ERROR,GNSSTask,GNSSTask time, 1
+21751,NAV,ControlTask,ControlTask loop beginning
+21751,ERROR,ControlTask,ControlTask time, 0
+21754,ERROR,NavTask,NavigationTask time, 0
+21760,ERROR,GGATask,GGATask time, 5
+21804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+21804,ERROR,GNSSTask,GNSS checkUblox time, 1
+21805,ERROR,GNSSTask,GNSSTask time, 2
+21851,NAV,ControlTask,ControlTask loop beginning
+21851,ERROR,ControlTask,ControlTask time, 0
+21854,ERROR,NavTask,NavigationTask time, 0
+21904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+21904,ERROR,GNSSTask,GNSS checkUblox time, 2
+21905,ERROR,GNSSTask,GNSSTask time, 3
+21951,NAV,ControlTask,ControlTask loop beginning
+21951,ERROR,ControlTask,ControlTask time, 0
+21954,ERROR,NavTask,NavigationTask time, 0
+22004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22004,ERROR,GNSSTask,GNSS checkUblox time, 1
+22005,ERROR,GNSSTask,GNSSTask time, 2
+22051,NAV,ControlTask,ControlTask loop beginning
+22051,ERROR,ControlTask,ControlTask time, 0
+22054,ERROR,NavTask,NavigationTask time, 0
+22104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22104,ERROR,GNSSTask,GNSS checkUblox time, 1
+22105,ERROR,GNSSTask,GNSSTask time, 2
+22151,NAV,ControlTask,ControlTask loop beginning
+22151,ERROR,ControlTask,ControlTask time, 0
+22154,ERROR,NavTask,NavigationTask time, 0
+22204,ERROR,GNSSTask,GNSS checkUblox time, 1
+22204,ERROR,GNSSTask,GNSSTask time, 1
+22251,NAV,ControlTask,ControlTask loop beginning
+22251,ERROR,ControlTask,ControlTask time, 0
+22254,ERROR,NavTask,NavigationTask time, 0
+22304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22304,ERROR,GNSSTask,GNSS checkUblox time, 1
+22304,ERROR,GNSSTask,GNSSTask time, 1
+22351,NAV,ControlTask,ControlTask loop beginning
+22351,ERROR,ControlTask,ControlTask time, 0
+22354,ERROR,NavTask,NavigationTask time, 0
+22404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22404,ERROR,GNSSTask,GNSS checkUblox time, 1
+22405,ERROR,GNSSTask,GNSSTask time, 2
+22451,NAV,ControlTask,ControlTask loop beginning
+22451,ERROR,ControlTask,ControlTask time, 0
+22454,ERROR,NavTask,NavigationTask time, 0
+22522,ERROR,GNSSTask,pushRawData time, 19
+22523,ERROR,GNSSTask,GNSS checkUblox time, 1
+22523,ERROR,GNSSTask,GNSSTask time, 20
+22551,NAV,ControlTask,ControlTask loop beginning
+22551,ERROR,ControlTask,ControlTask time, 0
+22554,ERROR,NavTask,NavigationTask time, 0
+22604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22604,ERROR,GNSSTask,GNSS checkUblox time, 1
+22605,ERROR,GNSSTask,GNSSTask time, 2
+22651,NAV,ControlTask,ControlTask loop beginning
+22651,ERROR,ControlTask,ControlTask time, 0
+22654,ERROR,NavTask,NavigationTask time, 0
+22704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22704,ERROR,GNSSTask,GNSS checkUblox time, 1
+22704,ERROR,GNSSTask,GNSSTask time, 1
+22751,NAV,ControlTask,ControlTask loop beginning
+22751,ERROR,ControlTask,ControlTask time, 0
+22754,ERROR,NavTask,NavigationTask time, 0
+22759,ERROR,GGATask,GGATask time, 4
+22869,NAV,ControlTask,ControlTask loop beginning
+22870,ERROR,ControlTask,ControlTask time, 1
+22870,ERROR,NavTask,NavigationTask time, 0
+22874,ERROR,GNSSTask,pushRawData time, 71
+22875,ERROR,GNSSTask,GNSS checkUblox time, 1
+22875,ERROR,GNSSTask,GNSSTask time, 72
+22904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+22905,ERROR,GNSSTask,GNSS checkUblox time, 2
+22905,ERROR,GNSSTask,GNSSTask time, 2
+22951,NAV,ControlTask,ControlTask loop beginning
+22951,ERROR,ControlTask,ControlTask time, 0
+22954,ERROR,NavTask,NavigationTask time, 0
+23004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23004,ERROR,GNSSTask,GNSS checkUblox time, 1
+23005,ERROR,GNSSTask,GNSSTask time, 2
+23051,NAV,ControlTask,ControlTask loop beginning
+23051,ERROR,ControlTask,ControlTask time, 0
+23054,ERROR,NavTask,NavigationTask time, 0
+23104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23104,ERROR,GNSSTask,GNSS checkUblox time, 1
+23104,ERROR,GNSSTask,GNSSTask time, 1
+23151,NAV,ControlTask,ControlTask loop beginning
+23151,ERROR,ControlTask,ControlTask time, 0
+23154,ERROR,NavTask,NavigationTask time, 0
+23204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23204,ERROR,GNSSTask,GNSS checkUblox time, 1
+23204,ERROR,GNSSTask,GNSSTask time, 1
+23251,NAV,ControlTask,ControlTask loop beginning
+23251,ERROR,ControlTask,ControlTask time, 0
+23254,ERROR,NavTask,NavigationTask time, 0
+23304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23304,ERROR,GNSSTask,GNSS checkUblox time, 1
+23304,ERROR,GNSSTask,GNSSTask time, 1
+23351,NAV,ControlTask,ControlTask loop beginning
+23351,ERROR,ControlTask,ControlTask time, 0
+23354,ERROR,NavTask,NavigationTask time, 0
+23404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23404,ERROR,GNSSTask,GNSS checkUblox time, 1
+23404,ERROR,GNSSTask,GNSSTask time, 1
+23451,NAV,ControlTask,ControlTask loop beginning
+23451,ERROR,ControlTask,ControlTask time, 0
+23454,ERROR,NavTask,NavigationTask time, 0
+23531,ERROR,GNSSTask,pushRawData time, 28
+23532,ERROR,GNSSTask,GNSSTask time, 29
+23551,NAV,ControlTask,ControlTask loop beginning
+23551,ERROR,ControlTask,ControlTask time, 0
+23554,ERROR,NavTask,NavigationTask time, 0
+23604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23604,ERROR,GNSSTask,GNSS checkUblox time, 1
+23605,ERROR,GNSSTask,GNSSTask time, 2
+23651,NAV,ControlTask,ControlTask loop beginning
+23651,ERROR,ControlTask,ControlTask time, 0
+23654,ERROR,NavTask,NavigationTask time, 0
+23725,ERROR,GNSSTask,pushRawData time, 22
+23726,ERROR,GNSSTask,GNSS checkUblox time, 1
+23726,ERROR,GNSSTask,GNSSTask time, 23
+23751,NAV,ControlTask,ControlTask loop beginning
+23751,ERROR,ControlTask,ControlTask time, 0
+23754,ERROR,NavTask,NavigationTask time, 0
+23760,ERROR,GGATask,GGATask time, 5
+23804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23804,ERROR,GNSSTask,GNSS checkUblox time, 1
+23804,ERROR,GNSSTask,GNSSTask time, 1
+23851,NAV,ControlTask,ControlTask loop beginning
+23851,ERROR,ControlTask,ControlTask time, 0
+23854,ERROR,NavTask,NavigationTask time, 0
+23904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+23904,ERROR,GNSSTask,GNSS checkUblox time, 1
+23904,ERROR,GNSSTask,GNSSTask time, 1
+23951,NAV,ControlTask,ControlTask loop beginning
+23951,ERROR,ControlTask,ControlTask time, 0
+23954,ERROR,NavTask,NavigationTask time, 0
+24004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24004,ERROR,GNSSTask,GNSS checkUblox time, 1
+24005,ERROR,GNSSTask,GNSSTask time, 2
+24051,NAV,ControlTask,ControlTask loop beginning
+24051,ERROR,ControlTask,ControlTask time, 0
+24054,ERROR,NavTask,NavigationTask time, 0
+24104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24104,ERROR,GNSSTask,GNSS checkUblox time, 1
+24104,ERROR,GNSSTask,GNSSTask time, 1
+24151,NAV,ControlTask,ControlTask loop beginning
+24151,ERROR,ControlTask,ControlTask time, 0
+24154,ERROR,NavTask,NavigationTask time, 0
+24204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24204,ERROR,GNSSTask,GNSS checkUblox time, 1
+24204,ERROR,GNSSTask,GNSSTask time, 1
+24251,NAV,ControlTask,ControlTask loop beginning
+24251,ERROR,ControlTask,ControlTask time, 0
+24254,ERROR,NavTask,NavigationTask time, 0
+24304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24304,ERROR,GNSSTask,GNSS checkUblox time, 1
+24304,ERROR,GNSSTask,GNSSTask time, 1
+24351,NAV,ControlTask,ControlTask loop beginning
+24351,ERROR,ControlTask,ControlTask time, 0
+24354,ERROR,NavTask,NavigationTask time, 0
+24404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24404,ERROR,GNSSTask,GNSS checkUblox time, 1
+24404,ERROR,GNSSTask,GNSSTask time, 1
+24451,NAV,ControlTask,ControlTask loop beginning
+24451,ERROR,ControlTask,ControlTask time, 0
+24454,ERROR,NavTask,NavigationTask time, 0
+24522,ERROR,GNSSTask,pushRawData time, 19
+24523,ERROR,GNSSTask,GNSS checkUblox time, 1
+24523,ERROR,GNSSTask,GNSSTask time, 20
+24551,NAV,ControlTask,ControlTask loop beginning
+24551,ERROR,ControlTask,ControlTask time, 0
+24554,ERROR,NavTask,NavigationTask time, 0
+24604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24604,ERROR,GNSSTask,GNSS checkUblox time, 1
+24605,ERROR,GNSSTask,GNSSTask time, 2
+24651,NAV,ControlTask,ControlTask loop beginning
+24651,ERROR,ControlTask,ControlTask time, 0
+24654,ERROR,NavTask,NavigationTask time, 0
+24704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24704,ERROR,GNSSTask,GNSS checkUblox time, 1
+24704,ERROR,GNSSTask,GNSSTask time, 1
+24751,NAV,ControlTask,ControlTask loop beginning
+24751,ERROR,ControlTask,ControlTask time, 0
+24754,ERROR,NavTask,NavigationTask time, 0
+24760,ERROR,GGATask,GGATask time, 5
+24804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24804,ERROR,GNSSTask,GNSS checkUblox time, 1
+24805,ERROR,GNSSTask,GNSSTask time, 2
+24851,NAV,ControlTask,ControlTask loop beginning
+24851,ERROR,ControlTask,ControlTask time, 0
+24854,ERROR,NavTask,NavigationTask time, 0
+24904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+24904,ERROR,GNSSTask,GNSS checkUblox time, 1
+24905,ERROR,GNSSTask,GNSSTask time, 2
+24951,NAV,ControlTask,ControlTask loop beginning
+24951,ERROR,ControlTask,ControlTask time, 0
+24954,ERROR,NavTask,NavigationTask time, 0
+25004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25004,ERROR,GNSSTask,GNSS checkUblox time, 1
+25005,ERROR,GNSSTask,GNSSTask time, 2
+25051,NAV,ControlTask,ControlTask loop beginning
+25051,ERROR,ControlTask,ControlTask time, 0
+25054,ERROR,NavTask,NavigationTask time, 0
+25104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25104,ERROR,GNSSTask,GNSS checkUblox time, 1
+25104,ERROR,GNSSTask,GNSSTask time, 1
+25151,NAV,ControlTask,ControlTask loop beginning
+25151,ERROR,ControlTask,ControlTask time, 0
+25154,ERROR,NavTask,NavigationTask time, 0
+25204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25204,ERROR,GNSSTask,GNSS checkUblox time, 1
+25204,ERROR,GNSSTask,GNSSTask time, 1
+25251,NAV,ControlTask,ControlTask loop beginning
+25251,ERROR,ControlTask,ControlTask time, 0
+25254,ERROR,NavTask,NavigationTask time, 0
+25304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25304,ERROR,GNSSTask,GNSS checkUblox time, 1
+25304,ERROR,GNSSTask,GNSSTask time, 1
+25351,NAV,ControlTask,ControlTask loop beginning
+25351,ERROR,ControlTask,ControlTask time, 0
+25354,ERROR,NavTask,NavigationTask time, 0
+25404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25404,ERROR,GNSSTask,GNSS checkUblox time, 1
+25404,ERROR,GNSSTask,GNSSTask time, 1
+25451,NAV,ControlTask,ControlTask loop beginning
+25451,ERROR,ControlTask,ControlTask time, 0
+25454,ERROR,NavTask,NavigationTask time, 0
+25528,ERROR,GNSSTask,pushRawData time, 25
+25529,ERROR,GNSSTask,GNSS checkUblox time, 1
+25529,ERROR,GNSSTask,GNSSTask time, 26
+25551,NAV,ControlTask,ControlTask loop beginning
+25551,ERROR,ControlTask,ControlTask time, 0
+25554,ERROR,NavTask,NavigationTask time, 0
+25604,ERROR,GNSSTask,GNSSTask time, 1
+25651,NAV,ControlTask,ControlTask loop beginning
+25651,ERROR,ControlTask,ControlTask time, 0
+25654,ERROR,NavTask,NavigationTask time, 0
+25704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25704,ERROR,GNSSTask,GNSS checkUblox time, 1
+25705,ERROR,GNSSTask,GNSSTask time, 2
+25751,NAV,ControlTask,ControlTask loop beginning
+25751,ERROR,ControlTask,ControlTask time, 0
+25754,ERROR,NavTask,NavigationTask time, 0
+25761,ERROR,GGATask,GGATask time, 6
+25804,ERROR,GNSSTask,GNSS checkUblox time, 1
+25805,ERROR,GNSSTask,GNSSTask time, 2
+25851,NAV,ControlTask,ControlTask loop beginning
+25851,ERROR,ControlTask,ControlTask time, 0
+25854,ERROR,NavTask,NavigationTask time, 0
+25904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+25904,ERROR,GNSSTask,GNSS checkUblox time, 1
+25904,ERROR,GNSSTask,GNSSTask time, 1
+25951,NAV,ControlTask,ControlTask loop beginning
+25951,ERROR,ControlTask,ControlTask time, 0
+25954,ERROR,NavTask,NavigationTask time, 0
+26004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26004,ERROR,GNSSTask,GNSS checkUblox time, 1
+26005,ERROR,GNSSTask,GNSSTask time, 2
+26051,NAV,ControlTask,ControlTask loop beginning
+26051,ERROR,ControlTask,ControlTask time, 0
+26054,ERROR,NavTask,NavigationTask time, 0
+26104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26104,ERROR,GNSSTask,GNSS checkUblox time, 1
+26104,ERROR,GNSSTask,GNSSTask time, 1
+26151,NAV,ControlTask,ControlTask loop beginning
+26151,ERROR,ControlTask,ControlTask time, 0
+26154,ERROR,NavTask,NavigationTask time, 0
+26204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26204,ERROR,GNSSTask,GNSS checkUblox time, 1
+26204,ERROR,GNSSTask,GNSSTask time, 1
+26251,NAV,ControlTask,ControlTask loop beginning
+26251,ERROR,ControlTask,ControlTask time, 0
+26254,ERROR,NavTask,NavigationTask time, 0
+26304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26304,ERROR,GNSSTask,GNSS checkUblox time, 1
+26304,ERROR,GNSSTask,GNSSTask time, 1
+26351,NAV,ControlTask,ControlTask loop beginning
+26351,ERROR,ControlTask,ControlTask time, 0
+26354,ERROR,NavTask,NavigationTask time, 0
+26404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26404,ERROR,GNSSTask,GNSS checkUblox time, 1
+26404,ERROR,GNSSTask,GNSSTask time, 1
+26451,NAV,ControlTask,ControlTask loop beginning
+26451,ERROR,ControlTask,ControlTask time, 0
+26453,ERROR,NavTask,NavigationTask time, 0
+26522,ERROR,GNSSTask,pushRawData time, 19
+26523,ERROR,GNSSTask,GNSS checkUblox time, 1
+26523,ERROR,GNSSTask,GNSSTask time, 20
+26551,NAV,ControlTask,ControlTask loop beginning
+26551,ERROR,ControlTask,ControlTask time, 0
+26554,ERROR,NavTask,NavigationTask time, 0
+26604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26604,ERROR,GNSSTask,GNSS checkUblox time, 1
+26605,ERROR,GNSSTask,GNSSTask time, 2
+26651,NAV,ControlTask,ControlTask loop beginning
+26651,ERROR,ControlTask,ControlTask time, 0
+26654,ERROR,NavTask,NavigationTask time, 0
+26704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26705,ERROR,GNSSTask,GNSS checkUblox time, 1
+26705,ERROR,GNSSTask,GNSSTask time, 2
+26751,NAV,ControlTask,ControlTask loop beginning
+26751,ERROR,ControlTask,ControlTask time, 0
+26754,ERROR,NavTask,NavigationTask time, 0
+26759,ERROR,GGATask,GGATask time, 4
+26804,ERROR,GNSSTask,GNSSTask time, 1
+26851,NAV,ControlTask,ControlTask loop beginning
+26851,ERROR,ControlTask,ControlTask time, 0
+26854,ERROR,NavTask,NavigationTask time, 0
+26904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+26904,ERROR,GNSSTask,GNSS checkUblox time, 1
+26905,ERROR,GNSSTask,GNSSTask time, 2
+26951,NAV,ControlTask,ControlTask loop beginning
+26951,ERROR,ControlTask,ControlTask time, 0
+26954,ERROR,NavTask,NavigationTask time, 0
+27004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27004,ERROR,GNSSTask,GNSS checkUblox time, 1
+27005,ERROR,GNSSTask,GNSSTask time, 2
+27051,NAV,ControlTask,ControlTask loop beginning
+27051,ERROR,ControlTask,ControlTask time, 0
+27054,ERROR,NavTask,NavigationTask time, 0
+27104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27104,ERROR,GNSSTask,GNSS checkUblox time, 1
+27104,ERROR,GNSSTask,GNSSTask time, 1
+27151,NAV,ControlTask,ControlTask loop beginning
+27151,ERROR,ControlTask,ControlTask time, 0
+27154,ERROR,NavTask,NavigationTask time, 0
+27204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27204,ERROR,GNSSTask,GNSS checkUblox time, 1
+27204,ERROR,GNSSTask,GNSSTask time, 1
+27251,NAV,ControlTask,ControlTask loop beginning
+27251,ERROR,ControlTask,ControlTask time, 0
+27254,ERROR,NavTask,NavigationTask time, 0
+27304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27304,ERROR,GNSSTask,GNSS checkUblox time, 1
+27304,ERROR,GNSSTask,GNSSTask time, 1
+27351,NAV,ControlTask,ControlTask loop beginning
+27351,ERROR,ControlTask,ControlTask time, 0
+27354,ERROR,NavTask,NavigationTask time, 0
+27404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27404,ERROR,GNSSTask,GNSS checkUblox time, 1
+27404,ERROR,GNSSTask,GNSSTask time, 1
+27451,NAV,ControlTask,ControlTask loop beginning
+27451,ERROR,ControlTask,ControlTask time, 0
+27454,ERROR,NavTask,NavigationTask time, 0
+27524,ERROR,GNSSTask,pushRawData time, 21
+27525,ERROR,GNSSTask,GNSS checkUblox time, 1
+27525,ERROR,GNSSTask,GNSSTask time, 22
+27551,NAV,ControlTask,ControlTask loop beginning
+27551,ERROR,ControlTask,ControlTask time, 0
+27554,ERROR,NavTask,NavigationTask time, 0
+27604,ERROR,GNSSTask,GNSSTask time, 1
+27651,NAV,ControlTask,ControlTask loop beginning
+27651,ERROR,ControlTask,ControlTask time, 0
+27654,ERROR,NavTask,NavigationTask time, 0
+27704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27704,ERROR,GNSSTask,GNSS checkUblox time, 1
+27705,ERROR,GNSSTask,GNSSTask time, 2
+27751,NAV,ControlTask,ControlTask loop beginning
+27751,ERROR,ControlTask,ControlTask time, 0
+27754,ERROR,NavTask,NavigationTask time, 0
+27761,ERROR,GGATask,GGATask time, 6
+27804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27804,ERROR,GNSSTask,GNSS checkUblox time, 1
+27805,ERROR,GNSSTask,GNSSTask time, 2
+27851,NAV,ControlTask,ControlTask loop beginning
+27851,ERROR,ControlTask,ControlTask time, 0
+27854,ERROR,NavTask,NavigationTask time, 0
+27904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+27904,ERROR,GNSSTask,GNSS checkUblox time, 1
+27904,ERROR,GNSSTask,GNSSTask time, 1
+27950,NAV,ControlTask,ControlTask loop beginning
+27950,ERROR,ControlTask,ControlTask time, 0
+27954,ERROR,NavTask,NavigationTask time, 0
+28004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28004,ERROR,GNSSTask,GNSS checkUblox time, 1
+28005,ERROR,GNSSTask,GNSSTask time, 2
+28051,NAV,ControlTask,ControlTask loop beginning
+28051,ERROR,ControlTask,ControlTask time, 0
+28054,ERROR,NavTask,NavigationTask time, 0
+28104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28104,ERROR,GNSSTask,GNSS checkUblox time, 1
+28104,ERROR,GNSSTask,GNSSTask time, 1
+28151,NAV,ControlTask,ControlTask loop beginning
+28151,ERROR,ControlTask,ControlTask time, 0
+28154,ERROR,NavTask,NavigationTask time, 0
+28204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28204,ERROR,GNSSTask,GNSS checkUblox time, 1
+28204,ERROR,GNSSTask,GNSSTask time, 1
+28251,NAV,ControlTask,ControlTask loop beginning
+28251,ERROR,ControlTask,ControlTask time, 0
+28254,ERROR,NavTask,NavigationTask time, 0
+28304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28304,ERROR,GNSSTask,GNSS checkUblox time, 1
+28304,ERROR,GNSSTask,GNSSTask time, 1
+28351,NAV,ControlTask,ControlTask loop beginning
+28351,ERROR,ControlTask,ControlTask time, 0
+28354,ERROR,NavTask,NavigationTask time, 0
+28404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28404,ERROR,GNSSTask,GNSS checkUblox time, 1
+28404,ERROR,GNSSTask,GNSSTask time, 1
+28451,NAV,ControlTask,ControlTask loop beginning
+28451,ERROR,ControlTask,ControlTask time, 0
+28454,ERROR,NavTask,NavigationTask time, 1
+28522,ERROR,GNSSTask,pushRawData time, 19
+28524,ERROR,GNSSTask,GNSSTask time, 21
+28551,NAV,ControlTask,ControlTask loop beginning
+28551,ERROR,ControlTask,ControlTask time, 0
+28554,ERROR,NavTask,NavigationTask time, 0
+28604,ERROR,GNSSTask,GNSSTask time, 1
+28651,NAV,ControlTask,ControlTask loop beginning
+28651,ERROR,ControlTask,ControlTask time, 0
+28654,ERROR,NavTask,NavigationTask time, 0
+28704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28704,ERROR,GNSSTask,GNSS checkUblox time, 1
+28705,ERROR,GNSSTask,GNSSTask time, 2
+28751,NAV,ControlTask,ControlTask loop beginning
+28751,ERROR,ControlTask,ControlTask time, 0
+28754,ERROR,NavTask,NavigationTask time, 0
+28758,ERROR,GGATask,GGATask time, 3
+28804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28804,ERROR,GNSSTask,GNSS checkUblox time, 1
+28804,ERROR,GNSSTask,GNSSTask time, 1
+28851,NAV,ControlTask,ControlTask loop beginning
+28851,ERROR,ControlTask,ControlTask time, 0
+28854,ERROR,NavTask,NavigationTask time, 0
+28904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+28904,ERROR,GNSSTask,GNSS checkUblox time, 1
+28904,ERROR,GNSSTask,GNSSTask time, 1
+28951,NAV,ControlTask,ControlTask loop beginning
+28951,ERROR,ControlTask,ControlTask time, 0
+28954,ERROR,NavTask,NavigationTask time, 0
+29004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29004,ERROR,GNSSTask,GNSS checkUblox time, 1
+29004,ERROR,GNSSTask,GNSSTask time, 1
+29051,NAV,ControlTask,ControlTask loop beginning
+29051,ERROR,ControlTask,ControlTask time, 0
+29054,ERROR,NavTask,NavigationTask time, 0
+29104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29104,ERROR,GNSSTask,GNSS checkUblox time, 1
+29105,ERROR,GNSSTask,GNSSTask time, 2
+29151,NAV,ControlTask,ControlTask loop beginning
+29151,ERROR,ControlTask,ControlTask time, 0
+29154,ERROR,NavTask,NavigationTask time, 0
+29204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29204,ERROR,GNSSTask,GNSS checkUblox time, 1
+29204,ERROR,GNSSTask,GNSSTask time, 1
+29251,NAV,ControlTask,ControlTask loop beginning
+29251,ERROR,ControlTask,ControlTask time, 0
+29254,ERROR,NavTask,NavigationTask time, 0
+29304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29304,ERROR,GNSSTask,GNSS checkUblox time, 1
+29304,ERROR,GNSSTask,GNSSTask time, 1
+29351,NAV,ControlTask,ControlTask loop beginning
+29351,ERROR,ControlTask,ControlTask time, 0
+29354,ERROR,NavTask,NavigationTask time, 0
+29404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29404,ERROR,GNSSTask,GNSS checkUblox time, 1
+29404,ERROR,GNSSTask,GNSSTask time, 1
+29451,NAV,ControlTask,ControlTask loop beginning
+29451,ERROR,ControlTask,ControlTask time, 0
+29454,ERROR,NavTask,NavigationTask time, 0
+29524,ERROR,GNSSTask,pushRawData time, 21
+29525,ERROR,GNSSTask,GNSS checkUblox time, 1
+29525,ERROR,GNSSTask,GNSSTask time, 22
+29551,NAV,ControlTask,ControlTask loop beginning
+29551,ERROR,ControlTask,ControlTask time, 0
+29554,ERROR,NavTask,NavigationTask time, 0
+29604,ERROR,GNSSTask,GNSSTask time, 1
+29651,NAV,ControlTask,ControlTask loop beginning
+29651,ERROR,ControlTask,ControlTask time, 0
+29654,ERROR,NavTask,NavigationTask time, 0
+29704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29704,ERROR,GNSSTask,GNSS checkUblox time, 1
+29705,ERROR,GNSSTask,GNSSTask time, 2
+29751,NAV,ControlTask,ControlTask loop beginning
+29751,ERROR,ControlTask,ControlTask time, 0
+29754,ERROR,NavTask,NavigationTask time, 0
+29760,ERROR,GGATask,GGATask time, 5
+29804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29804,ERROR,GNSSTask,GNSS checkUblox time, 1
+29805,ERROR,GNSSTask,GNSSTask time, 2
+29851,NAV,ControlTask,ControlTask loop beginning
+29851,ERROR,ControlTask,ControlTask time, 0
+29854,ERROR,NavTask,NavigationTask time, 0
+29904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+29904,ERROR,GNSSTask,GNSS checkUblox time, 1
+29904,ERROR,GNSSTask,GNSSTask time, 1
+29951,NAV,ControlTask,ControlTask loop beginning
+29951,ERROR,ControlTask,ControlTask time, 0
+29954,ERROR,NavTask,NavigationTask time, 0
+30004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30004,ERROR,GNSSTask,GNSS checkUblox time, 1
+30005,ERROR,GNSSTask,GNSSTask time, 2
+30051,NAV,ControlTask,ControlTask loop beginning
+30051,ERROR,ControlTask,ControlTask time, 0
+30054,ERROR,NavTask,NavigationTask time, 0
+30104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30104,ERROR,GNSSTask,GNSS checkUblox time, 1
+30104,ERROR,GNSSTask,GNSSTask time, 1
+30151,NAV,ControlTask,ControlTask loop beginning
+30151,ERROR,ControlTask,ControlTask time, 0
+30154,ERROR,NavTask,NavigationTask time, 0
+30204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30204,ERROR,GNSSTask,GNSS checkUblox time, 1
+30204,ERROR,GNSSTask,GNSSTask time, 1
+30251,NAV,ControlTask,ControlTask loop beginning
+30251,ERROR,ControlTask,ControlTask time, 0
+30254,ERROR,NavTask,NavigationTask time, 0
+30304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30304,ERROR,GNSSTask,GNSS checkUblox time, 1
+30304,ERROR,GNSSTask,GNSSTask time, 1
+30351,NAV,ControlTask,ControlTask loop beginning
+30351,ERROR,ControlTask,ControlTask time, 0
+30354,ERROR,NavTask,NavigationTask time, 0
+30403,ERROR,GNSSTask,------------------------------------------
+30403,ERROR,GNSSTask,GNSS SYS TIME: 2025-04-11 00:31 (UTC)
+30403,ERROR,GNSSTask,------------------------------------------
+30404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30404,ERROR,GNSSTask,GNSS checkUblox time, 1
+30405,ERROR,GNSSTask,GNSSTask time, 2
+30451,NAV,ControlTask,ControlTask loop beginning
+30451,ERROR,ControlTask,ControlTask time, 0
+30454,ERROR,NavTask,NavigationTask time, 0
+30524,ERROR,GNSSTask,pushRawData time, 21
+30525,ERROR,GNSSTask,GNSS checkUblox time, 1
+30525,ERROR,GNSSTask,GNSSTask time, 22
+30551,NAV,ControlTask,ControlTask loop beginning
+30551,ERROR,ControlTask,ControlTask time, 0
+30554,ERROR,NavTask,NavigationTask time, 0
+30604,ERROR,GNSSTask,GNSSTask time, 1
+30651,NAV,ControlTask,ControlTask loop beginning
+30651,ERROR,ControlTask,ControlTask time, 0
+30654,ERROR,NavTask,NavigationTask time, 0
+30704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30704,ERROR,GNSSTask,GNSS checkUblox time, 1
+30705,ERROR,GNSSTask,GNSSTask time, 2
+30751,NAV,ControlTask,ControlTask loop beginning
+30751,ERROR,ControlTask,ControlTask time, 0
+30754,ERROR,NavTask,NavigationTask time, 0
+30759,ERROR,GGATask,GGATask time, 4
+30804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30804,ERROR,GNSSTask,GNSS checkUblox time, 1
+30804,ERROR,GNSSTask,GNSSTask time, 1
+30851,NAV,ControlTask,ControlTask loop beginning
+30851,ERROR,ControlTask,ControlTask time, 0
+30854,ERROR,NavTask,NavigationTask time, 0
+30904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+30904,ERROR,GNSSTask,GNSS checkUblox time, 1
+30905,ERROR,GNSSTask,GNSSTask time, 2
+30951,NAV,ControlTask,ControlTask loop beginning
+30951,ERROR,ControlTask,ControlTask time, 0
+30954,ERROR,NavTask,NavigationTask time, 0
+31004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31004,ERROR,GNSSTask,GNSS checkUblox time, 1
+31005,ERROR,GNSSTask,GNSSTask time, 2
+31051,NAV,ControlTask,ControlTask loop beginning
+31051,ERROR,ControlTask,ControlTask time, 0
+31054,ERROR,NavTask,NavigationTask time, 0
+31104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31104,ERROR,GNSSTask,GNSS checkUblox time, 1
+31104,ERROR,GNSSTask,GNSSTask time, 1
+31151,NAV,ControlTask,ControlTask loop beginning
+31151,ERROR,ControlTask,ControlTask time, 0
+31154,ERROR,NavTask,NavigationTask time, 0
+31204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31204,ERROR,GNSSTask,GNSS checkUblox time, 1
+31204,ERROR,GNSSTask,GNSSTask time, 1
+31251,NAV,ControlTask,ControlTask loop beginning
+31251,ERROR,ControlTask,ControlTask time, 0
+31254,ERROR,NavTask,NavigationTask time, 0
+31304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31304,ERROR,GNSSTask,GNSS checkUblox time, 1
+31304,ERROR,GNSSTask,GNSSTask time, 1
+31351,NAV,ControlTask,ControlTask loop beginning
+31351,ERROR,ControlTask,ControlTask time, 0
+31354,ERROR,NavTask,NavigationTask time, 0
+31404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31404,ERROR,GNSSTask,GNSS checkUblox time, 1
+31404,ERROR,GNSSTask,GNSSTask time, 1
+31451,NAV,ControlTask,ControlTask loop beginning
+31451,ERROR,ControlTask,ControlTask time, 0
+31454,ERROR,NavTask,NavigationTask time, 0
+31524,ERROR,GNSSTask,pushRawData time, 21
+31525,ERROR,GNSSTask,GNSS checkUblox time, 1
+31525,ERROR,GNSSTask,GNSSTask time, 22
+31551,NAV,ControlTask,ControlTask loop beginning
+31551,ERROR,ControlTask,ControlTask time, 0
+31554,ERROR,NavTask,NavigationTask time, 0
+31604,ERROR,GNSSTask,GNSSTask time, 1
+31651,NAV,ControlTask,ControlTask loop beginning
+31651,ERROR,ControlTask,ControlTask time, 0
+31654,ERROR,NavTask,NavigationTask time, 0
+31704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31704,ERROR,GNSSTask,GNSS checkUblox time, 1
+31705,ERROR,GNSSTask,GNSSTask time, 2
+31751,NAV,ControlTask,ControlTask loop beginning
+31751,ERROR,ControlTask,ControlTask time, 0
+31754,ERROR,NavTask,NavigationTask time, 0
+31760,ERROR,GGATask,GGATask time, 5
+31804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31804,ERROR,GNSSTask,GNSS checkUblox time, 1
+31804,ERROR,GNSSTask,GNSSTask time, 1
+31851,NAV,ControlTask,ControlTask loop beginning
+31851,ERROR,ControlTask,ControlTask time, 0
+31854,ERROR,NavTask,NavigationTask time, 0
+31904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+31904,ERROR,GNSSTask,GNSS checkUblox time, 1
+31904,ERROR,GNSSTask,GNSSTask time, 1
+31951,NAV,ControlTask,ControlTask loop beginning
+31951,ERROR,ControlTask,ControlTask time, 0
+31954,ERROR,NavTask,NavigationTask time, 0
+32004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32004,ERROR,GNSSTask,GNSS checkUblox time, 2
+32005,ERROR,GNSSTask,GNSSTask time, 3
+32051,NAV,ControlTask,ControlTask loop beginning
+32051,ERROR,ControlTask,ControlTask time, 0
+32054,ERROR,NavTask,NavigationTask time, 0
+32104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32104,ERROR,GNSSTask,GNSS checkUblox time, 1
+32104,ERROR,GNSSTask,GNSSTask time, 1
+32151,NAV,ControlTask,ControlTask loop beginning
+32151,ERROR,ControlTask,ControlTask time, 0
+32154,ERROR,NavTask,NavigationTask time, 0
+32204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32204,ERROR,GNSSTask,GNSS checkUblox time, 1
+32204,ERROR,GNSSTask,GNSSTask time, 1
+32251,NAV,ControlTask,ControlTask loop beginning
+32251,ERROR,ControlTask,ControlTask time, 0
+32254,ERROR,NavTask,NavigationTask time, 0
+32304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32304,ERROR,GNSSTask,GNSS checkUblox time, 1
+32304,ERROR,GNSSTask,GNSSTask time, 1
+32351,NAV,ControlTask,ControlTask loop beginning
+32351,ERROR,ControlTask,ControlTask time, 0
+32354,ERROR,NavTask,NavigationTask time, 0
+32404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32404,ERROR,GNSSTask,GNSS checkUblox time, 1
+32404,ERROR,GNSSTask,GNSSTask time, 1
+32451,NAV,ControlTask,ControlTask loop beginning
+32451,ERROR,ControlTask,ControlTask time, 0
+32454,ERROR,NavTask,NavigationTask time, 0
+32504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32504,ERROR,GNSSTask,GNSS checkUblox time, 1
+32505,ERROR,GNSSTask,GNSSTask time, 2
+32551,NAV,ControlTask,ControlTask loop beginning
+32551,ERROR,ControlTask,ControlTask time, 0
+32554,ERROR,NavTask,NavigationTask time, 0
+32622,ERROR,GNSSTask,pushRawData time, 19
+32623,ERROR,GNSSTask,GNSS checkUblox time, 1
+32623,ERROR,GNSSTask,GNSSTask time, 20
+32651,NAV,ControlTask,ControlTask loop beginning
+32651,ERROR,ControlTask,ControlTask time, 0
+32654,ERROR,NavTask,NavigationTask time, 0
+32704,ERROR,GNSSTask,GNSSTask time, 1
+32751,NAV,ControlTask,ControlTask loop beginning
+32751,ERROR,ControlTask,ControlTask time, 0
+32754,ERROR,NavTask,NavigationTask time, 0
+32760,ERROR,GGATask,GGATask time, 5
+32804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32804,ERROR,GNSSTask,GNSS checkUblox time, 1
+32804,ERROR,GNSSTask,GNSSTask time, 1
+32851,NAV,ControlTask,ControlTask loop beginning
+32851,ERROR,ControlTask,ControlTask time, 0
+32854,ERROR,NavTask,NavigationTask time, 0
+32904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+32904,ERROR,GNSSTask,GNSS checkUblox time, 1
+32905,ERROR,GNSSTask,GNSSTask time, 2
+32951,NAV,ControlTask,ControlTask loop beginning
+32951,ERROR,ControlTask,ControlTask time, 0
+32954,ERROR,NavTask,NavigationTask time, 0
+33004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33005,ERROR,GNSSTask,GNSS checkUblox time, 2
+33006,ERROR,GNSSTask,GNSSTask time, 3
+33051,NAV,ControlTask,ControlTask loop beginning
+33051,ERROR,ControlTask,ControlTask time, 0
+33054,ERROR,NavTask,NavigationTask time, 0
+33104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33104,ERROR,GNSSTask,GNSS checkUblox time, 1
+33105,ERROR,GNSSTask,GNSSTask time, 2
+33151,NAV,ControlTask,ControlTask loop beginning
+33151,ERROR,ControlTask,ControlTask time, 0
+33154,ERROR,NavTask,NavigationTask time, 0
+33204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33204,ERROR,GNSSTask,GNSS checkUblox time, 1
+33204,ERROR,GNSSTask,GNSSTask time, 1
+33251,NAV,ControlTask,ControlTask loop beginning
+33251,ERROR,ControlTask,ControlTask time, 0
+33254,ERROR,NavTask,NavigationTask time, 0
+33304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33304,ERROR,GNSSTask,GNSS checkUblox time, 1
+33304,ERROR,GNSSTask,GNSSTask time, 1
+33351,NAV,ControlTask,ControlTask loop beginning
+33351,ERROR,ControlTask,ControlTask time, 0
+33354,ERROR,NavTask,NavigationTask time, 0
+33404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33404,ERROR,GNSSTask,GNSS checkUblox time, 1
+33404,ERROR,GNSSTask,GNSSTask time, 1
+33451,NAV,ControlTask,ControlTask loop beginning
+33451,ERROR,ControlTask,ControlTask time, 0
+33454,ERROR,NavTask,NavigationTask time, 0
+33504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33504,ERROR,GNSSTask,GNSS checkUblox time, 1
+33505,ERROR,GNSSTask,GNSSTask time, 2
+33551,NAV,ControlTask,ControlTask loop beginning
+33551,ERROR,ControlTask,ControlTask time, 0
+33554,ERROR,NavTask,NavigationTask time, 0
+33627,ERROR,GNSSTask,pushRawData time, 24
+33628,ERROR,GNSSTask,GNSS checkUblox time, 1
+33628,ERROR,GNSSTask,GNSSTask time, 25
+33651,NAV,ControlTask,ControlTask loop beginning
+33651,ERROR,ControlTask,ControlTask time, 0
+33654,ERROR,NavTask,NavigationTask time, 0
+33704,ERROR,GNSSTask,GNSSTask time, 1
+33751,NAV,ControlTask,ControlTask loop beginning
+33751,ERROR,ControlTask,ControlTask time, 0
+33754,ERROR,NavTask,NavigationTask time, 0
+33761,ERROR,GGATask,GGATask time, 6
+33804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33804,ERROR,GNSSTask,GNSS checkUblox time, 1
+33805,ERROR,GNSSTask,GNSSTask time, 2
+33851,NAV,ControlTask,ControlTask loop beginning
+33851,ERROR,ControlTask,ControlTask time, 0
+33854,ERROR,NavTask,NavigationTask time, 0
+33904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+33904,ERROR,GNSSTask,GNSS checkUblox time, 1
+33904,ERROR,GNSSTask,GNSSTask time, 1
+33951,NAV,ControlTask,ControlTask loop beginning
+33951,ERROR,ControlTask,ControlTask time, 0
+33954,ERROR,NavTask,NavigationTask time, 0
+34004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34004,ERROR,GNSSTask,GNSS checkUblox time, 1
+34005,ERROR,GNSSTask,GNSSTask time, 2
+34051,NAV,ControlTask,ControlTask loop beginning
+34051,ERROR,ControlTask,ControlTask time, 0
+34054,ERROR,NavTask,NavigationTask time, 0
+34104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34104,ERROR,GNSSTask,GNSS checkUblox time, 1
+34105,ERROR,GNSSTask,GNSSTask time, 2
+34151,NAV,ControlTask,ControlTask loop beginning
+34151,ERROR,ControlTask,ControlTask time, 0
+34154,ERROR,NavTask,NavigationTask time, 0
+34204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34204,ERROR,GNSSTask,GNSS checkUblox time, 1
+34204,ERROR,GNSSTask,GNSSTask time, 1
+34251,NAV,ControlTask,ControlTask loop beginning
+34251,ERROR,ControlTask,ControlTask time, 0
+34254,ERROR,NavTask,NavigationTask time, 0
+34304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34304,ERROR,GNSSTask,GNSS checkUblox time, 1
+34304,ERROR,GNSSTask,GNSSTask time, 1
+34351,NAV,ControlTask,ControlTask loop beginning
+34351,ERROR,ControlTask,ControlTask time, 0
+34354,ERROR,NavTask,NavigationTask time, 0
+34404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34404,ERROR,GNSSTask,GNSS checkUblox time, 1
+34404,ERROR,GNSSTask,GNSSTask time, 1
+34451,NAV,ControlTask,ControlTask loop beginning
+34451,ERROR,ControlTask,ControlTask time, 0
+34454,ERROR,NavTask,NavigationTask time, 0
+34504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34504,ERROR,GNSSTask,GNSS checkUblox time, 1
+34504,ERROR,GNSSTask,GNSSTask time, 1
+34551,NAV,ControlTask,ControlTask loop beginning
+34551,ERROR,ControlTask,ControlTask time, 0
+34554,ERROR,NavTask,NavigationTask time, 0
+34622,ERROR,GNSSTask,pushRawData time, 19
+34623,ERROR,GNSSTask,GNSS checkUblox time, 1
+34624,ERROR,GNSSTask,GNSSTask time, 21
+34651,NAV,ControlTask,ControlTask loop beginning
+34651,ERROR,ControlTask,ControlTask time, 0
+34654,ERROR,NavTask,NavigationTask time, 0
+34704,ERROR,GNSSTask,GNSSTask time, 1
+34751,NAV,ControlTask,ControlTask loop beginning
+34751,ERROR,ControlTask,ControlTask time, 0
+34754,ERROR,NavTask,NavigationTask time, 0
+34760,ERROR,GGATask,GGATask time, 5
+34804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34804,ERROR,GNSSTask,GNSS checkUblox time, 1
+34805,ERROR,GNSSTask,GNSSTask time, 2
+34851,NAV,ControlTask,ControlTask loop beginning
+34851,ERROR,ControlTask,ControlTask time, 0
+34854,ERROR,NavTask,NavigationTask time, 0
+34904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+34904,ERROR,GNSSTask,GNSS checkUblox time, 1
+34905,ERROR,GNSSTask,GNSSTask time, 2
+34951,NAV,ControlTask,ControlTask loop beginning
+34951,ERROR,ControlTask,ControlTask time, 0
+34954,ERROR,NavTask,NavigationTask time, 0
+35004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35004,ERROR,GNSSTask,GNSS checkUblox time, 1
+35004,ERROR,GNSSTask,GNSSTask time, 1
+35051,NAV,ControlTask,ControlTask loop beginning
+35051,ERROR,ControlTask,ControlTask time, 0
+35054,ERROR,NavTask,NavigationTask time, 0
+35104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35104,ERROR,GNSSTask,GNSS checkUblox time, 1
+35105,ERROR,GNSSTask,GNSSTask time, 2
+35151,NAV,ControlTask,ControlTask loop beginning
+35151,ERROR,ControlTask,ControlTask time, 0
+35154,ERROR,NavTask,NavigationTask time, 0
+35204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35204,ERROR,GNSSTask,GNSS checkUblox time, 1
+35204,ERROR,GNSSTask,GNSSTask time, 1
+35251,NAV,ControlTask,ControlTask loop beginning
+35251,ERROR,ControlTask,ControlTask time, 0
+35254,ERROR,NavTask,NavigationTask time, 0
+35304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35304,ERROR,GNSSTask,GNSS checkUblox time, 1
+35305,ERROR,GNSSTask,GNSSTask time, 2
+35351,NAV,ControlTask,ControlTask loop beginning
+35351,ERROR,ControlTask,ControlTask time, 0
+35354,ERROR,NavTask,NavigationTask time, 0
+35404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35404,ERROR,GNSSTask,GNSS checkUblox time, 1
+35404,ERROR,GNSSTask,GNSSTask time, 1
+35451,NAV,ControlTask,ControlTask loop beginning
+35451,ERROR,ControlTask,ControlTask time, 0
+35454,ERROR,NavTask,NavigationTask time, 0
+35504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35504,ERROR,GNSSTask,GNSS checkUblox time, 1
+35504,ERROR,GNSSTask,GNSSTask time, 1
+35551,NAV,ControlTask,ControlTask loop beginning
+35551,ERROR,ControlTask,ControlTask time, 0
+35554,ERROR,NavTask,NavigationTask time, 0
+35628,ERROR,GNSSTask,pushRawData time, 25
+35629,ERROR,GNSSTask,GNSS checkUblox time, 1
+35629,ERROR,GNSSTask,GNSSTask time, 26
+35651,NAV,ControlTask,ControlTask loop beginning
+35651,ERROR,ControlTask,ControlTask time, 0
+35654,ERROR,NavTask,NavigationTask time, 0
+35704,ERROR,GNSSTask,GNSSTask time, 1
+35751,NAV,ControlTask,ControlTask loop beginning
+35751,ERROR,ControlTask,ControlTask time, 0
+35754,ERROR,NavTask,NavigationTask time, 0
+35761,ERROR,GGATask,GGATask time, 6
+35804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35804,ERROR,GNSSTask,GNSS checkUblox time, 1
+35805,ERROR,GNSSTask,GNSSTask time, 2
+35851,NAV,ControlTask,ControlTask loop beginning
+35851,ERROR,ControlTask,ControlTask time, 0
+35854,ERROR,NavTask,NavigationTask time, 0
+35904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+35904,ERROR,GNSSTask,GNSS checkUblox time, 1
+35904,ERROR,GNSSTask,GNSSTask time, 1
+35951,NAV,ControlTask,ControlTask loop beginning
+35951,ERROR,ControlTask,ControlTask time, 0
+35954,ERROR,NavTask,NavigationTask time, 0
+36004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36004,ERROR,GNSSTask,GNSS checkUblox time, 1
+36004,ERROR,GNSSTask,GNSSTask time, 1
+36051,NAV,ControlTask,ControlTask loop beginning
+36051,ERROR,ControlTask,ControlTask time, 0
+36054,ERROR,NavTask,NavigationTask time, 0
+36104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36104,ERROR,GNSSTask,GNSS checkUblox time, 1
+36105,ERROR,GNSSTask,GNSSTask time, 2
+36151,NAV,ControlTask,ControlTask loop beginning
+36151,ERROR,ControlTask,ControlTask time, 0
+36154,ERROR,NavTask,NavigationTask time, 0
+36204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36204,ERROR,GNSSTask,GNSS checkUblox time, 1
+36204,ERROR,GNSSTask,GNSSTask time, 1
+36251,NAV,ControlTask,ControlTask loop beginning
+36251,ERROR,ControlTask,ControlTask time, 0
+36254,ERROR,NavTask,NavigationTask time, 0
+36304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36304,ERROR,GNSSTask,GNSS checkUblox time, 1
+36304,ERROR,GNSSTask,GNSSTask time, 1
+36351,NAV,ControlTask,ControlTask loop beginning
+36351,ERROR,ControlTask,ControlTask time, 0
+36354,ERROR,NavTask,NavigationTask time, 0
+36404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36404,ERROR,GNSSTask,GNSS checkUblox time, 1
+36404,ERROR,GNSSTask,GNSSTask time, 1
+36451,NAV,ControlTask,ControlTask loop beginning
+36451,ERROR,ControlTask,ControlTask time, 0
+36454,ERROR,NavTask,NavigationTask time, 0
+36504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36504,ERROR,GNSSTask,GNSS checkUblox time, 1
+36504,ERROR,GNSSTask,GNSSTask time, 1
+36551,NAV,ControlTask,ControlTask loop beginning
+36551,ERROR,ControlTask,ControlTask time, 0
+36554,ERROR,NavTask,NavigationTask time, 0
+36622,ERROR,GNSSTask,pushRawData time, 19
+36623,ERROR,GNSSTask,GNSS checkUblox time, 1
+36623,ERROR,GNSSTask,GNSSTask time, 20
+36651,NAV,ControlTask,ControlTask loop beginning
+36651,ERROR,ControlTask,ControlTask time, 0
+36654,ERROR,NavTask,NavigationTask time, 0
+36704,ERROR,GNSSTask,GNSSTask time, 1
+36751,NAV,ControlTask,ControlTask loop beginning
+36751,ERROR,ControlTask,ControlTask time, 0
+36754,ERROR,NavTask,NavigationTask time, 0
+36759,ERROR,GGATask,GGATask time, 4
+36804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36804,ERROR,GNSSTask,GNSS checkUblox time, 1
+36804,ERROR,GNSSTask,GNSSTask time, 1
+36851,NAV,ControlTask,ControlTask loop beginning
+36851,ERROR,ControlTask,ControlTask time, 0
+36854,ERROR,NavTask,NavigationTask time, 0
+36904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+36904,ERROR,GNSSTask,GNSS checkUblox time, 1
+36905,ERROR,GNSSTask,GNSSTask time, 1
+36951,NAV,ControlTask,ControlTask loop beginning
+36951,ERROR,ControlTask,ControlTask time, 0
+36954,ERROR,NavTask,NavigationTask time, 0
+37004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37004,ERROR,GNSSTask,GNSS checkUblox time, 1
+37004,ERROR,GNSSTask,GNSSTask time, 1
+37051,NAV,ControlTask,ControlTask loop beginning
+37051,ERROR,ControlTask,ControlTask time, 0
+37054,ERROR,NavTask,NavigationTask time, 0
+37104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37104,ERROR,GNSSTask,GNSS checkUblox time, 1
+37105,ERROR,GNSSTask,GNSSTask time, 2
+37151,NAV,ControlTask,ControlTask loop beginning
+37151,ERROR,ControlTask,ControlTask time, 0
+37154,ERROR,NavTask,NavigationTask time, 0
+37204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37204,ERROR,GNSSTask,GNSS checkUblox time, 1
+37204,ERROR,GNSSTask,GNSSTask time, 1
+37251,NAV,ControlTask,ControlTask loop beginning
+37251,ERROR,ControlTask,ControlTask time, 0
+37254,ERROR,NavTask,NavigationTask time, 0
+37304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37304,ERROR,GNSSTask,GNSS checkUblox time, 1
+37304,ERROR,GNSSTask,GNSSTask time, 1
+37351,NAV,ControlTask,ControlTask loop beginning
+37351,ERROR,ControlTask,ControlTask time, 0
+37354,ERROR,NavTask,NavigationTask time, 0
+37404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37404,ERROR,GNSSTask,GNSS checkUblox time, 1
+37404,ERROR,GNSSTask,GNSSTask time, 1
+37451,NAV,ControlTask,ControlTask loop beginning
+37451,ERROR,ControlTask,ControlTask time, 0
+37454,ERROR,NavTask,NavigationTask time, 0
+37504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37504,ERROR,GNSSTask,GNSS checkUblox time, 1
+37504,ERROR,GNSSTask,GNSSTask time, 1
+37551,NAV,ControlTask,ControlTask loop beginning
+37551,ERROR,ControlTask,ControlTask time, 0
+37553,ERROR,NavTask,NavigationTask time, 0
+37624,ERROR,GNSSTask,pushRawData time, 21
+37625,ERROR,GNSSTask,GNSS checkUblox time, 1
+37626,ERROR,GNSSTask,GNSSTask time, 23
+37651,NAV,ControlTask,ControlTask loop beginning
+37651,ERROR,ControlTask,ControlTask time, 0
+37654,ERROR,NavTask,NavigationTask time, 0
+37704,ERROR,GNSSTask,GNSSTask time, 1
+37751,NAV,ControlTask,ControlTask loop beginning
+37751,ERROR,ControlTask,ControlTask time, 0
+37754,ERROR,NavTask,NavigationTask time, 0
+37761,ERROR,GGATask,GGATask time, 6
+37804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37804,ERROR,GNSSTask,GNSS checkUblox time, 1
+37805,ERROR,GNSSTask,GNSSTask time, 2
+37851,NAV,ControlTask,ControlTask loop beginning
+37851,ERROR,ControlTask,ControlTask time, 0
+37854,ERROR,NavTask,NavigationTask time, 0
+37904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+37904,ERROR,GNSSTask,GNSS checkUblox time, 1
+37904,ERROR,GNSSTask,GNSSTask time, 1
+37951,NAV,ControlTask,ControlTask loop beginning
+37951,ERROR,ControlTask,ControlTask time, 0
+37954,ERROR,NavTask,NavigationTask time, 0
+38004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38004,ERROR,GNSSTask,GNSS checkUblox time, 1
+38004,ERROR,GNSSTask,GNSSTask time, 1
+38050,NAV,ControlTask,ControlTask loop beginning
+38050,ERROR,ControlTask,ControlTask time, 0
+38054,ERROR,NavTask,NavigationTask time, 0
+38104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38104,ERROR,GNSSTask,GNSS checkUblox time, 1
+38105,ERROR,GNSSTask,GNSSTask time, 2
+38151,NAV,ControlTask,ControlTask loop beginning
+38151,ERROR,ControlTask,ControlTask time, 0
+38154,ERROR,NavTask,NavigationTask time, 0
+38204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38204,ERROR,GNSSTask,GNSS checkUblox time, 1
+38204,ERROR,GNSSTask,GNSSTask time, 1
+38251,NAV,ControlTask,ControlTask loop beginning
+38251,ERROR,ControlTask,ControlTask time, 0
+38254,ERROR,NavTask,NavigationTask time, 0
+38304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38304,ERROR,GNSSTask,GNSS checkUblox time, 1
+38304,ERROR,GNSSTask,GNSSTask time, 1
+38351,NAV,ControlTask,ControlTask loop beginning
+38351,ERROR,ControlTask,ControlTask time, 0
+38354,ERROR,NavTask,NavigationTask time, 0
+38404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38404,ERROR,GNSSTask,GNSS checkUblox time, 1
+38404,ERROR,GNSSTask,GNSSTask time, 1
+38451,NAV,ControlTask,ControlTask loop beginning
+38451,ERROR,ControlTask,ControlTask time, 0
+38454,ERROR,NavTask,NavigationTask time, 0
+38504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38504,ERROR,GNSSTask,GNSS checkUblox time, 1
+38505,ERROR,GNSSTask,GNSSTask time, 2
+38551,NAV,ControlTask,ControlTask loop beginning
+38551,ERROR,ControlTask,ControlTask time, 0
+38554,ERROR,NavTask,NavigationTask time, 0
+38623,ERROR,GNSSTask,pushRawData time, 20
+38624,ERROR,GNSSTask,GNSSTask time, 21
+38651,NAV,ControlTask,ControlTask loop beginning
+38651,ERROR,ControlTask,ControlTask time, 0
+38654,ERROR,NavTask,NavigationTask time, 0
+38704,ERROR,GNSSTask,GNSSTask time, 1
+38751,NAV,ControlTask,ControlTask loop beginning
+38751,ERROR,ControlTask,ControlTask time, 0
+38754,ERROR,NavTask,NavigationTask time, 0
+38759,ERROR,GGATask,GGATask time, 4
+38804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38804,ERROR,GNSSTask,GNSS checkUblox time, 1
+38805,ERROR,GNSSTask,GNSSTask time, 2
+38851,NAV,ControlTask,ControlTask loop beginning
+38851,ERROR,ControlTask,ControlTask time, 0
+38854,ERROR,NavTask,NavigationTask time, 0
+38904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+38904,ERROR,GNSSTask,GNSS checkUblox time, 1
+38905,ERROR,GNSSTask,GNSSTask time, 2
+38951,NAV,ControlTask,ControlTask loop beginning
+38951,ERROR,ControlTask,ControlTask time, 0
+38954,ERROR,NavTask,NavigationTask time, 0
+39004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39004,ERROR,GNSSTask,GNSS checkUblox time, 1
+39004,ERROR,GNSSTask,GNSSTask time, 1
+39050,NAV,ControlTask,ControlTask loop beginning
+39051,ERROR,ControlTask,ControlTask time, 1
+39053,ERROR,NavTask,NavigationTask time, 0
+39104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39104,ERROR,GNSSTask,GNSS checkUblox time, 1
+39105,ERROR,GNSSTask,GNSSTask time, 2
+39151,NAV,ControlTask,ControlTask loop beginning
+39151,ERROR,ControlTask,ControlTask time, 0
+39154,ERROR,NavTask,NavigationTask time, 0
+39204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39204,ERROR,GNSSTask,GNSS checkUblox time, 1
+39204,ERROR,GNSSTask,GNSSTask time, 1
+39251,NAV,ControlTask,ControlTask loop beginning
+39251,ERROR,ControlTask,ControlTask time, 0
+39254,ERROR,NavTask,NavigationTask time, 0
+39304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39304,ERROR,GNSSTask,GNSS checkUblox time, 1
+39304,ERROR,GNSSTask,GNSSTask time, 1
+39351,NAV,ControlTask,ControlTask loop beginning
+39351,ERROR,ControlTask,ControlTask time, 0
+39354,ERROR,NavTask,NavigationTask time, 0
+39404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39404,ERROR,GNSSTask,GNSS checkUblox time, 1
+39404,ERROR,GNSSTask,GNSSTask time, 1
+39451,NAV,ControlTask,ControlTask loop beginning
+39451,ERROR,ControlTask,ControlTask time, 0
+39454,ERROR,NavTask,NavigationTask time, 0
+39504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39504,ERROR,GNSSTask,GNSS checkUblox time, 1
+39504,ERROR,GNSSTask,GNSSTask time, 1
+39551,NAV,ControlTask,ControlTask loop beginning
+39551,ERROR,ControlTask,ControlTask time, 0
+39554,ERROR,NavTask,NavigationTask time, 0
+39624,ERROR,GNSSTask,pushRawData time, 21
+39625,ERROR,GNSSTask,GNSS checkUblox time, 1
+39626,ERROR,GNSSTask,GNSSTask time, 23
+39651,NAV,ControlTask,ControlTask loop beginning
+39651,ERROR,ControlTask,ControlTask time, 0
+39654,ERROR,NavTask,NavigationTask time, 0
+39704,ERROR,GNSSTask,GNSSTask time, 1
+39751,NAV,ControlTask,ControlTask loop beginning
+39751,ERROR,ControlTask,ControlTask time, 0
+39754,ERROR,NavTask,NavigationTask time, 0
+39759,ERROR,GGATask,GGATask time, 4
+39804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39804,ERROR,GNSSTask,GNSS checkUblox time, 1
+39805,ERROR,GNSSTask,GNSSTask time, 2
+39851,NAV,ControlTask,ControlTask loop beginning
+39851,ERROR,ControlTask,ControlTask time, 0
+39854,ERROR,NavTask,NavigationTask time, 0
+39904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+39904,ERROR,GNSSTask,GNSS checkUblox time, 1
+39904,ERROR,GNSSTask,GNSSTask time, 1
+39951,NAV,ControlTask,ControlTask loop beginning
+39951,ERROR,ControlTask,ControlTask time, 0
+39954,ERROR,NavTask,NavigationTask time, 0
+40004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40004,ERROR,GNSSTask,GNSS checkUblox time, 1
+40005,ERROR,GNSSTask,GNSSTask time, 2
+40051,NAV,ControlTask,ControlTask loop beginning
+40051,ERROR,ControlTask,ControlTask time, 0
+40054,ERROR,NavTask,NavigationTask time, 0
+40104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40104,ERROR,GNSSTask,GNSS checkUblox time, 1
+40105,ERROR,GNSSTask,GNSSTask time, 2
+40151,NAV,ControlTask,ControlTask loop beginning
+40151,ERROR,ControlTask,ControlTask time, 0
+40154,ERROR,NavTask,NavigationTask time, 0
+40204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40204,ERROR,GNSSTask,GNSS checkUblox time, 1
+40204,ERROR,GNSSTask,GNSSTask time, 1
+40251,NAV,ControlTask,ControlTask loop beginning
+40251,ERROR,ControlTask,ControlTask time, 0
+40254,ERROR,NavTask,NavigationTask time, 0
+40304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40304,ERROR,GNSSTask,GNSS checkUblox time, 1
+40304,ERROR,GNSSTask,GNSSTask time, 1
+40351,NAV,ControlTask,ControlTask loop beginning
+40351,ERROR,ControlTask,ControlTask time, 0
+40354,ERROR,NavTask,NavigationTask time, 0
+40404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40404,ERROR,GNSSTask,GNSS checkUblox time, 1
+40404,ERROR,GNSSTask,GNSSTask time, 1
+40451,NAV,ControlTask,ControlTask loop beginning
+40451,ERROR,ControlTask,ControlTask time, 0
+40454,ERROR,NavTask,NavigationTask time, 0
+40504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40504,ERROR,GNSSTask,GNSS checkUblox time, 1
+40504,ERROR,GNSSTask,GNSSTask time, 1
+40551,NAV,ControlTask,ControlTask loop beginning
+40551,ERROR,ControlTask,ControlTask time, 0
+40554,ERROR,NavTask,NavigationTask time, 0
+40624,ERROR,GNSSTask,pushRawData time, 21
+40625,ERROR,GNSSTask,GNSS checkUblox time, 1
+40625,ERROR,GNSSTask,GNSSTask time, 22
+40651,NAV,ControlTask,ControlTask loop beginning
+40651,ERROR,ControlTask,ControlTask time, 0
+40654,ERROR,NavTask,NavigationTask time, 0
+40704,ERROR,GNSSTask,GNSSTask time, 1
+40751,NAV,ControlTask,ControlTask loop beginning
+40751,ERROR,ControlTask,ControlTask time, 0
+40754,ERROR,NavTask,NavigationTask time, 0
+40759,ERROR,GGATask,GGATask time, 4
+40804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40804,ERROR,GNSSTask,GNSS checkUblox time, 1
+40805,ERROR,GNSSTask,GNSSTask time, 1
+40851,NAV,ControlTask,ControlTask loop beginning
+40851,ERROR,ControlTask,ControlTask time, 0
+40854,ERROR,NavTask,NavigationTask time, 0
+40904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+40904,ERROR,GNSSTask,GNSS checkUblox time, 1
+40905,ERROR,GNSSTask,GNSSTask time, 2
+40951,NAV,ControlTask,ControlTask loop beginning
+40951,ERROR,ControlTask,ControlTask time, 0
+40954,ERROR,NavTask,NavigationTask time, 0
+41004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41004,ERROR,GNSSTask,GNSS checkUblox time, 1
+41004,ERROR,GNSSTask,GNSSTask time, 1
+41051,NAV,ControlTask,ControlTask loop beginning
+41051,ERROR,ControlTask,ControlTask time, 0
+41054,ERROR,NavTask,NavigationTask time, 0
+41104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41104,ERROR,GNSSTask,GNSS checkUblox time, 1
+41105,ERROR,GNSSTask,GNSSTask time, 2
+41151,NAV,ControlTask,ControlTask loop beginning
+41151,ERROR,ControlTask,ControlTask time, 0
+41154,ERROR,NavTask,NavigationTask time, 0
+41204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41204,ERROR,GNSSTask,GNSS checkUblox time, 1
+41204,ERROR,GNSSTask,GNSSTask time, 1
+41251,NAV,ControlTask,ControlTask loop beginning
+41251,ERROR,ControlTask,ControlTask time, 0
+41254,ERROR,NavTask,NavigationTask time, 0
+41304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41304,ERROR,GNSSTask,GNSS checkUblox time, 1
+41304,ERROR,GNSSTask,GNSSTask time, 1
+41351,NAV,ControlTask,ControlTask loop beginning
+41351,ERROR,ControlTask,ControlTask time, 0
+41354,ERROR,NavTask,NavigationTask time, 0
+41404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41404,ERROR,GNSSTask,GNSS checkUblox time, 1
+41404,ERROR,GNSSTask,GNSSTask time, 1
+41451,NAV,ControlTask,ControlTask loop beginning
+41451,ERROR,ControlTask,ControlTask time, 0
+41454,ERROR,NavTask,NavigationTask time, 0
+41504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41504,ERROR,GNSSTask,GNSS checkUblox time, 1
+41504,ERROR,GNSSTask,GNSSTask time, 1
+41551,NAV,ControlTask,ControlTask loop beginning
+41551,ERROR,ControlTask,ControlTask time, 0
+41554,ERROR,NavTask,NavigationTask time, 0
+41624,ERROR,GNSSTask,pushRawData time, 21
+41625,ERROR,GNSSTask,GNSS checkUblox time, 1
+41625,ERROR,GNSSTask,GNSSTask time, 22
+41651,NAV,ControlTask,ControlTask loop beginning
+41651,ERROR,ControlTask,ControlTask time, 0
+41654,ERROR,NavTask,NavigationTask time, 0
+41704,ERROR,GNSSTask,GNSSTask time, 1
+41751,NAV,ControlTask,ControlTask loop beginning
+41751,ERROR,ControlTask,ControlTask time, 0
+41754,ERROR,NavTask,NavigationTask time, 0
+41761,ERROR,GGATask,GGATask time, 6
+41804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41804,ERROR,GNSSTask,GNSS checkUblox time, 1
+41805,ERROR,GNSSTask,GNSSTask time, 2
+41851,NAV,ControlTask,ControlTask loop beginning
+41851,ERROR,ControlTask,ControlTask time, 0
+41854,ERROR,NavTask,NavigationTask time, 0
+41904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+41904,ERROR,GNSSTask,GNSS checkUblox time, 1
+41904,ERROR,GNSSTask,GNSSTask time, 1
+41951,NAV,ControlTask,ControlTask loop beginning
+41951,ERROR,ControlTask,ControlTask time, 0
+41954,ERROR,NavTask,NavigationTask time, 0
+42004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42004,ERROR,GNSSTask,GNSS checkUblox time, 1
+42005,ERROR,GNSSTask,GNSSTask time, 2
+42051,NAV,ControlTask,ControlTask loop beginning
+42051,ERROR,ControlTask,ControlTask time, 0
+42054,ERROR,NavTask,NavigationTask time, 0
+42104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42104,ERROR,GNSSTask,GNSS checkUblox time, 1
+42105,ERROR,GNSSTask,GNSSTask time, 2
+42151,NAV,ControlTask,ControlTask loop beginning
+42151,ERROR,ControlTask,ControlTask time, 0
+42154,ERROR,NavTask,NavigationTask time, 0
+42204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42204,ERROR,GNSSTask,GNSS checkUblox time, 1
+42204,ERROR,GNSSTask,GNSSTask time, 1
+42251,NAV,ControlTask,ControlTask loop beginning
+42251,ERROR,ControlTask,ControlTask time, 0
+42254,ERROR,NavTask,NavigationTask time, 0
+42304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42304,ERROR,GNSSTask,GNSS checkUblox time, 1
+42304,ERROR,GNSSTask,GNSSTask time, 1
+42351,NAV,ControlTask,ControlTask loop beginning
+42351,ERROR,ControlTask,ControlTask time, 0
+42354,ERROR,NavTask,NavigationTask time, 0
+42404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42404,ERROR,GNSSTask,GNSS checkUblox time, 1
+42404,ERROR,GNSSTask,GNSSTask time, 1
+42451,NAV,ControlTask,ControlTask loop beginning
+42451,ERROR,ControlTask,ControlTask time, 0
+42454,ERROR,NavTask,NavigationTask time, 0
+42522,ERROR,GNSSTask,pushRawData time, 19
+42523,ERROR,GNSSTask,GNSS checkUblox time, 1
+42523,ERROR,GNSSTask,GNSSTask time, 20
+42551,NAV,ControlTask,ControlTask loop beginning
+42551,ERROR,ControlTask,ControlTask time, 0
+42554,ERROR,NavTask,NavigationTask time, 0
+42604,ERROR,GNSSTask,GNSSTask time, 1
+42651,NAV,ControlTask,ControlTask loop beginning
+42651,ERROR,ControlTask,ControlTask time, 0
+42654,ERROR,NavTask,NavigationTask time, 0
+42704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42704,ERROR,GNSSTask,GNSS checkUblox time, 1
+42705,ERROR,GNSSTask,GNSSTask time, 2
+42751,NAV,ControlTask,ControlTask loop beginning
+42751,ERROR,ControlTask,ControlTask time, 0
+42754,ERROR,NavTask,NavigationTask time, 0
+42759,ERROR,GGATask,GGATask time, 4
+42804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42804,ERROR,GNSSTask,GNSS checkUblox time, 1
+42805,ERROR,GNSSTask,GNSSTask time, 2
+42851,NAV,ControlTask,ControlTask loop beginning
+42851,ERROR,ControlTask,ControlTask time, 0
+42854,ERROR,NavTask,NavigationTask time, 0
+42904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+42904,ERROR,GNSSTask,GNSS checkUblox time, 1
+42905,ERROR,GNSSTask,GNSSTask time, 2
+42951,NAV,ControlTask,ControlTask loop beginning
+42951,ERROR,ControlTask,ControlTask time, 0
+42954,ERROR,NavTask,NavigationTask time, 0
+43004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43004,ERROR,GNSSTask,GNSS checkUblox time, 1
+43005,ERROR,GNSSTask,GNSSTask time, 2
+43051,NAV,ControlTask,ControlTask loop beginning
+43051,ERROR,ControlTask,ControlTask time, 0
+43054,ERROR,NavTask,NavigationTask time, 0
+43104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43104,ERROR,GNSSTask,GNSS checkUblox time, 1
+43105,ERROR,GNSSTask,GNSSTask time, 2
+43151,NAV,ControlTask,ControlTask loop beginning
+43151,ERROR,ControlTask,ControlTask time, 0
+43154,ERROR,NavTask,NavigationTask time, 0
+43204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43204,ERROR,GNSSTask,GNSS checkUblox time, 1
+43205,ERROR,GNSSTask,GNSSTask time, 2
+43251,NAV,ControlTask,ControlTask loop beginning
+43251,ERROR,ControlTask,ControlTask time, 0
+43254,ERROR,NavTask,NavigationTask time, 0
+43304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43304,ERROR,GNSSTask,GNSS checkUblox time, 1
+43304,ERROR,GNSSTask,GNSSTask time, 1
+43351,NAV,ControlTask,ControlTask loop beginning
+43351,ERROR,ControlTask,ControlTask time, 0
+43354,ERROR,NavTask,NavigationTask time, 0
+43404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43404,ERROR,GNSSTask,GNSS checkUblox time, 1
+43405,ERROR,GNSSTask,GNSSTask time, 2
+43451,NAV,ControlTask,ControlTask loop beginning
+43451,ERROR,ControlTask,ControlTask time, 0
+43454,ERROR,NavTask,NavigationTask time, 0
+43504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43504,ERROR,GNSSTask,GNSS checkUblox time, 1
+43504,ERROR,GNSSTask,GNSSTask time, 1
+43551,NAV,ControlTask,ControlTask loop beginning
+43551,ERROR,ControlTask,ControlTask time, 0
+43554,ERROR,NavTask,NavigationTask time, 0
+43625,ERROR,GNSSTask,pushRawData time, 22
+43626,ERROR,GNSSTask,GNSSTask time, 23
+43651,NAV,ControlTask,ControlTask loop beginning
+43651,ERROR,ControlTask,ControlTask time, 0
+43654,ERROR,NavTask,NavigationTask time, 0
+43704,ERROR,GNSSTask,GNSSTask time, 1
+43751,NAV,ControlTask,ControlTask loop beginning
+43751,ERROR,ControlTask,ControlTask time, 0
+43754,ERROR,NavTask,NavigationTask time, 0
+43761,ERROR,GGATask,GGATask time, 6
+43804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43804,ERROR,GNSSTask,GNSS checkUblox time, 1
+43805,ERROR,GNSSTask,GNSSTask time, 2
+43851,NAV,ControlTask,ControlTask loop beginning
+43851,ERROR,ControlTask,ControlTask time, 0
+43854,ERROR,NavTask,NavigationTask time, 0
+43904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+43904,ERROR,GNSSTask,GNSS checkUblox time, 1
+43904,ERROR,GNSSTask,GNSSTask time, 1
+43951,NAV,ControlTask,ControlTask loop beginning
+43951,ERROR,ControlTask,ControlTask time, 0
+43954,ERROR,NavTask,NavigationTask time, 0
+44004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44004,ERROR,GNSSTask,GNSS checkUblox time, 1
+44004,ERROR,GNSSTask,GNSSTask time, 1
+44051,NAV,ControlTask,ControlTask loop beginning
+44051,ERROR,ControlTask,ControlTask time, 0
+44054,ERROR,NavTask,NavigationTask time, 0
+44104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44104,ERROR,GNSSTask,GNSS checkUblox time, 1
+44105,ERROR,GNSSTask,GNSSTask time, 2
+44151,NAV,ControlTask,ControlTask loop beginning
+44151,ERROR,ControlTask,ControlTask time, 0
+44154,ERROR,NavTask,NavigationTask time, 0
+44204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44204,ERROR,GNSSTask,GNSS checkUblox time, 1
+44204,ERROR,GNSSTask,GNSSTask time, 1
+44251,NAV,ControlTask,ControlTask loop beginning
+44251,ERROR,ControlTask,ControlTask time, 0
+44254,ERROR,NavTask,NavigationTask time, 0
+44304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44304,ERROR,GNSSTask,GNSS checkUblox time, 1
+44304,ERROR,GNSSTask,GNSSTask time, 1
+44351,NAV,ControlTask,ControlTask loop beginning
+44351,ERROR,ControlTask,ControlTask time, 0
+44354,ERROR,NavTask,NavigationTask time, 0
+44404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44404,ERROR,GNSSTask,GNSS checkUblox time, 1
+44404,ERROR,GNSSTask,GNSSTask time, 1
+44451,NAV,ControlTask,ControlTask loop beginning
+44451,ERROR,ControlTask,ControlTask time, 0
+44454,ERROR,NavTask,NavigationTask time, 0
+44504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44504,ERROR,GNSSTask,GNSS checkUblox time, 1
+44504,ERROR,GNSSTask,GNSSTask time, 1
+44551,NAV,ControlTask,ControlTask loop beginning
+44551,ERROR,ControlTask,ControlTask time, 0
+44554,ERROR,NavTask,NavigationTask time, 0
+44621,ERROR,GNSSTask,pushRawData time, 19
+44623,ERROR,GNSSTask,GNSSTask time, 21
+44651,NAV,ControlTask,ControlTask loop beginning
+44651,ERROR,ControlTask,ControlTask time, 0
+44654,ERROR,NavTask,NavigationTask time, 0
+44704,ERROR,GNSSTask,GNSSTask time, 1
+44751,NAV,ControlTask,ControlTask loop beginning
+44751,ERROR,ControlTask,ControlTask time, 0
+44754,ERROR,NavTask,NavigationTask time, 0
+44759,ERROR,GGATask,GGATask time, 4
+44804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44804,ERROR,GNSSTask,GNSS checkUblox time, 1
+44805,ERROR,GNSSTask,GNSSTask time, 2
+44851,NAV,ControlTask,ControlTask loop beginning
+44851,ERROR,ControlTask,ControlTask time, 0
+44854,ERROR,NavTask,NavigationTask time, 0
+44904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+44904,ERROR,GNSSTask,GNSS checkUblox time, 1
+44905,ERROR,GNSSTask,GNSSTask time, 2
+44951,NAV,ControlTask,ControlTask loop beginning
+44951,ERROR,ControlTask,ControlTask time, 0
+44954,ERROR,NavTask,NavigationTask time, 0
+45004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45004,ERROR,GNSSTask,GNSS checkUblox time, 1
+45004,ERROR,GNSSTask,GNSSTask time, 1
+45051,NAV,ControlTask,ControlTask loop beginning
+45051,ERROR,ControlTask,ControlTask time, 0
+45054,ERROR,NavTask,NavigationTask time, 0
+45104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45104,ERROR,GNSSTask,GNSS checkUblox time, 1
+45105,ERROR,GNSSTask,GNSSTask time, 2
+45151,NAV,ControlTask,ControlTask loop beginning
+45151,ERROR,ControlTask,ControlTask time, 0
+45154,ERROR,NavTask,NavigationTask time, 0
+45204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45204,ERROR,GNSSTask,GNSS checkUblox time, 1
+45204,ERROR,GNSSTask,GNSSTask time, 1
+45251,NAV,ControlTask,ControlTask loop beginning
+45251,ERROR,ControlTask,ControlTask time, 0
+45254,ERROR,NavTask,NavigationTask time, 0
+45304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45304,ERROR,GNSSTask,GNSS checkUblox time, 1
+45304,ERROR,GNSSTask,GNSSTask time, 1
+45351,NAV,ControlTask,ControlTask loop beginning
+45351,ERROR,ControlTask,ControlTask time, 0
+45354,ERROR,NavTask,NavigationTask time, 0
+45404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45404,ERROR,GNSSTask,GNSS checkUblox time, 1
+45404,ERROR,GNSSTask,GNSSTask time, 1
+45451,NAV,ControlTask,ControlTask loop beginning
+45451,ERROR,ControlTask,ControlTask time, 0
+45454,ERROR,NavTask,NavigationTask time, 0
+45526,ERROR,GNSSTask,pushRawData time, 23
+45527,ERROR,GNSSTask,GNSS checkUblox time, 1
+45527,ERROR,GNSSTask,GNSSTask time, 24
+45551,NAV,ControlTask,ControlTask loop beginning
+45551,ERROR,ControlTask,ControlTask time, 0
+45554,ERROR,NavTask,NavigationTask time, 0
+45604,ERROR,GNSSTask,GNSSTask time, 1
+45651,NAV,ControlTask,ControlTask loop beginning
+45651,ERROR,ControlTask,ControlTask time, 0
+45654,ERROR,NavTask,NavigationTask time, 0
+45704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45704,ERROR,GNSSTask,GNSS checkUblox time, 1
+45705,ERROR,GNSSTask,GNSSTask time, 2
+45751,NAV,ControlTask,ControlTask loop beginning
+45751,ERROR,ControlTask,ControlTask time, 0
+45754,ERROR,NavTask,NavigationTask time, 0
+45760,ERROR,GGATask,GGATask time, 5
+45804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45804,ERROR,GNSSTask,GNSS checkUblox time, 1
+45805,ERROR,GNSSTask,GNSSTask time, 2
+45851,NAV,ControlTask,ControlTask loop beginning
+45851,ERROR,ControlTask,ControlTask time, 0
+45854,ERROR,NavTask,NavigationTask time, 0
+45904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+45904,ERROR,GNSSTask,GNSS checkUblox time, 1
+45904,ERROR,GNSSTask,GNSSTask time, 1
+45951,NAV,ControlTask,ControlTask loop beginning
+45951,ERROR,ControlTask,ControlTask time, 0
+45954,ERROR,NavTask,NavigationTask time, 0
+46004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46004,ERROR,GNSSTask,GNSS checkUblox time, 1
+46005,ERROR,GNSSTask,GNSSTask time, 2
+46051,NAV,ControlTask,ControlTask loop beginning
+46051,ERROR,ControlTask,ControlTask time, 0
+46054,ERROR,NavTask,NavigationTask time, 0
+46104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46104,ERROR,GNSSTask,GNSS checkUblox time, 1
+46105,ERROR,GNSSTask,GNSSTask time, 2
+46151,NAV,ControlTask,ControlTask loop beginning
+46151,ERROR,ControlTask,ControlTask time, 0
+46154,ERROR,NavTask,NavigationTask time, 0
+46204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46204,ERROR,GNSSTask,GNSS checkUblox time, 1
+46204,ERROR,GNSSTask,GNSSTask time, 1
+46251,NAV,ControlTask,ControlTask loop beginning
+46251,ERROR,ControlTask,ControlTask time, 0
+46254,ERROR,NavTask,NavigationTask time, 0
+46304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46304,ERROR,GNSSTask,GNSS checkUblox time, 1
+46304,ERROR,GNSSTask,GNSSTask time, 1
+46351,NAV,ControlTask,ControlTask loop beginning
+46351,ERROR,ControlTask,ControlTask time, 0
+46354,ERROR,NavTask,NavigationTask time, 0
+46404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46404,ERROR,GNSSTask,GNSS checkUblox time, 1
+46404,ERROR,GNSSTask,GNSSTask time, 1
+46451,NAV,ControlTask,ControlTask loop beginning
+46451,ERROR,ControlTask,ControlTask time, 0
+46454,ERROR,NavTask,NavigationTask time, 0
+46522,ERROR,GNSSTask,pushRawData time, 19
+46523,ERROR,GNSSTask,GNSS checkUblox time, 1
+46523,ERROR,GNSSTask,GNSSTask time, 20
+46551,NAV,ControlTask,ControlTask loop beginning
+46551,ERROR,ControlTask,ControlTask time, 0
+46554,ERROR,NavTask,NavigationTask time, 0
+46604,ERROR,GNSSTask,GNSS checkUblox time, 1
+46604,ERROR,GNSSTask,GNSSTask time, 1
+46651,NAV,ControlTask,ControlTask loop beginning
+46651,ERROR,ControlTask,ControlTask time, 0
+46654,ERROR,NavTask,NavigationTask time, 0
+46704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46704,ERROR,GNSSTask,GNSS checkUblox time, 1
+46705,ERROR,GNSSTask,GNSSTask time, 2
+46751,NAV,ControlTask,ControlTask loop beginning
+46751,ERROR,ControlTask,ControlTask time, 0
+46754,ERROR,NavTask,NavigationTask time, 0
+46759,ERROR,GGATask,GGATask time, 4
+46804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46804,ERROR,GNSSTask,GNSS checkUblox time, 1
+46804,ERROR,GNSSTask,GNSSTask time, 1
+46851,NAV,ControlTask,ControlTask loop beginning
+46851,ERROR,ControlTask,ControlTask time, 0
+46854,ERROR,NavTask,NavigationTask time, 0
+46904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+46904,ERROR,GNSSTask,GNSS checkUblox time, 1
+46905,ERROR,GNSSTask,GNSSTask time, 2
+46951,NAV,ControlTask,ControlTask loop beginning
+46951,ERROR,ControlTask,ControlTask time, 0
+46954,ERROR,NavTask,NavigationTask time, 0
+47004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47004,ERROR,GNSSTask,GNSS checkUblox time, 1
+47004,ERROR,GNSSTask,GNSSTask time, 1
+47051,NAV,ControlTask,ControlTask loop beginning
+47051,ERROR,ControlTask,ControlTask time, 0
+47054,ERROR,NavTask,NavigationTask time, 0
+47104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47105,ERROR,GNSSTask,GNSS checkUblox time, 2
+47105,ERROR,GNSSTask,GNSSTask time, 2
+47151,NAV,ControlTask,ControlTask loop beginning
+47151,ERROR,ControlTask,ControlTask time, 0
+47154,ERROR,NavTask,NavigationTask time, 0
+47204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47204,ERROR,GNSSTask,GNSS checkUblox time, 1
+47205,ERROR,GNSSTask,GNSSTask time, 2
+47251,NAV,ControlTask,ControlTask loop beginning
+47251,ERROR,ControlTask,ControlTask time, 0
+47254,ERROR,NavTask,NavigationTask time, 0
+47304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47304,ERROR,GNSSTask,GNSS checkUblox time, 1
+47304,ERROR,GNSSTask,GNSSTask time, 1
+47351,NAV,ControlTask,ControlTask loop beginning
+47351,ERROR,ControlTask,ControlTask time, 0
+47354,ERROR,NavTask,NavigationTask time, 0
+47404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47404,ERROR,GNSSTask,GNSS checkUblox time, 1
+47404,ERROR,GNSSTask,GNSSTask time, 1
+47451,NAV,ControlTask,ControlTask loop beginning
+47451,ERROR,ControlTask,ControlTask time, 0
+47454,ERROR,NavTask,NavigationTask time, 0
+47504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47504,ERROR,GNSSTask,GNSS checkUblox time, 1
+47505,ERROR,GNSSTask,GNSSTask time, 2
+47551,NAV,ControlTask,ControlTask loop beginning
+47551,ERROR,ControlTask,ControlTask time, 0
+47554,ERROR,NavTask,NavigationTask time, 0
+47623,ERROR,GNSSTask,pushRawData time, 20
+47625,ERROR,GNSSTask,GNSSTask time, 22
+47651,NAV,ControlTask,ControlTask loop beginning
+47651,ERROR,ControlTask,ControlTask time, 0
+47654,ERROR,NavTask,NavigationTask time, 0
+47704,ERROR,GNSSTask,GNSSTask time, 1
+47751,NAV,ControlTask,ControlTask loop beginning
+47751,ERROR,ControlTask,ControlTask time, 0
+47754,ERROR,NavTask,NavigationTask time, 0
+47761,ERROR,GGATask,GGATask time, 6
+47804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47804,ERROR,GNSSTask,GNSS checkUblox time, 1
+47805,ERROR,GNSSTask,GNSSTask time, 2
+47851,NAV,ControlTask,ControlTask loop beginning
+47851,ERROR,ControlTask,ControlTask time, 0
+47854,ERROR,NavTask,NavigationTask time, 0
+47904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+47904,ERROR,GNSSTask,GNSS checkUblox time, 1
+47904,ERROR,GNSSTask,GNSSTask time, 1
+47951,NAV,ControlTask,ControlTask loop beginning
+47951,ERROR,ControlTask,ControlTask time, 0
+47954,ERROR,NavTask,NavigationTask time, 0
+48004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48004,ERROR,GNSSTask,GNSS checkUblox time, 1
+48004,ERROR,GNSSTask,GNSSTask time, 1
+48051,NAV,ControlTask,ControlTask loop beginning
+48051,ERROR,ControlTask,ControlTask time, 0
+48054,ERROR,NavTask,NavigationTask time, 0
+48104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48104,ERROR,GNSSTask,GNSS checkUblox time, 1
+48105,ERROR,GNSSTask,GNSSTask time, 2
+48151,NAV,ControlTask,ControlTask loop beginning
+48151,ERROR,ControlTask,ControlTask time, 0
+48154,ERROR,NavTask,NavigationTask time, 0
+48204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48204,ERROR,GNSSTask,GNSS checkUblox time, 1
+48205,ERROR,GNSSTask,GNSSTask time, 2
+48251,NAV,ControlTask,ControlTask loop beginning
+48251,ERROR,ControlTask,ControlTask time, 0
+48254,ERROR,NavTask,NavigationTask time, 0
+48304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48304,ERROR,GNSSTask,GNSS checkUblox time, 1
+48304,ERROR,GNSSTask,GNSSTask time, 1
+48351,NAV,ControlTask,ControlTask loop beginning
+48351,ERROR,ControlTask,ControlTask time, 0
+48354,ERROR,NavTask,NavigationTask time, 0
+48404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48404,ERROR,GNSSTask,GNSS checkUblox time, 1
+48404,ERROR,GNSSTask,GNSSTask time, 1
+48451,NAV,ControlTask,ControlTask loop beginning
+48451,ERROR,ControlTask,ControlTask time, 0
+48454,ERROR,NavTask,NavigationTask time, 0
+48504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48504,ERROR,GNSSTask,GNSS checkUblox time, 1
+48504,ERROR,GNSSTask,GNSSTask time, 1
+48551,NAV,ControlTask,ControlTask loop beginning
+48551,ERROR,ControlTask,ControlTask time, 0
+48554,ERROR,NavTask,NavigationTask time, 0
+48624,ERROR,GNSSTask,pushRawData time, 20
+48625,ERROR,GNSSTask,GNSS checkUblox time, 1
+48625,ERROR,GNSSTask,GNSSTask time, 22
+48651,NAV,ControlTask,ControlTask loop beginning
+48651,ERROR,ControlTask,ControlTask time, 0
+48654,ERROR,NavTask,NavigationTask time, 0
+48704,ERROR,GNSSTask,GNSSTask time, 1
+48751,NAV,ControlTask,ControlTask loop beginning
+48751,ERROR,ControlTask,ControlTask time, 0
+48754,ERROR,NavTask,NavigationTask time, 0
+48759,ERROR,GGATask,GGATask time, 4
+48804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48804,ERROR,GNSSTask,GNSS checkUblox time, 1
+48805,ERROR,GNSSTask,GNSSTask time, 2
+48851,NAV,ControlTask,ControlTask loop beginning
+48851,ERROR,ControlTask,ControlTask time, 0
+48854,ERROR,NavTask,NavigationTask time, 0
+48904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+48904,ERROR,GNSSTask,GNSS checkUblox time, 1
+48905,ERROR,GNSSTask,GNSSTask time, 2
+48951,NAV,ControlTask,ControlTask loop beginning
+48951,ERROR,ControlTask,ControlTask time, 0
+48954,ERROR,NavTask,NavigationTask time, 0
+49004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49004,ERROR,GNSSTask,GNSS checkUblox time, 1
+49005,ERROR,GNSSTask,GNSSTask time, 2
+49051,NAV,ControlTask,ControlTask loop beginning
+49051,ERROR,ControlTask,ControlTask time, 0
+49054,ERROR,NavTask,NavigationTask time, 0
+49104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49104,ERROR,GNSSTask,GNSS checkUblox time, 1
+49105,ERROR,GNSSTask,GNSSTask time, 2
+49151,NAV,ControlTask,ControlTask loop beginning
+49151,ERROR,ControlTask,ControlTask time, 0
+49154,ERROR,NavTask,NavigationTask time, 0
+49204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49204,ERROR,GNSSTask,GNSS checkUblox time, 1
+49205,ERROR,GNSSTask,GNSSTask time, 2
+49251,NAV,ControlTask,ControlTask loop beginning
+49251,ERROR,ControlTask,ControlTask time, 0
+49254,ERROR,NavTask,NavigationTask time, 0
+49304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49304,ERROR,GNSSTask,GNSS checkUblox time, 1
+49304,ERROR,GNSSTask,GNSSTask time, 1
+49351,NAV,ControlTask,ControlTask loop beginning
+49351,ERROR,ControlTask,ControlTask time, 0
+49354,ERROR,NavTask,NavigationTask time, 0
+49404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49404,ERROR,GNSSTask,GNSS checkUblox time, 1
+49404,ERROR,GNSSTask,GNSSTask time, 1
+49451,NAV,ControlTask,ControlTask loop beginning
+49451,ERROR,ControlTask,ControlTask time, 0
+49454,ERROR,NavTask,NavigationTask time, 0
+49504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49504,ERROR,GNSSTask,GNSS checkUblox time, 1
+49505,ERROR,GNSSTask,GNSSTask time, 1
+49551,NAV,ControlTask,ControlTask loop beginning
+49551,ERROR,ControlTask,ControlTask time, 0
+49554,ERROR,NavTask,NavigationTask time, 0
+49625,ERROR,GNSSTask,pushRawData time, 22
+49626,ERROR,GNSSTask,GNSS checkUblox time, 1
+49627,ERROR,GNSSTask,GNSSTask time, 24
+49651,NAV,ControlTask,ControlTask loop beginning
+49651,ERROR,ControlTask,ControlTask time, 0
+49654,ERROR,NavTask,NavigationTask time, 0
+49704,ERROR,GNSSTask,GNSSTask time, 1
+49751,NAV,ControlTask,ControlTask loop beginning
+49751,ERROR,ControlTask,ControlTask time, 0
+49754,ERROR,NavTask,NavigationTask time, 0
+49762,ERROR,GGATask,GGATask time, 7
+49804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49804,ERROR,GNSSTask,GNSS checkUblox time, 1
+49804,ERROR,GNSSTask,GNSSTask time, 1
+49851,NAV,ControlTask,ControlTask loop beginning
+49851,ERROR,ControlTask,ControlTask time, 0
+49854,ERROR,NavTask,NavigationTask time, 0
+49904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+49904,ERROR,GNSSTask,GNSS checkUblox time, 1
+49904,ERROR,GNSSTask,GNSSTask time, 1
+49951,NAV,ControlTask,ControlTask loop beginning
+49951,ERROR,ControlTask,ControlTask time, 0
+49954,ERROR,NavTask,NavigationTask time, 0
+50004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50004,ERROR,GNSSTask,GNSS checkUblox time, 1
+50004,ERROR,GNSSTask,GNSSTask time, 1
+50051,NAV,ControlTask,ControlTask loop beginning
+50051,ERROR,ControlTask,ControlTask time, 0
+50054,ERROR,NavTask,NavigationTask time, 0
+50104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50104,ERROR,GNSSTask,GNSS checkUblox time, 1
+50104,ERROR,GNSSTask,GNSSTask time, 1
+50151,NAV,ControlTask,ControlTask loop beginning
+50151,ERROR,ControlTask,ControlTask time, 0
+50154,ERROR,NavTask,NavigationTask time, 0
+50204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50204,ERROR,GNSSTask,GNSS checkUblox time, 1
+50205,ERROR,GNSSTask,GNSSTask time, 2
+50251,NAV,ControlTask,ControlTask loop beginning
+50251,ERROR,ControlTask,ControlTask time, 0
+50254,ERROR,NavTask,NavigationTask time, 0
+50304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50304,ERROR,GNSSTask,GNSS checkUblox time, 1
+50304,ERROR,GNSSTask,GNSSTask time, 1
+50351,NAV,ControlTask,ControlTask loop beginning
+50351,ERROR,ControlTask,ControlTask time, 0
+50354,ERROR,NavTask,NavigationTask time, 0
+50404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50404,ERROR,GNSSTask,GNSS checkUblox time, 1
+50404,ERROR,GNSSTask,GNSSTask time, 1
+50451,NAV,ControlTask,ControlTask loop beginning
+50451,ERROR,ControlTask,ControlTask time, 0
+50454,ERROR,NavTask,NavigationTask time, 0
+50504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50504,ERROR,GNSSTask,GNSS checkUblox time, 1
+50505,ERROR,GNSSTask,GNSSTask time, 1
+50551,NAV,ControlTask,ControlTask loop beginning
+50551,ERROR,ControlTask,ControlTask time, 0
+50554,ERROR,NavTask,NavigationTask time, 0
+50624,ERROR,GNSSTask,pushRawData time, 21
+50625,ERROR,GNSSTask,GNSS checkUblox time, 1
+50625,ERROR,GNSSTask,GNSSTask time, 22
+50651,NAV,ControlTask,ControlTask loop beginning
+50651,ERROR,ControlTask,ControlTask time, 0
+50654,ERROR,NavTask,NavigationTask time, 0
+50704,ERROR,GNSSTask,GNSSTask time, 1
+50751,NAV,ControlTask,ControlTask loop beginning
+50751,ERROR,ControlTask,ControlTask time, 0
+50754,ERROR,NavTask,NavigationTask time, 0
+50759,ERROR,GGATask,GGATask time, 4
+50804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50804,ERROR,GNSSTask,GNSS checkUblox time, 1
+50805,ERROR,GNSSTask,GNSSTask time, 1
+50851,NAV,ControlTask,ControlTask loop beginning
+50851,ERROR,ControlTask,ControlTask time, 0
+50854,ERROR,NavTask,NavigationTask time, 0
+50904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+50904,ERROR,GNSSTask,GNSS checkUblox time, 1
+50905,ERROR,GNSSTask,GNSSTask time, 2
+50951,NAV,ControlTask,ControlTask loop beginning
+50951,ERROR,ControlTask,ControlTask time, 0
+50954,ERROR,NavTask,NavigationTask time, 0
+51004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51004,ERROR,GNSSTask,GNSS checkUblox time, 1
+51005,ERROR,GNSSTask,GNSSTask time, 2
+51051,NAV,ControlTask,ControlTask loop beginning
+51051,ERROR,ControlTask,ControlTask time, 0
+51054,ERROR,NavTask,NavigationTask time, 0
+51104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51104,ERROR,GNSSTask,GNSS checkUblox time, 1
+51104,ERROR,GNSSTask,GNSSTask time, 1
+51151,NAV,ControlTask,ControlTask loop beginning
+51151,ERROR,ControlTask,ControlTask time, 0
+51154,ERROR,NavTask,NavigationTask time, 0
+51204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51204,ERROR,GNSSTask,GNSS checkUblox time, 1
+51205,ERROR,GNSSTask,GNSSTask time, 2
+51251,NAV,ControlTask,ControlTask loop beginning
+51251,ERROR,ControlTask,ControlTask time, 0
+51254,ERROR,NavTask,NavigationTask time, 0
+51304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51304,ERROR,GNSSTask,GNSS checkUblox time, 1
+51304,ERROR,GNSSTask,GNSSTask time, 1
+51351,NAV,ControlTask,ControlTask loop beginning
+51351,ERROR,ControlTask,ControlTask time, 0
+51354,ERROR,NavTask,NavigationTask time, 0
+51404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51404,ERROR,GNSSTask,GNSS checkUblox time, 1
+51404,ERROR,GNSSTask,GNSSTask time, 1
+51451,NAV,ControlTask,ControlTask loop beginning
+51451,ERROR,ControlTask,ControlTask time, 0
+51454,ERROR,NavTask,NavigationTask time, 0
+51504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51504,ERROR,GNSSTask,GNSS checkUblox time, 1
+51504,ERROR,GNSSTask,GNSSTask time, 1
+51551,NAV,ControlTask,ControlTask loop beginning
+51551,ERROR,ControlTask,ControlTask time, 0
+51554,ERROR,NavTask,NavigationTask time, 0
+51604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51604,ERROR,GNSSTask,GNSS checkUblox time, 1
+51604,ERROR,GNSSTask,GNSSTask time, 1
+51651,NAV,ControlTask,ControlTask loop beginning
+51651,ERROR,ControlTask,ControlTask time, 0
+51654,ERROR,NavTask,NavigationTask time, 0
+51728,ERROR,GNSSTask,pushRawData time, 25
+51729,ERROR,GNSSTask,GNSSTask time, 26
+51751,NAV,ControlTask,ControlTask loop beginning
+51751,ERROR,ControlTask,ControlTask time, 0
+51754,ERROR,NavTask,NavigationTask time, 0
+51759,ERROR,GGATask,GGATask time, 4
+51804,ERROR,GNSSTask,GNSSTask time, 1
+51851,NAV,ControlTask,ControlTask loop beginning
+51851,ERROR,ControlTask,ControlTask time, 0
+51854,ERROR,NavTask,NavigationTask time, 0
+51904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+51904,ERROR,GNSSTask,GNSS checkUblox time, 1
+51905,ERROR,GNSSTask,GNSSTask time, 2
+51951,NAV,ControlTask,ControlTask loop beginning
+51951,ERROR,ControlTask,ControlTask time, 0
+51954,ERROR,NavTask,NavigationTask time, 0
+52004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52004,ERROR,GNSSTask,GNSS checkUblox time, 1
+52005,ERROR,GNSSTask,GNSSTask time, 2
+52051,NAV,ControlTask,ControlTask loop beginning
+52051,ERROR,ControlTask,ControlTask time, 0
+52054,ERROR,NavTask,NavigationTask time, 0
+52104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52104,ERROR,GNSSTask,GNSS checkUblox time, 1
+52104,ERROR,GNSSTask,GNSSTask time, 1
+52151,NAV,ControlTask,ControlTask loop beginning
+52151,ERROR,ControlTask,ControlTask time, 0
+52154,ERROR,NavTask,NavigationTask time, 0
+52204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52205,ERROR,GNSSTask,GNSS checkUblox time, 2
+52205,ERROR,GNSSTask,GNSSTask time, 2
+52251,NAV,ControlTask,ControlTask loop beginning
+52251,ERROR,ControlTask,ControlTask time, 0
+52254,ERROR,NavTask,NavigationTask time, 0
+52304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52304,ERROR,GNSSTask,GNSS checkUblox time, 1
+52304,ERROR,GNSSTask,GNSSTask time, 1
+52351,NAV,ControlTask,ControlTask loop beginning
+52351,ERROR,ControlTask,ControlTask time, 0
+52354,ERROR,NavTask,NavigationTask time, 0
+52404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52404,ERROR,GNSSTask,GNSS checkUblox time, 1
+52404,ERROR,GNSSTask,GNSSTask time, 1
+52451,NAV,ControlTask,ControlTask loop beginning
+52451,ERROR,ControlTask,ControlTask time, 0
+52454,ERROR,NavTask,NavigationTask time, 0
+52504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52504,ERROR,GNSSTask,GNSS checkUblox time, 1
+52504,ERROR,GNSSTask,GNSSTask time, 1
+52551,NAV,ControlTask,ControlTask loop beginning
+52551,ERROR,ControlTask,ControlTask time, 0
+52554,ERROR,NavTask,NavigationTask time, 0
+52604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+52604,ERROR,GNSSTask,GNSS checkUblox time, 1
+52604,ERROR,GNSSTask,GNSSTask time, 1
+52651,NAV,ControlTask,ControlTask loop beginning
+52651,ERROR,ControlTask,ControlTask time, 0
+52654,ERROR,NavTask,NavigationTask time, 0
+52722,ERROR,GNSSTask,pushRawData time, 19
+52723,ERROR,GNSSTask,GNSS checkUblox time, 1
+52723,ERROR,GNSSTask,GNSSTask time, 20
+52751,NAV,ControlTask,ControlTask loop beginning
+52751,ERROR,ControlTask,ControlTask time, 0
+52754,ERROR,NavTask,NavigationTask time, 0
+52764,ERROR,GGATask,GGATask time, 9
+52851,NAV,ControlTask,ControlTask loop beginning
+52851,ERROR,ControlTask,ControlTask time, 0
+52870,ERROR,NavTask,NavigationTask time, 0
+52877,ERROR,GNSSTask,pushRawData time, 74
+52878,ERROR,GNSSTask,GNSS checkUblox time, 1
+52878,ERROR,GNSSTask,GNSSTask time, 75
+52904,ERROR,GNSSTask,GNSSTask time, 1
+52951,NAV,ControlTask,ControlTask loop beginning
+52951,ERROR,ControlTask,ControlTask time, 0
+52954,ERROR,NavTask,NavigationTask time, 0
+53004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53004,ERROR,GNSSTask,GNSS checkUblox time, 1
+53005,ERROR,GNSSTask,GNSSTask time, 2
+53051,NAV,ControlTask,ControlTask loop beginning
+53051,ERROR,ControlTask,ControlTask time, 0
+53054,ERROR,NavTask,NavigationTask time, 0
+53104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53104,ERROR,GNSSTask,GNSS checkUblox time, 1
+53104,ERROR,GNSSTask,GNSSTask time, 1
+53151,NAV,ControlTask,ControlTask loop beginning
+53151,ERROR,ControlTask,ControlTask time, 0
+53154,ERROR,NavTask,NavigationTask time, 0
+53204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53204,ERROR,GNSSTask,GNSS checkUblox time, 1
+53205,ERROR,GNSSTask,GNSSTask time, 2
+53251,NAV,ControlTask,ControlTask loop beginning
+53251,ERROR,ControlTask,ControlTask time, 0
+53254,ERROR,NavTask,NavigationTask time, 0
+53304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53304,ERROR,GNSSTask,GNSS checkUblox time, 1
+53304,ERROR,GNSSTask,GNSSTask time, 1
+53351,NAV,ControlTask,ControlTask loop beginning
+53351,ERROR,ControlTask,ControlTask time, 0
+53354,ERROR,NavTask,NavigationTask time, 0
+53404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53404,ERROR,GNSSTask,GNSS checkUblox time, 1
+53404,ERROR,GNSSTask,GNSSTask time, 1
+53451,NAV,ControlTask,ControlTask loop beginning
+53451,ERROR,ControlTask,ControlTask time, 0
+53454,ERROR,NavTask,NavigationTask time, 0
+53504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53504,ERROR,GNSSTask,GNSS checkUblox time, 1
+53505,ERROR,GNSSTask,GNSSTask time, 1
+53551,NAV,ControlTask,ControlTask loop beginning
+53551,ERROR,ControlTask,ControlTask time, 0
+53554,ERROR,NavTask,NavigationTask time, 0
+53604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+53604,ERROR,GNSSTask,GNSS checkUblox time, 1
+53604,ERROR,GNSSTask,GNSSTask time, 1
+53651,NAV,ControlTask,ControlTask loop beginning
+53651,ERROR,ControlTask,ControlTask time, 0
+53654,ERROR,NavTask,NavigationTask time, 0
+53731,ERROR,GNSSTask,pushRawData time, 28
+53732,ERROR,GNSSTask,GNSSTask time, 29
+53751,NAV,ControlTask,ControlTask loop beginning
+53751,ERROR,ControlTask,ControlTask time, 0
+53754,ERROR,NavTask,NavigationTask time, 0
+53759,ERROR,GGATask,GGATask time, 4
+53824,ERROR,GNSSTask,pushRawData time, 21
+53825,ERROR,GNSSTask,GNSS checkUblox time, 1
+53825,ERROR,GNSSTask,GNSSTask time, 22
+53851,NAV,ControlTask,ControlTask loop beginning
+53851,ERROR,ControlTask,ControlTask time, 0
+53854,ERROR,NavTask,NavigationTask time, 0
+53904,ERROR,GNSSTask,GNSSTask time, 1
+53951,NAV,ControlTask,ControlTask loop beginning
+53951,ERROR,ControlTask,ControlTask time, 0
+53954,ERROR,NavTask,NavigationTask time, 0
+54004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54004,ERROR,GNSSTask,GNSS checkUblox time, 1
+54005,ERROR,GNSSTask,GNSSTask time, 2
+54051,NAV,ControlTask,ControlTask loop beginning
+54051,ERROR,ControlTask,ControlTask time, 0
+54054,ERROR,NavTask,NavigationTask time, 0
+54104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54104,ERROR,GNSSTask,GNSS checkUblox time, 1
+54104,ERROR,GNSSTask,GNSSTask time, 1
+54151,NAV,ControlTask,ControlTask loop beginning
+54151,ERROR,ControlTask,ControlTask time, 0
+54154,ERROR,NavTask,NavigationTask time, 0
+54204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54204,ERROR,GNSSTask,GNSS checkUblox time, 1
+54205,ERROR,GNSSTask,GNSSTask time, 2
+54251,NAV,ControlTask,ControlTask loop beginning
+54251,ERROR,ControlTask,ControlTask time, 0
+54254,ERROR,NavTask,NavigationTask time, 0
+54304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54304,ERROR,GNSSTask,GNSS checkUblox time, 1
+54304,ERROR,GNSSTask,GNSSTask time, 1
+54351,NAV,ControlTask,ControlTask loop beginning
+54351,ERROR,ControlTask,ControlTask time, 0
+54354,ERROR,NavTask,NavigationTask time, 0
+54404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54404,ERROR,GNSSTask,GNSS checkUblox time, 1
+54404,ERROR,GNSSTask,GNSSTask time, 1
+54451,NAV,ControlTask,ControlTask loop beginning
+54451,ERROR,ControlTask,ControlTask time, 0
+54454,ERROR,NavTask,NavigationTask time, 0
+54525,ERROR,GNSSTask,pushRawData time, 22
+54526,ERROR,GNSSTask,GNSS checkUblox time, 1
+54527,ERROR,GNSSTask,GNSSTask time, 24
+54551,NAV,ControlTask,ControlTask loop beginning
+54551,ERROR,ControlTask,ControlTask time, 0
+54554,ERROR,NavTask,NavigationTask time, 0
+54604,ERROR,GNSSTask,GNSSTask time, 1
+54651,NAV,ControlTask,ControlTask loop beginning
+54651,ERROR,ControlTask,ControlTask time, 0
+54654,ERROR,NavTask,NavigationTask time, 0
+54704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54704,ERROR,GNSSTask,GNSS checkUblox time, 1
+54705,ERROR,GNSSTask,GNSSTask time, 2
+54751,NAV,ControlTask,ControlTask loop beginning
+54751,ERROR,ControlTask,ControlTask time, 0
+54754,ERROR,NavTask,NavigationTask time, 0
+54760,ERROR,GGATask,GGATask time, 5
+54804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54804,ERROR,GNSSTask,GNSS checkUblox time, 1
+54804,ERROR,GNSSTask,GNSSTask time, 1
+54851,NAV,ControlTask,ControlTask loop beginning
+54851,ERROR,ControlTask,ControlTask time, 0
+54854,ERROR,NavTask,NavigationTask time, 0
+54904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+54904,ERROR,GNSSTask,GNSS checkUblox time, 1
+54905,ERROR,GNSSTask,GNSSTask time, 2
+54951,NAV,ControlTask,ControlTask loop beginning
+54951,ERROR,ControlTask,ControlTask time, 0
+54954,ERROR,NavTask,NavigationTask time, 0
+55004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55004,ERROR,GNSSTask,GNSS checkUblox time, 1
+55004,ERROR,GNSSTask,GNSSTask time, 1
+55051,NAV,ControlTask,ControlTask loop beginning
+55051,ERROR,ControlTask,ControlTask time, 0
+55054,ERROR,NavTask,NavigationTask time, 0
+55104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55104,ERROR,GNSSTask,GNSS checkUblox time, 1
+55104,ERROR,GNSSTask,GNSSTask time, 1
+55151,NAV,ControlTask,ControlTask loop beginning
+55151,ERROR,ControlTask,ControlTask time, 0
+55154,ERROR,NavTask,NavigationTask time, 0
+55204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55204,ERROR,GNSSTask,GNSS checkUblox time, 1
+55205,ERROR,GNSSTask,GNSSTask time, 2
+55251,NAV,ControlTask,ControlTask loop beginning
+55251,ERROR,ControlTask,ControlTask time, 0
+55254,ERROR,NavTask,NavigationTask time, 0
+55304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55304,ERROR,GNSSTask,GNSS checkUblox time, 1
+55304,ERROR,GNSSTask,GNSSTask time, 1
+55351,NAV,ControlTask,ControlTask loop beginning
+55351,ERROR,ControlTask,ControlTask time, 0
+55354,ERROR,NavTask,NavigationTask time, 0
+55404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55404,ERROR,GNSSTask,GNSS checkUblox time, 1
+55404,ERROR,GNSSTask,GNSSTask time, 1
+55451,NAV,ControlTask,ControlTask loop beginning
+55451,ERROR,ControlTask,ControlTask time, 0
+55454,ERROR,NavTask,NavigationTask time, 0
+55504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55504,ERROR,GNSSTask,GNSS checkUblox time, 1
+55504,ERROR,GNSSTask,GNSSTask time, 1
+55551,NAV,ControlTask,ControlTask loop beginning
+55551,ERROR,ControlTask,ControlTask time, 0
+55554,ERROR,NavTask,NavigationTask time, 0
+55628,ERROR,GNSSTask,pushRawData time, 25
+55629,ERROR,GNSSTask,GNSS checkUblox time, 1
+55630,ERROR,GNSSTask,GNSSTask time, 27
+55651,NAV,ControlTask,ControlTask loop beginning
+55651,ERROR,ControlTask,ControlTask time, 0
+55654,ERROR,NavTask,NavigationTask time, 0
+55704,ERROR,GNSSTask,GNSSTask time, 1
+55751,NAV,ControlTask,ControlTask loop beginning
+55751,ERROR,ControlTask,ControlTask time, 0
+55754,ERROR,NavTask,NavigationTask time, 0
+55759,ERROR,GGATask,GGATask time, 4
+55804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55804,ERROR,GNSSTask,GNSS checkUblox time, 1
+55805,ERROR,GNSSTask,GNSSTask time, 2
+55851,NAV,ControlTask,ControlTask loop beginning
+55851,ERROR,ControlTask,ControlTask time, 0
+55854,ERROR,NavTask,NavigationTask time, 0
+55904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+55904,ERROR,GNSSTask,GNSS checkUblox time, 1
+55904,ERROR,GNSSTask,GNSSTask time, 1
+55951,NAV,ControlTask,ControlTask loop beginning
+55951,ERROR,ControlTask,ControlTask time, 0
+55954,ERROR,NavTask,NavigationTask time, 0
+56004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56004,ERROR,GNSSTask,GNSS checkUblox time, 1
+56004,ERROR,GNSSTask,GNSSTask time, 1
+56051,NAV,ControlTask,ControlTask loop beginning
+56051,ERROR,ControlTask,ControlTask time, 0
+56054,ERROR,NavTask,NavigationTask time, 0
+56104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56104,ERROR,GNSSTask,GNSS checkUblox time, 1
+56105,ERROR,GNSSTask,GNSSTask time, 2
+56151,NAV,ControlTask,ControlTask loop beginning
+56151,ERROR,ControlTask,ControlTask time, 0
+56154,ERROR,NavTask,NavigationTask time, 0
+56204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56204,ERROR,GNSSTask,GNSS checkUblox time, 1
+56205,ERROR,GNSSTask,GNSSTask time, 2
+56251,NAV,ControlTask,ControlTask loop beginning
+56251,ERROR,ControlTask,ControlTask time, 0
+56254,ERROR,NavTask,NavigationTask time, 0
+56304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56304,ERROR,GNSSTask,GNSS checkUblox time, 1
+56304,ERROR,GNSSTask,GNSSTask time, 1
+56351,NAV,ControlTask,ControlTask loop beginning
+56351,ERROR,ControlTask,ControlTask time, 0
+56354,ERROR,NavTask,NavigationTask time, 0
+56404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56404,ERROR,GNSSTask,GNSS checkUblox time, 1
+56404,ERROR,GNSSTask,GNSSTask time, 1
+56451,NAV,ControlTask,ControlTask loop beginning
+56451,ERROR,ControlTask,ControlTask time, 0
+56454,ERROR,NavTask,NavigationTask time, 0
+56504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56504,ERROR,GNSSTask,GNSS checkUblox time, 1
+56504,ERROR,GNSSTask,GNSSTask time, 1
+56551,NAV,ControlTask,ControlTask loop beginning
+56551,ERROR,ControlTask,ControlTask time, 0
+56554,ERROR,NavTask,NavigationTask time, 0
+56622,ERROR,GNSSTask,pushRawData time, 19
+56623,ERROR,GNSSTask,GNSS checkUblox time, 1
+56623,ERROR,GNSSTask,GNSSTask time, 20
+56651,NAV,ControlTask,ControlTask loop beginning
+56651,ERROR,ControlTask,ControlTask time, 0
+56654,ERROR,NavTask,NavigationTask time, 0
+56704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56704,ERROR,GNSSTask,GNSS checkUblox time, 1
+56705,ERROR,GNSSTask,GNSSTask time, 2
+56751,NAV,ControlTask,ControlTask loop beginning
+56751,ERROR,ControlTask,ControlTask time, 0
+56754,ERROR,NavTask,NavigationTask time, 0
+56759,ERROR,GGATask,GGATask time, 4
+56804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56804,ERROR,GNSSTask,GNSS checkUblox time, 1
+56804,ERROR,GNSSTask,GNSSTask time, 1
+56851,NAV,ControlTask,ControlTask loop beginning
+56851,ERROR,ControlTask,ControlTask time, 0
+56854,ERROR,NavTask,NavigationTask time, 0
+56904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+56904,ERROR,GNSSTask,GNSS checkUblox time, 1
+56905,ERROR,GNSSTask,GNSSTask time, 2
+56951,NAV,ControlTask,ControlTask loop beginning
+56951,ERROR,ControlTask,ControlTask time, 0
+56954,ERROR,NavTask,NavigationTask time, 0
+57004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57004,ERROR,GNSSTask,GNSS checkUblox time, 1
+57004,ERROR,GNSSTask,GNSSTask time, 1
+57051,NAV,ControlTask,ControlTask loop beginning
+57051,ERROR,ControlTask,ControlTask time, 0
+57054,ERROR,NavTask,NavigationTask time, 0
+57104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57104,ERROR,GNSSTask,GNSS checkUblox time, 1
+57104,ERROR,GNSSTask,GNSSTask time, 1
+57151,NAV,ControlTask,ControlTask loop beginning
+57151,ERROR,ControlTask,ControlTask time, 0
+57154,ERROR,NavTask,NavigationTask time, 0
+57204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57205,ERROR,GNSSTask,GNSS checkUblox time, 2
+57205,ERROR,GNSSTask,GNSSTask time, 2
+57251,NAV,ControlTask,ControlTask loop beginning
+57251,ERROR,ControlTask,ControlTask time, 0
+57254,ERROR,NavTask,NavigationTask time, 0
+57304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57304,ERROR,GNSSTask,GNSS checkUblox time, 1
+57305,ERROR,GNSSTask,GNSSTask time, 2
+57351,NAV,ControlTask,ControlTask loop beginning
+57351,ERROR,ControlTask,ControlTask time, 0
+57354,ERROR,NavTask,NavigationTask time, 0
+57404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57404,ERROR,GNSSTask,GNSS checkUblox time, 1
+57404,ERROR,GNSSTask,GNSSTask time, 1
+57451,NAV,ControlTask,ControlTask loop beginning
+57451,ERROR,ControlTask,ControlTask time, 0
+57454,ERROR,NavTask,NavigationTask time, 0
+57504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57504,ERROR,GNSSTask,GNSS checkUblox time, 1
+57504,ERROR,GNSSTask,GNSSTask time, 1
+57551,NAV,ControlTask,ControlTask loop beginning
+57551,ERROR,ControlTask,ControlTask time, 0
+57554,ERROR,NavTask,NavigationTask time, 0
+57625,ERROR,GNSSTask,pushRawData time, 22
+57626,ERROR,GNSSTask,GNSS checkUblox time, 1
+57626,ERROR,GNSSTask,GNSSTask time, 23
+57651,NAV,ControlTask,ControlTask loop beginning
+57651,ERROR,ControlTask,ControlTask time, 0
+57654,ERROR,NavTask,NavigationTask time, 0
+57704,ERROR,GNSSTask,GNSSTask time, 1
+57751,NAV,ControlTask,ControlTask loop beginning
+57751,ERROR,ControlTask,ControlTask time, 0
+57754,ERROR,NavTask,NavigationTask time, 0
+57759,ERROR,GGATask,GGATask time, 4
+57804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57804,ERROR,GNSSTask,GNSS checkUblox time, 1
+57805,ERROR,GNSSTask,GNSSTask time, 2
+57851,NAV,ControlTask,ControlTask loop beginning
+57851,ERROR,ControlTask,ControlTask time, 0
+57854,ERROR,NavTask,NavigationTask time, 0
+57904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+57904,ERROR,GNSSTask,GNSS checkUblox time, 1
+57904,ERROR,GNSSTask,GNSSTask time, 1
+57951,NAV,ControlTask,ControlTask loop beginning
+57951,ERROR,ControlTask,ControlTask time, 0
+57954,ERROR,NavTask,NavigationTask time, 0
+58004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58004,ERROR,GNSSTask,GNSS checkUblox time, 1
+58004,ERROR,GNSSTask,GNSSTask time, 1
+58051,NAV,ControlTask,ControlTask loop beginning
+58051,ERROR,ControlTask,ControlTask time, 0
+58054,ERROR,NavTask,NavigationTask time, 0
+58104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58104,ERROR,GNSSTask,GNSS checkUblox time, 1
+58104,ERROR,GNSSTask,GNSSTask time, 1
+58151,NAV,ControlTask,ControlTask loop beginning
+58151,ERROR,ControlTask,ControlTask time, 0
+58154,ERROR,NavTask,NavigationTask time, 0
+58204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58204,ERROR,GNSSTask,GNSS checkUblox time, 1
+58204,ERROR,GNSSTask,GNSSTask time, 1
+58251,NAV,ControlTask,ControlTask loop beginning
+58251,ERROR,ControlTask,ControlTask time, 0
+58254,ERROR,NavTask,NavigationTask time, 0
+58304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58304,ERROR,GNSSTask,GNSS checkUblox time, 1
+58305,ERROR,GNSSTask,GNSSTask time, 2
+58351,NAV,ControlTask,ControlTask loop beginning
+58351,ERROR,ControlTask,ControlTask time, 0
+58355,ERROR,NavTask,NavigationTask time, 0
+58404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58404,ERROR,GNSSTask,GNSS checkUblox time, 1
+58404,ERROR,GNSSTask,GNSSTask time, 1
+58451,NAV,ControlTask,ControlTask loop beginning
+58451,ERROR,ControlTask,ControlTask time, 0
+58454,ERROR,NavTask,NavigationTask time, 0
+58504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58504,ERROR,GNSSTask,GNSS checkUblox time, 1
+58504,ERROR,GNSSTask,GNSSTask time, 1
+58551,NAV,ControlTask,ControlTask loop beginning
+58551,ERROR,ControlTask,ControlTask time, 0
+58554,ERROR,NavTask,NavigationTask time, 0
+58622,ERROR,GNSSTask,pushRawData time, 19
+58624,ERROR,GNSSTask,GNSSTask time, 21
+58651,NAV,ControlTask,ControlTask loop beginning
+58651,ERROR,ControlTask,ControlTask time, 0
+58654,ERROR,NavTask,NavigationTask time, 0
+58704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58704,ERROR,GNSSTask,GNSS checkUblox time, 1
+58705,ERROR,GNSSTask,GNSSTask time, 2
+58751,NAV,ControlTask,ControlTask loop beginning
+58751,ERROR,ControlTask,ControlTask time, 0
+58754,ERROR,NavTask,NavigationTask time, 0
+58759,ERROR,GGATask,GGATask time, 4
+58804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58804,ERROR,GNSSTask,GNSS checkUblox time, 1
+58805,ERROR,GNSSTask,GNSSTask time, 2
+58851,NAV,ControlTask,ControlTask loop beginning
+58851,ERROR,ControlTask,ControlTask time, 0
+58854,ERROR,NavTask,NavigationTask time, 0
+58904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+58904,ERROR,GNSSTask,GNSS checkUblox time, 1
+58905,ERROR,GNSSTask,GNSSTask time, 2
+58951,NAV,ControlTask,ControlTask loop beginning
+58951,ERROR,ControlTask,ControlTask time, 0
+58954,ERROR,NavTask,NavigationTask time, 0
+59004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59004,ERROR,GNSSTask,GNSS checkUblox time, 1
+59004,ERROR,GNSSTask,GNSSTask time, 1
+59051,NAV,ControlTask,ControlTask loop beginning
+59051,ERROR,ControlTask,ControlTask time, 0
+59054,ERROR,NavTask,NavigationTask time, 0
+59104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59104,ERROR,GNSSTask,GNSS checkUblox time, 1
+59104,ERROR,GNSSTask,GNSSTask time, 1
+59151,NAV,ControlTask,ControlTask loop beginning
+59151,ERROR,ControlTask,ControlTask time, 0
+59154,ERROR,NavTask,NavigationTask time, 0
+59204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59204,ERROR,GNSSTask,GNSS checkUblox time, 1
+59204,ERROR,GNSSTask,GNSSTask time, 1
+59251,NAV,ControlTask,ControlTask loop beginning
+59251,ERROR,ControlTask,ControlTask time, 0
+59254,ERROR,NavTask,NavigationTask time, 0
+59304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59304,ERROR,GNSSTask,GNSS checkUblox time, 1
+59305,ERROR,GNSSTask,GNSSTask time, 2
+59351,NAV,ControlTask,ControlTask loop beginning
+59351,ERROR,ControlTask,ControlTask time, 0
+59354,ERROR,NavTask,NavigationTask time, 0
+59404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59404,ERROR,GNSSTask,GNSS checkUblox time, 1
+59404,ERROR,GNSSTask,GNSSTask time, 1
+59451,NAV,ControlTask,ControlTask loop beginning
+59451,ERROR,ControlTask,ControlTask time, 0
+59454,ERROR,NavTask,NavigationTask time, 0
+59526,ERROR,GNSSTask,pushRawData time, 23
+59527,ERROR,GNSSTask,GNSS checkUblox time, 1
+59528,ERROR,GNSSTask,GNSSTask time, 25
+59551,NAV,ControlTask,ControlTask loop beginning
+59551,ERROR,ControlTask,ControlTask time, 0
+59554,ERROR,NavTask,NavigationTask time, 0
+59604,ERROR,GNSSTask,GNSSTask time, 1
+59651,NAV,ControlTask,ControlTask loop beginning
+59651,ERROR,ControlTask,ControlTask time, 0
+59654,ERROR,NavTask,NavigationTask time, 0
+59704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59704,ERROR,GNSSTask,GNSS checkUblox time, 1
+59705,ERROR,GNSSTask,GNSSTask time, 2
+59751,NAV,ControlTask,ControlTask loop beginning
+59751,ERROR,ControlTask,ControlTask time, 0
+59754,ERROR,NavTask,NavigationTask time, 0
+59759,ERROR,GGATask,GGATask time, 4
+59804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59804,ERROR,GNSSTask,GNSS checkUblox time, 1
+59805,ERROR,GNSSTask,GNSSTask time, 1
+59851,NAV,ControlTask,ControlTask loop beginning
+59851,ERROR,ControlTask,ControlTask time, 0
+59854,ERROR,NavTask,NavigationTask time, 0
+59904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+59904,ERROR,GNSSTask,GNSS checkUblox time, 1
+59904,ERROR,GNSSTask,GNSSTask time, 1
+59951,NAV,ControlTask,ControlTask loop beginning
+59951,ERROR,ControlTask,ControlTask time, 0
+59954,ERROR,NavTask,NavigationTask time, 0
+60004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60004,ERROR,GNSSTask,GNSS checkUblox time, 1
+60004,ERROR,GNSSTask,GNSSTask time, 1
+60051,NAV,ControlTask,ControlTask loop beginning
+60051,ERROR,ControlTask,ControlTask time, 0
+60054,ERROR,NavTask,NavigationTask time, 0
+60104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60104,ERROR,GNSSTask,GNSS checkUblox time, 1
+60104,ERROR,GNSSTask,GNSSTask time, 1
+60151,NAV,ControlTask,ControlTask loop beginning
+60151,ERROR,ControlTask,ControlTask time, 0
+60154,ERROR,NavTask,NavigationTask time, 0
+60204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60204,ERROR,GNSSTask,GNSS checkUblox time, 1
+60205,ERROR,GNSSTask,GNSSTask time, 2
+60251,NAV,ControlTask,ControlTask loop beginning
+60251,ERROR,ControlTask,ControlTask time, 0
+60254,ERROR,NavTask,NavigationTask time, 0
+60304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60304,ERROR,GNSSTask,GNSS checkUblox time, 1
+60305,ERROR,GNSSTask,GNSSTask time, 2
+60351,NAV,ControlTask,ControlTask loop beginning
+60351,ERROR,ControlTask,ControlTask time, 0
+60354,ERROR,NavTask,NavigationTask time, 0
+60404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60404,ERROR,GNSSTask,GNSS checkUblox time, 1
+60404,ERROR,GNSSTask,GNSSTask time, 1
+60451,NAV,ControlTask,ControlTask loop beginning
+60451,ERROR,ControlTask,ControlTask time, 0
+60454,ERROR,NavTask,NavigationTask time, 0
+60504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60504,ERROR,GNSSTask,GNSS checkUblox time, 1
+60504,ERROR,GNSSTask,GNSSTask time, 1
+60551,NAV,ControlTask,ControlTask loop beginning
+60551,ERROR,ControlTask,ControlTask time, 0
+60554,ERROR,NavTask,NavigationTask time, 0
+60604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60604,ERROR,GNSSTask,GNSS checkUblox time, 1
+60604,ERROR,GNSSTask,GNSSTask time, 1
+60651,NAV,ControlTask,ControlTask loop beginning
+60651,ERROR,ControlTask,ControlTask time, 0
+60654,ERROR,NavTask,NavigationTask time, 0
+60724,ERROR,GNSSTask,pushRawData time, 21
+60725,ERROR,GNSSTask,GNSS checkUblox time, 1
+60725,ERROR,GNSSTask,GNSSTask time, 22
+60751,NAV,ControlTask,ControlTask loop beginning
+60751,ERROR,ControlTask,ControlTask time, 0
+60754,ERROR,NavTask,NavigationTask time, 0
+60759,ERROR,GGATask,GGATask time, 4
+60804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60804,ERROR,GNSSTask,GNSS checkUblox time, 1
+60804,ERROR,GNSSTask,GNSSTask time, 1
+60851,NAV,ControlTask,ControlTask loop beginning
+60851,ERROR,ControlTask,ControlTask time, 0
+60854,ERROR,NavTask,NavigationTask time, 0
+60904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+60904,ERROR,GNSSTask,GNSS checkUblox time, 1
+60905,ERROR,GNSSTask,GNSSTask time, 2
+60951,NAV,ControlTask,ControlTask loop beginning
+60951,ERROR,ControlTask,ControlTask time, 0
+60954,ERROR,NavTask,NavigationTask time, 0
+61004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61004,ERROR,GNSSTask,GNSS checkUblox time, 1
+61005,ERROR,GNSSTask,GNSSTask time, 2
+61051,NAV,ControlTask,ControlTask loop beginning
+61051,ERROR,ControlTask,ControlTask time, 0
+61054,ERROR,NavTask,NavigationTask time, 0
+61104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61104,ERROR,GNSSTask,GNSS checkUblox time, 1
+61104,ERROR,GNSSTask,GNSSTask time, 1
+61151,NAV,ControlTask,ControlTask loop beginning
+61151,ERROR,ControlTask,ControlTask time, 0
+61154,ERROR,NavTask,NavigationTask time, 0
+61204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61204,ERROR,GNSSTask,GNSS checkUblox time, 1
+61204,ERROR,GNSSTask,GNSSTask time, 1
+61251,NAV,ControlTask,ControlTask loop beginning
+61251,ERROR,ControlTask,ControlTask time, 0
+61254,ERROR,NavTask,NavigationTask time, 0
+61304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61304,ERROR,GNSSTask,GNSS checkUblox time, 1
+61305,ERROR,GNSSTask,GNSSTask time, 2
+61351,NAV,ControlTask,ControlTask loop beginning
+61351,ERROR,ControlTask,ControlTask time, 0
+61354,ERROR,NavTask,NavigationTask time, 0
+61404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61404,ERROR,GNSSTask,GNSS checkUblox time, 1
+61404,ERROR,GNSSTask,GNSSTask time, 1
+61451,NAV,ControlTask,ControlTask loop beginning
+61451,ERROR,ControlTask,ControlTask time, 0
+61454,ERROR,NavTask,NavigationTask time, 0
+61504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61504,ERROR,GNSSTask,GNSS checkUblox time, 1
+61504,ERROR,GNSSTask,GNSSTask time, 1
+61551,NAV,ControlTask,ControlTask loop beginning
+61551,ERROR,ControlTask,ControlTask time, 0
+61554,ERROR,NavTask,NavigationTask time, 0
+61604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61604,ERROR,GNSSTask,GNSS checkUblox time, 1
+61604,ERROR,GNSSTask,GNSSTask time, 1
+61651,NAV,ControlTask,ControlTask loop beginning
+61651,ERROR,ControlTask,ControlTask time, 0
+61654,ERROR,NavTask,NavigationTask time, 0
+61726,ERROR,GNSSTask,pushRawData time, 23
+61727,ERROR,GNSSTask,GNSS checkUblox time, 1
+61727,ERROR,GNSSTask,GNSSTask time, 24
+61751,NAV,ControlTask,ControlTask loop beginning
+61751,ERROR,ControlTask,ControlTask time, 0
+61754,ERROR,NavTask,NavigationTask time, 0
+61759,ERROR,GGATask,GGATask time, 4
+61804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61804,ERROR,GNSSTask,GNSS checkUblox time, 1
+61805,ERROR,GNSSTask,GNSSTask time, 2
+61851,NAV,ControlTask,ControlTask loop beginning
+61851,ERROR,ControlTask,ControlTask time, 0
+61854,ERROR,NavTask,NavigationTask time, 0
+61904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+61904,ERROR,GNSSTask,GNSS checkUblox time, 1
+61904,ERROR,GNSSTask,GNSSTask time, 1
+61951,NAV,ControlTask,ControlTask loop beginning
+61951,ERROR,ControlTask,ControlTask time, 0
+61954,ERROR,NavTask,NavigationTask time, 0
+62004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62004,ERROR,GNSSTask,GNSS checkUblox time, 1
+62004,ERROR,GNSSTask,GNSSTask time, 1
+62051,NAV,ControlTask,ControlTask loop beginning
+62051,ERROR,ControlTask,ControlTask time, 0
+62054,ERROR,NavTask,NavigationTask time, 0
+62104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62104,ERROR,GNSSTask,GNSS checkUblox time, 1
+62104,ERROR,GNSSTask,GNSSTask time, 1
+62151,NAV,ControlTask,ControlTask loop beginning
+62151,ERROR,ControlTask,ControlTask time, 0
+62154,ERROR,NavTask,NavigationTask time, 0
+62204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62204,ERROR,GNSSTask,GNSS checkUblox time, 1
+62204,ERROR,GNSSTask,GNSSTask time, 1
+62250,NAV,ControlTask,ControlTask loop beginning
+62250,ERROR,ControlTask,ControlTask time, 0
+62253,ERROR,NavTask,NavigationTask time, 0
+62304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62304,ERROR,GNSSTask,GNSS checkUblox time, 1
+62305,ERROR,GNSSTask,GNSSTask time, 2
+62351,NAV,ControlTask,ControlTask loop beginning
+62351,ERROR,ControlTask,ControlTask time, 0
+62354,ERROR,NavTask,NavigationTask time, 0
+62404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62404,ERROR,GNSSTask,GNSS checkUblox time, 1
+62404,ERROR,GNSSTask,GNSSTask time, 1
+62451,NAV,ControlTask,ControlTask loop beginning
+62451,ERROR,ControlTask,ControlTask time, 0
+62454,ERROR,NavTask,NavigationTask time, 0
+62504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62504,ERROR,GNSSTask,GNSS checkUblox time, 1
+62504,ERROR,GNSSTask,GNSSTask time, 1
+62551,NAV,ControlTask,ControlTask loop beginning
+62551,ERROR,ControlTask,ControlTask time, 0
+62554,ERROR,NavTask,NavigationTask time, 0
+62604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62604,ERROR,GNSSTask,GNSS checkUblox time, 1
+62604,ERROR,GNSSTask,GNSSTask time, 1
+62651,NAV,ControlTask,ControlTask loop beginning
+62651,ERROR,ControlTask,ControlTask time, 0
+62654,ERROR,NavTask,NavigationTask time, 0
+62722,ERROR,GNSSTask,pushRawData time, 19
+62723,ERROR,GNSSTask,GNSS checkUblox time, 1
+62723,ERROR,GNSSTask,GNSSTask time, 20
+62751,NAV,ControlTask,ControlTask loop beginning
+62751,ERROR,ControlTask,ControlTask time, 0
+62753,ERROR,NavTask,NavigationTask time, 0
+62759,ERROR,GGATask,GGATask time, 4
+62804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62804,ERROR,GNSSTask,GNSS checkUblox time, 1
+62805,ERROR,GNSSTask,GNSSTask time, 2
+62851,NAV,ControlTask,ControlTask loop beginning
+62851,ERROR,ControlTask,ControlTask time, 0
+62854,ERROR,NavTask,NavigationTask time, 0
+62904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+62904,ERROR,GNSSTask,GNSS checkUblox time, 1
+62904,ERROR,GNSSTask,GNSSTask time, 1
+62951,NAV,ControlTask,ControlTask loop beginning
+62951,ERROR,ControlTask,ControlTask time, 0
+62954,ERROR,NavTask,NavigationTask time, 0
+63004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63004,ERROR,GNSSTask,GNSS checkUblox time, 1
+63004,ERROR,GNSSTask,GNSSTask time, 1
+63051,NAV,ControlTask,ControlTask loop beginning
+63051,ERROR,ControlTask,ControlTask time, 0
+63054,ERROR,NavTask,NavigationTask time, 0
+63104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63104,ERROR,GNSSTask,GNSS checkUblox time, 1
+63104,ERROR,GNSSTask,GNSSTask time, 1
+63151,NAV,ControlTask,ControlTask loop beginning
+63151,ERROR,ControlTask,ControlTask time, 0
+63154,ERROR,NavTask,NavigationTask time, 0
+63204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63204,ERROR,GNSSTask,GNSS checkUblox time, 1
+63204,ERROR,GNSSTask,GNSSTask time, 1
+63251,NAV,ControlTask,ControlTask loop beginning
+63251,ERROR,ControlTask,ControlTask time, 0
+63254,ERROR,NavTask,NavigationTask time, 0
+63304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63304,ERROR,GNSSTask,GNSS checkUblox time, 1
+63305,ERROR,GNSSTask,GNSSTask time, 2
+63351,NAV,ControlTask,ControlTask loop beginning
+63351,ERROR,ControlTask,ControlTask time, 0
+63354,ERROR,NavTask,NavigationTask time, 0
+63404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63404,ERROR,GNSSTask,GNSS checkUblox time, 1
+63404,ERROR,GNSSTask,GNSSTask time, 1
+63451,NAV,ControlTask,ControlTask loop beginning
+63451,ERROR,ControlTask,ControlTask time, 0
+63454,ERROR,NavTask,NavigationTask time, 0
+63504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63504,ERROR,GNSSTask,GNSS checkUblox time, 1
+63504,ERROR,GNSSTask,GNSSTask time, 1
+63551,NAV,ControlTask,ControlTask loop beginning
+63551,ERROR,ControlTask,ControlTask time, 0
+63554,ERROR,NavTask,NavigationTask time, 0
+63625,ERROR,GNSSTask,pushRawData time, 22
+63626,ERROR,GNSSTask,GNSSTask time, 23
+63651,NAV,ControlTask,ControlTask loop beginning
+63651,ERROR,ControlTask,ControlTask time, 0
+63654,ERROR,NavTask,NavigationTask time, 0
+63704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63704,ERROR,GNSSTask,GNSS checkUblox time, 1
+63705,ERROR,GNSSTask,GNSSTask time, 2
+63751,NAV,ControlTask,ControlTask loop beginning
+63751,ERROR,ControlTask,ControlTask time, 0
+63754,ERROR,NavTask,NavigationTask time, 0
+63760,ERROR,GGATask,GGATask time, 5
+63804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63804,ERROR,GNSSTask,GNSS checkUblox time, 1
+63805,ERROR,GNSSTask,GNSSTask time, 2
+63851,NAV,ControlTask,ControlTask loop beginning
+63851,ERROR,ControlTask,ControlTask time, 0
+63854,ERROR,NavTask,NavigationTask time, 0
+63904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+63904,ERROR,GNSSTask,GNSS checkUblox time, 1
+63904,ERROR,GNSSTask,GNSSTask time, 1
+63951,NAV,ControlTask,ControlTask loop beginning
+63951,ERROR,ControlTask,ControlTask time, 0
+63954,ERROR,NavTask,NavigationTask time, 0
+64004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64004,ERROR,GNSSTask,GNSS checkUblox time, 1
+64004,ERROR,GNSSTask,GNSSTask time, 1
+64051,NAV,ControlTask,ControlTask loop beginning
+64051,ERROR,ControlTask,ControlTask time, 0
+64054,ERROR,NavTask,NavigationTask time, 0
+64104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64104,ERROR,GNSSTask,GNSS checkUblox time, 1
+64105,ERROR,GNSSTask,GNSSTask time, 2
+64151,NAV,ControlTask,ControlTask loop beginning
+64151,ERROR,ControlTask,ControlTask time, 0
+64154,ERROR,NavTask,NavigationTask time, 0
+64204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64204,ERROR,GNSSTask,GNSS checkUblox time, 1
+64204,ERROR,GNSSTask,GNSSTask time, 1
+64251,NAV,ControlTask,ControlTask loop beginning
+64251,ERROR,ControlTask,ControlTask time, 0
+64254,ERROR,NavTask,NavigationTask time, 0
+64304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64304,ERROR,GNSSTask,GNSS checkUblox time, 1
+64305,ERROR,GNSSTask,GNSSTask time, 2
+64351,NAV,ControlTask,ControlTask loop beginning
+64351,ERROR,ControlTask,ControlTask time, 0
+64354,ERROR,NavTask,NavigationTask time, 0
+64404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64404,ERROR,GNSSTask,GNSS checkUblox time, 1
+64404,ERROR,GNSSTask,GNSSTask time, 1
+64451,NAV,ControlTask,ControlTask loop beginning
+64451,ERROR,ControlTask,ControlTask time, 0
+64454,ERROR,NavTask,NavigationTask time, 0
+64504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64504,ERROR,GNSSTask,GNSS checkUblox time, 1
+64505,ERROR,GNSSTask,GNSSTask time, 2
+64551,NAV,ControlTask,ControlTask loop beginning
+64551,ERROR,ControlTask,ControlTask time, 0
+64554,ERROR,NavTask,NavigationTask time, 0
+64622,ERROR,GNSSTask,pushRawData time, 19
+64623,ERROR,GNSSTask,GNSS checkUblox time, 1
+64623,ERROR,GNSSTask,GNSSTask time, 20
+64651,NAV,ControlTask,ControlTask loop beginning
+64651,ERROR,ControlTask,ControlTask time, 0
+64654,ERROR,NavTask,NavigationTask time, 0
+64704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64704,ERROR,GNSSTask,GNSS checkUblox time, 1
+64705,ERROR,GNSSTask,GNSSTask time, 2
+64751,NAV,ControlTask,ControlTask loop beginning
+64751,ERROR,ControlTask,ControlTask time, 0
+64754,ERROR,NavTask,NavigationTask time, 0
+64761,ERROR,GGATask,GGATask time, 6
+64804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64804,ERROR,GNSSTask,GNSS checkUblox time, 1
+64805,ERROR,GNSSTask,GNSSTask time, 2
+64851,NAV,ControlTask,ControlTask loop beginning
+64851,ERROR,ControlTask,ControlTask time, 0
+64854,ERROR,NavTask,NavigationTask time, 0
+64904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+64904,ERROR,GNSSTask,GNSS checkUblox time, 1
+64904,ERROR,GNSSTask,GNSSTask time, 1
+64951,NAV,ControlTask,ControlTask loop beginning
+64951,ERROR,ControlTask,ControlTask time, 0
+64954,ERROR,NavTask,NavigationTask time, 0
+65004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65004,ERROR,GNSSTask,GNSS checkUblox time, 1
+65004,ERROR,GNSSTask,GNSSTask time, 1
+65051,NAV,ControlTask,ControlTask loop beginning
+65051,ERROR,ControlTask,ControlTask time, 0
+65054,ERROR,NavTask,NavigationTask time, 0
+65104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65104,ERROR,GNSSTask,GNSS checkUblox time, 1
+65104,ERROR,GNSSTask,GNSSTask time, 1
+65151,NAV,ControlTask,ControlTask loop beginning
+65151,ERROR,ControlTask,ControlTask time, 0
+65154,ERROR,NavTask,NavigationTask time, 0
+65204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65204,ERROR,GNSSTask,GNSS checkUblox time, 1
+65204,ERROR,GNSSTask,GNSSTask time, 1
+65251,NAV,ControlTask,ControlTask loop beginning
+65251,ERROR,ControlTask,ControlTask time, 0
+65254,ERROR,NavTask,NavigationTask time, 0
+65304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65304,ERROR,GNSSTask,GNSS checkUblox time, 1
+65305,ERROR,GNSSTask,GNSSTask time, 2
+65351,NAV,ControlTask,ControlTask loop beginning
+65351,ERROR,ControlTask,ControlTask time, 0
+65354,ERROR,NavTask,NavigationTask time, 0
+65404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65404,ERROR,GNSSTask,GNSS checkUblox time, 1
+65404,ERROR,GNSSTask,GNSSTask time, 1
+65451,NAV,ControlTask,ControlTask loop beginning
+65451,ERROR,ControlTask,ControlTask time, 0
+65454,ERROR,NavTask,NavigationTask time, 0
+65504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65504,ERROR,GNSSTask,GNSS checkUblox time, 1
+65504,ERROR,GNSSTask,GNSSTask time, 1
+65551,NAV,ControlTask,ControlTask loop beginning
+65551,ERROR,ControlTask,ControlTask time, 0
+65554,ERROR,NavTask,NavigationTask time, 0
+65628,ERROR,GNSSTask,pushRawData time, 25
+65629,ERROR,GNSSTask,GNSS checkUblox time, 1
+65629,ERROR,GNSSTask,GNSSTask time, 26
+65651,NAV,ControlTask,ControlTask loop beginning
+65651,ERROR,ControlTask,ControlTask time, 0
+65654,ERROR,NavTask,NavigationTask time, 0
+65704,ERROR,GNSSTask,GNSSTask time, 1
+65751,NAV,ControlTask,ControlTask loop beginning
+65751,ERROR,ControlTask,ControlTask time, 0
+65754,ERROR,NavTask,NavigationTask time, 0
+65762,ERROR,GGATask,GGATask time, 7
+65804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65804,ERROR,GNSSTask,GNSS checkUblox time, 1
+65805,ERROR,GNSSTask,GNSSTask time, 2
+65851,NAV,ControlTask,ControlTask loop beginning
+65851,ERROR,ControlTask,ControlTask time, 0
+65854,ERROR,NavTask,NavigationTask time, 0
+65904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+65904,ERROR,GNSSTask,GNSS checkUblox time, 1
+65904,ERROR,GNSSTask,GNSSTask time, 1
+65951,NAV,ControlTask,ControlTask loop beginning
+65951,ERROR,ControlTask,ControlTask time, 0
+65954,ERROR,NavTask,NavigationTask time, 0
+66004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66004,ERROR,GNSSTask,GNSS checkUblox time, 1
+66004,ERROR,GNSSTask,GNSSTask time, 1
+66051,NAV,ControlTask,ControlTask loop beginning
+66051,ERROR,ControlTask,ControlTask time, 0
+66054,ERROR,NavTask,NavigationTask time, 0
+66104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66104,ERROR,GNSSTask,GNSS checkUblox time, 1
+66104,ERROR,GNSSTask,GNSSTask time, 1
+66151,NAV,ControlTask,ControlTask loop beginning
+66151,ERROR,ControlTask,ControlTask time, 0
+66154,ERROR,NavTask,NavigationTask time, 0
+66204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66204,ERROR,GNSSTask,GNSS checkUblox time, 1
+66204,ERROR,GNSSTask,GNSSTask time, 1
+66251,NAV,ControlTask,ControlTask loop beginning
+66251,ERROR,ControlTask,ControlTask time, 0
+66254,ERROR,NavTask,NavigationTask time, 0
+66304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66304,ERROR,GNSSTask,GNSS checkUblox time, 1
+66305,ERROR,GNSSTask,GNSSTask time, 2
+66351,NAV,ControlTask,ControlTask loop beginning
+66351,ERROR,ControlTask,ControlTask time, 0
+66354,ERROR,NavTask,NavigationTask time, 0
+66404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66404,ERROR,GNSSTask,GNSS checkUblox time, 1
+66404,ERROR,GNSSTask,GNSSTask time, 1
+66451,NAV,ControlTask,ControlTask loop beginning
+66451,ERROR,ControlTask,ControlTask time, 0
+66454,ERROR,NavTask,NavigationTask time, 0
+66504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66504,ERROR,GNSSTask,GNSS checkUblox time, 1
+66504,ERROR,GNSSTask,GNSSTask time, 1
+66551,NAV,ControlTask,ControlTask loop beginning
+66551,ERROR,ControlTask,ControlTask time, 0
+66554,ERROR,NavTask,NavigationTask time, 0
+66622,ERROR,GNSSTask,pushRawData time, 19
+66623,ERROR,GNSSTask,GNSS checkUblox time, 1
+66623,ERROR,GNSSTask,GNSSTask time, 20
+66651,NAV,ControlTask,ControlTask loop beginning
+66651,ERROR,ControlTask,ControlTask time, 0
+66654,ERROR,NavTask,NavigationTask time, 0
+66704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66704,ERROR,GNSSTask,GNSS checkUblox time, 1
+66705,ERROR,GNSSTask,GNSSTask time, 2
+66751,NAV,ControlTask,ControlTask loop beginning
+66751,ERROR,ControlTask,ControlTask time, 0
+66754,ERROR,NavTask,NavigationTask time, 0
+66762,ERROR,GGATask,GGATask time, 7
+66804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66804,ERROR,GNSSTask,GNSS checkUblox time, 1
+66804,ERROR,GNSSTask,GNSSTask time, 1
+66851,NAV,ControlTask,ControlTask loop beginning
+66851,ERROR,ControlTask,ControlTask time, 0
+66854,ERROR,NavTask,NavigationTask time, 0
+66904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+66904,ERROR,GNSSTask,GNSS checkUblox time, 1
+66905,ERROR,GNSSTask,GNSSTask time, 2
+66951,NAV,ControlTask,ControlTask loop beginning
+66951,ERROR,ControlTask,ControlTask time, 0
+66954,ERROR,NavTask,NavigationTask time, 0
+67004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67004,ERROR,GNSSTask,GNSS checkUblox time, 1
+67004,ERROR,GNSSTask,GNSSTask time, 1
+67051,NAV,ControlTask,ControlTask loop beginning
+67051,ERROR,ControlTask,ControlTask time, 0
+67054,ERROR,NavTask,NavigationTask time, 0
+67104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67104,ERROR,GNSSTask,GNSS checkUblox time, 1
+67104,ERROR,GNSSTask,GNSSTask time, 1
+67151,NAV,ControlTask,ControlTask loop beginning
+67151,ERROR,ControlTask,ControlTask time, 0
+67154,ERROR,NavTask,NavigationTask time, 0
+67204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67204,ERROR,GNSSTask,GNSS checkUblox time, 1
+67204,ERROR,GNSSTask,GNSSTask time, 1
+67251,NAV,ControlTask,ControlTask loop beginning
+67251,ERROR,ControlTask,ControlTask time, 0
+67254,ERROR,NavTask,NavigationTask time, 0
+67304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67304,ERROR,GNSSTask,GNSS checkUblox time, 1
+67305,ERROR,GNSSTask,GNSSTask time, 2
+67351,NAV,ControlTask,ControlTask loop beginning
+67351,ERROR,ControlTask,ControlTask time, 0
+67354,ERROR,NavTask,NavigationTask time, 0
+67404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67404,ERROR,GNSSTask,GNSS checkUblox time, 1
+67404,ERROR,GNSSTask,GNSSTask time, 1
+67451,NAV,ControlTask,ControlTask loop beginning
+67451,ERROR,ControlTask,ControlTask time, 0
+67454,ERROR,NavTask,NavigationTask time, 0
+67504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67504,ERROR,GNSSTask,GNSS checkUblox time, 1
+67504,ERROR,GNSSTask,GNSSTask time, 1
+67551,NAV,ControlTask,ControlTask loop beginning
+67551,ERROR,ControlTask,ControlTask time, 0
+67554,ERROR,NavTask,NavigationTask time, 0
+67624,ERROR,GNSSTask,pushRawData time, 21
+67625,ERROR,GNSSTask,GNSS checkUblox time, 1
+67625,ERROR,GNSSTask,GNSSTask time, 22
+67651,NAV,ControlTask,ControlTask loop beginning
+67651,ERROR,ControlTask,ControlTask time, 0
+67654,ERROR,NavTask,NavigationTask time, 0
+67704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67704,ERROR,GNSSTask,GNSS checkUblox time, 1
+67704,ERROR,GNSSTask,GNSSTask time, 1
+67751,NAV,ControlTask,ControlTask loop beginning
+67751,ERROR,ControlTask,ControlTask time, 0
+67754,ERROR,NavTask,NavigationTask time, 0
+67761,ERROR,GGATask,GGATask time, 6
+67804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67804,ERROR,GNSSTask,GNSS checkUblox time, 1
+67805,ERROR,GNSSTask,GNSSTask time, 2
+67851,NAV,ControlTask,ControlTask loop beginning
+67851,ERROR,ControlTask,ControlTask time, 0
+67854,ERROR,NavTask,NavigationTask time, 0
+67904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+67904,ERROR,GNSSTask,GNSS checkUblox time, 1
+67904,ERROR,GNSSTask,GNSSTask time, 1
+67951,NAV,ControlTask,ControlTask loop beginning
+67951,ERROR,ControlTask,ControlTask time, 0
+67954,ERROR,NavTask,NavigationTask time, 0
+68004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68004,ERROR,GNSSTask,GNSS checkUblox time, 1
+68004,ERROR,GNSSTask,GNSSTask time, 1
+68051,NAV,ControlTask,ControlTask loop beginning
+68051,ERROR,ControlTask,ControlTask time, 0
+68054,ERROR,NavTask,NavigationTask time, 0
+68104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68104,ERROR,GNSSTask,GNSS checkUblox time, 1
+68104,ERROR,GNSSTask,GNSSTask time, 1
+68151,NAV,ControlTask,ControlTask loop beginning
+68151,ERROR,ControlTask,ControlTask time, 0
+68154,ERROR,NavTask,NavigationTask time, 0
+68204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68204,ERROR,GNSSTask,GNSS checkUblox time, 1
+68204,ERROR,GNSSTask,GNSSTask time, 1
+68251,NAV,ControlTask,ControlTask loop beginning
+68251,ERROR,ControlTask,ControlTask time, 0
+68254,ERROR,NavTask,NavigationTask time, 0
+68304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68305,ERROR,GNSSTask,GNSS checkUblox time, 2
+68305,ERROR,GNSSTask,GNSSTask time, 2
+68351,NAV,ControlTask,ControlTask loop beginning
+68351,ERROR,ControlTask,ControlTask time, 0
+68354,ERROR,NavTask,NavigationTask time, 0
+68404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68404,ERROR,GNSSTask,GNSS checkUblox time, 1
+68405,ERROR,GNSSTask,GNSSTask time, 2
+68451,NAV,ControlTask,ControlTask loop beginning
+68451,ERROR,ControlTask,ControlTask time, 0
+68454,ERROR,NavTask,NavigationTask time, 0
+68504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68504,ERROR,GNSSTask,GNSS checkUblox time, 1
+68504,ERROR,GNSSTask,GNSSTask time, 1
+68551,NAV,ControlTask,ControlTask loop beginning
+68551,ERROR,ControlTask,ControlTask time, 0
+68554,ERROR,NavTask,NavigationTask time, 0
+68604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68604,ERROR,GNSSTask,GNSS checkUblox time, 1
+68605,ERROR,GNSSTask,GNSSTask time, 2
+68651,NAV,ControlTask,ControlTask loop beginning
+68651,ERROR,ControlTask,ControlTask time, 0
+68654,ERROR,NavTask,NavigationTask time, 0
+68722,ERROR,GNSSTask,pushRawData time, 19
+68723,ERROR,GNSSTask,GNSS checkUblox time, 1
+68724,ERROR,GNSSTask,GNSSTask time, 21
+68751,NAV,ControlTask,ControlTask loop beginning
+68751,ERROR,ControlTask,ControlTask time, 0
+68754,ERROR,NavTask,NavigationTask time, 0
+68760,ERROR,GGATask,GGATask time, 5
+68804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68805,ERROR,GNSSTask,GNSS checkUblox time, 2
+68805,ERROR,GNSSTask,GNSSTask time, 2
+68851,NAV,ControlTask,ControlTask loop beginning
+68851,ERROR,ControlTask,ControlTask time, 0
+68854,ERROR,NavTask,NavigationTask time, 0
+68904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+68904,ERROR,GNSSTask,GNSS checkUblox time, 1
+68904,ERROR,GNSSTask,GNSSTask time, 1
+68951,NAV,ControlTask,ControlTask loop beginning
+68951,ERROR,ControlTask,ControlTask time, 0
+68954,ERROR,NavTask,NavigationTask time, 0
+69004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69004,ERROR,GNSSTask,GNSS checkUblox time, 1
+69005,ERROR,GNSSTask,GNSSTask time, 2
+69051,NAV,ControlTask,ControlTask loop beginning
+69051,ERROR,ControlTask,ControlTask time, 0
+69054,ERROR,NavTask,NavigationTask time, 0
+69104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69104,ERROR,GNSSTask,GNSS checkUblox time, 1
+69104,ERROR,GNSSTask,GNSSTask time, 1
+69151,NAV,ControlTask,ControlTask loop beginning
+69151,ERROR,ControlTask,ControlTask time, 0
+69154,ERROR,NavTask,NavigationTask time, 0
+69204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69204,ERROR,GNSSTask,GNSS checkUblox time, 1
+69204,ERROR,GNSSTask,GNSSTask time, 1
+69251,NAV,ControlTask,ControlTask loop beginning
+69251,ERROR,ControlTask,ControlTask time, 0
+69254,ERROR,NavTask,NavigationTask time, 0
+69304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69304,ERROR,GNSSTask,GNSS checkUblox time, 1
+69305,ERROR,GNSSTask,GNSSTask time, 2
+69351,NAV,ControlTask,ControlTask loop beginning
+69351,ERROR,ControlTask,ControlTask time, 0
+69354,ERROR,NavTask,NavigationTask time, 0
+69404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69404,ERROR,GNSSTask,GNSS checkUblox time, 1
+69404,ERROR,GNSSTask,GNSSTask time, 1
+69451,NAV,ControlTask,ControlTask loop beginning
+69451,ERROR,ControlTask,ControlTask time, 0
+69454,ERROR,NavTask,NavigationTask time, 0
+69504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69504,ERROR,GNSSTask,GNSS checkUblox time, 1
+69504,ERROR,GNSSTask,GNSSTask time, 1
+69551,NAV,ControlTask,ControlTask loop beginning
+69551,ERROR,ControlTask,ControlTask time, 0
+69554,ERROR,NavTask,NavigationTask time, 0
+69604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69604,ERROR,GNSSTask,GNSS checkUblox time, 1
+69604,ERROR,GNSSTask,GNSSTask time, 1
+69651,NAV,ControlTask,ControlTask loop beginning
+69651,ERROR,ControlTask,ControlTask time, 0
+69654,ERROR,NavTask,NavigationTask time, 0
+69726,ERROR,GNSSTask,pushRawData time, 23
+69727,ERROR,GNSSTask,GNSS checkUblox time, 1
+69727,ERROR,GNSSTask,GNSSTask time, 24
+69751,NAV,ControlTask,ControlTask loop beginning
+69751,ERROR,ControlTask,ControlTask time, 0
+69754,ERROR,NavTask,NavigationTask time, 0
+69759,ERROR,GGATask,GGATask time, 4
+69804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69804,ERROR,GNSSTask,GNSS checkUblox time, 1
+69805,ERROR,GNSSTask,GNSSTask time, 2
+69851,NAV,ControlTask,ControlTask loop beginning
+69851,ERROR,ControlTask,ControlTask time, 0
+69854,ERROR,NavTask,NavigationTask time, 0
+69904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+69904,ERROR,GNSSTask,GNSS checkUblox time, 1
+69904,ERROR,GNSSTask,GNSSTask time, 1
+69951,NAV,ControlTask,ControlTask loop beginning
+69951,ERROR,ControlTask,ControlTask time, 0
+69954,ERROR,NavTask,NavigationTask time, 0
+70004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70004,ERROR,GNSSTask,GNSS checkUblox time, 1
+70004,ERROR,GNSSTask,GNSSTask time, 1
+70051,NAV,ControlTask,ControlTask loop beginning
+70051,ERROR,ControlTask,ControlTask time, 0
+70054,ERROR,NavTask,NavigationTask time, 0
+70104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70104,ERROR,GNSSTask,GNSS checkUblox time, 1
+70105,ERROR,GNSSTask,GNSSTask time, 2
+70151,NAV,ControlTask,ControlTask loop beginning
+70151,ERROR,ControlTask,ControlTask time, 0
+70154,ERROR,NavTask,NavigationTask time, 0
+70204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70204,ERROR,GNSSTask,GNSS checkUblox time, 1
+70204,ERROR,GNSSTask,GNSSTask time, 1
+70251,NAV,ControlTask,ControlTask loop beginning
+70251,ERROR,ControlTask,ControlTask time, 0
+70254,ERROR,NavTask,NavigationTask time, 0
+70304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70304,ERROR,GNSSTask,GNSS checkUblox time, 1
+70304,ERROR,GNSSTask,GNSSTask time, 1
+70350,NAV,ControlTask,ControlTask loop beginning
+70350,ERROR,ControlTask,ControlTask time, 0
+70354,ERROR,NavTask,NavigationTask time, 0
+70404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70404,ERROR,GNSSTask,GNSS checkUblox time, 1
+70405,ERROR,GNSSTask,GNSSTask time, 2
+70451,NAV,ControlTask,ControlTask loop beginning
+70451,ERROR,ControlTask,ControlTask time, 0
+70454,ERROR,NavTask,NavigationTask time, 0
+70504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70504,ERROR,GNSSTask,GNSS checkUblox time, 1
+70504,ERROR,GNSSTask,GNSSTask time, 1
+70551,NAV,ControlTask,ControlTask loop beginning
+70551,ERROR,ControlTask,ControlTask time, 0
+70554,ERROR,NavTask,NavigationTask time, 0
+70604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70604,ERROR,GNSSTask,GNSS checkUblox time, 1
+70604,ERROR,GNSSTask,GNSSTask time, 1
+70651,NAV,ControlTask,ControlTask loop beginning
+70651,ERROR,ControlTask,ControlTask time, 0
+70654,ERROR,NavTask,NavigationTask time, 0
+70724,ERROR,GNSSTask,pushRawData time, 21
+70725,ERROR,GNSSTask,GNSS checkUblox time, 1
+70725,ERROR,GNSSTask,GNSSTask time, 22
+70751,NAV,ControlTask,ControlTask loop beginning
+70751,ERROR,ControlTask,ControlTask time, 0
+70754,ERROR,NavTask,NavigationTask time, 0
+70760,ERROR,GGATask,GGATask time, 5
+70804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70805,ERROR,GNSSTask,GNSS checkUblox time, 2
+70805,ERROR,GNSSTask,GNSSTask time, 2
+70851,NAV,ControlTask,ControlTask loop beginning
+70851,ERROR,ControlTask,ControlTask time, 0
+70854,ERROR,NavTask,NavigationTask time, 0
+70904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+70904,ERROR,GNSSTask,GNSS checkUblox time, 1
+70905,ERROR,GNSSTask,GNSSTask time, 2
+70951,NAV,ControlTask,ControlTask loop beginning
+70951,ERROR,ControlTask,ControlTask time, 0
+70954,ERROR,NavTask,NavigationTask time, 0
+71004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71004,ERROR,GNSSTask,GNSS checkUblox time, 1
+71004,ERROR,GNSSTask,GNSSTask time, 1
+71051,NAV,ControlTask,ControlTask loop beginning
+71051,ERROR,ControlTask,ControlTask time, 0
+71054,ERROR,NavTask,NavigationTask time, 0
+71104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71104,ERROR,GNSSTask,GNSS checkUblox time, 1
+71104,ERROR,GNSSTask,GNSSTask time, 1
+71151,NAV,ControlTask,ControlTask loop beginning
+71151,ERROR,ControlTask,ControlTask time, 0
+71154,ERROR,NavTask,NavigationTask time, 0
+71204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71204,ERROR,GNSSTask,GNSS checkUblox time, 1
+71204,ERROR,GNSSTask,GNSSTask time, 1
+71251,NAV,ControlTask,ControlTask loop beginning
+71251,ERROR,ControlTask,ControlTask time, 0
+71254,ERROR,NavTask,NavigationTask time, 0
+71304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71304,ERROR,GNSSTask,GNSS checkUblox time, 1
+71305,ERROR,GNSSTask,GNSSTask time, 2
+71351,NAV,ControlTask,ControlTask loop beginning
+71351,ERROR,ControlTask,ControlTask time, 0
+71354,ERROR,NavTask,NavigationTask time, 0
+71404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71404,ERROR,GNSSTask,GNSS checkUblox time, 1
+71405,ERROR,GNSSTask,GNSSTask time, 2
+71451,NAV,ControlTask,ControlTask loop beginning
+71451,ERROR,ControlTask,ControlTask time, 0
+71454,ERROR,NavTask,NavigationTask time, 0
+71524,ERROR,GNSSTask,pushRawData time, 21
+71526,ERROR,GNSSTask,GNSSTask time, 23
+71551,NAV,ControlTask,ControlTask loop beginning
+71551,ERROR,ControlTask,ControlTask time, 0
+71554,ERROR,NavTask,NavigationTask time, 0
+71604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71604,ERROR,GNSSTask,GNSS checkUblox time, 1
+71605,ERROR,GNSSTask,GNSSTask time, 2
+71651,NAV,ControlTask,ControlTask loop beginning
+71651,ERROR,ControlTask,ControlTask time, 0
+71654,ERROR,NavTask,NavigationTask time, 0
+71704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71704,ERROR,GNSSTask,GNSS checkUblox time, 1
+71704,ERROR,GNSSTask,GNSSTask time, 1
+71751,NAV,ControlTask,ControlTask loop beginning
+71751,ERROR,ControlTask,ControlTask time, 0
+71754,ERROR,NavTask,NavigationTask time, 0
+71761,ERROR,GGATask,GGATask time, 6
+71804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71804,ERROR,GNSSTask,GNSS checkUblox time, 1
+71805,ERROR,GNSSTask,GNSSTask time, 2
+71851,NAV,ControlTask,ControlTask loop beginning
+71851,ERROR,ControlTask,ControlTask time, 0
+71854,ERROR,NavTask,NavigationTask time, 0
+71904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+71904,ERROR,GNSSTask,GNSS checkUblox time, 1
+71905,ERROR,GNSSTask,GNSSTask time, 2
+71951,NAV,ControlTask,ControlTask loop beginning
+71951,ERROR,ControlTask,ControlTask time, 0
+71954,ERROR,NavTask,NavigationTask time, 0
+72004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72004,ERROR,GNSSTask,GNSS checkUblox time, 1
+72004,ERROR,GNSSTask,GNSSTask time, 1
+72051,NAV,ControlTask,ControlTask loop beginning
+72051,ERROR,ControlTask,ControlTask time, 0
+72054,ERROR,NavTask,NavigationTask time, 0
+72104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72104,ERROR,GNSSTask,GNSS checkUblox time, 1
+72105,ERROR,GNSSTask,GNSSTask time, 2
+72151,NAV,ControlTask,ControlTask loop beginning
+72151,ERROR,ControlTask,ControlTask time, 0
+72154,ERROR,NavTask,NavigationTask time, 0
+72204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72204,ERROR,GNSSTask,GNSS checkUblox time, 1
+72204,ERROR,GNSSTask,GNSSTask time, 1
+72251,NAV,ControlTask,ControlTask loop beginning
+72251,ERROR,ControlTask,ControlTask time, 0
+72254,ERROR,NavTask,NavigationTask time, 0
+72304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72304,ERROR,GNSSTask,GNSS checkUblox time, 1
+72304,ERROR,GNSSTask,GNSSTask time, 1
+72351,NAV,ControlTask,ControlTask loop beginning
+72351,ERROR,ControlTask,ControlTask time, 0
+72354,ERROR,NavTask,NavigationTask time, 0
+72404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72404,ERROR,GNSSTask,GNSS checkUblox time, 1
+72405,ERROR,GNSSTask,GNSSTask time, 2
+72451,NAV,ControlTask,ControlTask loop beginning
+72451,ERROR,ControlTask,ControlTask time, 0
+72454,ERROR,NavTask,NavigationTask time, 0
+72522,ERROR,GNSSTask,pushRawData time, 19
+72523,ERROR,GNSSTask,GNSS checkUblox time, 1
+72523,ERROR,GNSSTask,GNSSTask time, 20
+72551,NAV,ControlTask,ControlTask loop beginning
+72551,ERROR,ControlTask,ControlTask time, 0
+72554,ERROR,NavTask,NavigationTask time, 0
+72604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72604,ERROR,GNSSTask,GNSS checkUblox time, 1
+72605,ERROR,GNSSTask,GNSSTask time, 2
+72651,NAV,ControlTask,ControlTask loop beginning
+72651,ERROR,ControlTask,ControlTask time, 0
+72654,ERROR,NavTask,NavigationTask time, 0
+72704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72704,ERROR,GNSSTask,GNSS checkUblox time, 1
+72704,ERROR,GNSSTask,GNSSTask time, 1
+72751,NAV,ControlTask,ControlTask loop beginning
+72751,ERROR,ControlTask,ControlTask time, 0
+72754,ERROR,NavTask,NavigationTask time, 0
+72760,ERROR,GGATask,GGATask time, 5
+72804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72804,ERROR,GNSSTask,GNSS checkUblox time, 1
+72804,ERROR,GNSSTask,GNSSTask time, 1
+72851,NAV,ControlTask,ControlTask loop beginning
+72851,ERROR,ControlTask,ControlTask time, 0
+72854,ERROR,NavTask,NavigationTask time, 0
+72904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+72904,ERROR,GNSSTask,GNSS checkUblox time, 1
+72905,ERROR,GNSSTask,GNSSTask time, 2
+72951,NAV,ControlTask,ControlTask loop beginning
+72951,ERROR,ControlTask,ControlTask time, 0
+72954,ERROR,NavTask,NavigationTask time, 0
+73004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73004,ERROR,GNSSTask,GNSS checkUblox time, 1
+73004,ERROR,GNSSTask,GNSSTask time, 1
+73051,NAV,ControlTask,ControlTask loop beginning
+73051,ERROR,ControlTask,ControlTask time, 0
+73054,ERROR,NavTask,NavigationTask time, 0
+73104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73104,ERROR,GNSSTask,GNSS checkUblox time, 1
+73105,ERROR,GNSSTask,GNSSTask time, 2
+73151,NAV,ControlTask,ControlTask loop beginning
+73151,ERROR,ControlTask,ControlTask time, 0
+73154,ERROR,NavTask,NavigationTask time, 0
+73204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73204,ERROR,GNSSTask,GNSS checkUblox time, 1
+73204,ERROR,GNSSTask,GNSSTask time, 1
+73251,NAV,ControlTask,ControlTask loop beginning
+73251,ERROR,ControlTask,ControlTask time, 0
+73254,ERROR,NavTask,NavigationTask time, 0
+73304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73304,ERROR,GNSSTask,GNSS checkUblox time, 1
+73305,ERROR,GNSSTask,GNSSTask time, 2
+73351,NAV,ControlTask,ControlTask loop beginning
+73351,ERROR,ControlTask,ControlTask time, 0
+73354,ERROR,NavTask,NavigationTask time, 0
+73404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73404,ERROR,GNSSTask,GNSS checkUblox time, 1
+73405,ERROR,GNSSTask,GNSSTask time, 2
+73451,NAV,ControlTask,ControlTask loop beginning
+73451,ERROR,ControlTask,ControlTask time, 0
+73454,ERROR,NavTask,NavigationTask time, 0
+73504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73504,ERROR,GNSSTask,GNSS checkUblox time, 1
+73504,ERROR,GNSSTask,GNSSTask time, 1
+73551,NAV,ControlTask,ControlTask loop beginning
+73551,ERROR,ControlTask,ControlTask time, 0
+73554,ERROR,NavTask,NavigationTask time, 0
+73627,ERROR,GNSSTask,pushRawData time, 24
+73628,ERROR,GNSSTask,GNSSTask time, 25
+73651,NAV,ControlTask,ControlTask loop beginning
+73651,ERROR,ControlTask,ControlTask time, 0
+73654,ERROR,NavTask,NavigationTask time, 0
+73704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73704,ERROR,GNSSTask,GNSS checkUblox time, 1
+73704,ERROR,GNSSTask,GNSSTask time, 1
+73751,NAV,ControlTask,ControlTask loop beginning
+73751,ERROR,ControlTask,ControlTask time, 0
+73754,ERROR,NavTask,NavigationTask time, 0
+73760,ERROR,GGATask,GGATask time, 5
+73804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73804,ERROR,GNSSTask,GNSS checkUblox time, 1
+73804,ERROR,GNSSTask,GNSSTask time, 1
+73851,NAV,ControlTask,ControlTask loop beginning
+73851,ERROR,ControlTask,ControlTask time, 0
+73854,ERROR,NavTask,NavigationTask time, 0
+73904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+73904,ERROR,GNSSTask,GNSS checkUblox time, 1
+73905,ERROR,GNSSTask,GNSSTask time, 2
+73951,NAV,ControlTask,ControlTask loop beginning
+73951,ERROR,ControlTask,ControlTask time, 0
+73954,ERROR,NavTask,NavigationTask time, 0
+74004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74004,ERROR,GNSSTask,GNSS checkUblox time, 1
+74004,ERROR,GNSSTask,GNSSTask time, 1
+74051,NAV,ControlTask,ControlTask loop beginning
+74051,ERROR,ControlTask,ControlTask time, 0
+74054,ERROR,NavTask,NavigationTask time, 0
+74104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74104,ERROR,GNSSTask,GNSS checkUblox time, 1
+74104,ERROR,GNSSTask,GNSSTask time, 1
+74151,NAV,ControlTask,ControlTask loop beginning
+74151,ERROR,ControlTask,ControlTask time, 0
+74154,ERROR,NavTask,NavigationTask time, 0
+74204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74204,ERROR,GNSSTask,GNSS checkUblox time, 1
+74204,ERROR,GNSSTask,GNSSTask time, 1
+74251,NAV,ControlTask,ControlTask loop beginning
+74251,ERROR,ControlTask,ControlTask time, 0
+74254,ERROR,NavTask,NavigationTask time, 0
+74304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74304,ERROR,GNSSTask,GNSS checkUblox time, 1
+74304,ERROR,GNSSTask,GNSSTask time, 1
+74351,NAV,ControlTask,ControlTask loop beginning
+74351,ERROR,ControlTask,ControlTask time, 0
+74354,ERROR,NavTask,NavigationTask time, 0
+74404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74404,ERROR,GNSSTask,GNSS checkUblox time, 1
+74405,ERROR,GNSSTask,GNSSTask time, 2
+74451,NAV,ControlTask,ControlTask loop beginning
+74451,ERROR,ControlTask,ControlTask time, 0
+74454,ERROR,NavTask,NavigationTask time, 0
+74504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74504,ERROR,GNSSTask,GNSS checkUblox time, 1
+74504,ERROR,GNSSTask,GNSSTask time, 1
+74551,NAV,ControlTask,ControlTask loop beginning
+74551,ERROR,ControlTask,ControlTask time, 0
+74554,ERROR,NavTask,NavigationTask time, 0
+74622,ERROR,GNSSTask,pushRawData time, 19
+74623,ERROR,GNSSTask,GNSS checkUblox time, 1
+74623,ERROR,GNSSTask,GNSSTask time, 20
+74651,NAV,ControlTask,ControlTask loop beginning
+74651,ERROR,ControlTask,ControlTask time, 0
+74654,ERROR,NavTask,NavigationTask time, 0
+74704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74704,ERROR,GNSSTask,GNSS checkUblox time, 1
+74704,ERROR,GNSSTask,GNSSTask time, 1
+74751,NAV,ControlTask,ControlTask loop beginning
+74751,ERROR,ControlTask,ControlTask time, 0
+74754,ERROR,NavTask,NavigationTask time, 0
+74760,ERROR,GGATask,GGATask time, 5
+74804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74804,ERROR,GNSSTask,GNSS checkUblox time, 1
+74804,ERROR,GNSSTask,GNSSTask time, 1
+74851,NAV,ControlTask,ControlTask loop beginning
+74851,ERROR,ControlTask,ControlTask time, 0
+74854,ERROR,NavTask,NavigationTask time, 0
+74904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+74904,ERROR,GNSSTask,GNSS checkUblox time, 1
+74905,ERROR,GNSSTask,GNSSTask time, 2
+74951,NAV,ControlTask,ControlTask loop beginning
+74951,ERROR,ControlTask,ControlTask time, 0
+74954,ERROR,NavTask,NavigationTask time, 0
+75004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75004,ERROR,GNSSTask,GNSS checkUblox time, 1
+75004,ERROR,GNSSTask,GNSSTask time, 1
+75051,NAV,ControlTask,ControlTask loop beginning
+75051,ERROR,ControlTask,ControlTask time, 0
+75054,ERROR,NavTask,NavigationTask time, 0
+75104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75104,ERROR,GNSSTask,GNSS checkUblox time, 1
+75104,ERROR,GNSSTask,GNSSTask time, 1
+75151,NAV,ControlTask,ControlTask loop beginning
+75151,ERROR,ControlTask,ControlTask time, 0
+75154,ERROR,NavTask,NavigationTask time, 0
+75204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75204,ERROR,GNSSTask,GNSS checkUblox time, 1
+75204,ERROR,GNSSTask,GNSSTask time, 1
+75251,NAV,ControlTask,ControlTask loop beginning
+75251,ERROR,ControlTask,ControlTask time, 0
+75254,ERROR,NavTask,NavigationTask time, 0
+75304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75304,ERROR,GNSSTask,GNSS checkUblox time, 1
+75304,ERROR,GNSSTask,GNSSTask time, 1
+75351,NAV,ControlTask,ControlTask loop beginning
+75351,ERROR,ControlTask,ControlTask time, 0
+75354,ERROR,NavTask,NavigationTask time, 0
+75404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75404,ERROR,GNSSTask,GNSS checkUblox time, 1
+75405,ERROR,GNSSTask,GNSSTask time, 2
+75451,NAV,ControlTask,ControlTask loop beginning
+75451,ERROR,ControlTask,ControlTask time, 0
+75454,ERROR,NavTask,NavigationTask time, 0
+75504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75504,ERROR,GNSSTask,GNSS checkUblox time, 1
+75504,ERROR,GNSSTask,GNSSTask time, 1
+75551,NAV,ControlTask,ControlTask loop beginning
+75551,ERROR,ControlTask,ControlTask time, 0
+75554,ERROR,NavTask,NavigationTask time, 0
+75604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75604,ERROR,GNSSTask,GNSS checkUblox time, 1
+75604,ERROR,GNSSTask,GNSSTask time, 1
+75651,NAV,ControlTask,ControlTask loop beginning
+75651,ERROR,ControlTask,ControlTask time, 0
+75654,ERROR,NavTask,NavigationTask time, 0
+75732,ERROR,GNSSTask,pushRawData time, 29
+75733,ERROR,GNSSTask,GNSS checkUblox time, 1
+75734,ERROR,GNSSTask,GNSSTask time, 31
+75751,NAV,ControlTask,ControlTask loop beginning
+75751,ERROR,ControlTask,ControlTask time, 0
+75754,ERROR,NavTask,NavigationTask time, 0
+75760,ERROR,GGATask,GGATask time, 5
+75804,ERROR,GNSSTask,GNSS checkUblox time, 1
+75804,ERROR,GNSSTask,GNSSTask time, 1
+75851,NAV,ControlTask,ControlTask loop beginning
+75851,ERROR,ControlTask,ControlTask time, 0
+75854,ERROR,NavTask,NavigationTask time, 0
+75904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+75905,ERROR,GNSSTask,GNSS checkUblox time, 2
+75905,ERROR,GNSSTask,GNSSTask time, 2
+75951,NAV,ControlTask,ControlTask loop beginning
+75951,ERROR,ControlTask,ControlTask time, 0
+75954,ERROR,NavTask,NavigationTask time, 0
+76004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76004,ERROR,GNSSTask,GNSS checkUblox time, 1
+76004,ERROR,GNSSTask,GNSSTask time, 1
+76051,NAV,ControlTask,ControlTask loop beginning
+76051,ERROR,ControlTask,ControlTask time, 0
+76054,ERROR,NavTask,NavigationTask time, 0
+76104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76104,ERROR,GNSSTask,GNSS checkUblox time, 1
+76104,ERROR,GNSSTask,GNSSTask time, 1
+76151,NAV,ControlTask,ControlTask loop beginning
+76151,ERROR,ControlTask,ControlTask time, 0
+76154,ERROR,NavTask,NavigationTask time, 0
+76204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76204,ERROR,GNSSTask,GNSS checkUblox time, 1
+76204,ERROR,GNSSTask,GNSSTask time, 1
+76251,NAV,ControlTask,ControlTask loop beginning
+76251,ERROR,ControlTask,ControlTask time, 0
+76254,ERROR,NavTask,NavigationTask time, 0
+76304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76304,ERROR,GNSSTask,GNSS checkUblox time, 1
+76304,ERROR,GNSSTask,GNSSTask time, 1
+76351,NAV,ControlTask,ControlTask loop beginning
+76351,ERROR,ControlTask,ControlTask time, 0
+76354,ERROR,NavTask,NavigationTask time, 0
+76404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76404,ERROR,GNSSTask,GNSS checkUblox time, 1
+76405,ERROR,GNSSTask,GNSSTask time, 2
+76451,NAV,ControlTask,ControlTask loop beginning
+76451,ERROR,ControlTask,ControlTask time, 0
+76454,ERROR,NavTask,NavigationTask time, 0
+76522,ERROR,GNSSTask,pushRawData time, 19
+76523,ERROR,GNSSTask,GNSS checkUblox time, 1
+76523,ERROR,GNSSTask,GNSSTask time, 20
+76551,NAV,ControlTask,ControlTask loop beginning
+76551,ERROR,ControlTask,ControlTask time, 0
+76554,ERROR,NavTask,NavigationTask time, 0
+76604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76604,ERROR,GNSSTask,GNSS checkUblox time, 1
+76605,ERROR,GNSSTask,GNSSTask time, 2
+76651,NAV,ControlTask,ControlTask loop beginning
+76651,ERROR,ControlTask,ControlTask time, 0
+76654,ERROR,NavTask,NavigationTask time, 0
+76704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76704,ERROR,GNSSTask,GNSS checkUblox time, 1
+76704,ERROR,GNSSTask,GNSSTask time, 1
+76751,NAV,ControlTask,ControlTask loop beginning
+76751,ERROR,ControlTask,ControlTask time, 0
+76754,ERROR,NavTask,NavigationTask time, 0
+76761,ERROR,GGATask,GGATask time, 6
+76804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76804,ERROR,GNSSTask,GNSS checkUblox time, 1
+76804,ERROR,GNSSTask,GNSSTask time, 1
+76851,NAV,ControlTask,ControlTask loop beginning
+76851,ERROR,ControlTask,ControlTask time, 0
+76854,ERROR,NavTask,NavigationTask time, 0
+76904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+76904,ERROR,GNSSTask,GNSS checkUblox time, 1
+76905,ERROR,GNSSTask,GNSSTask time, 2
+76951,NAV,ControlTask,ControlTask loop beginning
+76951,ERROR,ControlTask,ControlTask time, 0
+76954,ERROR,NavTask,NavigationTask time, 0
+77004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77004,ERROR,GNSSTask,GNSS checkUblox time, 1
+77005,ERROR,GNSSTask,GNSSTask time, 2
+77051,NAV,ControlTask,ControlTask loop beginning
+77051,ERROR,ControlTask,ControlTask time, 0
+77054,ERROR,NavTask,NavigationTask time, 0
+77104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77104,ERROR,GNSSTask,GNSS checkUblox time, 1
+77104,ERROR,GNSSTask,GNSSTask time, 1
+77151,NAV,ControlTask,ControlTask loop beginning
+77151,ERROR,ControlTask,ControlTask time, 0
+77154,ERROR,NavTask,NavigationTask time, 0
+77204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77204,ERROR,GNSSTask,GNSS checkUblox time, 1
+77204,ERROR,GNSSTask,GNSSTask time, 1
+77251,NAV,ControlTask,ControlTask loop beginning
+77251,ERROR,ControlTask,ControlTask time, 0
+77254,ERROR,NavTask,NavigationTask time, 0
+77304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77304,ERROR,GNSSTask,GNSS checkUblox time, 1
+77304,ERROR,GNSSTask,GNSSTask time, 1
+77351,NAV,ControlTask,ControlTask loop beginning
+77351,ERROR,ControlTask,ControlTask time, 0
+77354,ERROR,NavTask,NavigationTask time, 0
+77404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77404,ERROR,GNSSTask,GNSS checkUblox time, 1
+77405,ERROR,GNSSTask,GNSSTask time, 2
+77451,NAV,ControlTask,ControlTask loop beginning
+77451,ERROR,ControlTask,ControlTask time, 0
+77454,ERROR,NavTask,NavigationTask time, 0
+77504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77504,ERROR,GNSSTask,GNSS checkUblox time, 1
+77504,ERROR,GNSSTask,GNSSTask time, 1
+77551,NAV,ControlTask,ControlTask loop beginning
+77551,ERROR,ControlTask,ControlTask time, 0
+77554,ERROR,NavTask,NavigationTask time, 0
+77604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77604,ERROR,GNSSTask,GNSS checkUblox time, 1
+77605,ERROR,GNSSTask,GNSSTask time, 2
+77651,NAV,ControlTask,ControlTask loop beginning
+77651,ERROR,ControlTask,ControlTask time, 0
+77654,ERROR,NavTask,NavigationTask time, 0
+77726,ERROR,GNSSTask,pushRawData time, 23
+77727,ERROR,GNSSTask,GNSS checkUblox time, 1
+77727,ERROR,GNSSTask,GNSSTask time, 24
+77751,NAV,ControlTask,ControlTask loop beginning
+77751,ERROR,ControlTask,ControlTask time, 0
+77754,ERROR,NavTask,NavigationTask time, 0
+77759,ERROR,GGATask,GGATask time, 4
+77804,ERROR,GNSSTask,GNSSTask time, 1
+77851,NAV,ControlTask,ControlTask loop beginning
+77851,ERROR,ControlTask,ControlTask time, 0
+77854,ERROR,NavTask,NavigationTask time, 0
+77904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+77904,ERROR,GNSSTask,GNSS checkUblox time, 1
+77905,ERROR,GNSSTask,GNSSTask time, 2
+77951,NAV,ControlTask,ControlTask loop beginning
+77951,ERROR,ControlTask,ControlTask time, 0
+77954,ERROR,NavTask,NavigationTask time, 0
+78004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78004,ERROR,GNSSTask,GNSS checkUblox time, 1
+78004,ERROR,GNSSTask,GNSSTask time, 1
+78051,NAV,ControlTask,ControlTask loop beginning
+78051,ERROR,ControlTask,ControlTask time, 0
+78054,ERROR,NavTask,NavigationTask time, 0
+78104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78104,ERROR,GNSSTask,GNSS checkUblox time, 1
+78105,ERROR,GNSSTask,GNSSTask time, 2
+78151,NAV,ControlTask,ControlTask loop beginning
+78151,ERROR,ControlTask,ControlTask time, 0
+78154,ERROR,NavTask,NavigationTask time, 0
+78204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78204,ERROR,GNSSTask,GNSS checkUblox time, 1
+78204,ERROR,GNSSTask,GNSSTask time, 1
+78251,NAV,ControlTask,ControlTask loop beginning
+78251,ERROR,ControlTask,ControlTask time, 0
+78254,ERROR,NavTask,NavigationTask time, 0
+78304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78304,ERROR,GNSSTask,GNSS checkUblox time, 1
+78304,ERROR,GNSSTask,GNSSTask time, 1
+78351,NAV,ControlTask,ControlTask loop beginning
+78351,ERROR,ControlTask,ControlTask time, 0
+78354,ERROR,NavTask,NavigationTask time, 0
+78404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78404,ERROR,GNSSTask,GNSS checkUblox time, 1
+78405,ERROR,GNSSTask,GNSSTask time, 2
+78451,NAV,ControlTask,ControlTask loop beginning
+78451,ERROR,ControlTask,ControlTask time, 0
+78454,ERROR,NavTask,NavigationTask time, 0
+78504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78504,ERROR,GNSSTask,GNSS checkUblox time, 1
+78504,ERROR,GNSSTask,GNSSTask time, 1
+78551,NAV,ControlTask,ControlTask loop beginning
+78551,ERROR,ControlTask,ControlTask time, 0
+78554,ERROR,NavTask,NavigationTask time, 0
+78604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78604,ERROR,GNSSTask,GNSS checkUblox time, 1
+78604,ERROR,GNSSTask,GNSSTask time, 1
+78651,NAV,ControlTask,ControlTask loop beginning
+78651,ERROR,ControlTask,ControlTask time, 0
+78654,ERROR,NavTask,NavigationTask time, 0
+78722,ERROR,GNSSTask,pushRawData time, 19
+78724,ERROR,GNSSTask,GNSSTask time, 21
+78751,NAV,ControlTask,ControlTask loop beginning
+78751,ERROR,ControlTask,ControlTask time, 0
+78754,ERROR,NavTask,NavigationTask time, 0
+78761,ERROR,GGATask,GGATask time, 6
+78804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78804,ERROR,GNSSTask,GNSS checkUblox time, 1
+78804,ERROR,GNSSTask,GNSSTask time, 1
+78851,NAV,ControlTask,ControlTask loop beginning
+78851,ERROR,ControlTask,ControlTask time, 0
+78854,ERROR,NavTask,NavigationTask time, 0
+78904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+78904,ERROR,GNSSTask,GNSS checkUblox time, 1
+78905,ERROR,GNSSTask,GNSSTask time, 2
+78951,NAV,ControlTask,ControlTask loop beginning
+78951,ERROR,ControlTask,ControlTask time, 0
+78954,ERROR,NavTask,NavigationTask time, 0
+79004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79004,ERROR,GNSSTask,GNSS checkUblox time, 1
+79005,ERROR,GNSSTask,GNSSTask time, 2
+79051,NAV,ControlTask,ControlTask loop beginning
+79051,ERROR,ControlTask,ControlTask time, 0
+79054,ERROR,NavTask,NavigationTask time, 0
+79104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79104,ERROR,GNSSTask,GNSS checkUblox time, 1
+79104,ERROR,GNSSTask,GNSSTask time, 1
+79151,NAV,ControlTask,ControlTask loop beginning
+79151,ERROR,ControlTask,ControlTask time, 0
+79154,ERROR,NavTask,NavigationTask time, 0
+79204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79204,ERROR,GNSSTask,GNSS checkUblox time, 1
+79204,ERROR,GNSSTask,GNSSTask time, 1
+79251,NAV,ControlTask,ControlTask loop beginning
+79251,ERROR,ControlTask,ControlTask time, 0
+79254,ERROR,NavTask,NavigationTask time, 0
+79304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79304,ERROR,GNSSTask,GNSS checkUblox time, 1
+79304,ERROR,GNSSTask,GNSSTask time, 1
+79351,NAV,ControlTask,ControlTask loop beginning
+79351,ERROR,ControlTask,ControlTask time, 0
+79354,ERROR,NavTask,NavigationTask time, 0
+79404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79404,ERROR,GNSSTask,GNSS checkUblox time, 1
+79405,ERROR,GNSSTask,GNSSTask time, 2
+79451,NAV,ControlTask,ControlTask loop beginning
+79451,ERROR,ControlTask,ControlTask time, 0
+79454,ERROR,NavTask,NavigationTask time, 0
+79504,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79504,ERROR,GNSSTask,GNSS checkUblox time, 1
+79504,ERROR,GNSSTask,GNSSTask time, 1
+79551,NAV,ControlTask,ControlTask loop beginning
+79551,ERROR,ControlTask,ControlTask time, 0
+79554,ERROR,NavTask,NavigationTask time, 0
+79604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79604,ERROR,GNSSTask,GNSS checkUblox time, 1
+79604,ERROR,GNSSTask,GNSSTask time, 1
+79651,NAV,ControlTask,ControlTask loop beginning
+79651,ERROR,ControlTask,ControlTask time, 0
+79654,ERROR,NavTask,NavigationTask time, 0
+79724,ERROR,GNSSTask,pushRawData time, 21
+79725,ERROR,GNSSTask,GNSS checkUblox time, 1
+79726,ERROR,GNSSTask,GNSSTask time, 23
+79751,NAV,ControlTask,ControlTask loop beginning
+79751,ERROR,ControlTask,ControlTask time, 0
+79754,ERROR,NavTask,NavigationTask time, 0
+79759,ERROR,GGATask,GGATask time, 4
+79804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79804,ERROR,GNSSTask,GNSS checkUblox time, 1
+79805,ERROR,GNSSTask,GNSSTask time, 2
+79851,NAV,ControlTask,ControlTask loop beginning
+79851,ERROR,ControlTask,ControlTask time, 0
+79854,ERROR,NavTask,NavigationTask time, 0
+79904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+79904,ERROR,GNSSTask,GNSS checkUblox time, 1
+79905,ERROR,GNSSTask,GNSSTask time, 2
+79951,NAV,ControlTask,ControlTask loop beginning
+79951,ERROR,ControlTask,ControlTask time, 0
+79954,ERROR,NavTask,NavigationTask time, 0
+80004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80004,ERROR,GNSSTask,GNSS checkUblox time, 1
+80004,ERROR,GNSSTask,GNSSTask time, 1
+80051,NAV,ControlTask,ControlTask loop beginning
+80051,ERROR,ControlTask,ControlTask time, 0
+80054,ERROR,NavTask,NavigationTask time, 0
+80104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80104,ERROR,GNSSTask,GNSS checkUblox time, 1
+80104,ERROR,GNSSTask,GNSSTask time, 1
+80151,NAV,ControlTask,ControlTask loop beginning
+80151,ERROR,ControlTask,ControlTask time, 0
+80154,ERROR,NavTask,NavigationTask time, 0
+80204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80204,ERROR,GNSSTask,GNSS checkUblox time, 1
+80204,ERROR,GNSSTask,GNSSTask time, 1
+80251,NAV,ControlTask,ControlTask loop beginning
+80251,ERROR,ControlTask,ControlTask time, 0
+80254,ERROR,NavTask,NavigationTask time, 0
+80304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80304,ERROR,GNSSTask,GNSS checkUblox time, 1
+80304,ERROR,GNSSTask,GNSSTask time, 1
+80351,NAV,ControlTask,ControlTask loop beginning
+80351,ERROR,ControlTask,ControlTask time, 0
+80354,ERROR,NavTask,NavigationTask time, 0
+80404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80405,ERROR,GNSSTask,GNSS checkUblox time, 2
+80405,ERROR,GNSSTask,GNSSTask time, 2
+80451,NAV,ControlTask,ControlTask loop beginning
+80451,ERROR,ControlTask,ControlTask time, 0
+80454,ERROR,NavTask,NavigationTask time, 0
+80524,ERROR,GNSSTask,pushRawData time, 21
+80525,ERROR,GNSSTask,GNSS checkUblox time, 1
+80525,ERROR,GNSSTask,GNSSTask time, 22
+80551,NAV,ControlTask,ControlTask loop beginning
+80551,ERROR,ControlTask,ControlTask time, 0
+80554,ERROR,NavTask,NavigationTask time, 0
+80604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80604,ERROR,GNSSTask,GNSS checkUblox time, 1
+80605,ERROR,GNSSTask,GNSSTask time, 2
+80651,NAV,ControlTask,ControlTask loop beginning
+80651,ERROR,ControlTask,ControlTask time, 0
+80654,ERROR,NavTask,NavigationTask time, 0
+80704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80704,ERROR,GNSSTask,GNSS checkUblox time, 1
+80704,ERROR,GNSSTask,GNSSTask time, 1
+80751,NAV,ControlTask,ControlTask loop beginning
+80751,ERROR,ControlTask,ControlTask time, 0
+80754,ERROR,NavTask,NavigationTask time, 0
+80760,ERROR,GGATask,GGATask time, 5
+80804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80804,ERROR,GNSSTask,GNSS checkUblox time, 1
+80804,ERROR,GNSSTask,GNSSTask time, 1
+80851,NAV,ControlTask,ControlTask loop beginning
+80851,ERROR,ControlTask,ControlTask time, 0
+80854,ERROR,NavTask,NavigationTask time, 0
+80904,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+80904,ERROR,GNSSTask,GNSS checkUblox time, 1
+80905,ERROR,GNSSTask,GNSSTask time, 2
+80951,NAV,ControlTask,ControlTask loop beginning
+80951,ERROR,ControlTask,ControlTask time, 0
+80954,ERROR,NavTask,NavigationTask time, 0
+81004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81004,ERROR,GNSSTask,GNSS checkUblox time, 1
+81005,ERROR,GNSSTask,GNSSTask time, 2
+81051,NAV,ControlTask,ControlTask loop beginning
+81051,ERROR,ControlTask,ControlTask time, 0
+81054,ERROR,NavTask,NavigationTask time, 0
+81104,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81104,ERROR,GNSSTask,GNSS checkUblox time, 1
+81104,ERROR,GNSSTask,GNSSTask time, 1
+81151,NAV,ControlTask,ControlTask loop beginning
+81151,ERROR,ControlTask,ControlTask time, 0
+81154,ERROR,NavTask,NavigationTask time, 0
+81204,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81204,ERROR,GNSSTask,GNSS checkUblox time, 1
+81204,ERROR,GNSSTask,GNSSTask time, 1
+81251,NAV,ControlTask,ControlTask loop beginning
+81251,ERROR,ControlTask,ControlTask time, 0
+81254,ERROR,NavTask,NavigationTask time, 0
+81304,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81304,ERROR,GNSSTask,GNSS checkUblox time, 1
+81304,ERROR,GNSSTask,GNSSTask time, 1
+81351,NAV,ControlTask,ControlTask loop beginning
+81351,ERROR,ControlTask,ControlTask time, 0
+81354,ERROR,NavTask,NavigationTask time, 0
+81404,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81404,ERROR,GNSSTask,GNSS checkUblox time, 1
+81404,ERROR,GNSSTask,GNSSTask time, 1
+81451,NAV,ControlTask,ControlTask loop beginning
+81451,ERROR,ControlTask,ControlTask time, 0
+81454,ERROR,NavTask,NavigationTask time, 0
+81526,ERROR,GNSSTask,pushRawData time, 23
+81527,ERROR,GNSSTask,GNSS checkUblox time, 1
+81527,ERROR,GNSSTask,GNSSTask time, 24
+81551,NAV,ControlTask,ControlTask loop beginning
+81551,ERROR,ControlTask,ControlTask time, 0
+81554,ERROR,NavTask,NavigationTask time, 0
+81604,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81604,ERROR,GNSSTask,GNSS checkUblox time, 1
+81605,ERROR,GNSSTask,GNSSTask time, 2
+81651,NAV,ControlTask,ControlTask loop beginning
+81651,ERROR,ControlTask,ControlTask time, 0
+81654,ERROR,NavTask,NavigationTask time, 0
+81704,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81704,ERROR,GNSSTask,GNSS checkUblox time, 1
+81704,ERROR,GNSSTask,GNSSTask time, 1
+81751,NAV,ControlTask,ControlTask loop beginning
+81751,ERROR,ControlTask,ControlTask time, 0
+81754,ERROR,NavTask,NavigationTask time, 0
+81761,ERROR,GGATask,GGATask time, 6
+81804,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+81804,ERROR,GNSSTask,GNSS checkUblox time, 1
+81804,ERROR,GNSSTask,GNSSTask time, 1
+81851,NAV,ControlTask,ControlTask loop beginning
+81851,ERROR,ControlTask,ControlTask time, 0
+81854,ERROR,NavTask,NavigationTask time, 0
+81904,ERROR,GNSSTask,GNSS checkUblox time, 2
+81904,ERROR,GNSSTask,GNSSTask time, 2
+81951,NAV,ControlTask,ControlTask loop beginning
+81951,ERROR,ControlTask,ControlTask time, 0
+81954,ERROR,NavTask,NavigationTask time, 0
+82004,ERROR,GNSSTask,GNSS checkCallbacks time, 1
+82004,ERROR,GNSSTask,GNSS checkUblox time, 1
+82005,ERROR,GNSSTask,GNSSTask time, 2
+82051,NAV,ControlTask,ControlTask loop beginning
+82051,ERROR,ControlTask,ControlTask time, 0

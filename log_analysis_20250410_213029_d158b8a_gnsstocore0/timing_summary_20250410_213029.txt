@@ -1,0 +1,149 @@
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: ERROR
+----------------
+
+Operation: GNSSTask time
+  Count: 265
+  Min: 1 ms
+  Max: 89 ms
+  Avg: 5.71 ms
+  Median: 3.0 ms
+  Total Time: 1513 ms
+
+Operation: pushRawData time
+  Count: 27
+  Min: 22 ms
+  Max: 83 ms
+  Avg: 27.93 ms
+  Median: 26.0 ms
+  Total Time: 754 ms
+
+Operation: GGATask time
+  Count: 27
+  Min: 6 ms
+  Max: 52 ms
+  Avg: 9.11 ms
+  Median: 8.0 ms
+  Total Time: 246 ms
+
+Operation: GNSS checkUblox time
+  Count: 256
+  Min: 1 ms
+  Max: 9 ms
+  Avg: 2.28 ms
+  Median: 2.0 ms
+  Total Time: 583 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 197
+  Min: 1 ms
+  Max: 8 ms
+  Avg: 1.18 ms
+  Median: 1.0 ms
+  Total Time: 232 ms
+
+Operation: ControlTask time
+  Count: 265
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Operation: NavigationTask time
+  Count: 265
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Log Level: NAV
+--------------
+
+Operation: ControlTask loop beginning
+  Count: 265
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Session 2
+=========
+
+Log Level: ERROR
+----------------
+
+Operation: GNSSTask time
+  Count: 493
+  Min: 1 ms
+  Max: 79 ms
+  Avg: 6.08 ms
+  Median: 3.0 ms
+  Total Time: 2995 ms
+
+Operation: pushRawData time
+  Count: 51
+  Min: 21 ms
+  Max: 77 ms
+  Avg: 28.57 ms
+  Median: 26.0 ms
+  Total Time: 1457 ms
+
+Operation: GGATask time
+  Count: 50
+  Min: 5 ms
+  Max: 12 ms
+  Avg: 7.66 ms
+  Median: 8.0 ms
+  Total Time: 383 ms
+
+Operation: GNSS checkUblox time
+  Count: 480
+  Min: 1 ms
+  Max: 11 ms
+  Avg: 2.42 ms
+  Median: 2.0 ms
+  Total Time: 1164 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 344
+  Min: 1 ms
+  Max: 9 ms
+  Avg: 1.38 ms
+  Median: 1.0 ms
+  Total Time: 474 ms
+
+Operation: ControlTask time
+  Count: 493
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Operation: NavigationTask time
+  Count: 492
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
+Log Level: NAV
+--------------
+
+Operation: ControlTask loop beginning
+  Count: 493
+  Min: 0 ms
+  Max: 0 ms
+  Avg: 0.0 ms
+  Median: 0.0 ms
+  Total Time: 0 ms
+
