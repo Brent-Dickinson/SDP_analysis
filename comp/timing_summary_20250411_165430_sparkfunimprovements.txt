@@ -1,0 +1,67 @@
+final (ish) code version after sparkfun library improvements.
+
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: DEBUG
+----------------
+
+Operation: position-control latency time
+  Count: 449
+  Min: 0 ms
+  Max: 240 ms
+  Avg: 54.02 ms
+  Median: 39.0 ms
+  Total Time: 24254 ms
+
+Operation: GNSSTask time
+  Count: 1039
+  Min: 13 ms
+  Max: 94 ms
+  Avg: 32.1 ms
+  Median: 27.0 ms
+  Total Time: 33351 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 1039
+  Min: 6 ms
+  Max: 45 ms
+  Avg: 13.89 ms
+  Median: 13.0 ms
+  Total Time: 14429 ms
+
+Operation: ControlTask time
+  Count: 189
+  Min: 2 ms
+  Max: 45 ms
+  Avg: 24.32 ms
+  Median: 29.0 ms
+  Total Time: 4597 ms
+
+Operation: GNSS checkUblox time
+  Count: 1039
+  Min: 3 ms
+  Max: 27 ms
+  Avg: 10.95 ms
+  Median: 10.0 ms
+  Total Time: 11381 ms
+
+Operation: pushRawData time
+  Count: 56
+  Min: 4 ms
+  Max: 17 ms
+  Avg: 8.55 ms
+  Median: 10.0 ms
+  Total Time: 479 ms
+
+Operation: sendGPSData time
+  Count: 1
+  Min: 6 ms
+  Max: 6 ms
+  Avg: 6.0 ms
+  Median: 6.0 ms
+  Total Time: 6 ms
+

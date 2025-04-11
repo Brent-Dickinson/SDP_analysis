@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage[table]{xcolor}
+%\usepackage{hhline} % commented out
+\geometry{margin=1in}
+
+\title{RC Car Position-Control Latency Analysis}
+\author{Autonomous RC Pacer Car Project}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Introduction}
+	
+	Some text...
+	
+	\begin{table}[h]
+		\centering
+		\caption{Position-Control Latency Measurements}
+		\begin{tabular}{>{\raggedright\arraybackslash}p{2.5cm} >{\centering\arraybackslash}p{2.5cm} >{\centering\arraybackslash}p{2.5cm} >{\centering\arraybackslash}p{3cm}}
+			\toprule
+			\textbf{Waypoint Radius (m)} & \textbf{Max Speed (m/s)} & \textbf{Latency (ms)} & \textbf{Core Assignment} \\
+			\midrule
+			2.0 & 4.4 & 455 & 1/1/1 \\
+			0.5 & 3.0 & 167 & 1/1/1 \\
+			--  & --  & --  & -- \\
+			--  & --  & --  & -- \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+\end{document}

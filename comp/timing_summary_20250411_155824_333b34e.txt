@@ -1,0 +1,51 @@
+Post-I2C, SPI comms
+
+ESP32 FreeRTOS Log Timing Analysis
+===============================
+
+Session 1
+=========
+
+Log Level: DEBUG
+----------------
+
+Operation: position-control latency time
+  Count: 792
+  Min: 20 ms
+  Max: 185 ms
+  Avg: 65.35 ms
+  Median: 83.5 ms
+  Total Time: 51761 ms
+
+Operation: GNSS checkCallbacks time
+  Count: 395
+  Min: 3 ms
+  Max: 34 ms
+  Avg: 14.07 ms
+  Median: 14.0 ms
+  Total Time: 5557 ms
+
+Operation: GNSS checkUblox time
+  Count: 395
+  Min: 2 ms
+  Max: 29 ms
+  Avg: 13.39 ms
+  Median: 14.0 ms
+  Total Time: 5289 ms
+
+Operation: pushRawData time
+  Count: 41
+  Min: 5 ms
+  Max: 17 ms
+  Avg: 12.02 ms
+  Median: 12.0 ms
+  Total Time: 493 ms
+
+Operation: sendGPSData time
+  Count: 78
+  Min: 0 ms
+  Max: 5 ms
+  Avg: 1.36 ms
+  Median: 1.0 ms
+  Total Time: 106 ms
+

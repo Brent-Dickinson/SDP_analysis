@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage[table]{xcolor}
+%\usepackage{hhline}
+%\usepackage{threeparttable}
+\geometry{margin=1in}
+
+\usepackage{graphicx}
+\usepackage[thinc]{esdiff}
+\usepackage{amsmath,amssymb,mathrsfs}
+\usepackage{fullpage}
+
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{setspace}
+\usepackage{mdframed}
+\usepackage{cancel}
+
+\newcommand{\mathsym}[1]{{}}
+\newcommand{\unicode}[1]{{}}
+
+\title{RC Car Position-Control Latency Analysis}
+\author{Autonomous RC Pacer Car Project}
+\date{\today}
+
+\begin{document}
+	
+	\maketitle
+	
+	\section{Introduction}
+	
+	This document tracks the relationship between waypoint radius, maximum speed, and implied position-control latency in the autonomous RC car project. The goal is to identify the maximum performance achievable with different system configurations.
+	
+	\section{Position-Control Latency Observations}
+	
+	Position-control latency refers to the delay between when the car should ideally begin adjusting its course (upon entering the waypoint radius) and when it actually responds. This latency can be approximated by:
+	
+	\begin{flalign}
+		L &= 1000\cdot\frac{R_{wp}}{v_{max}}
+	\end{flalign}
+	
+	\subsection{Current Core Configuration}
+	
+	\begin{table}[h]
+		\centering
+		\caption{Position-control latency field measurements}
+		\begin{tabular}{>{\raggedright\arraybackslash}p{3cm} >{\centering\arraybackslash}p{3cm} >{\centering\arraybackslash}p{3cm} >{\centering\arraybackslash}p{3cm}}
+			\toprule
+			\textbf{Waypoint Radius (m)} & \textbf{Max speed without donuts (m/s)} & \textbf{Position-control latency\footnotemark[1] (ms)} & \textbf{Core assignment\footnotemark[2]} \\
+			\midrule
+			2.0 & $>>4.4$\footnotemark[3] & $<<$455\footnotemark[3] & 1/1/1 \\
+			0.5 & 2.5 & 200 & 1/1/1 \\
+			0.5 & 1.2 & 417 & 0/1/1 \\
+			0.5  & 0  & big  & 1/0/1 \\
+			\bottomrule
+		\end{tabular}
+		\label{tab:1}
+	\end{table}
+	\footnotetext[1]{This is an upper bound including spikes}
+	\footnotetext[2]{GNSS/Control/Navigation tasks' core assignment}
+	\footnotetext[3]{Higher speeds not tested}
+	
+	
+	tecsafdsfasda.
+	
+	\section{Future Testing Plans}
+	
+	This document will be updated with additional observations using different core configurations, including:
+	\begin{itemize}
+		\item Moving GNSSTask to Core 0
+		\item Adjusting task priorities
+		\item Testing with different sensor configurations
+	\end{itemize}
+	
+	\section{Observations and Analysis}
+	
+	\textit{[This section will be updated as more data becomes available]}
+	
+	Initial observations with all critical tasks (GNSS, Control, and Navigation) on Core 1:
+	
+	\begin{itemize}
+		\item With a 2.0m waypoint radius, the car achieved stable performance at speeds up to 4.4m/s with no donuting observed. Higher speeds were not tested for safety reasons. The implied position-control latency is certainly far less than the 455ms calculated in Table \ref{tab:1}.
+		
+		\item With a 0.5m waypoint radius, the car operated successfully up to 3.0m/s, but exhibited occasional donuting behavior. This suggests intermittent latency spikes above the theoretical 167ms threshold. No donut behavior was observed at 2.5m/s. The implication is that the maximum spike in position-control latency is somewhere between 167 and 200ms using the 1/1/1 core configuration. 
+	\end{itemize}
+	
+	These results suggest that the system can maintain stable control with a minimum latency of approximately 167ms, but may experience occasional performance issues at this threshold. The inconsistent behavior points to intermittent processes potentially causing latency spikes.
+	
+\end{document}
